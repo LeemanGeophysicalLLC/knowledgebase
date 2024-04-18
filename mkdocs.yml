@@ -65,7 +65,7 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
-      primary: deep orange
+      primary: brown
       accent: blue grey
       toggle:
         icon: material/brightness-auto
@@ -73,7 +73,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      primary: deep orange
+      primary: brown
       accent: blue grey
       scheme: default
       toggle:
@@ -82,7 +82,7 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      primary: deep orange
+      primary: brown
       accent: blue grey
       scheme: slate
       toggle:
@@ -92,7 +92,7 @@ theme:
   # Configures icons
   icon:
     # Sets homepage icon
-    #logo: assets/lgeo_logo
+    logo: lgeo_logo
 
     # Sets repo icon to GitHub icon
     repo: fontawesome/brands/github
@@ -106,7 +106,7 @@ theme:
       note: octicons/tag-16
       abstract: octicons/checklist-16
       info: octicons/info-16
-      tip: simple/sparkfun
+      #tip: simple/sparkfun
       success: octicons/check-16
       question: octicons/question-16
       warning: octicons/alert-16
@@ -127,7 +127,7 @@ theme:
       link: octicons/link-16
 
   # Adds overrides for stylesheets, html, etc.
-  #custom_dir: overrides
+  custom_dir: overrides
 
 
 # Included MkDocs plugins
@@ -165,6 +165,12 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icon
 
 # Included Markdown extensions
 # markdown_extensions:
@@ -211,19 +217,19 @@ extra:
   homepage: https://www.leemangeophysical.com/
 
   # Configures social icons in the footer
-  # social:
-  #   - icon: sfe-logo
-  #     link: https://www.sparkfun.com/
-  #   - icon: fontawesome/brands/youtube
-  #     link: https://www.youtube.com/sparkfun
-  #   - icon: fontawesome/brands/instagram
-  #     link: https://www.instagram.com/sparkfun
-  #   - icon: fontawesome/brands/github
-  #     link: https://www.github.com/sparkfun
-  #   - icon: fontawesome/brands/facebook
-  #     link: https://www.facebook.com/SparkFun
-  #   - icon: fontawesome/brands/twitter
-  #     link: https://twitter.com/sparkfun
+  social:
+     - icon: lgeo_logo
+       link: https://www.leemangeophysial.com/
+     - icon: fontawesome/brands/youtube
+       link: https://www.youtube.com/channel/UCxf3A7ipm0YjF56LrI5eCnQ
+     - icon: fontawesome/brands/instagram
+       link: https://www.instagram.com/leemangeophysical
+     - icon: fontawesome/brands/github
+       link: https://www.github.com/leemangeophysicalllc
+     - icon: fontawesome/brands/facebook
+       link: https://www.facebook.com/leemangeophysical
+     - icon: fontawesome/brands/twitter
+       link: https://twitter.com/leemangeophys
 
 
 # Configures styling for PDF rendering and webpage layout
