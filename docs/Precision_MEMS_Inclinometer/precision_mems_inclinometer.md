@@ -93,7 +93,7 @@ interface.
   <tr>
     <td>Weight</td>
     <td>-</td>
-    <td>-</td>
+    <td>375</td>
     <td>-</td>
     <td>g</td>
   </tr>
@@ -101,7 +101,7 @@ interface.
   <tr>
     <td>Width</td>
     <td>-</td>
-    <td>-</td>
+    <td>94</td>
     <td>-</td>
     <td>mm</td>
   </tr>
@@ -109,7 +109,7 @@ interface.
   <tr>
     <td>Length</td>
     <td>-</td>
-    <td>-</td>
+    <td>97.5</td>
     <td>-</td>
     <td>mm</td>
   </tr>
@@ -117,7 +117,7 @@ interface.
   <tr>
     <td>Height</td>
     <td>-</td>
-    <td>-</td>
+    <td>39.7</td>
     <td>-</td>
     <td>mm</td>
   </tr>
