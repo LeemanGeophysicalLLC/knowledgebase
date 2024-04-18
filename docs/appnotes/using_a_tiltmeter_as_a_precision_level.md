@@ -1,0 +1,51 @@
+# Application Note: Using a Tiltmeter as a Precision Level
+
+Your tiltmeter may be used to level a surface very precisely - often required
+for setting up optical tables and other precision equipment. It is possible,
+with a tiltmeter of adequate resolution, to level surfaces to within a few
+microradians relatively easily. There are two techniques which both use the same
+principle, but one may be easier to use in a given application or meet the
+tolerance requirements.
+
+## Method 1 - Use the Instrument with Applied Bias Correction
+The bias of a tiltmeter is the difference between the actual and measured angles
+and results from small imperfections in the manufacture of the sensor,
+instrument case, and installation. See our application note “Measuring Tiltmeter
+Bias” for more information on how to measure the bias of your instrument.
+
+Applying the bias correction is the fastest method to level a surface and simply
+corrects the instrument’s readings to a true angle based on the bias test
+performed previously. This method may be subject to slight changes in the bias
+due to environmental conditions such as temperature, so while faster, is
+slightly less accurate.
+
+1. Place the tiltmeter on the surface to be leveled and apply power. We
+   recommend letting electrolytic systems warm up for 30 minutes or more when
+   cold or they have been moved significantly. MEMS systems should be allowed to
+   warm up for 15 minutes or more.
+
+1. Read the tiltmeter’s raw output and apply the bias correction as detailed in
+   the “Measuring Tiltmeter Bias” application note.
+
+1. Adjust the equipment you wish to level until the output is as close to zero
+   (with the bias correction applied) as possible in both axes.
+
+## Method 2 - Rotation Method
+The rotation method is very similar to the method used to measure the tiltmeter
+bias, but it requires no prior bias correction to be determined. This method
+requires more time and repositioning of the instrument to accomplish, but will
+yield better results than method one as the environmental factors such as
+temperature are also compensated for.
+
+1. Place the tiltmeter on the surface to be leveled and apply power. We recommend letting electrolytic systems warm up for 30 minutes or more when cold or they have been moved significantly. MEMS systems should be allowed to warm up for 15 minutes or more.
+
+1. Make a mark on the surface referenced to a location on the tiltmeter you can use 
+when rotating the instrument. Feet locations, a flat surface on the case, or any other reference will work.
+
+1. Read the tiltmeter’s raw output and record the output value.
+
+1. Rotate the instrument 180 degrees on the flat surface. Try to keep it in the same footprint on the surface. You may need to extend your reference mark or remark it using a square to get a good 180 degree reference. Be careful not to tip electrolytic instruments too much or they may need a settling period for the electrolyte to drain from the sensor side walls.
+
+1. Read the tiltmeter’s raw output and record the output value.
+
+1. Adjust the equipment you wish to level and repeat the rotation and measurements until the output in both orientations matches (or is as close as possible). 

@@ -1,11 +1,14 @@
 # Precision MEMS Inclinometer
+<center>
+![Instrument cover photo.](product.png){: style="height:250px"}
+</center>
 This documentation covers part number [10-0000042](https://leemangeophysical.com/product/mems-inclinometer/).
 
 ## Overview
 The precision MEMS inclinometer is the most advanced non-electrolytic tilt
 sensing device available to the geophysical market. This device with an
-approximate resolution of $0.00179^\circ$ is accurate enough for many sensitive
-geophysical applications, but operates over a large tilt range of $\pm30^\circ$.
+approximate resolution of 0.00179&deg; is accurate enough for many sensitive
+geophysical applications, but operates over a large tilt range of &pm;30&deg;.
 This broad range of operation makes deployment and leveling much faster than
 more precise tilt meters. The differential MEMS technology also means the device
 is lower cost, making it semi-disposable in harsh environments. The inclinometer
@@ -14,7 +17,7 @@ parameters, factory calibration, real-time clock, magnetometer, grounding
 points, and more! The unit is IP67 rated, so deployment outdoors is as simple as
 plugging in the weather-tight connector and leveling the unit.
 
-## Enclosure and Components
+### Enclosure and Components
 The inclinometer is housed in a precision machined and anodized Aluminum
 enclosure. There are three leveling feet with 1/4"-28 thread that allow the
 inclinometer to be placed on a surface and leveled or mounted to a mounting
@@ -26,7 +29,7 @@ threaded holes that allow the attachment of a ground wire if desired.
 Replacement O-rings and hardware are available for order by contacting Leeman
 Geophysical LLC or via our website.
 
-## Inner Panel
+### Inner Panel
 The inner panel of the unit provides visual feedback and component access to the
 user. There are four user accessible components. The battery holder accommodates
 one CR-2032 battery which provides power to the real time clock to maintain the
@@ -42,7 +45,83 @@ interface.
 </center>
 
 ## Specifications
-TABLE GOES HERE TODO
+<table>
+  <tr bgcolor="gray">
+    <td>Parameter</td>
+    <td>Min</td>
+    <td>Typ</td>
+    <td>Max</td>
+    <td>Unit</td>
+  </tr>
+
+  <tr>
+    <td colspan="5" bgcolor="gray">DC Input</td>
+  </tr>
+
+  <tr>
+    <td>Voltage</td>
+    <td>4.75</td>
+    <td>12</td>
+    <td>32</td>
+    <td>VDC</td>
+  </tr>
+
+  <tr>
+    <td>Current</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>mA</td>
+  </tr>
+
+  <tr>
+    <td colspan="5" bgcolor="gray">Environmental</td>
+  </tr>
+
+  <tr>
+    <td>Operating Temperature</td>
+    <td>-40</td>
+    <td>-</td>
+    <td>80</td>
+    <td>&#8451;</td>
+  </tr>
+
+  <tr>
+    <td colspan="5" bgcolor="gray">Physcial</td>
+  </tr>
+
+  <tr>
+    <td>Weight</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>g</td>
+  </tr>
+
+  <tr>
+    <td>Width</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>mm</td>
+  </tr>
+
+  <tr>
+    <td>Length</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>mm</td>
+  </tr>
+
+  <tr>
+    <td>Height</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>mm</td>
+  </tr>
+</table>
 
 ## Installation
 Always consult local codes, guidelines, and professional guidance for installation.
@@ -135,28 +214,28 @@ Unlike other units, this unit does not have in-menu help to reduce code space
 and power consumption. Each command should be entered followed by a newline
 character.
 
-| Command                | Description                                          |
-|------------------------|------------------------------------------------------|
-| SB XXXX                | Set baud rate (1200, 2400, 4800, 9600, 19200)        |
-| ST YYYY MM DD HH MM SS | Set the time                                         |
-| SR                     | Set the data rate divisor (0-3600)                   |
-| R                      | Force a manual read of the instrument                |
-| S                      | Show the current device settings                     |
-| SN XXX                 | Set the number of data points to be averaged (1-255) |
+| Command                  | Description                                          |
+|--------------------------|------------------------------------------------------|
+| SB *XXXX*                | Set baud rate (1200, 2400, 4800, 9600, 19200)        |
+| ST *YYYY MM DD HH MM SS* | Set the time                                         |
+| SR                       | Set the data rate divisor (0-3600)                   |
+| R                        | Force a manual read of the instrument                |
+| S                        | Show the current device settings                     |
+| SN *XXX*                 | Set the number of data points to be averaged (1-255) |
 
 * **SB** sets the baud rate of the device to any valid baud rate in the list
 1200, 2400, 4800, 9600, or 19200 baud. This setting is persistent through power
 cycles.
 
 * **ST** sets the current time when the newline character is received. For
-example to set March 26, 2020 at 13:05:30 the command \emph{ST 2020 03 26 13 05
-30} would be sent. This setting is time zone independent, but we always
+example to set March 26, 2020 at 13:05:30 the command *ST 2020 03 26 13 05 30*
+would be sent. This setting is time zone independent, but we always
 recommend collecting data in UTC. After setting the time, a power off reset is
 recommended as a way to verify the integrity of the clock backup battery.
 
 * **SR** sets the data rate divisor in the range 0-3600 seconds. When the
   current Unix second is divisible by this divisor a reading will be taken.
-  Setting the divisor to 0 means no readings will be taken and a \textbf{R}
+  Setting the divisor to 0 means no readings will be taken and a *R*
   command must be issued to read. Recommended settings are those divisible into
   3600 seconds (1 hour) evenly. Common settings are 1, 5, 30, 60, 300, 900,
   1800, and 3600.

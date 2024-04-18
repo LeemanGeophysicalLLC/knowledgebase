@@ -1,0 +1,46 @@
+# Application Note: Understanding Tiltmeter Count Readings
+
+Many of our tiltmeter and inclination instruments report their readings as
+“counts” which is an often confusing term. Counts refers to the raw output of
+the analog to digital converter in the system and is the lowest level form of
+the measurement. This reading is provided as it allows ultimate versatility in
+processing because you always begin with data is the purest form. Some
+instruments, generally our lower resolution MEMS based instruments, will also
+provide an output in degrees or microradians which uses the stock nominal
+calibration of the instrument. If you wish to apply an instrument specific
+calibration or perform other corrections, starting with the raw count reading is
+best.
+
+Counts are always an integer number and represent the voltage output of the
+sensor as measured by the analog to digital converter. High resolution
+converters have a wider range of counts that they can divide the measurement
+range into. For example a 16-bit ADC can output the numbers 0 - 65,535 while a
+24-bit ADC can output 0 - 16,777,216.
+
+Your instrument will have an expected or nominal calibration that is the
+mathematical ideal calibration for a perfect instrument. For example, a MEMS
+inclinometer may have an expected calibration of 0.00179 degrees/count.
+Therefore if the output of the instrument is 16,435 counts we can convert to
+degrees by multiplying. We obtain a result of 29.41865 degrees.
+
+<center>
+  <pre>
+    Angle = Counts x Calibration
+  </pre>
+</center>
+
+If your instrument had a full custom calibration or you have performed a
+calibration you may have a different number to use other than the nominal. The
+new calibration should be close to the ideal or there may be a problem with the
+instrument or calibration method. A MEMS calibrated once installed in its casing
+and operating at a temperature for performance in a geothermal well may have a
+calibration of 0.00182 degrees/count instead of the 0.00179 degrees per count
+nominal for example. It is very likely that the calibration factor is a function
+of temperature and depending upon the application this may need to be
+considered.
+
+Using raw counts also allows you to fully document every step of the analysis
+process - from what calibration was used to any temperature, cross axis, bias,
+or other corrections are performed on the data. Be sure to check out our website
+for application notes on those corrections and ways to further improve the
+performance of your tiltmeter.

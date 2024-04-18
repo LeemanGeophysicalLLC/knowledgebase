@@ -242,7 +242,7 @@ nav:
   - Products:
     - Tilt/Inclination:
       - Precision MEMS Inclinometer: 'Precision_MEMS_Inclinometer/precision_mems_inclinometer.md'
-      - Tilt Logger: tml.md
-    - High Altitude Ballooning:
-      - Skyguard: skyguard.md
+  - Application Notes: appnotes.md
+  - Downloads: downloads.md
+  - Resources: resources.md
   - Support: support.md
