@@ -249,6 +249,7 @@ nav:
       - DCDT Signal Conditioner: 'SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md'
     - FieldVolt:
       - Standard: 'FieldVolt/field_volt_standard.md'
+      - Tilt Meter Logger: 'Tilt_Meter_Logger/tilt_meter_logger.md'
   - Application Notes: appnotes.md
   - Downloads: downloads.md
   - Resources: resources.md
