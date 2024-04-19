@@ -1,0 +1,23 @@
+name: lgkb
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - mkdocs
+    - mkdocs-material
+    - mkdocs-macros-plugin
+    - mkdocs-material-extensions
+    - mkdocs-monorepo-plugin
+    - mkdocs-redirects
+    - mkdocs-with-pdf
+    - weasyprint
+    - mkdocs-git-authors-plugin
+    - mkdocs-git-revision-date-localized-plugin
+    - mkdocs-git-committers-plugin-2
+    - setuptools
+    - materialx
+    - pymdown-extensions
+
+  
