@@ -84,15 +84,15 @@ USB.
 ## Specifications
 <table>
   <tr bgcolor="gray">
-    <td>Parameter</td>
-    <td>Min</td>
-    <td>Typ</td>
-    <td>Max</td>
-    <td>Unit</td>
+    <td><b>Parameter<b></td>
+    <td><b>Min<b></td>
+    <td><b>Typ<b></td>
+    <td><b>Max<b></td>
+    <td><b>Unit<b></td>
   </tr>
 
   <tr>
-    <td colspan="5" bgcolor="gray">DC Input</td>
+    <td colspan="5" bgcolor="gray"><b>DC Input<b></td>
   </tr>
 
   <tr>
@@ -112,7 +112,7 @@ USB.
   </tr>
 
   <tr>
-    <td colspan="5" bgcolor="gray">Environmental</td>
+    <td colspan="5" bgcolor="gray"><b>Environmental<b></td>
   </tr>
 
   <tr>
@@ -124,7 +124,7 @@ USB.
   </tr>
 
   <tr>
-    <td colspan="5" bgcolor="gray">Physcial</td>
+    <td colspan="5" bgcolor="gray"><b>Physcial<b></td>
   </tr>
 
   <tr>
@@ -168,8 +168,8 @@ Each command should be entered followed by a newline character.
 ### Command Listing
 <table>
   <tr bgcolor="gray">
-    <td>Command</td>
-    <td>Description</td>
+    <td><b>Command<b></td>
+    <td><b>Description<b></td>
   </tr>
 
   <tr>
@@ -349,8 +349,8 @@ in the table below.
 
 <table>
   <tr bgcolor="gray">
-    <td>Error Code</td>
-    <td>Description</td>
+    <td><b>Error Code<b></td>
+    <td><b>Description<b></td>
   </tr>
 
   <tr>
@@ -409,7 +409,7 @@ second to allow for any drift of the instrument clock in instrument control mode
 to be observed.
 
 <center>
-![Output Format.](output_format.pdftop_panel.png){: style="height:250px"}
+![Output Format.](output_format.png){: style="height:50px"}
 </center>
 
 ## Accessories
