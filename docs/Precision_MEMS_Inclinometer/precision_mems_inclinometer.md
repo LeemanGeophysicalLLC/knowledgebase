@@ -47,15 +47,15 @@ interface.
 ## Specifications
 <table>
   <tr bgcolor="gray">
-    <td>Parameter</td>
-    <td>Min</td>
-    <td>Typ</td>
-    <td>Max</td>
-    <td>Unit</td>
+    <td><b>Parameter</b></td>
+    <td><b>Min</b></td>
+    <td><b>Typ</b></td>
+    <td><b>Max</b></td>
+    <td><b>Unit</b></td>
   </tr>
 
   <tr>
-    <td colspan="5" bgcolor="gray">DC Input</td>
+    <td colspan="5" bgcolor="gray"><b>DC Input</b></td>
   </tr>
 
   <tr>
@@ -75,7 +75,7 @@ interface.
   </tr>
 
   <tr>
-    <td colspan="5" bgcolor="gray">Environmental</td>
+    <td colspan="5" bgcolor="gray"><b>Environmental</b></td>
   </tr>
 
   <tr>
@@ -87,13 +87,13 @@ interface.
   </tr>
 
   <tr>
-    <td colspan="5" bgcolor="gray">Physcial</td>
+    <td colspan="5" bgcolor="gray"><b>Physcial</b></td>
   </tr>
 
   <tr>
     <td>Weight</td>
     <td>-</td>
-    <td>-</td>
+    <td>375</td>
     <td>-</td>
     <td>g</td>
   </tr>
@@ -101,7 +101,7 @@ interface.
   <tr>
     <td>Width</td>
     <td>-</td>
-    <td>-</td>
+    <td>94</td>
     <td>-</td>
     <td>mm</td>
   </tr>
@@ -109,7 +109,7 @@ interface.
   <tr>
     <td>Length</td>
     <td>-</td>
-    <td>-</td>
+    <td>98</td>
     <td>-</td>
     <td>mm</td>
   </tr>
@@ -117,7 +117,7 @@ interface.
   <tr>
     <td>Height</td>
     <td>-</td>
-    <td>-</td>
+    <td>40</td>
     <td>-</td>
     <td>mm</td>
   </tr>
@@ -131,14 +131,44 @@ Always consult local codes, guidelines, and professional guidance for installati
 The only external connector on the unit is the 4-pin Nano M8 connector. This connector provides power, ground, and RS-232
 communications with the instrument. Mating cables, adapters, and more are available from Leeman Geophysical LLC.
 
-| Wire Color | M8 Pin | Description                         |
-|------------|--------|-------------------------------------|
-| Brown      | 1      | Power                               |
-| White      | 2      | RS-232 RX to instrument from device |
-| Blue       | 3      | Ground                              |
-| Black      | 4      | RS-232 TX from instrument to device |
+<table>
+  <tr bgcolor="gray">
+    <td><b>Wire Color</b></td>
+    <td><b>M8 Pin</b></td>
+    <td><b>Description</b></td>
+  </tr>
+
+  <tr>
+    <td>Brown</td>
+    <td>1</td>
+    <td>Power</td>
+  </tr>
+
+  <tr>
+    <td>White</td>
+    <td>2</td>
+    <td>RS-232 RX to instrument from device</td>
+  </tr>
+
+  <tr>
+    <td>Blue</td>
+    <td>3</td>
+    <td>Ground</td>
+  </tr>
+
+  <tr>
+    <td>Black</td>
+    <td>4</td>
+    <td>RS-232 TX from instrument to device</td>
+  </tr>
+</table>
 
 ### Backup Clock Battery Installation/Removal
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LkY6H6JQgZo?si=o1WrlsognxNwz0pp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 1. Remove power from the unit.
 
 1. Remove the three thumb screws securing the lid to the enclosure and remove
@@ -158,6 +188,10 @@ excessive force or the battery clip and/or circuit board may be damaged!
 
 ### SD Card Installation/Removal
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XyXx7834kCQ?si=K5_wcnpvPr9IBzod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 1. Remove power from the unit.
 
 1. Remove the three thumb screws securing the lid to the enclosure and remove
@@ -166,7 +200,7 @@ excessive force or the battery clip and/or circuit board may be damaged!
 1. Pull the top of the card card towards the rear of the unit, it will move
    several millimeters, then stop.
 
-1. Hinge the card card up from the back of the unit towards the center.
+1. Hinge the card up from the back of the unit towards the center.
 
 1. Remove/install a microSD card into the clip of the hinged part of the cage.
 
@@ -214,14 +248,42 @@ Unlike other units, this unit does not have in-menu help to reduce code space
 and power consumption. Each command should be entered followed by a newline
 character.
 
-| Command                  | Description                                          |
-|--------------------------|------------------------------------------------------|
-| SB *XXXX*                | Set baud rate (1200, 2400, 4800, 9600, 19200)        |
-| ST *YYYY MM DD HH MM SS* | Set the time                                         |
-| SR                       | Set the data rate divisor (0-3600)                   |
-| R                        | Force a manual read of the instrument                |
-| S                        | Show the current device settings                     |
-| SN *XXX*                 | Set the number of data points to be averaged (1-255) |
+<table>
+  <tr bgcolor="gray">
+    <td>Command</td>
+    <td>Description</td>
+  </tr>
+
+  <tr>
+    <td>SB <i>XXXX</i></td>
+    <td>Set baud rate (1200, 2400, 4800, 9600, 19200)</td>
+  </tr>
+
+  <tr>
+    <td>ST <i>YYYY MM DD HH MM SS</i></td>
+    <td>Set the time</td>
+  </tr>
+
+  <tr>
+    <td>SR <i>XXXX</i></td>
+    <td>Set the data rate divisor (0-3600)</td>
+  </tr>
+
+  <tr>
+    <td>R</td>
+    <td>Force a manual read of the instrument</td>
+  </tr>
+
+  <tr>
+    <td>S</td>
+    <td>Show the current device settings</td>
+  </tr>
+
+  <tr>
+    <td>SN <i>XXX</i></td>
+    <td>Set the number of data points to be averaged (1-255)</td>
+  </tr>
+</table>
 
 * **SB** sets the baud rate of the device to any valid baud rate in the list
 1200, 2400, 4800, 9600, or 19200 baud. This setting is persistent through power
@@ -257,9 +319,10 @@ of best practices for deploying the precision MEMS inclinometer. Contact your
 applications representative for guidance on your specific application.
 
 1. Connect the unit to a computer with a programming cable (preferably prior to
-going to the field) and configure the desired settings. \item Ensure the time
-setting is correct and the coin cell backup battery is installed. (We recommend
-a yearly change if the unit is in storage.)
+going to the field) and configure the desired settings.
+
+1.Ensure the time setting is correct and the coin cell backup battery is
+installed. (We recommend a yearly change if the unit is in storage.)
 
 1. If data are to be logged internally, ensure there is a microSD card (FAT16
    formatted) with adequate space installed in the card cage.
@@ -291,12 +354,32 @@ terminal. Some errors which would result in incomplete data will continually
 restart the unit in an effort to fix the problem, while others will warn once
 and then continue operation.
 
-| Error Code | Description                                                                                                                              |
-|------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| 1          | Magnetometer error - unit will restart in an attempt to fix the issue.                                                                   |
-| 2          | Temperature error - unit will restart in an attempt to fix the issue.                                                                    |
-| 3          | SD error - warns once, then continues operation. This allows for external logging without the requirement of an SD card being installed. |
-| 4          | Clock error - unit will restart in an attempt to fix the issue.                                                                          |
+<table>
+  <tr bgcolor="gray">
+    <td><b>Error Code</b></td>
+    <td><b>Description</b></td>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td><b>Magnetometer error</b> - unit will restart in an attempt to fix the issue</td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td><b>Temperature error</b> - unit will restart in an attempt to fix the issue</td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td><b>SD error</b> - warns once, then continues operation. This allows for external logging without the requirement of an SD card being installed</td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td><b>Clock error</b> - unit will restart in an attempt to fix the issue</td>
+  </tr>
+</table>
 
 ### Filename Convention
 Data are stored on the microSD card (if installed) in 24-hour files. Each file
@@ -407,11 +490,11 @@ is applied to this reading.
 
 ### Tilt Interpretation
 Tilt can be subject to many technical factors as well as the environmental tilt.
-Leeman Geophysical has application notes on many of these topics and can assist
-you in determining which factors may need to be accounted for in your data. The
-list below is intended to help plan your field deployment strategy and guide
-your analysis. For most analyses under $\pm30^\circ$ the factory calibration,
-applied in the instrument, is all that is required.
+Leeman Geophysical has [application notes](appnotes.md) on many of these topics
+and can assist you in determining which factors may need to be accounted for in
+your data. The list below is intended to help plan your field deployment
+strategy and guide your analysis. For most analyses under $\pm30^\circ$ the
+factory calibration, applied in the instrument, is all that is required.
 
 * **Temperature Scale Factor** - Temperature can modify the calibration of the
 tilt sensors making them slightly more or less sensitive. This factor is
@@ -466,7 +549,24 @@ correction, see our application notes or contact support.
 
 
 ## Revision History
-| Revision | Date          | Changes                                                                 |
-|----------|---------------|-------------------------------------------------------------------------|
-| 1.0      | February 2022 | Initial Release                                                         |
-| 1.1      | December 2023 | Update address and change inaccurate description of file output columns |
+<table>
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>February 2022</td>
+    <td>Initial Release</td>
+  </tr>
+
+  <tr>
+    <td>December 2023</td>
+    <td>Update address and change inaccurate description of file output columns.</td>
+  </tr>
+
+  <tr>
+    <td>April 2024</td>
+    <td>Reformat for web and add dimensions. Minor typo correction.</td>
+  </tr>
+</table>
