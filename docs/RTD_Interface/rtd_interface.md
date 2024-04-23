@@ -131,7 +131,7 @@ outer insulator as this can cause high resistance and intermittent connections.
 </center>
 
 <center>
-![Connection positions on the back panel of the instrument as seen from the back.](back_pinout.png){: style="height:300px"}
+![Connection positions on the back panel of the instrument as seen from the back.](back_pinout.png){: style="height:150px"}
 </center>
 
 ### 2-Wire RTD
@@ -411,7 +411,7 @@ stabilizes quickly.
 ## Data Interpretation
 <center>
 ![Output of the serial READ command indicating the temperatures from each RTD in degrees
-Celsius.](output_format.png){: style="height:200px"}
+Celsius.](output_format.png){: style="height:150px"}
 </center>
 
 The data from the READ command is plain text ASCII. There are four tab-delimited
