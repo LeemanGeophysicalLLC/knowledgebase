@@ -1,6 +1,6 @@
 # Tilt Meter Logger
 <center>
-![Instrument cover photo.](product.png){: style="height:250px"}
+![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
 This documentation covers part number [10-0000041](https://leemangeophysical.com/product/ptm-tilt-meter-logger/).
 
@@ -77,7 +77,7 @@ the connected instrument, which is user configurable in the menu of the logger
 and tilt meter. We recommend powering the unit externally before connecting via
 USB.
 <center>
-![Control Panel Layout.](top_panel.png){: style="height:250px"}
+![Control Panel Layout.](top_panel.png){: style="height:400px"}
 </center>
 
 

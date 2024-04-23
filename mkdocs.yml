@@ -249,6 +249,7 @@ nav:
     - Tilt/Inclination:
       - Precision MEMS Inclinometer: 'Precision_MEMS_Inclinometer/precision_mems_inclinometer.md'
       - Tilt Meter Logger: 'Tilt_Meter_Logger/tilt_meter_logger.md'
+      - PTM102: 'PTM102/PTM102.md'
     - SMPL:
       - Introduction: 'SMPL/smpl.md'
       - Standard: 'SMPL/smpl_standard.md'
