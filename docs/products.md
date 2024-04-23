@@ -1,5 +1,7 @@
 # Product Documentation
 
+## Sensors and Sensing
+* [4 Channel RTD Interface](RTD_Interface/rtd_interface.md)
 ## Tilt and Inclination
 * [MEMS Inclinometer](Precision_MEMS_Inclinometer/precision_mems_inclinometer.md)
 * [Tilt Meter Logger](Tilt_Meter_Logger/tilt_meter_logger.md)
