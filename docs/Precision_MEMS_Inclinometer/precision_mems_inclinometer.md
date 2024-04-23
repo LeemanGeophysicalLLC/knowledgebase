@@ -2,6 +2,7 @@
 <center>
 ![Instrument cover photo.](product.png){: style="height:250px"}
 </center>
+
 This documentation covers part number [10-0000042](https://leemangeophysical.com/product/mems-inclinometer/).
 
 ## Overview

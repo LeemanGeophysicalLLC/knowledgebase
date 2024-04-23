@@ -2,21 +2,23 @@
 <center>
 ![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
+
 This documentation covers part number [10-0000027](https://leemangeophysical.com/product/displacement-transducer-calibration-system/).
 
 ## Overview
-The displacement calibration rig makes it easy to accurately calibrate linear
-transducers with a total range of up to two inches. With proper setup it allows
-for repeatable calibration in just a few minutes. The calibration software
-automatically creates the calibration curve and a data file with every
+The displacement calibration rig makes it easy to accurately calibrate
+lineartransducers with a total range of up to two inches. With proper setup it
+allows for repeatable calibration in just a few minutes. The calibration
+software automatically creates the calibration curve and a data file with every
 calibration point.
 
 ## Setup
 The displacement calibration rig is a sensitive instrument that requires
 alignment after shipping and periodically before use. The tools required to
 calibrate the device are included with the kit. A video of this process is
-available at our website, and can be found here:
-https://www.youtube.com/watch?v=NtjN4-EOunA&feature=youtu.be
+available at our website, and can be found
+[HERE](https://www.youtube.com/watch?v=NtjN4-EOunA&feature=youtu.be) 
+
 
 ## Alignment Process
 The alignment process of the displacement apparatus involves aligning the
@@ -42,9 +44,9 @@ corrected.
    measuring at 0.501”, which is higher than its actual width.
 
 1. Repeat steps 2 and 3 with the 1” gauge block. If the readings are different
-   than expected alignment is necessary. Typically the alignment is acceptable if
-   the error is roughly 0.001”, and alignment is necessary if it is greater than
-   0.005”.
+   than expected alignment is necessary. Typically the alignment is acceptable
+   if the error is roughly 0.001”, and alignment is necessary if it is greater
+   than 0.005”.
 
 1. For minor misalignments (<0.003”) often the quill at the top of the indicator
    can be tapped gently to realign it. If this doesn’t work further alignment is
@@ -55,6 +57,7 @@ corrected.
     <center>
     ![Realignment](Astep5image.png){: style="height:300px"}
     </center>
+
 * Checking alignment involves repeating steps 1-4 of the process each time the
 alignment is changed. The goal of the alignment is to have each gauge block
 measure as their calibrated length on the indicator. (0.5” block measures as
@@ -65,8 +68,9 @@ acceptable.
 tightening the screws, check the alignment again to make sure it hasn’t moved.
 
 ## DCDT Calibration
-A video of this process is available on our website or at this link:
-https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be
+A video of this process is available on our website or
+[HERE](https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be)
+
 
 1. Place the DCDT in the holder so that a small amount of the DCDT is protruding
    from the front. (This can vary depending on the model.) Then gently tighten

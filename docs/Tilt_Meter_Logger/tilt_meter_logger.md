@@ -2,6 +2,7 @@
 <center>
 ![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
+
 This documentation covers part number [10-0000041](https://leemangeophysical.com/product/ptm-tilt-meter-logger/).
 
 ## Overview

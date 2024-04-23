@@ -2,6 +2,7 @@
 <center>
 ![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
+
 This documentation covers part number [10-0000094](https://leemangeophysical.com/product/4-channel-rtd-interface/).
 
 ## Overview
