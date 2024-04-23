@@ -35,7 +35,7 @@ corrected.
 1. Gently pull back the quill and place the 0.5” gauge block as shown. Make sure
    the surfaces of the block are clean.
     <center>
-    ![Setting Gauge Block.](Astep2image.png){: style="height:200px"}
+    ![Setting Gauge Block.](Astep2image.png){: style="height:300px"}
     </center>
     
 1. Note the measurement shown on the readout. In the image above the block is
@@ -53,7 +53,7 @@ corrected.
    rotating it. This is usually made easier by leaving one screw tight, and
    barely loosening the others.
     <center>
-    ![Realignment](Astep5image.png){: style="height:200px"}
+    ![Realignment](Astep5image.png){: style="height:300px"}
     </center>
 * Checking alignment involves repeating steps 1-4 of the process each time the
 alignment is changed. The goal of the alignment is to have each gauge block
@@ -72,7 +72,7 @@ https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be
    from the front. (This can vary depending on the model.) Then gently tighten
    the thumbscrews on top to hold it in place. 
     <center>
-    ![Inserting DCDT](Bstep1image.png){: style="height:200px"}
+    ![Inserting DCDT](Bstep1image.png){: style="height:300px"}
     </center>
 
 1. Take the included core nuts and install them onto the DCDT core. The larger
@@ -80,19 +80,19 @@ https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be
    core can then be put through the hole in the core plate on the slider. Screw
    on the second nut loosely so that the core can still move. 
     <center>
-    ![Installing DCDT Core](Bstep2image.png){: style="height:200px"}
+    ![Installing DCDT Core](Bstep2image.png){: style="height:300px"}
     </center>
 
 1. Move the carriage so that the core slides into the DCDT. Once inserted the
    core nuts can be tightened. This ensures the core is properly aligned. 
     <center>
-    ![Inserting DCDT Core](Bstep3image.png){: style="height:200px"}
+    ![Inserting DCDT Core](Bstep3image.png){: style="height:300px"}
     </center>
 
 1. Using the adjustment screw, move the stage so that it is centered on its base
    and the edges are flush. Zero the indicator by pressing the zero button. 
     <center>
-    ![Zeroing the Device](Bstep4image.png){: style="height:200px"}
+    ![Zeroing the Device](Bstep4image.png){: style="height:300px"}
     </center>
 
 1. Apply power to the transducer and connect it to the computer via your data
@@ -102,13 +102,13 @@ https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be
    will be calibrated in. (The supplied unit displays in inches, so this will be
    the unit)
     <center>
-    ![Transducer Setup](Bstep6image.png){: style="height:200px"}
+    ![Transducer Setup](Bstep6image.png){: style="height:300px"}
     </center>
 
 1. Select the input channel that the transducer is on by selecting browse in the
    input channel menu. 
     <center>
-    ![Select the input channel](Bstep7image.png){: style="height:200px"}
+    ![Select the input channel](Bstep7image.png){: style="height:300px"}
     </center>
 
 1. Select the sampling rate of the system. If the system is capable of 10,0000
@@ -130,7 +130,7 @@ https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be
    the screen and press the button on the cable connecting the indicator to the
    computer. This should cause a point to appear on the graph. 
     <center>
-    ![Begin Recording](Bstep11image.png){: style="height:200px"}
+    ![Begin Recording](Bstep11image.png){: style="height:300px"}
     </center>
     To complete the calibration curve, rotate the adjustment screw on the stage a
     couple of turns in the desired direction and press the button to record
@@ -140,12 +140,12 @@ https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be
     recorded by the digital indicator. Complete the calibration by repeating the
     process in reverse to fill out the plot. 
     <center>
-    ![Complete Calibration Curve](B2step11image.png){: style="height:200px"}
+    ![Complete Calibration Curve](B2step11image.png){: style="height:300px"}
     </center>
 1. When the calibration curve is complete, select the complete button in the
    calibration menu, then click save and choose the save location of the file.
    You can then open the calibration file using notepad. This will display the
    parameters of the calibration, and the calibration points.
     <center>
-    ![Complete Calibration Curve](Bstep12image.png){: style="height:200px"}
+    ![Complete Calibration Curve](Bstep12image.png){: style="height:300px"}
     </center>

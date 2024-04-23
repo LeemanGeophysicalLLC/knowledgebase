@@ -252,6 +252,8 @@ nav:
       - Precision MEMS Inclinometer: 'Precision_MEMS_Inclinometer/precision_mems_inclinometer.md'
       - Tilt Meter Logger: 'Tilt_Meter_Logger/tilt_meter_logger.md'
       - PTM102: 'PTM102/PTM102.md'
+    - Calibration:
+      - Displacement Transducer Calibration System: 'Displacement_Transucer_Calibration_System/displacement_transducer_calibration_system.md'
     - SMPL:
       - Introduction: 'SMPL/smpl.md'
       - Standard: 'SMPL/smpl_standard.md'
