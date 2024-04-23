@@ -246,7 +246,7 @@ extra_javascript:
 # Configures webpage navigation
 nav:
   - Products:
-    - Sensors and Sensiong: 
+    - Sensors and Sensing: 
       - 4 Channel RTD Interface: 'RTD_Interface/rtd_interface.md'
     - Tilt/Inclination:
       - Precision MEMS Inclinometer: 'Precision_MEMS_Inclinometer/precision_mems_inclinometer.md'
