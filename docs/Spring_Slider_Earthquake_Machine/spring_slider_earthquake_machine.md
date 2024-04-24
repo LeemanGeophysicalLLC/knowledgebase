@@ -100,6 +100,7 @@ energy that they release in only a few minutes. Earthquakes can also be
 triggered by other earthquakes, changes in water pressure on the fault, or a
 host of other factors.  
 
+#### [Lab Activity](https://docs.google.com/document/d/18YKNOFFVs2ug316g7z305HmLGav2u7MKnxVk-mrj-E4/edit#heading=h.dj54izm0lwup)
 In this lab, you’ll explore the role of a few variables on the earthquake cycle
 of a spring-slider model. Try to imagine how much more energy is at work in a
 real earthquake where the blocks of rock can be the size of a country!
