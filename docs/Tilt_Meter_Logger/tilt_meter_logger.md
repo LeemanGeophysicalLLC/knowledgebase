@@ -81,6 +81,10 @@ USB.
 ![Control Panel Layout.](top_panel.png){: style="height:400px"}
 </center>
 
+### Power
+Power for this device is provided by the
+[FieldVolt](../FieldVolt/field_volt_standard.md) system.  
+**Note** *Before Febuary of 2024, the power connector was Amphenol (1-0000777, PT02A-10-2S) with the mating connector (), but has since switch to the FieldVolt standard.*
 
 ## Specifications
 <table>
