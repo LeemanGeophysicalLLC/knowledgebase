@@ -16,9 +16,8 @@ calibration point.
 ## Setup
 The displacement calibration rig is a sensitive instrument that requires
 alignment after shipping and periodically before use. The tools required to
-calibrate the device are included with the kit. A video of this process is
-available at our website, and can be found
-<a href="https://www.youtube.com/watch?v=NtjN4-EOunA&feature=youtu.be" target="_blank" rel="noopener noreferrer">HERE</a> 
+calibrate the device are included with the kit.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NtjN4-EOunA?si=mLN9Re8VEQxInxQp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Alignment Process
@@ -69,8 +68,8 @@ acceptable.
 tightening the screws, check the alignment again to make sure it hasn’t moved.
 
 ## DCDT Calibration
-A video of this process is available on our website or
-<a href="https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be" target="_blank" rel="noopener noreferrer">HERE</a>
+A video of this process is available on our website or here.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iZCyS38wjKE?si=B7F-TkoeCBiC43oz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 1. Place the DCDT in the holder so that a small amount of the DCDT is protruding
