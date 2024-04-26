@@ -278,10 +278,10 @@ and/or circuit board may be damaged!
 The time should be set after the RTC battery has been changed or if it is deemed
 to have drifted unacceptably since the last time the unit was set. The time is
 set with the serial command SETTIME out outlined in the serial commands section.
-As an example, to set March 26, 2020 at 13:05:30 the command SETTIME 2020 03 26
-13 05 30 would be sent. The time is set at the moment the newline character is
-received. A message stating the setting was successful or if there was an error
-will be returned to the serial prompt.
+As an example, to set March 26, 2020 at 13:05:30 the command <code>SETTIME 2020
+03 26 13 05 30</code> would be sent. The time is set at the moment the newline
+character is received. A message stating the setting was successful or if there
+was an error will be returned to the serial prompt.
 
 ### Deployment
 Every deployment is different, but this procedure seeks to provide a guideline
