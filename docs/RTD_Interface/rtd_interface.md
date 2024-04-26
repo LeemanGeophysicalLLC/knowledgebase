@@ -204,7 +204,7 @@ The instrument is set from the factory to 9600 baud. Settings are stored in
 non-volatile memory and kept through power cycles of the instrument.
 
 ### Command Listing
-<b>Commands are all followed by a newline character.<b>
+<b>Commands are all followed by a newline character.</b>
 <table>
   <tr bgcolor="gray">
     <td><b>Command<b></td>
@@ -296,7 +296,7 @@ non-volatile memory and kept through power cycles of the instrument.
 **SETVMIN** sets the minimum output voltage allowed on a given channel. This
 value must be equal to or greater than zero and less than or equal to ten. No
 matter the temperature on the sensor, this output voltage will be the minimum
-allowable analog output on that channel.  
+allowable analog output on that channel.   
 
 **SETVMAX** sets the maximum output voltage allowed on a given channel. This
 value must be equal to or greater  
@@ -314,7 +314,7 @@ When the temperature is at this maximum the output voltage will be at the value
 set by VMAX. This value must be greater than or equal to -200◦C and less than or
 equal to 850◦C.  
 
-**SETBAUD**sets the baud rate of the device to a new rate. This change takes
+**SETBAUD** sets the baud rate of the device to a new rate. This change takes
 effect immediately and the serial terminal utility will need to be disconnected
 and reconnected at the new baud rate. Valid rates are 1200, 2400, 4800, 9600,
 19200, 38400, 57600, 74880, and 115200 baud.  
