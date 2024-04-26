@@ -32,15 +32,21 @@ The front panel of the instrument has four LED indicators on it.
   connection from a host device.
 
 ### What's in the Box
-Upon receipt of your unit, unpack the contents of the box and inspect all parts for any damage incurred during
-shipping. Immediately report any missing parts or damage to Leeman Geophysical for replacement. Note that
-there are many optional accessories available, see the accessories section of the manual for details and usage
-notes.
+Upon receipt of your unit, unpack the contents of the box and inspect all parts
+for any damage incurred during shipping. Immediately report any missing parts or
+damage to Leeman Geophysical for replacement. Note that there are many optional
+accessories available, see the accessories section of the manual for details and
+usage notes.  
+
 * RTD Interface in anodized enclosure
-* 5 Position plug-in terminal block
-* 4 Position plug-in terminal block (X4)
-* USB Cable
-* Factory amplifier calibration documentation
+
+* 5 Position plug-in terminal block  
+
+* 4 Position plug-in terminal block (X4)  
+
+* USB Cable  
+
+* Factory amplifier calibration documentation  
 
 ## Specifications
 <table>
