@@ -3,7 +3,7 @@
 ![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
 
-This documentation covers part number [10-0000041](https://leemangeophysical.com/product/ptm-tilt-meter-logger/).
+This documentation covers part number <a href="https://leemangeophysical.com/product/ptm-tilt-meter-logger/" target="_blank" rel="noopener noreferrer">10-0000041</a>
 
 ## Overview
 The tilt meter logger (TML) is designed to be coupled with the Leeman
@@ -425,4 +425,4 @@ stray knife or wildlife
 | 1.0      | January 2022 | Initial Release                     |
 | 1.1      | January 2023 | Update for newest PCBs and firmware |
 | 1.2      | February 2023| Hyperlink table of contents         |
-| 1.3      | April 2024   | Moved Documentation to MKDocs Format|
+| 1.3      | April 2024   | Moved Documentation to MkDocs Format|

@@ -3,7 +3,9 @@
 ![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
 
-This documentation covers part number [10-0000034](https://leemangeophysical.com/product/creep-deformation-apparatus/).
+This documentation covers part number <a
+href="https://leemangeophysical.com/product/creep-deformation-apparatus/"
+target="_blank" rel="noopener noreferrer">10-0000034</a>.
 
 ## Assembly Instruction
 ### Hazards Summary/Required PPE
@@ -57,4 +59,4 @@ This documentation covers part number [10-0000034](https://leemangeophysical.com
 
 1. Slide the shaft into the bushing on the top plate. A light coating of white lithium grease can be applied to the shaft to prevent friction.
 
-1. Assembly is now complete. See the [lab activity](https://docs.google.com/document/d/1W3iEJtaS3IZBW6_7TTSE4s6wmuLl6XAKVrbR2w8l0BM/edit#heading=h.dj54izm0lwup) for calibration and usage instructions.  
+1. Assembly is now complete. See the <a href="https://docs.google.com/document/d/1W3iEJtaS3IZBW6_7TTSE4s6wmuLl6XAKVrbR2w8l0BM/edit#heading=h.dj54izm0lwup" target="_blank" rel="noopener noreferrer">lab activity</a> for calibration and usage instructions.  

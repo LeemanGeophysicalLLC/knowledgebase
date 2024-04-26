@@ -3,7 +3,8 @@
 ![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
 
-This documentation covers part number [10-0000027](https://leemangeophysical.com/product/displacement-transducer-calibration-system/).
+This documentation covers part number <a href="https://leemangeophysical.com/product/displacement-transducer-calibration-system/" target="_blank" rel="noopener noreferrer">10-0000027</a>
+
 
 ## Overview
 The displacement calibration rig makes it easy to accurately calibrate
@@ -17,7 +18,7 @@ The displacement calibration rig is a sensitive instrument that requires
 alignment after shipping and periodically before use. The tools required to
 calibrate the device are included with the kit. A video of this process is
 available at our website, and can be found
-[HERE](https://www.youtube.com/watch?v=NtjN4-EOunA&feature=youtu.be) 
+<a href="https://www.youtube.com/watch?v=NtjN4-EOunA&feature=youtu.be" target="_blank" rel="noopener noreferrer">HERE</a> 
 
 
 ## Alignment Process
@@ -69,7 +70,7 @@ tightening the screws, check the alignment again to make sure it hasn’t moved.
 
 ## DCDT Calibration
 A video of this process is available on our website or
-[HERE](https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be)
+<a href="https://www.youtube.com/watch?v=iZCyS38wjKE&feature=youtu.be" target="_blank" rel="noopener noreferrer">HERE</a>
 
 
 1. Place the DCDT in the holder so that a small amount of the DCDT is protruding

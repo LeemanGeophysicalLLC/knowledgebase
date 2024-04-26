@@ -3,7 +3,7 @@
 ![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
 
-This documentation covers part number [10-0000094](https://leemangeophysical.com/product/4-channel-rtd-interface/).
+This documentation covers part number <a href="https://leemangeophysical.com/product/4-channel-rtd-interface/" target="_blank" rel="noopener noreferrer">10-0000094</a>
 
 ## Overview
 Resistance temperature detectors (RTDs) are precision temperature measurement
@@ -109,9 +109,11 @@ be powered with a simple USB wall power supply. The USB port also provides
 communications to a host device as a serial connection using FTDI Technologies
 interface devices. If your system does not already have FTDI Virtual
 Communications Port (VCP) drivers installed, they may be downloaded at no cost
-from FTDI at https://ftdichip.com/drivers/vcp-drivers/. The default baud rate of
-the device is 9600, though this is a user modifiable setting. For the details on
-serial communications and commands, see the Serial Command Interface section.  
+from FTDI at <a href="https://ftdichip.com/drivers/vcp-drivers/" target="_blank"
+rel="noopener noreferrer">https://ftdichip.com/drivers/vcp-drivers/</a>. The
+default baud rate of the device is 9600, though this is a user modifiable
+setting. For the details on serial communications and commands, see the Serial
+Command Interface section.  
 If the interface is to be plugged into a USB hub device we recommend a powered
 hub. Un-powered hubs may not be able to provide adequate supply power and result
 in unstable behavior. If powering the interface from a wall supply, we recommend
@@ -186,10 +188,10 @@ converter system.
 ## Serial Command Interface
 Settings of the RTD Interface are modified via a simple serial command
 interface. For more information on using a serial terminal to communicate with
-instruments, be sure to read our how-to posts on the company blog at
-https://www.leemangeophysical.com/blog. The instrument is set from the factory
-to 9600 baud. Settings are stored in non-volatile memory and kept through power
-cycles of the instrument.
+instruments, be sure to read our how-to posts on the company blog at <a href="https://www.leemangeophysical.com/blog" target="_blank" rel="noopener
+noreferrer">https://www.leemangeophysical.com/blog</a>.
+The instrument is set from the factory to 9600 baud. Settings are stored in
+non-volatile memory and kept through power cycles of the instrument.
 
 ### Command Listing
 <b>Commands are all followed by a newline character.<b>
@@ -451,6 +453,6 @@ possible and allow for rapid swap out of sensing elements.
 
   <tr>
     <td>April 2024</td>
-    <td>Moved Documentation to MKDocs Format</td>
+    <td>Moved Documentation to MkDocs Format</td>
   </tr>
 </table>

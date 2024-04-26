@@ -3,7 +3,8 @@
 ![Instrument cover photo.](product.png){: style="height:250px"}
 </center>
 
-This documentation covers part number [10-0000149](https://leemangeophysical.com/product/spring-slider/).
+This documentation covers part number 
+<a href="https://leemangeophysical.com/product/spring-slider/" target="_blank" rel="noopener noreferrer">10-0000149</a>
 
 ## Overview
 The Spring-Slider Apparatus is a lab activity that demonstrates the physics of stick slip movement between two
@@ -105,10 +106,9 @@ In this lab, you’ll explore the role of a few variables on the earthquake cycl
 of a spring-slider model. Try to imagine how much more energy is at work in a
 real earthquake where the blocks of rock can be the size of a country!  
 
-* [Basic Lab
-  Activity](https://docs.google.com/document/d/18YKNOFFVs2ug316g7z305HmLGav2u7MKnxVk-mrj-E4/edit#heading=h.dj54izm0lwup)
-* [Intermediate Lab
-  Activity](https://docs.google.com/document/d/1OtO0DTzSdnAWpxp_zaFlyeOZgyJbFgMR8EWfzrVZESY/edit#heading=h.mkpx7yjpucdq)
+* <a href="https://docs.google.com/document/d/18YKNOFFVs2ug316g7z305HmLGav2u7MKnxVk-mrj-E4/edit#heading=h.dj54izm0lwup" target="_blank" rel="noopener noreferrer">Basic Lab Activity</a>
+
+* <a href="https://docs.google.com/document/d/1OtO0DTzSdnAWpxp_zaFlyeOZgyJbFgMR8EWfzrVZESY/edit#heading=h.mkpx7yjpucdq" target="_blank" rel="noopener noreferrer">Intermediate Lab Activity</a>
 
 ## Operation Guide
 ### Basic Operation
@@ -148,7 +148,7 @@ calibrations.
 
 #### Using Leeman Geophysical Software
 (*This software is available for free in the documentation section of the product
-on our website [HERE](https://leemangeophysical.com/product/spring-slider/#)*)  
+on our website <a href="https://github.com/LeemanGeophysicalLLC/Spring_Slider_Desktop_Software/releases" target="_blank" rel="noopener noreferrer">HERE</a>*)  
 The Springs Slider Apparatus software collects data from the instrument and
 plots all of the following:
 
@@ -176,7 +176,7 @@ data
 #### Using a Terminal Program
 Data may also be recorded using any serial terminal program you like such as RealTerm, CoolTerm, and more.
 Simply connect to the apparatus using the serial parameters outlined above and utilize the software’s recording
-features. Here we outline the process for using CoolTerm, freely available from [https://freeware.the-meiers.org/](https://freeware.the-meiers.org/)
+features. Here we outline the process for using CoolTerm, freely available from <a href="https://freeware.the-meiers.org/" target="_blank" rel="noopener noreferrer">https://freeware.the-meiers.org/</a>
 
 * Start the CoolTerm program.
 * Click the **Options** button and in the Port selection and find the serial
@@ -207,9 +207,11 @@ wear and require replacing for the best results. This product comes with three
 grits of 48" X 4.5" adhesive backed sand paper strips. Replacement strips are
 available for order from our website.
 
-* 100 Grit (Part Number [2-0000236](https://leemangeophysical.com/product/adhesive-sandpaper-rolls-100-grit/))
-* 120 Grit (Part Number [2-0000238](https://leemangeophysical.com/product/adhesive-sandpaper-rolls-120-grit/))
-* 220 Grit (Part Number [2-0000240](https://leemangeophysical.com/product/adhesive-sandpaper-rolls-220-grit/))
+* 100 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-100-grit/" target="_blank" rel="noopener noreferrer">2-0000236</a>
+
+* 120 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-120-grit/" target="_blank" rel="noopener noreferrer">2-0000238</a>
+
+* 220 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-220-grit/" target="_blank" rel="noopener noreferrer">2-0000240</a>
 
 1. Remove any worn sand paper from the slide platform and the bottom of the
 slider.
@@ -327,7 +329,7 @@ results from lab to lab may change slightly.
     * Ensure you are using the provided USB cable, some power-only cables will
       not provide a data connection.
     * Install the FTDI VCP drivers available at
-      [https://ftdichip.com/drivers/vcp-drivers/](https://ftdichip.com/drivers/vcp-drivers/)
+      <a href="https://ftdichip.com/drivers/vcp-drivers/" target="_blank" rel="noopener noreferrer">https://ftdichip.com/drivers/vcp-drivers/</a>
     * Ensure you have selected the correct serial settings as outlined in the
       serial connection section.
 
@@ -341,7 +343,16 @@ readings from the spring slider to real units of force and displacement! A
 weighted bottle is used to calibrate the load cell and displacement can be
 calculated based on measurements of the system’s pulley.
 
-### Adhesive Sandpaper Rolls [2-0000236](https://leemangeophysical.com/product/adhesive-sandpaper-rolls-100-grit/), [2-0000238](https://leemangeophysical.com/product/adhesive-sandpaper-rolls-120-grit/), [2-0000240](https://leemangeophysical.com/product/adhesive-sandpaper-rolls-220-grit/)
+### Adhesive Sandpaper Rolls 
+
+100 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-100-grit/" target="_blank" rel="noopener noreferrer">2-0000236</a>
+
+120 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-120-grit/" target="_blank" rel="noopener noreferrer">2-0000238</a>
+
+220 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-220-grit/" target="_blank" rel="noopener noreferrer">2-0000240</a>
+
+
+
 These replacement sandpaper strips are adhesive backed and 4 feet long to
 replace the sandpaper on your base and slider as it wears out with use.
 Sandpaper is available in 100 grit (2-0000236), 120 grit (2-0000238), and 220
