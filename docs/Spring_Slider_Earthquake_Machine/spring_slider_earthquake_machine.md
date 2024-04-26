@@ -113,19 +113,25 @@ real earthquake where the blocks of rock can be the size of a country!
 ## Operation Guide
 ### Basic Operation
 The following steps will outline the basic mechanical operation of the
-Spring-Slider Apparatus.
+Spring-Slider Apparatus.  
+
 1. Plug the AC power adapter into the wall and into the power port on the
-   spring-slider machine.
+   spring-slider machine.  
+
 1. Plug the AC power adapter into the wall and into the power port on the
    spring-slider machine.
 1. Pull the pull string to unwind it from the pulley. Lights on the board may
-   illuminate, this is normal.
-1. Hook the S hook of the pull string to the slider using the desired spring.
+   illuminate, this is normal.  
+
+1. Hook the S hook of the pull string to the slider using the desired spring.  
+
 1. Ensure that the pulley guard cover is in place before any use - failure to
-use the pulley guard may result in injury!
+use the pulley guard may result in injury!  
+
 1. Set the speed slider to mid-range and press the hand pendant. The motor
 should begin to run and will run until you release the button on the hand
-pendant.
+pendant.  
+
 1. The speed control knob, located on the control unit, can be adjusted at any
    time to change the motor speed.
 
@@ -289,7 +295,7 @@ steps. Knowing this we can now calculate the total linear distance per
 revolution and distance per step.
 
     $$distance~per~revelution = \pi pulley~inner~diameter$$  
-    
+
     $$distance~per~step = {distance~per~revolution \over steps~per~revolution}$$
 
 For example, on a pulley with a diameter of 12.5 mm, we calculate 0.049 mm/step. This is the calibration that
