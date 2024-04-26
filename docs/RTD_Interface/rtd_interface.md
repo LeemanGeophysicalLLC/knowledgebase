@@ -22,12 +22,16 @@ RTDs. If your system uses PT500 or PT1000 devices please contact the factory to
 discuss options to connect your system to the 4 Channel RTD Interface device.
 
 ### Front Panel
-The front panel of the instrument has four LED indicators on it.
-* **Power** - Green LED indicating the device is receiving power and on.
+The front panel of the instrument has four LED indicators on it.  
+
+* **Power** - Green LED indicating the device is receiving power and on.  
+
 * **Read** - Yellow LED indicating that the device is reading temperatures from
-  the RTDs.
+  the RTDs.  
+
 * **TX** - Blue LED indicating the device is sending data over the serial
-  connection to a host device.
+  connection to a host device.  
+
 * **RX** - Blue LED indicating the device is receiving data over the serial
   connection from a host device.
 
@@ -194,8 +198,8 @@ converter system.
 ## Serial Command Interface
 Settings of the RTD Interface are modified via a simple serial command
 interface. For more information on using a serial terminal to communicate with
-instruments, be sure to read our how-to posts on the company blog at <a href="https://www.leemangeophysical.com/blog" target="_blank" rel="noopener
-noreferrer">https://www.leemangeophysical.com/blog</a>.
+instruments, be sure to read our how-to post on the <a href="https://leemangeophysical.com/3-steps-to-using-serial-terminal-programs/" target="_blank" rel="noopener
+noreferrer">company blog</a>.
 The instrument is set from the factory to 9600 baud. Settings are stored in
 non-volatile memory and kept through power cycles of the instrument.
 
