@@ -288,7 +288,8 @@ pull string wraps. It should be near 12.7 mm.
 steps. Knowing this we can now calculate the total linear distance per
 revolution and distance per step.
 
-    $$distance~per~revelution = \pi pulley~inner~diameter$$
+    $$distance~per~revelution = \pi pulley~inner~diameter$$  
+    
     $$distance~per~step = {distance~per~revolution \over steps~per~revolution}$$
 
 For example, on a pulley with a diameter of 12.5 mm, we calculate 0.049 mm/step. This is the calibration that
