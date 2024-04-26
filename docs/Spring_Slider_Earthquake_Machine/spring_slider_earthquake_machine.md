@@ -366,7 +366,7 @@ grit (2-0000240). Don’t forget to stock up as sand paper is a consumable!
 
   <tr>
     <td>April 2024</td>
-    <td>Moved Documentation to MKDocs Format</td>
+    <td>Moved Documentation to MkDocs Format</td>
   </tr>
 </table>
 
