@@ -132,7 +132,7 @@ The calibration procedure requires the use of a serial terminal. For these instr
     <center>
     ![importing Data to Sheet.](importingdatatosheet.png){: style="height:400px"}
     </center>
-1. Open the <a href="" target="_blank" rel="noopener noreferrer">Creep
+1. Open the <a href="https://docs.google.com/spreadsheets/d/1QmQ7DUTds2T-uK3FIgHSmwCH66fnEnDyPsL-y6NH2Ao/edit?pli=1#gid=0" target="_blank" rel="noopener noreferrer">Creep
    Calibration Calculator</a>. Measure the calibration tools first 4 larges
    steps and enter those values, greatest to least, in the Displacement column. 
    Using The graph you just created, hover your mouse over each step and enter
