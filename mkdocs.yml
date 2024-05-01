@@ -260,6 +260,10 @@ nav:
       - DCDT Signal Conditioner: 'SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md'
     - Other:
       - Instrument Orientation Tool: 'Instrument_Orientation_Tool/instrument_orientation_tool.md'
+    - FieldVolt:
+      - Standard: 'FieldVolt/field_volt_standard.md'
+      - Cables: 'FieldVolt/field_volt_cables.md'
+      - Solar Panels: 'FieldVolt/field_volt_solar_panels.md'
   - Application Notes: appnotes.md
   - Downloads: downloads.md
   - Resources: resources.md
