@@ -24,14 +24,14 @@
   <tr>
     <td>Instrument Power Cable</td>
     <td>3</td>
-    <td><a href="https://leemangeophysical.com/product/fieldvolt-instrument-power-cable/?preview_id=4985&preview_nonce=f82c2e6c60&_thumbnail_id=5021&preview=true" target="_blank" rel="noopener noreferrer">10-0000177</a></td>
+    <td><a href="https://leemangeophysical.com/product/fieldvolt-instrument-power-cable/" target="_blank" rel="noopener noreferrer">10-0000177</a></td>
     <td><a href="../10-177_Instrument_Cable_3m.pdf" target="_blank" rel="noopener noreferrer">PDF</a></td>
   </tr>
 
   <tr>
     <td>Instrument Power Cable</td>
     <td>10</td>
-    <td><a href="https://leemangeophysical.com/product/fieldvolt-instrument-power-cable/?preview_id=4985&preview_nonce=f82c2e6c60&_thumbnail_id=5021&preview=true" target="_blank" rel="noopener noreferrer">10-0000178</a></td>
+    <td><a href="https://leemangeophysical.com/product/fieldvolt-instrument-power-cable/" target="_blank" rel="noopener noreferrer">10-0000178</a></td>
     <td><a href="../10-178_Instrument_Cable_10m.pdf" target="_blank" rel="noopener noreferrer">PDF</a></td>
   </tr>
 
