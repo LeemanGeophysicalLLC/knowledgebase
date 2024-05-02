@@ -418,12 +418,14 @@ to be observed.
 </center>
 
 ## Accessories
-### Power Cable 7-0000123
+### FieldVolt 
+[Power Cables](../FieldVolt/field_volt_cables.md)
 An extra potted power cable for the tilt meter logger is great to have for
 pre-installation preparations on-site or as a spare if a cable is destroyed by a
 stray knife or wildlife
 
-### SD Card <a href="https://leemangeophysical.com/product/5-x-32gb-micro-sd-card/" target="_blank" rel="noopener noreferrer">10-0000170</a>
+### SD Card 
+<a href="https://leemangeophysical.com/product/5-x-32gb-micro-sd-card/" target="_blank" rel="noopener noreferrer">10-0000170</a>  
 This 5 pack of cards gives you some field spares and with 32GB of storage each, plenty of room for most datasets. Don’t get caught out during a deployment with too few cards or needing to pull off data and replace in the field.
 
 ## Revision History
