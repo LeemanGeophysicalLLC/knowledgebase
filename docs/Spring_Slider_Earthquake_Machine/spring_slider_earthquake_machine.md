@@ -344,7 +344,8 @@ results from lab to lab may change slightly.
 There are a variety of accessories available for the earthquake machine! Contact
 us with any questions.
 
-### Calibration Kit 10-0000093
+### Calibration Kit
+<a href="https://leemangeophysical.com/product/spring-slider-calibration-kit/" target="_blank" rel="noopener noreferrer">10-0000093</a>  
 This kit includes everything you need to calibrate the load and displacement
 readings from the spring slider to real units of force and displacement! A
 weighted bottle is used to calibrate the load cell and displacement can be
