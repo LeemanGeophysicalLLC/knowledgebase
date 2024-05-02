@@ -437,10 +437,13 @@ There are a variety of accessories available to make installing, deploying, and
 using your interface easier! Contact us with any questions on which accessories
 are appropriate for your deployment or for custom integration services.
 
-### 4 Position Plug-In Terminal Block 1-0001141
+### 4 Position Plug-In Terminal Block 
+<a href="https://leemangeophysical.com/product/4-position-terminal-block-plug-female-sockets/" target="_blank" rel="noopener noreferrer">1-0001141</a>  
 Extra 4 position terminal blocks make having spare pre-wired RTDs on hand
-possible and allow for rapid swap out of sensing elements.
-### 5 Position Plug-In Terminal Block 1-0001149
+possible and allow for rapid swap out of sensing elements.  
+
+### 5 Position Plug-In Terminal Block 
+<a href="https://leemangeophysical.com/product/5-position-terminal-block-plug-female-sockets/" target="_blank" rel="noopener noreferrer">1-0001149</a>   
 Extra 4 position terminal blocks make having spare pre-wired RTDs on hand
 possible and allow for rapid swap out of sensing elements.
 
