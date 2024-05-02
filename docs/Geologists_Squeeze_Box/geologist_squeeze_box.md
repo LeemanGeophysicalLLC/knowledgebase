@@ -160,8 +160,8 @@ If needed, you can always order spare parts for your squeeze boxes! Just contact
 
 ## Accessories
 * Push Plate Assembly (<a href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/" target="_blank" rel="noopener noreferrer">10-0000187</a>)
-* Angle Deformation Blocks (<a href="" target="_blank" rel="noopener noreferrer">10-0000184</a>)
-* Complex Deformation Blocks (<a href="" target="_blank" rel="noopener noreferrer">10-0000185</a>)
+* Angle Deformation Blocks (<a href="https://leemangeophysical.com/product/angle-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000184</a>)
+* Complex Deformation Blocks (<a href="https://leemangeophysical.com/product/complex-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000185</a>)
 
 
 ## Revision History
