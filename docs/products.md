@@ -14,6 +14,7 @@
 * [Introduction](SMPL/smpl.md)
 * [Standard](SMPL/smpl_standard.md)
 * [DCDT Signal Conditioner](SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md)
+* [Cables](SMPL/smpl_cables.md)
 
 ## FieldVolt
 * [Standard](FieldVolt/field_volt_standard.md)
