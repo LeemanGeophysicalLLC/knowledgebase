@@ -1,7 +1,7 @@
 # SMPL DCDT Signal Conditioner
 
 <center>
-![cover photo of product.](product.png){: style="height:300px"}
+![cover photo of product.](product.png){: style="height:400px"}
 </center>
 
 This documentation covers part number <a href="https://leemangeophysical.com/product/smpl-dcdt-signal-conditioner/" target="_blank" rel="noopener noreferrer">7-0000133</a>

@@ -1,6 +1,6 @@
 # SMPL Load Cell Signal Conditioner
 <center>
-![Instrument cover photo.](product.png){: style="height:300px"}
+![Instrument cover photo.](product.png){: style="height:400px"}
 </center>
 
 This documentation covers part number <a href="https://leemangeophysical.com/product/smpl-load-cell-signal-conditioner/" target="_blank" rel="noopener noreferrer">7-0000132</a>
