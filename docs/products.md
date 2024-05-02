@@ -10,6 +10,10 @@
 ## Calibration
 * [Displacement Transducer Calibration System](Displacement_Transducer_Calibration_System/displacement_transducer_calibration_system.md)
 
+## SMPL
+* [Introduction](SMPL/smpl.md)
+* [Standard](SMPL/smpl_standard.md)
+* [DCDT Signal Conditioner](SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md)
 
 ## FieldVolt
 * [Standard](FieldVolt/field_volt_standard.md)
