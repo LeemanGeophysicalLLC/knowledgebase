@@ -27,9 +27,9 @@ correct alignment, calibration of the DCDTs will not be accurate due to cosine
 error. Typically misalignment showing greater than 0.002” will need to be
 corrected.   
 
-**Tools Needed:**
-* 0.5” and 1.0” Gauge Blocks
-* 1.27mm Hex Key
+**Tools Needed:**  
+* 0.5” and 1.0” Gauge Blocks  
+* 1.27mm Hex Key  
 
 1. Adjust the stage so that it is a small amount behind center using the
    adjustment screw, then zero the readout on the digital indicator.  
