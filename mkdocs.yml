@@ -257,10 +257,10 @@ nav:
     - SMPL:
       - Introduction: 'SMPL/smpl.md'
       - Standard: 'SMPL/smpl_standard.md'
+      - Cables: 'SMPL/smpl_cables.md'
       - DCDT Signal Conditioner: 'SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md'
     - Other:
       - Instrument Orientation Tool: 'Instrument_Orientation_Tool/instrument_orientation_tool.md'
-      - Cables: 'SMPL/smpl_cables.md'
     - FieldVolt:
       - Standard: 'FieldVolt/field_volt_standard.md'
       - Cables: 'FieldVolt/field_volt_cables.md'
