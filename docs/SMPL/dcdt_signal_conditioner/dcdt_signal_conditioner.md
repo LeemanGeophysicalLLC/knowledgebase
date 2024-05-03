@@ -1,6 +1,10 @@
-# DCDT Signal Conditioner
+# SMPL DCDT Signal Conditioner
 
-![cover photo of product](dcdt_signal_conditioner_cover_photo.png)
+<center>
+![cover photo of product.](product.png){: style="height:400px"}
+</center>
+
+This documentation covers part number <a href="https://leemangeophysical.com/product/smpl-dcdt-signal-conditioner/" target="_blank" rel="noopener noreferrer">7-0000133</a>
 
 DCDTs or Direct Current Displacement Transducers are a very precise way to
 measure the displacement in a system based on the movement of a magnetically
@@ -228,14 +232,16 @@ instrumentation amplifier and the +IN pin to the -IN terminal.
 *Input polarity of the transducer can be reversed by moving the solder bridges on the jumpers to the positions most inner to the centerline of the PCB.*
 </center>
 
-\paragraph{Input Filter Adjustment and Bypass}\mbox{}\\
-The mathematics of differential filters are discussed in the section on filtering and should be referenced
-if modification of the stock filter is required. The stock filter is a simple RC filter with a corner frequency for
-differential signals of 2.2kHz and a common mode corner frequency of 6.6kHz. For many displacement 
-applications these are well above the expected mechanical movement frequency of the system and simply
-help reduce noise on the signal from high frequency sources. In some systems they may need to be
-modified to meet the application's data acquisition requirements. To completely bypass the filters the filter 
-bypass jumpers by be bridged (FBp1 and FBp2). 
+\paragraph{Input Filter Adjustment and Bypass}\mbox{}\\  
+The mathematics of differential filters are discussed in the section on
+filtering and should be referenced if modification of the stock filter is
+required. The stock filter is a simple RC filter with a corner frequency for
+differential signals of 2.2kHz and a common mode corner frequency of 6.6kHz. For
+many displacement applications these are well above the expected mechanical
+movement frequency of the system and simply help reduce noise on the signal from
+high frequency sources. In some systems they may need to be modified to meet the
+application's data acquisition requirements. To completely bypass the filters
+the filter bypass jumpers by be bridged (FBp1 and FBp2). 
 
 <center>
 ![The input filter can be bypassed by bridging the connections on the jumpers labeled FBp1 and FBp2.](input_filter_bypass.png){: style="height:250px"}
@@ -360,5 +366,22 @@ with the output connection itself.
     <td>-</td>
     <td>-</td>
     <td>mm</td>
+  </tr>
+</table>
+
+## Accessories
+[SMPL Cables](../smpl_cables.md)   
+SMPL cables are the glue that holds the SMPL system together. These 4 pin cables are the backbone of the system and is based on the Molex Picoflex line of connectors.
+
+## Revisions
+<table>
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>May 2024</td>
+    <td>Moved Documentation to MkDocs Format</td>
   </tr>
 </table>

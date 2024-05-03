@@ -1,8 +1,9 @@
 # Tilt Meter Logger
 <center>
-![Instrument cover photo.](product.png){: style="height:250px"}
+![Instrument cover photo.](product.png){: style="height:300px"}
 </center>
-This documentation covers part number [10-0000041](https://leemangeophysical.com/product/ptm-tilt-meter-logger/).
+
+This documentation covers part number <a href="https://leemangeophysical.com/product/ptm-tilt-meter-logger/" target="_blank" rel="noopener noreferrer">10-0000041</a>
 
 ## Overview
 The tilt meter logger (TML) is designed to be coupled with the Leeman
@@ -77,9 +78,13 @@ the connected instrument, which is user configurable in the menu of the logger
 and tilt meter. We recommend powering the unit externally before connecting via
 USB.
 <center>
-![Control Panel Layout.](top_panel.png){: style="height:250px"}
+![Control Panel Layout.](top_panel.png){: style="height:400px"}
 </center>
 
+### Power
+Power for this device is provided by the
+[FieldVolt](../FieldVolt/field_volt_standard.md) system.  
+**Note** *Before Febuary of 2024, the power connector was Amphenol (1-0000777, PT02A-10-2S) with the mating connector (), but has since switch to the FieldVolt standard.*
 
 ## Specifications
 <table>
@@ -277,10 +282,10 @@ and/or circuit board may be damaged!
 The time should be set after the RTC battery has been changed or if it is deemed
 to have drifted unacceptably since the last time the unit was set. The time is
 set with the serial command SETTIME out outlined in the serial commands section.
-As an example, to set March 26, 2020 at 13:05:30 the command SETTIME 2020 03 26
-13 05 30 would be sent. The time is set at the moment the newline character is
-received. A message stating the setting was successful or if there was an error
-will be returned to the serial prompt.
+As an example, to set March 26, 2020 at 13:05:30 the command <code>SETTIME 2020
+03 26 13 05 30</code> would be sent. The time is set at the moment the newline
+character is received. A message stating the setting was successful or if there
+was an error will be returned to the serial prompt.
 
 ### Deployment
 Every deployment is different, but this procedure seeks to provide a guideline
@@ -413,10 +418,15 @@ to be observed.
 </center>
 
 ## Accessories
-### Power Cable 7-0000123
+### FieldVolt 
+[Power Cables](../FieldVolt/field_volt_cables.md)
 An extra potted power cable for the tilt meter logger is great to have for
 pre-installation preparations on-site or as a spare if a cable is destroyed by a
 stray knife or wildlife
+
+### SD Card 
+<a href="https://leemangeophysical.com/product/5-x-32gb-micro-sd-card/" target="_blank" rel="noopener noreferrer">10-0000170</a>  
+This 5 pack of cards gives you some field spares and with 32GB of storage each, plenty of room for most datasets. Don’t get caught out during a deployment with too few cards or needing to pull off data and replace in the field.
 
 ## Revision History
 | Revision | Date         | Changes                             |
@@ -424,4 +434,4 @@ stray knife or wildlife
 | 1.0      | January 2022 | Initial Release                     |
 | 1.1      | January 2023 | Update for newest PCBs and firmware |
 | 1.2      | February 2023| Hyperlink table of contents         |
-| 1.3      | April 2024   | Moved Documentation to MKDocs Format|
+| 1.3      | April 2024   | Moved Documentation to MkDocs Format|

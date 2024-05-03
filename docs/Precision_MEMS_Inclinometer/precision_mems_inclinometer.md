@@ -2,6 +2,7 @@
 <center>
 ![Instrument cover photo.](product.png){: style="height:250px"}
 </center>
+
 This documentation covers part number [10-0000042](https://leemangeophysical.com/product/mems-inclinometer/).
 
 ## Overview
@@ -490,7 +491,7 @@ is applied to this reading.
 
 ### Tilt Interpretation
 Tilt can be subject to many technical factors as well as the environmental tilt.
-Leeman Geophysical has [application notes](appnotes.md) on many of these topics
+Leeman Geophysical has [application notes](../appnotes.md) on many of these topics
 and can assist you in determining which factors may need to be accounted for in
 your data. The list below is intended to help plan your field deployment
 strategy and guide your analysis. For most analyses under $\pm30^\circ$ the
