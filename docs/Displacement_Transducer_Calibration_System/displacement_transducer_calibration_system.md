@@ -37,7 +37,7 @@ corrected.
 1. Gently pull back the quill and place the 0.5” gauge block as shown. Make sure
    the surfaces of the block are clean.
     <center>
-    ![Setting Gauge Block.](Astep2image.png){: style="height:300px"}
+    ![Setting Gauge Block.](Astep2Image.png){: style="height:300px"}
     </center>
     
 1. Note the measurement shown on the readout. In the image above the block is
