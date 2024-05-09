@@ -322,7 +322,7 @@ applications representative for guidance on your specific application.
 1. Connect the unit to a computer with a programming cable (preferably prior to
 going to the field) and configure the desired settings.
 
-1.Ensure the time setting is correct and the coin cell backup battery is
+1. Ensure the time setting is correct and the coin cell backup battery is
 installed. (We recommend a yearly change if the unit is in storage.)
 
 1. If data are to be logged internally, ensure there is a microSD card (FAT16

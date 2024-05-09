@@ -56,19 +56,29 @@ geophysical field equipment. Much of this equipment has low current requirements
 as it is meant to be battery/solar operated for long periods of time and this
 standard was designed with this in mind.
 
-The 12 VDC standard provides the following assurances:
-* Be capable of providing 5A (peak) DC current at operating voltage
-* Ensure 2% or less voltage drop over 5 meters of cable length at peak load
-* Providing battery safe charging (i.e. over/under voltage protection)
-* Providing fused or otherwise current protected outputs from power sources
+The 12 VDC standard provides the following assurances:  
+
+* Be capable of providing 5A (peak) DC current at operating voltage  
+
+* Ensure 2% or less voltage drop over 5 meters of cable length at peak load  
+
+* Providing battery safe charging (i.e. over/under voltage protection)  
+
+* Providing fused or otherwise current protected outputs from power sources  
+
 
 Instruments connecting to 12 VDC field power should conform to the automotive industry
-operating standards at minimum:
-* Operate down to 11 VDC or better
-* Operate on 12 VDC nominal voltage
-* Operate up to 14.3 VDC or better
-* Tolerate a maximum continuous overvoltage of 16 VDC or better
-* Tolerate a maximum dynamic overvoltage of 20 VDC or better
+operating standards at minimum:  
+
+* Operate down to 11 VDC or better  
+
+* Operate on 12 VDC nominal voltage  
+
+* Operate up to 14.3 VDC or better  
+
+* Tolerate a maximum continuous overvoltage of 16 VDC or better  
+
+* Tolerate a maximum dynamic overvoltage of 20 VDC or better  
 
 ## Power Connectors
 Instrument power connections use a 4-pin PT series Amphenol Industrial connector of

@@ -27,9 +27,9 @@ correct alignment, calibration of the DCDTs will not be accurate due to cosine
 error. Typically misalignment showing greater than 0.002” will need to be
 corrected.   
 
-**Tools Needed:**
-* 0.5” and 1.0” Gauge Blocks
-* 1.27mm Hex Key
+**Tools Needed:**  
+* 0.5” and 1.0” Gauge Blocks  
+* 1.27mm Hex Key  
 
 1. Adjust the stage so that it is a small amount behind center using the
    adjustment screw, then zero the readout on the digital indicator.  
@@ -37,7 +37,7 @@ corrected.
 1. Gently pull back the quill and place the 0.5” gauge block as shown. Make sure
    the surfaces of the block are clean.
     <center>
-    ![Setting Gauge Block.](Astep2image.png){: style="height:300px"}
+    ![Setting Gauge Block.](Astep2Image.png){: style="height:300px"}
     </center>
     
 1. Note the measurement shown on the readout. In the image above the block is
