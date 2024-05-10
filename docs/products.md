@@ -13,8 +13,8 @@
 ## SMPL
 * [Introduction](SMPL/smpl.md)
 * [Standard](SMPL/smpl_standard.md)
-* [DCDT Signal Conditioner](SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md)
 * [Accessories](SMPL/accessories.md)
+* [DCDT Signal Conditioner](SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md)
 
 ## FieldVolt
 * [Standard](FieldVolt/field_volt_standard.md)
