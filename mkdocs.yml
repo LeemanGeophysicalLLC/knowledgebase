@@ -257,7 +257,7 @@ nav:
     - SMPL:
       - Introduction: 'SMPL/smpl.md'
       - Standard: 'SMPL/smpl_standard.md'
-      - Cables: 'SMPL/smpl_cables.md'
+      - Accessories: 'SMPL/accessories.md'
       - DCDT Signal Conditioner: 'SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md'
     - Other:
       - Instrument Orientation Tool: 'Instrument_Orientation_Tool/instrument_orientation_tool.md'
