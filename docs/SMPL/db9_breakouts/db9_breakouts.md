@@ -27,7 +27,7 @@ damage to Leeman Geophysical for replacement.
 
 * SMPL DB9 breakout PCB Assembly
 
-### Tool Requirments
+### Tool Requirements
 * Soldering Iron  
 
 * Solder  
