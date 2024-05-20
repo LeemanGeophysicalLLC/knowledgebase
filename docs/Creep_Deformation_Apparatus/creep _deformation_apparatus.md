@@ -234,7 +234,13 @@ classroom! Don’t run out mid-semester. We custom cast each core in-house to
 ensure a consistent and quality lab experience for your students.
 
 ## Revision History
+
 <table>
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+  
   <tr>
     <td>April 2024</td>
     <td>Moved Various Documentation to MkDocs Format</td>
