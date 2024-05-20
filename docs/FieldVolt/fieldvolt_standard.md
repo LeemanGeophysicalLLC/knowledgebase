@@ -43,11 +43,11 @@ is applied to should be used.
 ![Examples of the logo.](fieldvolt_logo_examples.png)
 </center>
 
-<a href="../FieldVolt_Logo.svg" download>FieldVolt Logo</a>
+<a href="../fieldvolt_logo.svg" download>FieldVolt Logo</a>
 
-<a href="../FieldVolt_Logo_Dark_Circle.svg" download>FieldVolt Logo in Dark Cricle</a>
+<a href="../fieldvolt_logo_dark_Circle.svg" download>FieldVolt Logo in Dark Cricle</a>
 
-<a href="../FieldVolt_Logo_border.svg" download>FieldVolt Logo in Border</a>
+<a href="../fieldvolt_logo_border.svg" download>FieldVolt Logo in Border</a>
 
 
 ## 12 VDC Field Power

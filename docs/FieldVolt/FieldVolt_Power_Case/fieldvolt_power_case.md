@@ -93,38 +93,6 @@ usage notes.
   </tr>
 
   <tr>
-    <td colspan="5" bgcolor="gray"><b>DC Input</b></td>
-  </tr>
-
-  <tr>
-    <td>Voltage</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>VDC</td>
-  </tr>
-
-  <tr>
-    <td>Current</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>mA</td>
-  </tr>
-
-  <tr>
-    <td colspan="5" bgcolor="gray"><b>Environmental</b></td>
-  </tr>
-
-  <tr>
-    <td>Operating Temperature</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>&#8451;</td>
-  </tr>
-
-  <tr>
     <td colspan="5" bgcolor="gray"><b>Physcial</b></td>
   </tr>
 
