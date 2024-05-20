@@ -83,7 +83,7 @@ USB.
 
 ### Power
 Power for this device is provided by the
-[FieldVolt](../FieldVolt/field_volt_standard.md) system.  
+[FieldVolt](../FieldVolt/fieldvolt_standard.md) system.  
 **Note** *Before Febuary of 2024, the power connector was Amphenol (1-0000777, PT02A-10-2S) with the mating connector (), but has since switch to the FieldVolt standard.*
 
 ## Specifications
@@ -419,7 +419,7 @@ to be observed.
 
 ## Accessories
 ### FieldVolt 
-[Power Cables](../FieldVolt/field_volt_cables.md)
+[Power Cables](../FieldVolt/fieldvolt_cables.md)
 An extra potted power cable for the tilt meter logger is great to have for
 pre-installation preparations on-site or as a spare if a cable is destroyed by a
 stray knife or wildlife

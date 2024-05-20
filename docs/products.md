@@ -17,6 +17,8 @@
 * [DCDT Signal Conditioner](SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md)
 
 ## FieldVolt
-* [Standard](FieldVolt/field_volt_standard.md)
-* [Cables](FieldVolt/field_volt_cables.md)
-* [Solar Panels](FieldVolt/field_volt_solar_panels.md)
+* [Standard](FieldVolt/fieldvolt_standard.md)
+* [Cables](FieldVolt/fieldvolt_cables.md)
+* [Solar Panels](FieldVolt/fieldvolt_solar_panels.md)
+* [Accessories](FieldVolt/fieldvolt_accessories.md)
+* [Power Case](FieldVolt/FieldVolt_Power_Case/fieldvolt_power_case.md)
