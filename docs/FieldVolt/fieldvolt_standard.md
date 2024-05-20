@@ -40,7 +40,7 @@ and plain are provided and the one providing the most contrast on the surface it
 is applied to should be used.
 
 <center>
-![Examples of the logo.](field_volt_logo_examples.png)
+![Examples of the logo.](fieldvolt_logo_examples.png)
 </center>
 
 <a href="../FieldVolt_Logo.svg" download>FieldVolt Logo</a>

@@ -9,7 +9,7 @@ target="_blank" rel="noopener noreferrer">10-0000181</a>
 
 ## Overview
 Empower your field operations with the FieldVolt Power Case, the cornerstone of
-the [FieldVolt system](../field_volt_standard.md). Designed to simplify the daunting task of powering your
+the [FieldVolt system](../fieldvolt_standard.md). Designed to simplify the daunting task of powering your
 equipment in the field, our system ensures seamless operation for any data
 collection endeavor or field project.
 
@@ -199,7 +199,7 @@ usage notes.
 </table>
 
 ### Outside Connectors
-On the outside of the device there are two connectors that follow the [FieldVolt standard](../field_volt_standard.md)  
+On the outside of the device there are two connectors that follow the [FieldVolt standard](../fieldvolt_standard.md)  
 
 * Solar Panel In  
 
@@ -214,11 +214,11 @@ On the outside of the device there are two connectors that follow the [FieldVolt
 noreferrer">![Schematic.](schematic.png){: style="height:450px"}</a>
 
 ## Accessories 
-* [Cables](../field_volt_cables.md)  
+* [Cables](../fieldvolt_cables.md)  
 
-* [Solar Panels](../field_volt_solar_panels.md)
+* [Solar Panels](../fieldvolt_solar_panels.md)
 
-* [Accessories](../field_volt_accessories.md)
+* [Accessories](../fieldvolt_accessories.md)
 
 ## Revisions
 <table>
