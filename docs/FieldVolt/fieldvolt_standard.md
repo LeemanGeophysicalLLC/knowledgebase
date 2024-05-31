@@ -178,8 +178,8 @@ to protect both systems.
     <td>Wire connector for charging source such as a solar panel, AC adapter, etc.</td>
   </tr>
   <tr>
-    <td>1-0001511</td>
-    <td>PT06E-12-3P(SR)</td>
+    <td>1-0001592</td>
+    <td>PT01E12-3P-SR</td>
     <td>Wire connector for charging receiver such as solar charge controller</td>
   </tr>
   <tr>
