@@ -116,27 +116,27 @@ shell size 12. Common connectors and the pinout are listed below.
   <tr>
     <td>1-0001497</td>
     <td>PT06E-12-4S(SR)</td>
-    <td>Wire connector for power source such as battery.</td>
+    <td>Wire connector that connects to a FieldVolt ready instrument power input</td>
   </tr>
   <tr>
     <td>1-0001496</td>
     <td>PT06E-12-4P(SR)</td>
-    <td>Wire connector for a power consumer such as a data logger.</td>
+    <td>Wire connector that connects to a FieldVolt power source power output</td>
   </tr>
   <tr>
     <td>1-0001495</td>
     <td>PT02A-12-4S</td>
-    <td>Panel mounted connector for a power source such as a battery box.</td>
+    <td>Panel mounted connector that would be used as a FieldVolt power source power output</td>
   </tr>
   <tr>
     <td>1-0001510</td>
     <td>PT02A-12-4P</td>
-    <td>Panel mounted connector for a power consumer such as an instrument.</td>
+    <td>Panel mounted connector that would be used as a FieldVolt ready instrument power input</td>
   </tr>
   <tr>
     <td>1-0001504</td>
     <td>PT01E12-4S(SR)</td>
-    <td>Wire mounted extension connector for extension cables</td>
+    <td>Wire mounted connector that would be used as a FieldVolt power source power output</td>
   </tr>
 </table>
 
@@ -181,11 +181,6 @@ to protect both systems.
     <td>1-0001511</td>
     <td>PT06E-12-3P(SR)</td>
     <td>Wire connector for charging receiver such as solar charge controller</td>
-  </tr>
-  <tr>
-    <td>1-0001512</td>
-    <td>PT02A-12-3S</td>
-    <td>Panel mounted connector for a charging source</td>
   </tr>
   <tr>
     <td>1-0001494</td>
