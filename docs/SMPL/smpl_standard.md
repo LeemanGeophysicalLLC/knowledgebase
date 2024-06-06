@@ -199,13 +199,8 @@ of those encountered in our labs and industrial environments. Now, with our [DB9
 breakouts](./db9_breakouts/db9_breakouts.md), you can effortlessly connect any
 DB9 to any 4-pin SMPL device, expanding compatibility across your equipment.  
 
+### DCDT
 <table>
-  <tr bgcolor="gray">
-    <td><b>DCDT</b></td>
-    <td><b></b></td>
-    <td><b></b></td>
-    <td><b></b></td>
-  </tr>
   <tr bgcolor="gray">
     <td><b>Wire Color</b></td>
     <td><b>SMPL Pin</b></td>
@@ -244,13 +239,8 @@ DB9 to any 4-pin SMPL device, expanding compatibility across your equipment.
   </tr>
 </table>
 
+### Load Cell
 <table>
-  <tr bgcolor="gray">
-    <td><b>Load Cell</b></td>
-    <td><b></b></td>
-    <td><b></b></td>
-    <td><b></b></td>
-  </tr>
   <tr bgcolor="gray">
     <td><b>Wire Color</b></td>
     <td><b>SMPL Pin</b></td>
