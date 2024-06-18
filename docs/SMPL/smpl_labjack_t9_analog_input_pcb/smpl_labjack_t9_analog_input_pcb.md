@@ -5,7 +5,7 @@
 
 This documentation covers The following part numbers:  
 
-* <a href="insert link" target="_blank" rel="noopener noreferrer">7-0000197</a>
+* <a href="https://leemangeophysical.com/product/smpl-labjack-t8-analog-input-pcb/" target="_blank" rel="noopener noreferrer">7-0000197</a>
 
 ## Overview
 The LabJack T8 Analog Input PCB is designed to breakout the analog output from
