@@ -15,6 +15,12 @@
 * [Standard](SMPL/smpl_standard.md)
 * [Accessories](SMPL/accessories.md)
 * [DCDT Signal Conditioner](SMPL/dcdt_signal_conditioner/dcdt_signal_conditioner.md)
+* [Load Cell Signal Conditioner](SMPL/load_cell_signal_conditioner/load_cell_signal_conditioner.md)
+* [DB9 Breakouts](SMPL/db9_breakouts/db9_breakouts.md)
+* [Power Bus](SMPL/smpl_power_bus/smpl_power_bus.md)
+* [Compact 4 Pin Breakout](SMPL/smpl_compact_4pin_breakout/smpl_compact_4pin_breakout.md)
+* [Labjack T8 Analog Input PCB](SMPL/smpl_labjack_t8_analog_input_pcb/smpl_labjack_t8_analog_input_pcb.md)
+* [Type K Thermocouple Amplifier](SMPL/smpl_type_k_thermocouple_amplifier/smpl_type_k_thermocouple_amplifier.md)
 
 ## FieldVolt
 * [Standard](FieldVolt/fieldvolt_standard.md)
@@ -25,7 +31,7 @@
 
 ## Orange EDU
 * [Spring Slider Earthquake Machine](Spring_Slider_Earthquake_Machine/spring_slider_earthquake_machine.md)
-* [Geologist’s Squeeze Box](Geologists_Squeeze_Box/geologist_squeeze_box.md)
+* [Geologist's Squeeze Box](Geologists_Squeeze_Box/geologist_squeeze_box.md)
 * [Creep Deformation Apparatus](Creep_Deformation_Apparatus/creep_deformation_apparatus.md)
 
 ## Other
