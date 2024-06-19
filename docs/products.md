@@ -22,3 +22,11 @@
 * [Solar Panels](FieldVolt/fieldvolt_solar_panels.md)
 * [Accessories](FieldVolt/fieldvolt_accessories.md)
 * [Power Case](FieldVolt/FieldVolt_Power_Case/fieldvolt_power_case.md)
+
+## Orange EDU
+* [Spring Slider Earthquake Machine](Spring_Slider_Earthquake_Machine/spring_slider_earthquake_machine.md)
+* [Geologist’s Squeeze Box](Geologists_Squeeze_Box/geologist_squeeze_box.md)
+* [Creep Deformation Apparatus](Creep_Deformation_Apparatus/creep_deformation_apparatus.md)
+
+## Other
+* [Instrument Orientation Tool](Instrument_Orientation_Tool/instrument_orientation_tool.md)
