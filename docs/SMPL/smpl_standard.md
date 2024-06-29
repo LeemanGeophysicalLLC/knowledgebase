@@ -191,3 +191,90 @@ Note - optional jumper to connect C to ground making this equivalent to the sing
     <td>+ Input</td>
   </tr>
 </table>
+
+## Recommended DB9 Pinouts
+We love using DB9 connectors to interface a variety of sensors to our systems.
+They are inexpensive, robust, and work great for low frequency signals like many
+of those encountered in our labs and industrial environments. Now, with our [DB9
+breakouts](./db9_breakouts/db9_breakouts.md), you can effortlessly connect any
+DB9 to any 4-pin SMPL device, expanding compatibility across your equipment.  
+
+### DCDT
+<table>
+  <tr bgcolor="gray">
+    <td><b>Wire Color</b></td>
+    <td><b>SMPL Pin</b></td>
+    <td><b>DB9 Pin</b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+    <td>Black</td>
+    <td>A</td>
+    <td>4</td>
+    <td>GND</td>
+  </tr>
+  <tr>
+    <td>White</td>
+    <td>B</td>
+    <td>8</td>
+    <td>-Input</td>
+  </tr>
+  <tr>
+    <td>Red</td>
+    <td>C</td>
+    <td>2</td>
+    <td>Excitation</td>
+  </tr>
+  <tr>
+    <td>Green</td>
+    <td>D</td>
+    <td>7</td>
+    <td>+Input</td>
+  </tr>
+  <tr>
+    <td>Shield</td>
+    <td>S</td>
+    <td>3</td>
+    <td>Shield to Case GND</td>
+  </tr>
+</table>
+
+### Load Cell
+<table>
+  <tr bgcolor="gray">
+    <td><b>Wire Color</b></td>
+    <td><b>SMPL Pin</b></td>
+    <td><b>DB9 Pin</b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+    <td>Black</td>
+    <td>A</td>
+    <td>5</td>
+    <td>-Excitation(GND)</td>
+  </tr>
+  <tr>
+    <td>White</td>
+    <td>B</td>
+    <td>9</td>
+    <td>-Input</td>
+  </tr>
+  <tr>
+    <td>Red</td>
+    <td>C</td>
+    <td>1</td>
+    <td>+Excitation</td>
+  </tr>
+  <tr>
+    <td>Green</td>
+    <td>D</td>
+    <td>6</td>
+    <td>+Input</td>
+  </tr>
+  <tr>
+    <td>Shield</td>
+    <td>S</td>
+    <td>3</td>
+    <td>Shield to Case GND</td>
+  </tr>
+</table>
