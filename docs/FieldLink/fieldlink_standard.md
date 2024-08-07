@@ -1,5 +1,25 @@
 # FieldLink Instrument Connector Standard
-## Instrument Connector Pinout
+
+## FieldLink Connectors
+<table>
+  <tr bgcolor="gray">
+    <td><b>Leeman Geo P/N</b></td>
+    <td><b>Manufacturer P/N</b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+    <td>1-0001199</td>
+    <td>UTS012E10S</td>
+    <td>Panel mount connector for FieldLink data acquisition device</td>
+  </tr>
+  <tr>
+    <td>1-0001123</td>
+    <td>UTS6JC12E10P</td>
+    <td>Wire connector for FieldLink instrument</td>
+  </tr>
+</table>
+
+## Connector Pinout
 <table>
   <tr bgcolor="gray">
     <td><b>Pin</b></td>
