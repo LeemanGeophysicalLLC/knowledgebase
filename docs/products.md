@@ -33,6 +33,7 @@
 * [Spring Slider Earthquake Machine](Spring_Slider_Earthquake_Machine/spring_slider_earthquake_machine.md)
 * [Geologist's Squeeze Box](Geologists_Squeeze_Box/geologist_squeeze_box.md)
 * [Creep Deformation Apparatus](Creep_Deformation_Apparatus/creep_deformation_apparatus.md)
+* [Waveform Blinky Kit](Waveform_Blinky/waveform_blinky.md)
 
 ## Other
 * [Instrument Orientation Tool](Instrument_Orientation_Tool/instrument_orientation_tool.md)
