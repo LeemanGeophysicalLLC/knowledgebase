@@ -107,38 +107,40 @@ shell size 12. Common connectors and the pinout are listed below.
   </tr>
 </table>
 
-<table>
-  <tr bgcolor="gray">
-    <td><b>Leeman Geo P/N</b></td>
-    <td><b>Amphenol P/N</b></td>
-    <td><b>Description</b></td>
-  </tr>
-  <tr>
-    <td>1-0001497</td>
-    <td>PT06E-12-4S(SR)</td>
-    <td>Wire connector that connects to a FieldVolt ready instrument power input</td>
-  </tr>
-  <tr>
-    <td>1-0001496</td>
-    <td>PT06E-12-4P(SR)</td>
-    <td>Wire connector that connects to a FieldVolt power source power output</td>
-  </tr>
-  <tr>
-    <td>1-0001495</td>
-    <td>PT02A-12-4S</td>
-    <td>Panel mounted connector that would be used as a FieldVolt power source power output</td>
-  </tr>
-  <tr>
-    <td>1-0001510</td>
-    <td>PT02A-12-4P</td>
-    <td>Panel mounted connector that would be used as a FieldVolt ready instrument power input</td>
-  </tr>
-  <tr>
-    <td>1-0001504</td>
-    <td>PT01E12-4S(SR)</td>
-    <td>Wire mounted connector that would be used as a FieldVolt power source power output</td>
-  </tr>
-</table>
+<b>Leeman Geo P/N:</b> 1-0001497  
+<b>Amphenol P/N:</b> PT06E-12-4S(SR)  
+<b>Description:</b> Wire connector that connects to a FieldVolt ready instrument power input.  
+<center>
+![PT06E-12-4S(SR)](PT06E-12-4S(SR).png)
+</center>
+
+<b>Leeman Geo P/N:</b> 1-0001496  
+<b>Amphenol P/N:</b> PT06E-12-4P(SR)  
+<b>Description:</b> Wire connector that connects to a FieldVolt power source power output.  
+<center>
+![PT06E-12-4P(SR)](PT06E-12-4P(SR).png)
+</center>
+
+<b>Leeman Geo P/N:</b> 1-0001495  
+<b>Amphenol P/N:</b> PT02A-12-4S  
+<b>Description:</b> Panel mounted connector that would be used as a FieldVolt power source power output.  
+<center>
+![PT02A-12-4S](PT02A-12-4S.png)
+</center>
+
+<b>Leeman Geo P/N:</b> 1-0001510  
+<b>Amphenol P/N:</b> PT02A-12-4P  
+<b>Description:</b> Panel mounted connector that would be used as a FieldVolt ready instrument power input.  
+<center>
+![PT02A-12-4P](PT02A-12-4P.png)
+</center>
+
+<b>Leeman Geo P/N:</b> 1-0001504  
+<b>Amphenol P/N:</b> PT01E12-4S(SR)  
+<b>Description:</b> Panel mounted connector that would be used as a FieldVolt ready instrument power input.  
+<center>
+![PT01E12-4S(SR)](PT01E12-4S(SR).png)
+</center>
 
 ## Charging Connectors
 Charging connections use a 3-pin PT series Amphenol Industrial connector of
@@ -166,28 +168,26 @@ to protect both systems.
   </tr>
 </table>
 
-<table>
-  <tr bgcolor="gray">
-    <td><b>Leeman Geo P/N</b></td>
-    <td><b>Amphenol P/N</b></td>
-    <td><b>Description</b></td>
-  </tr>
-  <tr>
-    <td>1-0000963</td>
-    <td>PT06E-12-3S(SR)</td>
-    <td>Wire connector for charging source such as a solar panel, AC adapter, etc.</td>
-  </tr>
-  <tr>
-    <td>1-0001592</td>
-    <td>PT01E12-3P-SR</td>
-    <td>Wire connector for charging receiver such as solar charge controller</td>
-  </tr>
-  <tr>
-    <td>1-0001494</td>
-    <td>PT02A-12-3P</td>
-    <td>Panel mounted connector to receive charging source</td>
-  </tr>
-</table>
+<b>Leeman Geo P/N:</b> 1-0000963  
+<b>Amphenol P/N:</b> PT06E-12-3S(SR)  
+<b>Description:</b> Wire connector for charging source such as a solar panel, AC adapter, etc.  
+<center>
+![PT06E-12-3S(SR)](PT06E-12-3S(SR).png)
+</center>
+
+<b>Leeman Geo P/N:</b> 1-0001592  
+<b>Amphenol P/N:</b> PT01E12-3P-SR  
+<b>Description:</b> Wire connector for charging receiver such as solar charge controller.  
+<center>
+![PT01E12-3P-SR](PT01E12-3P-SR.png)
+</center>
+
+<b>Leeman Geo P/N:</b> 1-0001494  
+<b>Amphenol P/N:</b> PT02A-12-3P  
+<b>Description:</b> Panel mounted connector to receive charging source.  
+<center>
+![PT02A-12-3P](PT02A-12-3P.png)
+</center>
 
 ## Future
 As the need for alternative voltage systems arises (high voltage DC downhole
