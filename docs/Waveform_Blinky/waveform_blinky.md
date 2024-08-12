@@ -194,7 +194,7 @@ Black -> -In
 As soon as a power supply is applied to this circuit, the Waveform blinky begins
 to alternate the lighting of two LEDs. This circuit utilizes some clever analog
 design tricks to do this with no programming and no computer. In this case,
-there a total of 6 operation amplifiers (Op-Amps) serving to generate a sign
+there are a total of 6 operation amplifiers (Op-Amps) serving to generate a sign
 wave, buffer it, and read the signal with a comparator to produces an
 alternating output to activate the two lights. Op-Amps are a versatile component
 used in many electronics. Simply by changing the configuration of the components
