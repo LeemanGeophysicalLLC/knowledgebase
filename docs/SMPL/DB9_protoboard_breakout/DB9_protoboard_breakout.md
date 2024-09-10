@@ -41,12 +41,12 @@ damage to Leeman Geophysical for replacement.
 ## Configuration
 ### DB9 Pin Connection Points
 <center>
-![DB9 Connection points.](db9_connection_points.png){: style="height:300px"}
+![DB9 Connection points.](DB9_connection_points.png){: style="height:300px"}
 </center>
 
 ### DB9 Pin Configuration 
 <center>
-![DB9 Pinout.](db9_pinout.png){: style="height:300px"}
+![DB9 Pinout.](DB9_pinout.png){: style="height:300px"}
 </center>
 
 ## Revisions
@@ -57,7 +57,7 @@ damage to Leeman Geophysical for replacement.
   </tr>
 
   <tr>
-    <td>August 2024</td>
+    <td>September 2024</td>
     <td>Initial Release</td>
   </tr>
 </table>
