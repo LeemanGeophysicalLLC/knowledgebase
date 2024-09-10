@@ -301,4 +301,4 @@ DB9 to any 4-pin SMPL device, expanding compatibility across your equipment.
     <td>3</td>
     <td>Shield to Case GND</td>
   </tr>
-
+</table>
