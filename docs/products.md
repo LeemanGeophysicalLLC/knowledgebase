@@ -21,6 +21,7 @@
 * [Compact 4 Pin Breakout](SMPL/smpl_compact_4pin_breakout/smpl_compact_4pin_breakout.md)
 * [Labjack T8 Analog Input PCB](SMPL/smpl_labjack_t8_analog_input_pcb/smpl_labjack_t8_analog_input_pcb.md)
 * [Type K Thermocouple Amplifier](SMPL/smpl_type_k_thermocouple_amplifier/smpl_type_k_thermocouple_amplifier.md)
+* [BNC Breakout](SMPL/smpl_bnc_breakout/smpl_bnc_breakout.md)
 
 ## FieldVolt
 * [Standard](FieldVolt/fieldvolt_standard.md)
