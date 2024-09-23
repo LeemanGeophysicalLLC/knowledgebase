@@ -208,6 +208,9 @@ conditions of the run such as *run1_velocity5_waterbottle_spring3.txt*.
 Matlab, or many others.
 
 ### Sandpaper Replacement
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TO0DR-q2HIo?si=LVgbGrSA3hp0D7vp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 As experiments are run on the Spring-Slider Apparatus, the sand paper used will
 wear and require replacing for the best results. This product comes with three
 grits of 48" X 4.5" adhesive backed sand paper strips. Replacement strips are
