@@ -6,6 +6,7 @@
 This documentation covers part number <a href="https://leemangeophysical.com/product/4-channel-rtd-interface/" target="_blank" rel="noopener noreferrer">10-0000094</a>
 
 ## Overview
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLTAvKwgbyM?si=rSzFk3JiC2Z1cbj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Resistance temperature detectors (RTDs) are precision temperature measurement
 devices whose resistance varies with the temperature of the probe. RTDs are
 generally used for higher resolution measurement of smaller temper- ature ranges
@@ -148,6 +149,7 @@ outer insulator as this can cause high resistance and intermittent connections.
 </center>
 
 ### 2-Wire RTD
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aefI0LOUEeE?si=_480MsUSaoirukod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Two wire RTDs are the simplest, though least accurate RTD model available. The
 two wires carry the excitation current and are used to measure the RTD voltage.
 Therefore some of the lead resistance is included in the mea- surement, so
@@ -162,6 +164,7 @@ are then inserted between Force - and RTD - as well as between Force + and RTD
 </center>
 
 ### 3-Wire RTD
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aefI0LOUEeE?si=_480MsUSaoirukod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Three wire RTDs are more accurate than two wire RTDs as lead resistance concerns
 are partially mitigated by the third conductor in the system. First, determine
 which two of the three wires are connected together and which is the third wire.
@@ -176,6 +179,7 @@ into the RTD + terminal. Insert the third wire into Force - and install a jumper
 </center>
 
 ### 4-Wire RTD
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xx2qlZ043Jc?si=aS6BRBPN7YG7nzoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Four wire RTDs are the most accurate RTD configuration and removes most lead
 resistance errors. Two wires are connected to each end of the resistance element
 in the sensor probe. Determine which wires are paired by measuring resistance
