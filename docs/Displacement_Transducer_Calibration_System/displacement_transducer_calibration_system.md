@@ -155,3 +155,18 @@ A video of this process is available on our website or here.
     <center>
     ![Complete Calibration Curve](Bstep12image.png){: style="height:300px"}
     </center>
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>
