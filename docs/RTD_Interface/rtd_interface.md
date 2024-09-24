@@ -169,7 +169,7 @@ are then inserted between Force - and RTD - as well as between Force + and RTD
 
 ### 3-Wire RTD
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aefI0LOUEeE?si=_480MsUSaoirukod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hL9akTdZ0I4?si=calaDq49N5N-4ZqD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 Three wire RTDs are more accurate than two wire RTDs as lead resistance concerns
 are partially mitigated by the third conductor in the system. First, determine
