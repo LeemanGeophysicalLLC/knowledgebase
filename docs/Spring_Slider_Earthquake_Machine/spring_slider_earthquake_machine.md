@@ -208,8 +208,9 @@ conditions of the run such as *run1_velocity5_waterbottle_spring3.txt*.
 Matlab, or many others.
 
 ### Sandpaper Replacement
-
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TO0DR-q2HIo?si=LVgbGrSA3hp0D7vp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 As experiments are run on the Spring-Slider Apparatus, the sand paper used will
 wear and require replacing for the best results. This product comes with three
@@ -377,18 +378,23 @@ grit (2-0000240). Don’t forget to stock up as sand paper is a consumable!
   </tr>
 
   <tr>
-    <td>May 2022</td>
-    <td>Initial Release</td>
-  </tr>
-
-  <tr>
-    <td>Febuary 2023</td>
-    <td>Update company address</td>
+    <td>September 2024</td>
+    <td>Added video of sandpaper replacement</td>
   </tr>
 
   <tr>
     <td>April 2024</td>
     <td>Moved Documentation to MkDocs Format</td>
   </tr>
+
+  <tr>
+    <td>Febuary 2023</td>
+    <td>Update company address</td>
+  </tr>
+  
+  <tr>
+    <td>May 2022</td>
+    <td>Initial Release</td>
+  </tr>  
 </table>
 
