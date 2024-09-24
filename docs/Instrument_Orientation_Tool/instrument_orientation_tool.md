@@ -124,3 +124,18 @@ connections. Replace the batteries.
 materials or mis-alignment of the tool. Verify that all magnetic materials are
 removed from the immediate measurement area and that the alignment of the tool
 is correct.
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>
