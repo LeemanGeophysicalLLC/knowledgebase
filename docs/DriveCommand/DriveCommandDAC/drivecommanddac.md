@@ -583,3 +583,18 @@ when at the extreme values for flashing to occur.
 * Voltmeter range may be set incorrectly. Set the voltmeter range using dip
   switches on the back following the configuration table.
 * Unit may be out of calibration - recalibrate the DAC.
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>
