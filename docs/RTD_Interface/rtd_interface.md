@@ -456,7 +456,7 @@ possible and allow for rapid swap out of sensing elements.
 
 ### 5 Position Plug-In Terminal Block 
 <a href="https://leemangeophysical.com/product/5-position-terminal-block-plug-female-sockets/" target="_blank" rel="noopener noreferrer">1-0001149</a>   
-Extra 4 position terminal blocks make having spare pre-wired RTDs on hand
+Extra 5 position terminal blocks make having spare pre-wired RTDs on hand
 possible and allow for rapid swap out of sensing elements.
 
 ## Revision History
