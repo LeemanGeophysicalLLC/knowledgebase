@@ -33,6 +33,9 @@ damage to Leeman Geophysical for replacement.
 ## Controls and Indicators
 
 ### Front Panel
+<center>
+![Labeled Front Panel](FrontPanel.png){: style="height:350px"}
+</center>
 **LCD Screen** - A 4x20 character LCD with backlight shows the current rate of
 change, calibration in use, limits, and signal type. The screen is also used for
 setting parameters of the device.
