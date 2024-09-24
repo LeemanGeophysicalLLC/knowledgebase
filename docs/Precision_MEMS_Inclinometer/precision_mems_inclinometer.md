@@ -557,8 +557,8 @@ correction, see our application notes or contact support.
   </tr>
 
   <tr>
-    <td>February 2022</td>
-    <td>Initial Release</td>
+    <td>April 2024</td>
+    <td>Reformat for web and add dimensions. Minor typo correction.</td>
   </tr>
 
   <tr>
@@ -567,7 +567,8 @@ correction, see our application notes or contact support.
   </tr>
 
   <tr>
-    <td>April 2024</td>
-    <td>Reformat for web and add dimensions. Minor typo correction.</td>
+    <td>February 2022</td>
+    <td>Initial Release</td>
   </tr>
+
 </table>
