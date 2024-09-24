@@ -199,8 +199,18 @@ If needed, you can always order spare parts for your squeeze boxes! Just contact
 
 ## Revision History
 <table>
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Added videos demos for various instructions</td>
+  </tr>
+
   <tr>
     <td>April 2024</td>
-    <td>Moved Various Documentation to MkDocs Format</td>
+    <td>Moved documentation to MkDocs format</td>
   </tr>
 </table>
