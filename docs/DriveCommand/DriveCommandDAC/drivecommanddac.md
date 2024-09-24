@@ -33,6 +33,10 @@ damage to Leeman Geophysical for replacement.
 ## Controls and Indicators
 
 ### Front Panel
+<center>
+![Labeled Front Panel](FrontPanel.png){: style="height:220px"}
+</center>
+
 **LCD Screen** - A 4x20 character LCD with backlight shows the current rate of
 change, calibration in use, limits, and signal type. The screen is also used for
 setting parameters of the device.
@@ -69,6 +73,9 @@ voltage of the device. The range of the meter maybe set with dip switches on
 the back as described in setting range section.
 
 ### Back Panel
+<center>
+![Labeled Back Panel](BackPanel.png){: style="height:220px"}
+</center>
 
 **Fuse** - 1.5 amp fast acting fuse protects the device from overcurrent.
 
@@ -138,11 +145,17 @@ intuitive performance.
 
 1. Remove power from the unit.
 
-1. Using a #1 phillips screwdriver, remove the screws holding the top case
+1. Using a #1 phillips screwdriver, remove the 11 screws holding the top case
    onto the unit. Remove the top case.
+  <center>
+  ![Labeled Screw Positions](TopPanelScrews.png){: style="height:250px"}
+  </center>
 
 1. Using a small object like a toothpick, change the dip switches on the back
    of the voltmeter to match the table below.
+  <center>
+  ![Voltmeter switches](MeterSwitches.png){: style="height:250px"}
+  </center>
 
 1. Reassemble the unit.
 
@@ -182,6 +195,9 @@ After the range setting has been changed, the DriveCommand DAC must be re-calibr
 The calibration can also be done at any time as part of a regular calibration program
 or when the output is in question. Calibration requires a high resolution voltmeter,
 a BNC wire or BNC-banana jack adapter, and a serial connection to the instrument.
+  <center>
+  ![Calibration Setup](Calibration.png){: style="height:350px"}
+  </center>
 
 1. Using a serial terminal program (see application note) connect to the device
    at either the default (115200) or a custom baud rate that you have set.

@@ -162,6 +162,15 @@ target="_blank" rel="noopener noreferrer">HERE</a>.
     </center>
 
 ## Repair and Maintenance
+<center>
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/usuumEZrQxQ"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+</center>
+
 ### Upkeep
 * To keep the screw mechanism operating smoothly, you should lubricate it
   occasionally. We recommend using <a
