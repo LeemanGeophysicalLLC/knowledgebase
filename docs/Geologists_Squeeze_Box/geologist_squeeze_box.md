@@ -58,8 +58,22 @@ damage to Leeman Geophysical for replacement.
    squeeze box to see what is actually there. Draw these structures on another
    sheet of graph paper.
 
+### Taking a Sediment Peel
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FLkDOfX8aPc?si=HNzZXswJnygoFOr_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+1. After running and experiment with the Squeeze Box, gently pour water over the
+   top to ensure that the formation holds together when performing the next
+   steps.
+1. Take the six thumb nuts off of the front and remove the acrylic panel
+   carefully to expose the sediment in the box.
+1. Take strips of clear packing tape and stretch them over the exposed sediment
+   covering the entire section.
+1. Carefully peel away the tape. Left on the tape you should see your sediment
+   peel. You can now stick it down onto some paper to preserve the results of
+   your experiment.
 
 ### Things to try  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tzIelKxWcVM?si=iRfdsdu-5IXjST0_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 * Try making layers of different thicknesses and see what their effect is.
 * Try different materials - playdough, coffee, flour, sand, moon sand, and other
   cooking materials are good candidates.
@@ -113,7 +127,17 @@ notes and have fun!
 
 
 
-## Push Plate Installation
+## Second Push Plate Installation
+To emulate even more complex deformation environments, you may wish to install a
+second push plate on the squeeze box. The second push plate can be installed on
+any of the orange plastic squeeze boxes with an aluminum base and is available
+on our website <a
+href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/"
+target="_blank" rel="noopener noreferrer">HERE</a>.
+    <center>
+    ![Squeeze box w two push plates](secondpushplate.png){: style="height:300px"}
+    </center>
+    
 1. Remove the four screws in the front plate using a #2 Phillips head
    screwdriver, and loosen the two thumb screws on this end.  
     <center>
@@ -156,7 +180,7 @@ notes and have fun!
   possible to crack the plastic parts with unnecessary stress.
 
 ### Repair
-If needed, you can always order spare parts for your squeeze boxes! Just contact us at support@leemangeophysical.com for assistance.
+If needed, you can always order spare parts for your squeeze boxes! Just contact our support team for assistance.
 
 ## Accessories
 * Push Plate Assembly (<a href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/" target="_blank" rel="noopener noreferrer">10-0000187</a>)
