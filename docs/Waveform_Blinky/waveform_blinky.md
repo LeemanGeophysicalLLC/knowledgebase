@@ -236,3 +236,18 @@ beginning of the circuit.
 
 ![schematic](schematic.png){: style="height:350px"}  
 ![layout](layout.png){: style="height:315px"}  
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>August 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>

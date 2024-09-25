@@ -302,3 +302,18 @@ DB9 to any 4-pin SMPL device, expanding compatibility across your equipment.
     <td>Shield to Case GND</td>
   </tr>
 </table>
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>

@@ -429,9 +429,29 @@ stray knife or wildlife
 This 5 pack of cards gives you some field spares and with 32GB of storage each, plenty of room for most datasets. Don’t get caught out during a deployment with too few cards or needing to pull off data and replace in the field.
 
 ## Revision History
-| Revision | Date         | Changes                             |
-|----------|--------------|-------------------------------------|
-| 1.0      | January 2022 | Initial Release                     |
-| 1.1      | January 2023 | Update for newest PCBs and firmware |
-| 1.2      | February 2023| Hyperlink table of contents         |
-| 1.3      | April 2024   | Moved Documentation to MkDocs Format|
+<table>
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>April 2024</td>
+    <td>Moved Documentation to MkDocs Format</td>
+  </tr>
+
+  <tr>
+    <td>February 2023</td>
+    <td>Hyperlink table of contents</td>
+  </tr>
+
+  <tr>
+    <td>January 2023</td>
+    <td>Update for newest PCBs and firmware</td>
+  </tr>
+
+  <tr>
+    <td>January 2022</td>
+    <td>Initial Release </td>
+  </tr>
+</table>

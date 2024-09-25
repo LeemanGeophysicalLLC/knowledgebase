@@ -59,7 +59,9 @@ damage to Leeman Geophysical for replacement.
    sheet of graph paper.
 
 ### Taking a Sediment Peel
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FLkDOfX8aPc?si=HNzZXswJnygoFOr_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 1. After running and experiment with the Squeeze Box, gently pour water over the
    top to ensure that the formation holds together when performing the next
@@ -73,7 +75,9 @@ damage to Leeman Geophysical for replacement.
    your experiment.
 
 ### Things to try  
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tzIelKxWcVM?si=iRfdsdu-5IXjST0_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 * Try making layers of different thicknesses and see what their effect is.
 * Try different materials - playdough, coffee, flour, sand, moon sand, and other
   cooking materials are good candidates.
@@ -199,8 +203,18 @@ If needed, you can always order spare parts for your squeeze boxes! Just contact
 
 ## Revision History
 <table>
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Added video demos for various instructions</td>
+  </tr>
+
   <tr>
     <td>April 2024</td>
-    <td>Moved Various Documentation to MkDocs Format</td>
+    <td>Moved documentation to MkDocs format</td>
   </tr>
 </table>
