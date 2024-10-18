@@ -221,7 +221,9 @@ a BNC wire or BNC-banana jack adapter, and a serial connection to the instrument
 1. Continue the process for 32767, 49150, and 65535 bits output.
 
 1. Plot a graph of bits (y-axis) vs volts (x-axis) and fit a line to the data. The data
-   should be a very close fit. NOTE: We have provided a Google Sheet that you may copy
+   should be a very close fit. NOTE: We have provided a Google Sheet This documentation covers part number <a
+href="https://docs.google.com/spreadsheets/d/1oBf5pz6aol9Hp_B2z30VTan9dVxt4pmI5S5KllIjQkc/copy?gid=0#gid=0"
+target="_blank" rel="noopener noreferrer">HERE</a> that you may copy
    and use for performing the fit.
 
 1. Issue the *SETDACCAL XX.XXX XX.XXX* command with the first set of *X* being replaced
