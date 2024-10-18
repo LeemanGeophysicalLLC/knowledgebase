@@ -23,6 +23,9 @@
 * [Type K Thermocouple Amplifier](SMPL/smpl_type_k_thermocouple_amplifier/smpl_type_k_thermocouple_amplifier.md)
 * [BNC Breakout](SMPL/smpl_bnc_breakout/smpl_bnc_breakout.md)
 
+## DriveCommand
+* [DAC](DriveCommand/DriveCommandDAC/drivecommanddac.md)
+
 ## FieldVolt
 * [Standard](FieldVolt/fieldvolt_standard.md)
 * [Cables](FieldVolt/fieldvolt_cables.md)
