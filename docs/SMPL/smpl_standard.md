@@ -278,3 +278,42 @@ DB9 to any 4-pin SMPL device, expanding compatibility across your equipment.
     <td>Shield to Case GND</td>
   </tr>
 </table>
+
+### General Analog
+<table>
+  <tr bgcolor="gray">
+    <td><b>SMPL Pin</b></td>
+    <td><b>DB9 Pin</b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>8</td>
+    <td>-Input</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>7</td>
+    <td>+Input</td>
+  </tr>
+  <tr>
+    <td>S</td>
+    <td>3</td>
+    <td>Shield to Case GND</td>
+  </tr>
+</table>
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>

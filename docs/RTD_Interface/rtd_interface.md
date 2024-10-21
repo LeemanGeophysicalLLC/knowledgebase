@@ -6,6 +6,9 @@
 This documentation covers part number <a href="https://leemangeophysical.com/product/4-channel-rtd-interface/" target="_blank" rel="noopener noreferrer">10-0000094</a>
 
 ## Overview
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLTAvKwgbyM?si=rSzFk3JiC2Z1cbj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 Resistance temperature detectors (RTDs) are precision temperature measurement
 devices whose resistance varies with the temperature of the probe. RTDs are
 generally used for higher resolution measurement of smaller temper- ature ranges
@@ -148,6 +151,9 @@ outer insulator as this can cause high resistance and intermittent connections.
 </center>
 
 ### 2-Wire RTD
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aefI0LOUEeE?si=_480MsUSaoirukod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 Two wire RTDs are the simplest, though least accurate RTD model available. The
 two wires carry the excitation current and are used to measure the RTD voltage.
 Therefore some of the lead resistance is included in the mea- surement, so
@@ -162,6 +168,9 @@ are then inserted between Force - and RTD - as well as between Force + and RTD
 </center>
 
 ### 3-Wire RTD
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hL9akTdZ0I4?si=calaDq49N5N-4ZqD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 Three wire RTDs are more accurate than two wire RTDs as lead resistance concerns
 are partially mitigated by the third conductor in the system. First, determine
 which two of the three wires are connected together and which is the third wire.
@@ -176,6 +185,9 @@ into the RTD + terminal. Insert the third wire into Force - and install a jumper
 </center>
 
 ### 4-Wire RTD
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xx2qlZ043Jc?si=aS6BRBPN7YG7nzoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 Four wire RTDs are the most accurate RTD configuration and removes most lead
 resistance errors. Two wires are connected to each end of the resistance element
 in the sensor probe. Determine which wires are paired by measuring resistance
@@ -444,7 +456,7 @@ possible and allow for rapid swap out of sensing elements.
 
 ### 5 Position Plug-In Terminal Block 
 <a href="https://leemangeophysical.com/product/5-position-terminal-block-plug-female-sockets/" target="_blank" rel="noopener noreferrer">1-0001149</a>   
-Extra 4 position terminal blocks make having spare pre-wired RTDs on hand
+Extra 5 position terminal blocks make having spare pre-wired RTDs on hand
 possible and allow for rapid swap out of sensing elements.
 
 ## Revision History
@@ -455,8 +467,13 @@ possible and allow for rapid swap out of sensing elements.
   </tr>
 
   <tr>
-    <td>January 2023</td>
-    <td>Initial Release</td>
+    <td>September 2024</td>
+    <td>Added product showcase and tutorial videos</td>
+  </tr>
+
+  <tr>
+    <td>April 2024</td>
+    <td>Moved Documentation to MkDocs Format</td>
   </tr>
 
   <tr>
@@ -465,7 +482,7 @@ possible and allow for rapid swap out of sensing elements.
   </tr>
 
   <tr>
-    <td>April 2024</td>
-    <td>Moved Documentation to MkDocs Format</td>
-  </tr>
+    <td>January 2023</td>
+    <td>Initial Release</td>
+  </tr> 
 </table>

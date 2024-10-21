@@ -65,3 +65,18 @@ with your problem. Let us know! Drop a line to [support](../support.md) and
 an applications engineer will get back with you to help you find a solution to
 your problem. It could be that an existing product will work or you may inspire
 the next addition to the SMPL family.
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>

@@ -17,8 +17,9 @@ calibration point.
 The displacement calibration rig is a sensitive instrument that requires
 alignment after shipping and periodically before use. The tools required to
 calibrate the device are included with the kit.
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NtjN4-EOunA?si=mLN9Re8VEQxInxQp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+</center>
 
 ## Alignment Process
 The alignment process of the displacement apparatus involves aligning the
@@ -69,8 +70,9 @@ tightening the screws, check the alignment again to make sure it hasn’t moved.
 
 ## DCDT Calibration
 A video of this process is available on our website or here.
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iZCyS38wjKE?si=B7F-TkoeCBiC43oz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+</center>
 
 1. Place the DCDT in the holder so that a small amount of the DCDT is protruding
    from the front. (This can vary depending on the model.) Then gently tighten
@@ -153,3 +155,18 @@ A video of this process is available on our website or here.
     <center>
     ![Complete Calibration Curve](Bstep12image.png){: style="height:300px"}
     </center>
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>

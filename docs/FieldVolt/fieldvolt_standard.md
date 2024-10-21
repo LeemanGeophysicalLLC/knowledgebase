@@ -1,4 +1,7 @@
 # FieldVolt Instrument Power Standard
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dkdAbfvWnZs?si=eNKBI08BIgpFmHGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 ## Purpose
 The FieldVolt instrument power standard was established in 2024 by Leeman
@@ -231,6 +234,11 @@ compact, easy to understand, and only containing necessary information.
   </tr>
   <tr>
     <td>March 17 2024</td>
+    <td>September 2024</td>
+    <td>Added Video Overview</td>
+  </tr>
+  <tr>
+    <td>March 2024</td>
     <td>Initial Release</td>
   </tr>
 </table>

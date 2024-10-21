@@ -49,3 +49,18 @@ damage to Leeman Geophysical for replacement.
 <center>
 ![PCB render.](pcbrender.png){: style="height:500px"}
 </center>
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>September 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>

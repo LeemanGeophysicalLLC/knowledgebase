@@ -21,6 +21,7 @@
 * [Compact 4 Pin Breakout](SMPL/smpl_compact_4pin_breakout/smpl_compact_4pin_breakout.md)
 * [Labjack T8 Analog Input PCB](SMPL/smpl_labjack_t8_analog_input_pcb/smpl_labjack_t8_analog_input_pcb.md)
 * [Type K Thermocouple Amplifier](SMPL/smpl_type_k_thermocouple_amplifier/smpl_type_k_thermocouple_amplifier.md)
+* [BNC Breakout](SMPL/smpl_bnc_breakout/smpl_bnc_breakout.md)
 
 ## FieldVolt
 * [Standard](FieldVolt/fieldvolt_standard.md)
@@ -33,6 +34,7 @@
 * [Spring Slider Earthquake Machine](Spring_Slider_Earthquake_Machine/spring_slider_earthquake_machine.md)
 * [Geologist's Squeeze Box](Geologists_Squeeze_Box/geologist_squeeze_box.md)
 * [Creep Deformation Apparatus](Creep_Deformation_Apparatus/creep_deformation_apparatus.md)
+* [Waveform Blinky Kit](Waveform_Blinky/waveform_blinky.md)
 
 ## Other
 * [Instrument Orientation Tool](Instrument_Orientation_Tool/instrument_orientation_tool.md)

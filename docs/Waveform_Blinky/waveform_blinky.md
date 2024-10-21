@@ -178,7 +178,7 @@ Note:
 1. The final step in assembly you Waveform Blinky is to solder on the battery
    clip. The footprint for this is designed to create a strain relief for the
    wires. To install the wires feed them up through the bottom of the board in
-   the holes closest to the edge, the feed the stripped wire down into the inner
+   the holes closest to the edge, then feed the stripped wire down into the inner
    holes. Solder the wires and them pull then Tight.  
 Red -> +In  
 Black -> -In  
@@ -194,8 +194,8 @@ Black -> -In
 As soon as a power supply is applied to this circuit, the Waveform blinky begins
 to alternate the lighting of two LEDs. This circuit utilizes some clever analog
 design tricks to do this with no programming and no computer. In this case,
-there a total of 6 operation amplifiers (Op-Amps) serving to generate a sign
-wave, buffer it, and read the signal with a comparator to produces an
+there are a total of 6 operation amplifiers (Op-Amps) serving to generate a sign
+wave, buffer it, and read the signal with a comparator to produce an
 alternating output to activate the two lights. Op-Amps are a versatile component
 used in many electronics. Simply by changing the configuration of the components
 and connections around the op-amp, you can drastically alter its function.
@@ -206,7 +206,7 @@ purposes.
 In the first stage of the blinky PCB (Function Generation), an op-amp creates a
 sine wave through an old but effective circuit called an RC Phase shift
 Oscillator. Popular in many fields of electronics, this chunk of the circuit
-works by creating a regenerative feedback loop. It utilizes a network comprized
+works by creating a regenerative feedback loop. It utilizes a network comprised
 of resistors and capacitors to create a phase shift in the signal. This is a
 type of intentional interference that creates an oscillation. The op-amp in the
 loop serves to boost the signal so that it does not dissipate over time, which
@@ -236,3 +236,18 @@ beginning of the circuit.
 
 ![schematic](schematic.png){: style="height:350px"}  
 ![layout](layout.png){: style="height:315px"}  
+
+## Revision History
+<table>
+
+  <tr bgcolor="gray">
+    <td><b>Date</b></td>
+    <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>August 2024</td>
+    <td>Initial Release</td>
+  </tr>
+
+</table>
