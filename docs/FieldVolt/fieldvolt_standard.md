@@ -26,10 +26,22 @@ labeled “IN”. The charging port on a portable battery box is labeled “IN�
 example, the output of a battery box is labeled “OUT”, as is the output of a
 wall power supply or charger.
 
+**Power Consumer** refers to the device (load) needing to be powered. This is
+the attached instrument, actuator, etc.
+
+**Power Provider** refers to the current source providing power to the power
+consumer. This is a battery pack, wall plug, or other power source.
+
+**Charging Source** refers to the device renewing the energy of the power
+provider. This can be a device like a solar panel or wall powered charger.
+Charging sources do not directly power the power consumer, but instead ensure
+the continued maintenance of the power provider.
+
 ### Pin/Socket
 Connectors with power output on them (i.e. connected to batteries, solar panels,
-etc) are socket connections to help prevent accidental shorting of connections.
-Connectors for power input have corresponding pins.
+etc) are socket connections (female connectors) to help prevent accidental
+shorting of connections. Connectors for power input have corresponding pins (male)
+connectors.
 
 ## FieldVolt Logo and Name
 The FieldVolt name shall be reproduced as shown in this document, as one word
@@ -212,6 +224,10 @@ compact, easy to understand, and only containing necessary information.
   <tr bgcolor="gray">
     <td><b>Date</b></td>
     <td><b>Revision</b></td>
+  </tr>
+  <tr>
+    <td>October 21 2024</td>
+    <td>Add graphics and nomenclature clarifications</td>
   </tr>
   <tr>
     <td>March 17 2024</td>
