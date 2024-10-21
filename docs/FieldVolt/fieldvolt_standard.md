@@ -233,7 +233,6 @@ compact, easy to understand, and only containing necessary information.
     <td>Add graphics and nomenclature clarifications</td>
   </tr>
   <tr>
-    <td>March 17 2024</td>
     <td>September 2024</td>
     <td>Added Video Overview</td>
   </tr>
