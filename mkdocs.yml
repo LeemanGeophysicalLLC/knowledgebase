@@ -281,6 +281,7 @@ nav:
       - Geologist's Squeeze Box: 'Geologists_Squeeze_Box/geologist_squeeze_box.md'
       - Spring Slider Earthquake Machine: 'Spring_Slider_Earthquake_Machine/spring_slider_earthquake_machine.md'
       - Waveform Blinky Kit: 'Waveform_Blinky/waveform_blinky.md'
+      - 3D Compass Kit: '3D_Compass_Kit/3d_compass_kit.md'
     - Other:
       - Instrument Orientation Tool: 'Instrument_Orientation_Tool/instrument_orientation_tool.md'
   - Application Notes: appnotes.md
