@@ -5,6 +5,9 @@
 This documentation covers part number [10-0000016](https://leemangeophysical.com/product/instrument-orientation-tool/).
 
 ## Overview
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QkJ2om1BhC0?si=L0Ud52fux4yPLGHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 If you’ve ever deployed a seismometer or other magnetic instrument in the field,
 you’ve likely been frustrated with how difficult it is to measure it’s
 orientation. You can’t get your compass close, but you want to take a
