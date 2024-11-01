@@ -229,6 +229,11 @@ constant and this represents the steady-state creep of the material.
 ### Lab Activity
 * <a href="https://docs.google.com/document/d/1W3iEJtaS3IZBW6_7TTSE4s6wmuLl6XAKVrbR2w8l0BM/edit" target="_blank" rel="noopener noreferrer">Google Docs Lab Activity</a>
 
+### Software
+* <a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Desktop_Software/releases/download/v1.1/Creep.Recorder.Installer.zip"target="_blank" rel="noopener noreferrer">Desktop Software Installer</a>
+* <a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Desktop_Software"target="_blank" rel="noopener noreferrer">Desktop Software Code (open source!)</a>
+* <a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Firmware"target="_blank" rel="noopener noreferrer">Arduino Code (open source!)</a>
+
 ## Accessories
 
 ### Wax Core Packs (<a href="https://leemangeophysical.com/product/wax-cores/" target="_blank" rel="noopener noreferrer">2-0000262</a>)
