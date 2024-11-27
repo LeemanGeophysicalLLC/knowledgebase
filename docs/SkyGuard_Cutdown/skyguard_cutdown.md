@@ -6,7 +6,34 @@
 This documentation covers part number <a href="" target="_blank" rel="noopener noreferrer">10-0000201</a>
 
 ## Overview
+The SkyGuard Cut Down was developed over years of experience supporting
+ballooning operations for the research community. Designed with simplicity and
+reliability in mind, this device offers 16 preset time and pressure triggers to
+suit a variety of mission profiles. Once the system detects a balloon launch,
+the timer activates, and the pressure trigger monitors an absolute pressure
+threshold for optimal cut-down timing.
 
+Unlike traditional hotwire systems, SkyGuard’s innovative mechanical release
+eliminates the risk of fire and simplifies rigging. Arming and resetting the
+device is quick and safe, taking only seconds. Housed in a durable 3D-printed
+enclosure with clear acrylic front and back panels, it allows easy visibility of
+status LEDs at a glance. All you need to get started is a 9-volt battery!
+
+SkyGuard is simple to use yet highly customizable. The firmware is fully open
+source, letting you modify settings if the built-in presets don't meet your
+specific needs. Plus, the front panel features engraved instructions, so there’s
+no need to fumble with your phone in the field—everything you need is right at
+your fingertips.
+
+Swiveling rigging points at the top and bottom reduce the risk of line fouling.
+DIP switch settings are quick to adjust with a pen or toothpick, even in the
+field. Built-in reverse polarity protection safeguards the device, while a
+supercapacitor ensures the microcontroller stays powered during servo operation.
+The SkyGuard Cut Down is rugged, reusable, and field-ready. A consumables kit is
+also available, so you can reuse the system time and time again with ease.
+Whether you’re launching high-altitude balloons or conducting atmospheric
+research, SkyGuard is the trusted solution for safe, reliable, and efficient
+payload recovery.
 
 ### Front Panel
 The front panel of the instrument has two LED indicators on it and two banks of dip switches.  
@@ -78,24 +105,40 @@ usage notes.
 
 ## System Components
 ### SkyGuard Cutdown
+The cut down unit features a 3D-printed enclosure housing an installed servo,
+release pin, bottom swivel, and a fully populated circuit board. The front and
+back acrylic panels protect the electronics from the elements, secured with
+elastic bands for quick and easy assembly or disassembly.
 
 ### Parachute Retaining Ring
+This is the topmost release ring in the system. When the release pin activates,
+the parachute retaining ring is freed, allowing the balloon retaining ring to
+release as well. This process ensures the rigging line drops cleanly, allowing
+the cut down to fall below the parachute and avoid interfering with its
+deployment.
 
 ### Balloon Retaining Ring
+The balloon retaining ring supports the load of the balloon, transferring it
+through the cut down unit to the payload. This ring serves as the primary
+attachment point for the balloon and facilitates the lifting of the parachute
+retaining ring when the release mechanism is triggered.
 
 ### Moisture Plug
-
+The moisture plug fits securely into the top of the parachute retaining ring,
+sealing the release mechanism against moisture. This protective measure helps
+prevent icing or fouling, ensuring reliable operation in various weather
+conditions.
 
 ## Configuration
 ### Timed Cutdown
-In timed cutdown mode a timer begins counting once armed and when the preset
-elapsed time has passed, the release is triggered. By default the timer is armed
-after the system has reached a pressure of 20 hPa less than that starting
-pressure when the system was powered on. The corresponds to roughly 550 ft above
-the power on altitude. This is done so that the cutdown can be powered while the
-balloon train is being prepared for launch and the timer won't start until the
-string is actually in flight. When armed the yellow timer armed LED on the front
-panel will illuminate.
+If a time threshold is set, the system starts a countdown timer once it’s armed.
+The release is triggered when the preset elapsed time is reached. By default,
+the timer activates only after the system detects a pressure drop of 20 hPa
+below the starting pressure recorded at power-on—equivalent to approximately 550
+feet above the initial altitude. This ensures the cutdown can be powered on
+during pre-launch preparations without starting the timer prematurely. Once the
+system is armed and in flight, the yellow "Timer Armed" LED on the circuit board
+will illuminate to confirm activation.
 
 The cutdown time is set by the DIP switches labeled "Time" right below to servo.
 The times from arming to release are set as shown in the following table.
@@ -172,7 +215,18 @@ this is the recommended starting point for the procedure.
 1. Tie off the bottom payload line to the payload swivel on the bottom of the
    cutdown.
 
-## Customizing
+## Serial Connection
+There is a header on the PCB for serial connection at 9600 Baud. With the stock
+firmware, system status information is printed to the serial terminal as a table
+as shown below:
+
+To connect to the serial output, connect a 3V3 logic cable to the PCBs ground,
+transmit, and receive pins as shown below:
+
+If you are unfamiliar with serial terminal operations, be sure to check out our
+guide in [Application Note 0005: Establishing Serial Communication with Instruments Using a Terminal Program](https://docs.leemangeophysical.com/appnotes/AN0005/).
+
+## Customizing the Firmware
 The firmware for the cutdown in open-source and available on the GitHub
 repository. It is stated in the license, but emphasized that the software is
 provided as-is and to be used/modified at your own risk! We have installed the
@@ -182,22 +236,33 @@ recommend using [VSCode](https://code.visualstudio.com/) with the
 You will need a 3V3 USB cable to accomplish the programming or to read out
 serial outputs.
 
-## Serial Connection
-There is a header on the PCB for serial connection at 9600 Baud. With the stock
-firmware, system status information is printed to the serial terminal as a table
-as shown below:
-
-To connect to the serial output, connect a 3V3 logic cable to the PCBs ground,
-transmit, and receive pins as shown below:
-
 ### Upload Procedure
 1. Connect the serial cable as described in the Serial Connection section.
-1. Using a jumper, connect the Reset pin to ground to hold the processor in
+2. Using a jumper, connect the Reset pin to ground to hold the processor in
    reset.
-1. Open PlatformIO in VSCode and click the "Upload" button (arrow) at the bottom
+3. Open PlatformIO in VSCode and click the "Upload" button (arrow) at the bottom
    of the screen.
-1. Remove the jumper from the reset pin when you see "Uploading" appear in the
+4. Remove the jumper from the reset pin when you see "Uploading" appear in the
    terminal.
+
+## Enclosure and Hardware
+The SkyGuard Cutdown enclosure is designed using Autodesk Fusion 360, and the
+design files are freely available in the mechanical GitHub repository for those
+who wish to explore or modify the mechanical components. The repository includes
+the Autodesk Fusion 360 project file as well as 3D-printable STL files, allowing
+users to fabricate their own parts if needed. The circuit board and servo are
+securely mounted within the enclosure using plastic self-threading high-low
+screws. 
+
+Key components, such as the machined swivel and release rings, are available as
+replacement parts. To purchase replacements, please contact our support team or
+purchase the commonly used parts on our website.
+
+The bottom swivel may need to be removed when replacing the enclosure. To remove
+the swivel, use an external snap ring tool to detach the snap ring securing it.
+It is strongly recommended to first remove the circuit board to prevent
+clearance issues that could potentially damage its components during the
+process. 
 
 ## Accessories
 If you will be recovering your SkyGuard for multiple uses, we have accessories
