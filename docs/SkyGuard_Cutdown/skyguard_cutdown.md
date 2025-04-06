@@ -1,6 +1,6 @@
-# SkyGuard Cutdown
+# SkyGuard Cutdown 
 <center>
-![Instrument cover photo.](product.png){: style="height:300px"}
+<img alt="Instrument cover photo." src="../SkyGuard_cover_photo.png" style="height:300px">
 </center>
 
 This documentation covers part number <a href="" target="_blank" rel="noopener noreferrer">10-0000201</a>
@@ -206,14 +206,31 @@ absolute pressure is used always.
 
 ## Rigging
 While rigging of your cutdown likely depends on your exact balloon train design,
-this is the recommended starting point for the procedure.
+this is the recommended starting point for the development of your procedure.
 
-1. Tie the parachute retaining line to the parachute retaining ring and place it
-   over the release pin.
-1. Tie the balloon line to the balloon retaining ring and install it onto the
+<center>
+<img alt="Rigging attachment points" src="../SkyGuard_Cutdown_Rigging_Hookup_Points.png" style="max-width:500px;">
+</center>
+
+The basic principle of operation is that the balloon when released also pulls of
+the line retaining the top of the parachute. This allows the balloon to go free
+and the cutdown to fall below the parachute to gently fall along with the
+payload.
+
+<center>
+<img alt="Rigging diagram" src="../SkyGuard_Before_and_After_Rigging.png" style="max-width:500px;">
+</center>
+
+1. Tie the balloon retaining line to the balloon retaining ring and place it
+   over the release pin. Making a large loop between sides provides the most even lift, but this is not overly important.
+
+2. Tie the parachute top line to the parachute retaining ring and install it onto the
    release pin by pressing the blue button inside the cutdown.
-1. Tie off the bottom payload line to the payload swivel on the bottom of the
+
+3. Tie off the bottom payload line to the payload swivel on the bottom of the
    cutdown.
+
+
 
 ## Serial Connection
 There is a header on the PCB for serial connection at 9600 Baud. With the stock
@@ -270,7 +287,7 @@ that you may be interested in keeping on-hand.
 
 ### Flight Consumables Kit 
 <a href="" target="_blank" rel="noopener noreferrer">10-XXXXXXX</a>  
-Extra hardware to replace that used duringa flight. Includes a top and bottom
+Extra hardware to replace that used during a flight. Includes a top and bottom
 release ring and water plug.
 
 ### SkyGuard Cutdown Housing 
