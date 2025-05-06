@@ -23,6 +23,9 @@
 * [Type K Thermocouple Amplifier](SMPL/smpl_type_k_thermocouple_amplifier/smpl_type_k_thermocouple_amplifier.md)
 * [BNC Breakout](SMPL/smpl_bnc_breakout/smpl_bnc_breakout.md)
 
+## DriveCommand
+* [DAC](DriveCommand/DriveCommandDAC/drivecommanddac.md)
+
 ## FieldVolt
 * [Standard](FieldVolt/fieldvolt_standard.md)
 * [Cables](FieldVolt/fieldvolt_cables.md)
@@ -35,6 +38,7 @@
 * [Geologist's Squeeze Box](Geologists_Squeeze_Box/geologist_squeeze_box.md)
 * [Creep Deformation Apparatus](Creep_Deformation_Apparatus/creep_deformation_apparatus.md)
 * [Waveform Blinky Kit](Waveform_Blinky/waveform_blinky.md)
+* [3D Compass Kit](3D_Compass_Kit/3d_compass_kit.md)
 
 ## Other
 * [Instrument Orientation Tool](Instrument_Orientation_Tool/instrument_orientation_tool.md)
