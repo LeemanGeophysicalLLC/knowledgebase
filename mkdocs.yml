@@ -267,6 +267,7 @@ nav:
       - Type K Thermocouple Amplifier: 'SMPL/smpl_type_k_thermocouple_amplifier/smpl_type_k_thermocouple_amplifier.md'
       - DB9 Protoboard Breakout: 'SMPL/DB9_protoboard_breakout/DB9_protoboard_breakout.md'
       - BNC Breakout: 'SMPL/smpl_bnc_breakout/smpl_bnc_breakout.md'
+      - Bridge Completion: 'SMPL/bridge_completion/bridge_completion.md'
     - DriveCommand:
       - DAC: 'DriveCommand/DriveCommandDAC/drivecommanddac.md'      
     - FieldVolt:
