@@ -1,6 +1,6 @@
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../product.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
 
 This documentation covers part number <a
 href="https://leemangeophysical.com/product/drivecommand-dac/"
@@ -33,9 +33,9 @@ damage to Leeman Geophysical for replacement.
 ## Controls and Indicators
 
 ### Front Panel
-<center>
-![Labeled Front Panel](FrontPanel.png){: style="height:220px"}
-</center>
+<div style="text-align: center;">
+  <img src="../FrontPanel.png" alt="Labeled Front Panel" style="height: 220px;">
+</div>
 
 **LCD Screen** - A 4x20 character LCD with backlight shows the current rate of
 change, calibration in use, limits, and signal type. The screen is also used for
@@ -73,9 +73,9 @@ voltage of the device. The range of the meter maybe set with dip switches on
 the back as described in setting range section.
 
 ### Back Panel
-<center>
-![Labeled Back Panel](BackPanel.png){: style="height:220px"}
-</center>
+<div style="text-align: center;">
+  <img src="../BackPanel.png" alt="Labeled Back Panel" style="height: 220px;">
+</div>
 
 **Fuse** - 1.5 amp fast acting fuse protects the device from overcurrent.
 
@@ -124,17 +124,27 @@ Using the correct setting provides the most resolute output possible for your
 system. The ±10 volts DC has a theoretical resolution of 0.3 mV/bit
 and the ±5 volts DC a theoretical resolution of 0.15 mV/bit.
 
-1. Using a serial terminal program (see application note) connect to the device
-   at either the default (115200) or a custom baud rate that you have set.
+<ol>
+  <li>
+    Using a serial terminal program (see application note), connect to the device
+    at either the default (115200) or a custom baud rate that you have set.
+  </li>
 
-1. Issue the command *SETRANGE X* with *X* replaced by either 10 or 5 for the
-   ±10 volts DC or ±5 volts DC range respectively.
+  <li>
+    Issue the command <code>SETRANGE X</code> with <code>X</code> replaced by either <code>10</code> or <code>5</code> for the
+    ±10 volts DC or ±5 volts DC range respectively.
+  </li>
 
-1. Power down the unit and follow the "Changing the Voltmeter Configuration"
-   instruction.
+  <li>
+    Power down the unit and follow the "Changing the Voltmeter Configuration"
+    instruction.
+  </li>
 
-1. Once complete, recalibrate the output of the unit by following the
-   "Calibrating the Output" instruction.
+  <li>
+    Once complete, recalibrate the output of the unit by following the
+    "Calibrating the Output" instruction.
+  </li>
+</ol>
 
 ### Changing the Voltmeter Configuration
 The front panel voltmeter provides a quick visual indication of where in the
@@ -143,23 +153,35 @@ bar chart in an arc across the top of the meter face. The range of the meter
 should be set to match the range of the output of the DAC for best and most
 intuitive performance.
 
-1. Remove power from the unit.
+<ol>
+  <li>
+    Remove power from the unit.
+  </li>
 
-1. Using a #1 phillips screwdriver, remove the 11 screws holding the top case
-   onto the unit. Remove the top case.
-  <center>
-  ![Labeled Screw Positions](TopPanelScrews.png){: style="height:250px"}
-  </center>
+  <li>
+    Using a #1 Phillips screwdriver, remove the 11 screws holding the top case
+    onto the unit. Remove the top case.
+    <div style="text-align: center;">
+      <img src="../TopPanelScrews.png" alt="Labeled Screw Positions" style="height: 250px;">
+    </div>
+  </li>
 
-1. Using a small object like a toothpick, change the dip switches on the back
-   of the voltmeter to match the table below.
-  <center>
-  ![Voltmeter switches](MeterSwitches.png){: style="height:250px"}
-  </center>
+  <li>
+    Using a small object like a toothpick, change the dip switches on the back
+    of the voltmeter to match the table below.
+    <div style="text-align: center;">
+      <img src="../MeterSwitches.png" alt="Voltmeter switches" style="height: 250px;">
+    </div>
+  </li>
 
-1. Reassemble the unit.
+  <li>
+    Reassemble the unit.
+  </li>
 
-1. Apply power and test.
+  <li>
+    Apply power and test.
+  </li>
+</ol>
 
 <table>
   <tr bgcolor="gray">
@@ -195,45 +217,64 @@ After the range setting has been changed, the DriveCommand DAC must be re-calibr
 The calibration can also be done at any time as part of a regular calibration program
 or when the output is in question. Calibration requires a high resolution voltmeter,
 a BNC wire or BNC-banana jack adapter, and a serial connection to the instrument.
-  <center>
-  ![Calibration Setup](Calibration.png){: style="height:350px"}
-  </center>
+<div style="text-align: center;">
+  <img src="../Calibration.png" alt="Calibration Setup" style="height: 350px;">
+</div>
 
-1. Using a serial terminal program (see application note) connect to the device
-   at either the default (115200) or a custom baud rate that you have set.
+<ol>
+  <li>
+    Using a serial terminal program (see application note), connect to the device
+    at either the default (115200) or a custom baud rate that you have set.
+  </li>
 
-1. Connect a precision voltmeter to one of the BNC connectors using either a stripped
-   BNC wire or a banana jack adapter. We recommend a 6 1/2 digit meter for calibration,
-   but at a minimum the meter needs millivolt resolution at the minimum and maximum
-   output values of the DAC.
+  <li>
+    Connect a precision voltmeter to one of the BNC connectors using either a stripped
+    BNC wire or a banana jack adapter. We recommend a 6½-digit meter for calibration,
+    but at a minimum the meter needs millivolt resolution at the minimum and maximum
+    output values of the DAC.
+  </li>
 
-1. Let the unit warm up. We recommend about 15 minutes at operating ambient conditions
-   to stabilize. If the unit just experience a large temperature change like coming in
-   from outdoors, ensure it has reached equilibrium with the operating environment.
+  <li>
+    Let the unit warm up. We recommend about 15 minutes at operating ambient conditions
+    to stabilize. If the unit just experienced a large temperature change (e.g., coming in
+    from outdoors), ensure it has reached equilibrium with the operating environment.
+  </li>
 
-1. Issue the command *RUNCAL*. The instrument will indicate that it is now outputting
-   a voltage corresponding to 0 bits on the DAC. Record this voltage in a notebook or
-   spreadsheet.
+  <li>
+    Issue the command <code>RUNCAL</code>. The instrument will indicate that it is now outputting
+    a voltage corresponding to 0 bits on the DAC. Record this voltage in a notebook or
+    spreadsheet.
+  </li>
 
-1. Press return and the instrument will go to the next calibration value of 16383 bits.
-   Record the voltage output.
-   
-1. Continue the process for 32767, 49150, and 65535 bits output.
+  <li>
+    Press return and the instrument will go to the next calibration value of 16383 bits.
+    Record the voltage output.
+  </li>
 
-1. Plot a graph of bits (y-axis) vs volts (x-axis) and fit a line to the data. The data
-   should be a very close fit. NOTE: We have provided a Google Sheet This documentation covers part number <a
-href="https://docs.google.com/spreadsheets/d/1oBf5pz6aol9Hp_B2z30VTan9dVxt4pmI5S5KllIjQkc/copy?gid=0#gid=0"
-target="_blank" rel="noopener noreferrer">HERE</a> that you may copy
-   and use for performing the fit.
+  <li>
+    Continue the process for 32767, 49150, and 65535 bits output.
+  </li>
 
-1. Issue the *SETDACCAL XX.XXX XX.XXX* command with the first set of *X* being replaced
-   by the slope of the best fit line and the second the intercept. We recommend setting
-   these to 3 decimal places.
+  <li>
+    Plot a graph of bits (y-axis) vs volts (x-axis) and fit a line to the data. The data
+    should be a very close fit. <b>NOTE:</b> We have provided a Google Sheet 
+    <a href="https://docs.google.com/spreadsheets/d/1oBf5pz6aol9Hp_B2z30VTan9dVxt4pmI5S5KllIjQkc/copy?gid=0#gid=0"
+    target="_blank" rel="noopener noreferrer">HERE</a> that you may copy and use for performing the fit.
+  </li>
 
-1. Use the *SETOUT XX.XXX* command to set the output to voltages at the end members and
-   center of the range. A good calibration should produce outputs within 1 mV of the
-   desired set point easily. (We like using a pattern like 9.8765 volts so it is easy to
-   recognize.)
+  <li>
+    Issue the <code>SETDACCAL XX.XXX XX.XXX</code> command with the first set of <code>X</code> replaced
+    by the slope of the best-fit line and the second by the intercept. We recommend setting
+    these to 3 decimal places.
+  </li>
+
+  <li>
+    Use the <code>SETOUT XX.XXX</code> command to set the output to voltages at the end members and
+    center of the range. A good calibration should produce outputs within 1 mV of the
+    desired set point easily. (We like using a pattern like 9.8765 volts so it is easy to
+    recognize.)
+  </li>
+</ol>
 
 ### Inverting the Output
 There is no standard for sign of voltage with respect to "up" and "down" in a
@@ -592,6 +633,11 @@ when at the extreme values for flashing to occur.
   <tr bgcolor="gray">
     <td><b>Date</b></td>
     <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>May 2025</td>
+    <td>Fixed new image display and list issues with MkDocs</td>
   </tr>
 
   <tr>
