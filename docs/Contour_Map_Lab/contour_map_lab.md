@@ -1,7 +1,7 @@
 # Geologist’s Squeeze Box
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../product.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
 
 This documentation covers part number <a
 href="https://leemangeophysical.com/product/contour-map-lab-activity/"
@@ -51,7 +51,10 @@ If needed, you can always order spare parts for your squeeze boxes! Just contact
     <td><b>Date</b></td>
     <td><b>Changes</b></td>
   </tr>
-
+  <tr>
+    <td>May 2025</td>
+    <td>Fixed new image display issue with MkDocs</td>
+  </tr>
   <tr>
     <td>September 2024</td>
     <td>Moved documentation to MkDocs format</td>
