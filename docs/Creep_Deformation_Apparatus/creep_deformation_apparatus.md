@@ -1,7 +1,7 @@
 # Creep Deformation Apparatus
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../product.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
 
 This documentation covers part number <a
 href="https://leemangeophysical.com/product/creep-deformation-apparatus/"
@@ -58,28 +58,29 @@ damage to Leeman Geophysical for replacement.
 1. Unpack the materials needed for assembly. Make sure that all the components are included in your kit. 
 
 1. Install the standoffs in the base plate using (qty 4) 10-32 x ¾ screws as shown. Ensure the screw heads are countersunk in the plate. 
-    <center>
-    ![Instrument cover photo.](step2image.png){: style="height:300px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../step2image.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
+
 
 1. Install the potentiometer and board to the top plate using the included 4-40 x 3/16” Screws. (The potentiometer must be installed square to the top plate to prevent measurement error.)
 
 1. Attach the assembled top plate to the bottom plate so that the board and potentiometer are on the bottom. Use (qty 4) 10-32 x ¾” screws. 
-    <center>
-    ![Instrument cover photo.](step4image.png){: style="height:300px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../step4image.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
 
 1. Press the shaft bushing into the top plate. Make sure it is seated completely. 
-    <center>
-    ![Instrument cover photo.](step5image.png){: style="height:300px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../step5image.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
 
 1. Install the bushing retainer on the bottom side of the top plate and tighten the set screw to secure it. 
 
 1. Install the shaft to the mass plate using a 10-32 x ½” Screw as shown.  The shaft should fit tightly into the pocket on the mass plate. 
-    <center>
-    ![Instrument cover photo.](step7image.png){: style="height:300px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../step7image.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
 
 1. Slide the shaft into the bushing on the top plate. A light coating of white lithium grease can be applied to the shaft to prevent friction.
 
@@ -107,9 +108,10 @@ The calibration procedure requires the use of a serial terminal. For these instr
    Ports** button
 1. Select the correct port and then set the **Baudrate** to 115200 and then
    press **OK**
-    <center>
-    ![CoolTerm options.](cooltermoptions.png){: style="height:600px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../cooltermoptions.png" alt="CoolTerm options." style="height: 600px;">
+</div>
+
     After you close this window, select **Connect** in the main window. The terminal should now start showing data once a second.  
 1. Next you will want to take the calibration tool and set it underneath the
    weight plate as pictured. In all caps typed the following command into the
@@ -117,24 +119,27 @@ The calibration procedure requires the use of a serial terminal. For these instr
    <code>SETCAL 1.0</code>  
     NOTE: This command must, be in all caps, include the space, and confirmed
     with the enter key.
-    <center>
-    ![calibration tool position.](calibrationtoolposition.png){: style="height:400px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../calibrationtoolposition.png" alt="Calibration tool position." style="height: 400px;">
+</div>
+
 1. Under the **Connection** Tab, select **Capture to Text/Binary File**.  
     Once you select start, It will ask you where you want to save the data to.
     Save the data CSV somewhere convenient for you. (i.e. Desktop) Your data is
     recording, in about ten second intervals, slide the Calibration tool back
     one step. After the first four steps of the calibration tool have been
     recorded for ten seconds, select stop.  
-    <center>
-    ![recording data.](recordingdata.png){: style="height:400px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../recordingdata.png" alt="Recording data." style="height: 400px;">
+</div>
+
 1. Open up a blank google sheets and import the CSV file. Your data should be
    inserted to the first two columns. Create a graph of this data under the
    insert tab.
-    <center>
-    ![importing Data to Sheet.](importingdatatosheet.png){: style="height:400px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../importingdatatosheet.png" alt="Importing Data to Sheet." style="height: 400px;">
+</div>
+
 1. Open the <a href="https://docs.google.com/spreadsheets/d/1QmQ7DUTds2T-uK3FIgHSmwCH66fnEnDyPsL-y6NH2Ao/edit?pli=1#gid=0" target="_blank" rel="noopener noreferrer">Creep
    Calibration Calculator</a>. Measure the calibration tools first 4 larges
    steps and enter those values, greatest to least, in the Displacement column. 
@@ -144,24 +149,25 @@ The calibration procedure requires the use of a serial terminal. For these instr
    The calculator graph should now have the correct calibration line. Print the
    page and keep that sheet and the calibration tool with its corresponding
    Creep Apparatus.
-    <center>
-    ![Creep Apparatus Calculator.](creepapparatuscalculator.png){: style="height:400px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../creepapparatuscalculator.png" alt="Creep Apparatus Calculator." style="height: 400px;">
+</div>
+
 1. Navigate back to CoolTerm where your data should still be coming in once per
    second.  
    In this terminal, you will type the command <code>SETCAL x.xxxxxx</code>  
    The Calibration number you will use in place of the x.xxxxxx is located in
    the red circled number pictured below in the creep apparatus calculator. It
    must be entered as a decimal value, not it scientific notation.
-    <center>
-    ![Calibration Number.](calibrationnumber.png){: style="height:300px"}
-    </center>
+<div style="text-align: center;">
+  <img src="../calibrationnumber.png" alt="Calibration Number." style="height: 300px;">
+</div>
+
 1. This concludes the calibration procedure. To checkout that the calibration
    has been applied properly, type the command <code>SHOW</code>
-    <center>
-    ![SHOW command.](SHOWcommand.png){: style="height:150px"}
-    </center>
-
+<div style="text-align: center;">
+  <img src="../SHOWcommand.png" alt="SHOW command." style="height: 150px;">
+</div>
 
 ## Teachers Guide
 ### Introduction
@@ -247,6 +253,11 @@ ensure a consistent and quality lab experience for your students.
   <tr bgcolor="gray">
     <td><b>Date</b></td>
     <td><b>Changes</b></td>
+  </tr>
+  
+  <tr>
+    <td>May 2025</td>
+    <td>Fixed new image display issue with MkDocs</td>
   </tr>
 
   <tr>
