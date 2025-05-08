@@ -1,7 +1,8 @@
 # 3D Compass Kit
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../product.png" alt="Instrument cover photo" style="height: 300px;">
+</div>
+
 
 This documentation covers part number <a
 href="https://leemangeophysical.com/product/3d-compass-kit/"
@@ -54,31 +55,31 @@ are easily stripped. Just snug the screws so that nothing is loose.</b>
 1. Place the bottom plate flat on the table and align the holes in the Arduino
    Red Board to the holes in the plate. Secure the Red Board with the provided
    plastic screws.
-<center>
-![Assembly Step 1](assembly1.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../assembly1.png" alt="Assembly Step 1" style="height: 300px;">
+</div>
 
 1. Screw in four of the aluminum standoffs into the corner holes of the bottom
    plate on the same side as the Red Board.
-<center>
-![Assembly Step 2](assembly2.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../assembly2.png" alt="Assembly Step 2" style="height: 300px;">
+</div>
 
 1. Place the top plate onto the standoffs as shown - note the offset of the slot
    on the right side of center.
-<center>
-![Assembly Step 3](assembly3.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../assembly3.png" alt="Assembly Step 3" style="height: 300px;">
+</div>
 
 1. Secure the top plate with the four longest 12mm plastic screws.
-<center>
-![Assembly Step 4](assembly4.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../assembly4.png" alt="Assembly Step 4" style="height: 300px;">
+</div>
 
 1. Screw in three standoffs into the holes in the top plate.
-<center>
-![Assembly Step 5](assembly5.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../assembly5.png" alt="Assembly Step 5" style="height: 300px;">
+</div>
 
 1. Bend the inner circuit board so that it is perpendicular to the outer ring.
    Attach the clear bracket to the back of the small circular circuit board with
@@ -86,25 +87,27 @@ are easily stripped. Just snug the screws so that nothing is loose.</b>
 
 <b>NOTE: Exercise caution when bending the board into place, as to not break any
 of the wire connections.</b>
-<center>
-![Assembly Step 6](assembly6.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../assembly6.png" alt="Assembly Step 6" style="height: 300px;">
+</div>
 
 1. Attach the circuit board to the standoffs with three 6mm plastic screws.
-<center>
-![Assembly Step 7](assembly7.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../assembly7.png" alt="Assembly Step 7" style="height: 300px;">
+</div>
 
 1. With the small circular board and bracket perpendicular to the large circle,
    Insert the clear tab of the bracket into the slot on the top plate. You can
    secure this connection with superglue if preferred, or you may leave it loose
    for future disassembly.
-<center>
-![Assembly Step 8](assembly8.png){: style="height:300px"}
-</center>
-<center>
-![Assembly Step 9](assembly9.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../assembly8.png" alt="Assembly Step 8" style="height: 300px;">
+</div>
+
+<div style="text-align: center;">
+  <img src="../assembly9.png" alt="Assembly Step 9" style="height: 300px;">
+</div>
+
 
 1. Run the wires from the back of the circuit board through the holes in the top
    plate as shown. In this orientation the red, black and orange wires will go
@@ -195,6 +198,10 @@ the magnetic field. The serial connection uses the following parameters:
   <tr bgcolor="gray">
     <td><b>Date</b></td>
     <td><b>Changes</b></td>
+  </tr>
+  <tr>
+    <td>May 2025</td>
+    <td>Fixed new image display issue with MkDocs</td>
   </tr>
   <tr>
     <td>October 2024</td>
