@@ -55,36 +55,55 @@ damage to Leeman Geophysical for replacement.
 * 3/32” Hex Wrench (not included)
 
 ### Assembly
-1. Unpack the materials needed for assembly. Make sure that all the components are included in your kit. 
+<ol>
+  <li>
+    Unpack the materials needed for assembly. Make sure that all the components are included in your kit.
+  </li>
 
-1. Install the standoffs in the base plate using (qty 4) 10-32 x ¾ screws as shown. Ensure the screw heads are countersunk in the plate. 
-<div style="text-align: center;">
-  <img src="../step2image.png" alt="Instrument cover photo." style="height: 300px;">
-</div>
+  <li>
+    Install the standoffs in the base plate using (qty 4) 10-32 x ¾ screws as shown. Ensure the screw heads are countersunk in the plate.
+    <div style="text-align: center;">
+      <img src="../step2image.png" alt="Instrument cover photo." style="height: 300px;">
+    </div>
+  </li>
 
+  <li>
+    Install the potentiometer and board to the top plate using the included 4-40 x 3/16” screws. (The potentiometer must be installed square to the top plate to prevent measurement error.)
+  </li>
 
-1. Install the potentiometer and board to the top plate using the included 4-40 x 3/16” Screws. (The potentiometer must be installed square to the top plate to prevent measurement error.)
+  <li>
+    Attach the assembled top plate to the bottom plate so that the board and potentiometer are on the bottom. Use (qty 4) 10-32 x ¾” screws.
+    <div style="text-align: center;">
+      <img src="../step4image.png" alt="Instrument cover photo." style="height: 300px;">
+    </div>
+  </li>
 
-1. Attach the assembled top plate to the bottom plate so that the board and potentiometer are on the bottom. Use (qty 4) 10-32 x ¾” screws. 
-<div style="text-align: center;">
-  <img src="../step4image.png" alt="Instrument cover photo." style="height: 300px;">
-</div>
+  <li>
+    Press the shaft bushing into the top plate. Make sure it is seated completely.
+    <div style="text-align: center;">
+      <img src="../step5image.png" alt="Instrument cover photo." style="height: 300px;">
+    </div>
+  </li>
 
-1. Press the shaft bushing into the top plate. Make sure it is seated completely. 
-<div style="text-align: center;">
-  <img src="../step5image.png" alt="Instrument cover photo." style="height: 300px;">
-</div>
+  <li>
+    Install the bushing retainer on the bottom side of the top plate and tighten the set screw to secure it.
+  </li>
 
-1. Install the bushing retainer on the bottom side of the top plate and tighten the set screw to secure it. 
+  <li>
+    Install the shaft to the mass plate using a 10-32 x ½” screw as shown. The shaft should fit tightly into the pocket on the mass plate.
+    <div style="text-align: center;">
+      <img src="../step7image.png" alt="Instrument cover photo." style="height: 300px;">
+    </div>
+  </li>
 
-1. Install the shaft to the mass plate using a 10-32 x ½” Screw as shown.  The shaft should fit tightly into the pocket on the mass plate. 
-<div style="text-align: center;">
-  <img src="../step7image.png" alt="Instrument cover photo." style="height: 300px;">
-</div>
+  <li>
+    Slide the shaft into the bushing on the top plate. A light coating of white lithium grease can be applied to the shaft to prevent friction.
+  </li>
 
-1. Slide the shaft into the bushing on the top plate. A light coating of white lithium grease can be applied to the shaft to prevent friction.
-
-1. Assembly is now complete.
+  <li>
+    Assembly is now complete.
+  </li>
+</ol>
 
 ## Calibration
 This guide will walk you through the calibration process for the Creep
@@ -102,72 +121,78 @@ The calibration procedure requires the use of a serial terminal. For these instr
 * Google Sheets
 
 ### Calibration Procedure  
-1. Plug the device into your computer using the USB Mini B cable.
-1. Open the CoolTerm Program and select the **Options** tab.
-1. Make sure your device is plugged in and then select the **Re-Scan Serial
-   Ports** button
-1. Select the correct port and then set the **Baudrate** to 115200 and then
-   press **OK**
-<div style="text-align: center;">
-  <img src="../cooltermoptions.png" alt="CoolTerm options." style="height: 600px;">
-</div>
+<ol>
+  <li>
+    Plug the device into your computer using the USB Mini B cable.
+  </li>
 
-    After you close this window, select **Connect** in the main window. The terminal should now start showing data once a second.  
-1. Next you will want to take the calibration tool and set it underneath the
-   weight plate as pictured. In all caps typed the following command into the
-   terminal.  
-   <code>SETCAL 1.0</code>  
-    NOTE: This command must, be in all caps, include the space, and confirmed
-    with the enter key.
-<div style="text-align: center;">
-  <img src="../calibrationtoolposition.png" alt="Calibration tool position." style="height: 400px;">
-</div>
+  <li>
+    Open the CoolTerm Program and select the <b>Options</b> tab.
+  </li>
 
-1. Under the **Connection** Tab, select **Capture to Text/Binary File**.  
-    Once you select start, It will ask you where you want to save the data to.
-    Save the data CSV somewhere convenient for you. (i.e. Desktop) Your data is
-    recording, in about ten second intervals, slide the Calibration tool back
-    one step. After the first four steps of the calibration tool have been
-    recorded for ten seconds, select stop.  
-<div style="text-align: center;">
-  <img src="../recordingdata.png" alt="Recording data." style="height: 400px;">
-</div>
+  <li>
+    Make sure your device is plugged in and then select the <b>Re-Scan Serial Ports</b> button.
+  </li>
 
-1. Open up a blank google sheets and import the CSV file. Your data should be
-   inserted to the first two columns. Create a graph of this data under the
-   insert tab.
-<div style="text-align: center;">
-  <img src="../importingdatatosheet.png" alt="Importing Data to Sheet." style="height: 400px;">
-</div>
+  <li>
+    Select the correct port and then set the <b>Baudrate</b> to 115200 and then press <b>OK</b>. After you close this window, select <b>Connect</b> in the main window. The terminal should now start showing data once a second.
+    <div style="text-align: center;">
+      <img src="../cooltermoptions.png" alt="CoolTerm options." style="height: 600px;">
+    </div>
+  </li>
 
-1. Open the <a href="https://docs.google.com/spreadsheets/d/1QmQ7DUTds2T-uK3FIgHSmwCH66fnEnDyPsL-y6NH2Ao/edit?pli=1#gid=0" target="_blank" rel="noopener noreferrer">Creep
-   Calibration Calculator</a>. Measure the calibration tools first 4 larges
-   steps and enter those values, greatest to least, in the Displacement column. 
-   Using The graph you just created, hover your mouse over each step and enter
-   the most common value for each step into the blue highlighted section of the
-   calculator spreadsheet.  
-   The calculator graph should now have the correct calibration line. Print the
-   page and keep that sheet and the calibration tool with its corresponding
-   Creep Apparatus.
-<div style="text-align: center;">
-  <img src="../creepapparatuscalculator.png" alt="Creep Apparatus Calculator." style="height: 400px;">
-</div>
+  <li>
+    Next you will want to take the calibration tool and set it underneath the weight plate as pictured. In all caps, type the following command into the terminal:<br>
+    <code>SETCAL 1.0</code><br>
+    <b>NOTE:</b> This command must be in all caps, include the space, and be confirmed with the enter key.
+    <div style="text-align: center;">
+      <img src="../calibrationtoolposition.png" alt="Calibration tool position." style="height: 400px;">
+    </div>
+  </li>
 
-1. Navigate back to CoolTerm where your data should still be coming in once per
-   second.  
-   In this terminal, you will type the command <code>SETCAL x.xxxxxx</code>  
-   The Calibration number you will use in place of the x.xxxxxx is located in
-   the red circled number pictured below in the creep apparatus calculator. It
-   must be entered as a decimal value, not it scientific notation.
-<div style="text-align: center;">
-  <img src="../calibrationnumber.png" alt="Calibration Number." style="height: 300px;">
-</div>
+  <li>
+    Under the <b>Connection</b> tab, select <b>Capture to Text/Binary File</b>.<br>
+    Once you select start, it will ask you where you want to save the data. Save the CSV file somewhere convenient (e.g., Desktop). Your data is recording. Every ten seconds, slide the calibration tool back one step. After the first four steps of the calibration tool have been recorded for ten seconds each, select stop.
+    <div style="text-align: center;">
+      <img src="../recordingdata.png" alt="Recording data." style="height: 400px;">
+    </div>
+  </li>
 
-1. This concludes the calibration procedure. To checkout that the calibration
-   has been applied properly, type the command <code>SHOW</code>
-<div style="text-align: center;">
-  <img src="../SHOWcommand.png" alt="SHOW command." style="height: 150px;">
-</div>
+  <li>
+    Open a blank Google Sheet and import the CSV file. Your data should be inserted into the first two columns. Create a graph of this data using the Insert tab.
+    <div style="text-align: center;">
+      <img src="../importingdatatosheet.png" alt="Importing Data to Sheet." style="height: 400px;">
+    </div>
+  </li>
+
+  <li>
+    Open the
+    <a href="https://docs.google.com/spreadsheets/d/1QmQ7DUTds2T-uK3FIgHSmwCH66fnEnDyPsL-y6NH2Ao/edit?pli=1#gid=0" target="_blank" rel="noopener noreferrer">Creep Calibration Calculator</a>.
+    Measure the calibration tool’s first 4 largest steps and enter those values, greatest to least, in the Displacement column.  
+    Using the graph you just created, hover your mouse over each step and enter the most common value into the blue highlighted section of the calculator spreadsheet.  
+    The calculator graph should now display the correct calibration line. Print the page and store that sheet with the calibration tool and corresponding Creep Apparatus.
+    <div style="text-align: center;">
+      <img src="../creepapparatuscalculator.png" alt="Creep Apparatus Calculator." style="height: 400px;">
+    </div>
+  </li>
+
+  <li>
+    Navigate back to CoolTerm where your data should still be coming in once per second.<br>
+    In this terminal, type the command: <code>SETCAL x.xxxxxx</code><br>
+    The calibration number to use in place of <code>x.xxxxxx</code> is located in the red circled number pictured below in the Creep Apparatus Calculator. It must be entered as a decimal value, not in scientific notation.
+    <div style="text-align: center;">
+      <img src="../calibrationnumber.png" alt="Calibration Number." style="height: 300px;">
+    </div>
+  </li>
+
+  <li>
+    This concludes the calibration procedure. To check that the calibration has been applied properly, type the command: <code>SHOW</code>
+    <div style="text-align: center;">
+      <img src="../SHOWcommand.png" alt="SHOW command." style="height: 150px;">
+    </div>
+  </li>
+</ol>
+
 
 ## Teachers Guide
 ### Introduction
