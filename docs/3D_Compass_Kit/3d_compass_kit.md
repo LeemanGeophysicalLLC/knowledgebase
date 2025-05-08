@@ -3,7 +3,6 @@
   <img src="../product.png" alt="Instrument cover photo" style="height: 300px;">
 </div>
 
-
 This documentation covers part number <a
 href="https://leemangeophysical.com/product/3d-compass-kit/"
 target="_blank" rel="noopener noreferrer">10-0000031</a>.
@@ -49,76 +48,98 @@ damage to Leeman Geophysical for replacement.
 <b>NOTE: Be gentle tightening screws as the screws and plates are plastic and
 are easily stripped. Just snug the screws so that nothing is loose.</b>
 
-1. Remove and inventory the contents of your kit - make sure you received all
-   parts of the kit and that they are undamaged.
+<ol>
+  <li>
+    Remove and inventory the contents of your kit - make sure you received all
+    parts of the kit and that they are undamaged.
+  </li>
 
-1. Place the bottom plate flat on the table and align the holes in the Arduino
-   Red Board to the holes in the plate. Secure the Red Board with the provided
-   plastic screws.
-<div style="text-align: center;">
-  <img src="../assembly1.png" alt="Assembly Step 1" style="height: 300px;">
-</div>
+  <li>
+    Place the bottom plate flat on the table and align the holes in the Arduino
+    Red Board to the holes in the plate. Secure the Red Board with the provided
+    plastic screws.
+    <div style="text-align: center;">
+      <img src="../assembly1.png" alt="Assembly Step 1" style="height: 300px;">
+    </div>
+  </li>
 
-1. Screw in four of the aluminum standoffs into the corner holes of the bottom
-   plate on the same side as the Red Board.
-<div style="text-align: center;">
-  <img src="../assembly2.png" alt="Assembly Step 2" style="height: 300px;">
-</div>
+  <li>
+    Screw in four of the aluminum standoffs into the corner holes of the bottom
+    plate on the same side as the Red Board.
+    <div style="text-align: center;">
+      <img src="../assembly2.png" alt="Assembly Step 2" style="height: 300px;">
+    </div>
+  </li>
 
-1. Place the top plate onto the standoffs as shown - note the offset of the slot
-   on the right side of center.
-<div style="text-align: center;">
-  <img src="../assembly3.png" alt="Assembly Step 3" style="height: 300px;">
-</div>
+  <li>
+    Place the top plate onto the standoffs as shown - note the offset of the slot
+    on the right side of center.
+    <div style="text-align: center;">
+      <img src="../assembly3.png" alt="Assembly Step 3" style="height: 300px;">
+    </div>
+  </li>
 
-1. Secure the top plate with the four longest 12mm plastic screws.
-<div style="text-align: center;">
-  <img src="../assembly4.png" alt="Assembly Step 4" style="height: 300px;">
-</div>
+  <li>
+    Secure the top plate with the four longest 12mm plastic screws.
+    <div style="text-align: center;">
+      <img src="../assembly4.png" alt="Assembly Step 4" style="height: 300px;">
+    </div>
+  </li>
 
-1. Screw in three standoffs into the holes in the top plate.
-<div style="text-align: center;">
-  <img src="../assembly5.png" alt="Assembly Step 5" style="height: 300px;">
-</div>
+  <li>
+    Screw in three standoffs into the holes in the top plate.
+    <div style="text-align: center;">
+      <img src="../assembly5.png" alt="Assembly Step 5" style="height: 300px;">
+    </div>
+  </li>
 
-1. Bend the inner circuit board so that it is perpendicular to the outer ring.
-   Attach the clear bracket to the back of the small circular circuit board with
-   two 6mm plastic screws.  
+  <li>
+    Bend the inner circuit board so that it is perpendicular to the outer ring.
+    Attach the clear bracket to the back of the small circular circuit board with
+    two 6mm plastic screws.<br>
+    <b>NOTE: Exercise caution when bending the board into place, as to not break any
+    of the wire connections.</b>
+    <div style="text-align: center;">
+      <img src="../assembly6.png" alt="Assembly Step 6" style="height: 300px;">
+    </div>
+  </li>
 
-<b>NOTE: Exercise caution when bending the board into place, as to not break any
-of the wire connections.</b>
-<div style="text-align: center;">
-  <img src="../assembly6.png" alt="Assembly Step 6" style="height: 300px;">
-</div>
+  <li>
+    Attach the circuit board to the standoffs with three 6mm plastic screws.
+    <div style="text-align: center;">
+      <img src="../assembly7.png" alt="Assembly Step 7" style="height: 300px;">
+    </div>
+  </li>
 
-1. Attach the circuit board to the standoffs with three 6mm plastic screws.
-<div style="text-align: center;">
-  <img src="../assembly7.png" alt="Assembly Step 7" style="height: 300px;">
-</div>
+  <li>
+    With the small circular board and bracket perpendicular to the large circle,
+    Insert the clear tab of the bracket into the slot on the top plate. You can
+    secure this connection with superglue if preferred, or you may leave it loose
+    for future disassembly.
+    <div style="text-align: center;">
+      <img src="../assembly8.png" alt="Assembly Step 8" style="height: 300px;">
+    </div>
+  </li>
 
-1. With the small circular board and bracket perpendicular to the large circle,
-   Insert the clear tab of the bracket into the slot on the top plate. You can
-   secure this connection with superglue if preferred, or you may leave it loose
-   for future disassembly.
-<div style="text-align: center;">
-  <img src="../assembly8.png" alt="Assembly Step 8" style="height: 300px;">
-</div>
+  <li>
+    Run the wires from the back of the circuit board through the holes in the top
+    plate as shown. In this orientation the red, black and orange wires will go
+    through the left slot, and the blue, white and yellow wires will feed through
+    the right slot.
+    <div style="text-align: center;">
+      <img src="../assembly9.png" alt="Assembly Step 9" style="height: 300px;">
+    </div>
+  </li>
 
-<div style="text-align: center;">
-  <img src="../assembly9.png" alt="Assembly Step 9" style="height: 300px;">
-</div>
+  <li>
+    Plug the wires into the Arduino Red Board as indicated below. Double check
+    these connections before turning on the unit as incorrect connections may damage
+    the unit and are not covered as a manufacturer’s defect!<br>
+    <b>NOTE: Given the confined work space, A pair of needle nose pliers or tweezers
+    may help to plug in the connections.</b>
+  </li>
+</ol>
 
-
-1. Run the wires from the back of the circuit board through the holes in the top
-   plate as shown. In this orientation the red, black and orange wires will go
-   through the left slot, and the blue, white and yellow wires will feed through
-   the right slot.
-
-1. Plug the wires into the Arduino Red Board as indicated below. Double check
-these connections before turning on the unit as incorrect connections may damage
-the unit and are not covered as a manufacturer’s defect! <b>NOTE: Given the
-confined work space, A pair of needle nose pliers or tweezers may help to plug
-in the connections.</b>
 <table>
   <tr bgcolor="gray">
     <td><b>Wire Color</b></td>
@@ -151,8 +172,7 @@ in the connections.</b>
 </table>
 <b>There are multiple places in which ground wire can be connected, all will work. Plugging the black GND wire into the GND connection closest to the VIN pin on the left is easiest.</b>
 
-1. After double checking the connections again, plug in the mini B USB cable and
-   power adapter. Follow the use instructions.
+After double checking the connections again, plug in the mini B USB cable and power adapter. Follow the use instructions.
 
 ### Using the 3D Compass
 The 3D compass is powered by a USB plug, so any computer, USB charger, or even
