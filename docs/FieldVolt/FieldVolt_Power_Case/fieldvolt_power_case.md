@@ -1,7 +1,7 @@
 # FieldVolt Power Case
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo." style="height:300px;">
+  </div>
 
 This documentation covers part number <a
 href="https://leemangeophysical.com/product/fieldvolt-power-case/"
@@ -58,29 +58,23 @@ damage to Leeman Geophysical for replacement. Note that there are many optional
 accessories available, see the accessories section of the manual for details and
 usage notes.  
 
-* FieldVolt Power Case with batteries  
-
-* Extra fuse  
-
-* Quick Start Guide  
-
-* Zipper Storage Pouch
+<ul>
+   <li>FieldVolt Power Case with batteries</li>
+   <li>Extra fuse</li>
+   <li>Quick Start Guide</li>
+   <li>Zipper Storage Pouch</li>
+</ul>
 
 ### Features
-* 16Ah capacity batteries come pre-installed  
-
-* Easy to charge with up to 65W solar panels or wall chargers  
-
-* Single standardized field volt power output connector for any instrument up to
-  5A
-
-* Fused battery connection with spare fuse  
-
-* Single switch on/off operation  
-
-* Easy to maintain with open design
-
-* Durable Nanuk Case and Amphenol Industrial connectors
+<ul>
+   <li>16Ah capacity batteries come pre-installed</li>
+   <li>Easy to charge with up to 65W solar panels or wall chargers</li>
+   <li>Single standardized field volt power output connector for any instrument up to 5A</li>
+   <li>Fused battery connection with spare fuse</li>
+   <li>Single switch on/off operation</li>
+   <li>Easy to maintain with open design</li>
+   <li>Durable Nanuk Case and Amphenol Industrial connectors</li>
+</ul>
 
 ## Specifications
 <table>
@@ -131,9 +125,10 @@ usage notes.
 
 ## Operation
 ### Panel
-<center>
-![Instrument panel photo.](panel.png){: style="height:450px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../panel.png" alt="Instrument panel photo." style="height:450px;">
+  </div>
+
 <table>
   <tr bgcolor="gray">
     <td><b>Key</b></td>
@@ -169,24 +164,29 @@ usage notes.
 ### Outside Connectors
 On the outside of the device there are two connectors that follow the [FieldVolt standard](../fieldvolt_standard.md)  
 
-* Solar Panel In  
+<ul>
+   <li>Solar Panel In</li>
+   <li>Instrument Power Out</li>
+</ul>
 
-* Instrument Power Out  
-
-<center>
-![Instrument connector photo.](connectors.png){: style="height:450px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../connectors.png" alt="Instrument connector photo." style="height:450px">
+  </div>
 
 ## Schematic
-<a href="../schematic.pdf" target="_blank" rel="noopener
-noreferrer">![Schematic.](schematic.png){: style="height:450px"}</a>
+<div style="text-align: center;">
+   <a href="../schematic.pdf" target="_blank" rel="noopener noreferrer">
+      <img src="../schematic.png" alt="Schematic." style="height:450px;">
+   </a>
+</div>
 
 ## Accessories 
-* [Cables](../fieldvolt_cables.md)  
 
-* [Solar Panels](../fieldvolt_solar_panels.md)
+[Cables](../fieldvolt_cables.md)  
 
-* [Accessories](../fieldvolt_accessories.md)
+[Solar Panels](../fieldvolt_solar_panels.md)
+
+[Accessories](../fieldvolt_accessories.md)
 
 ## Revisions
 <table>
