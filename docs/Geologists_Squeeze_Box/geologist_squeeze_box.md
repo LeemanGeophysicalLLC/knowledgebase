@@ -17,7 +17,9 @@ Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.  
 
-* Assembled squeeze box
+<ul>
+  <li>Assembled squeeze box</li>
+</ul>
 
 ## Operation Guide
 ### Basic Operation
@@ -106,17 +108,14 @@ damage to Leeman Geophysical for replacement.
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tzIelKxWcVM?si=iRfdsdu-5IXjST0_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
-* Try making layers of different thicknesses and see what their effect is.
-* Try different materials - playdough, coffee, flour, sand, moon sand, and other
-  cooking materials are good candidates.
-* Try lightly dampening some layers.
-* Create the layers with the ram in about ¾ of the way and withdraw it to see
-  what happens in an extensional test instead of the compression test.
-* After deforming your box, use a shop vac to erode the upper portion of the
-  material and observe the patterns created on the surface.
-* After deforming the box part way, add more sediment on top, then deform more.
-  This simulates complex deposition/deformation patterns that we often see in
-  real life.
+<ul>
+  <li>Try making layers of different thicknesses and see what their effect is.</li>
+  <li>Try different materials - playdough, coffee, flour, sand, moon sand, and other cooking materials are good candidates.</li>
+  <li>Try lightly dampening some layers.</li>
+  <li>Create the layers with the ram in about ¾ of the way and withdraw it to see what happens in an extensional test instead of the compression test.</li>
+  <li>After deforming your box, use a shop vac to erode the upper portion of the material and observe the patterns created on the surface.</li>
+  <li>After deforming the box part way, add more sediment on top, then deform more. This simulates complex deposition/deformation patterns that we often see in real life.</li>
+</ul>
 
 
 ## Teachers Guide
@@ -154,8 +153,19 @@ difference between screwing around and science is writing it down.” Take lots 
 notes and have fun!  
 
 ### Lab Activity
-* <a href="https://docs.google.com/document/d/1_ukrtYt-NUvjx7G5uUpbuBWwasQ5orbDjec4CXtnwoE/edit" target="_blank" rel="noopener noreferrer">Basic Lab Activity</a>
-* <a href="https://docs.google.com/document/d/1ni7TQ4-xyOrLFwiIlzJ49hatRJ2FzKREU-i2q9pWqOA/edit#heading=h.mq2gzs29aged" target="_blank" rel="noopener noreferrer">Core Sampling Lab Activity</a>
+<ul>
+  <li>
+    <a href="https://docs.google.com/document/d/1_ukrtYt-NUvjx7G5uUpbuBWwasQ5orbDjec4CXtnwoE/edit" target="_blank" rel="noopener noreferrer">
+      Basic Lab Activity
+    </a>
+  </li>
+  <li>
+    <a href="https://docs.google.com/document/d/1ni7TQ4-xyOrLFwiIlzJ49hatRJ2FzKREU-i2q9pWqOA/edit#heading=h.mq2gzs29aged" target="_blank" rel="noopener noreferrer">
+      Core Sampling Lab Activity
+    </a>
+  </li>
+</ul>
+
 
 
 
@@ -218,30 +228,49 @@ allowfullscreen></iframe>
 </center>
 
 ### Upkeep
-* To keep the screw mechanism operating smoothly, you should lubricate it
-  occasionally. We recommend using <a
-  href="https://3inone.com/product/3-in-one-dry-to-touch-dry-lube/"
-  target="_blank" rel="noopener noreferrer">3-IN-ONE Dry to Touch Dry Lube</a>.
-* Be sure to keep your squeeze box clean! We recommend using light, soapy water
-  on a rag. Be sure to dry your box thoroughly, especially the screw mechanism.
+<ul>
+  <li>
+    To keep the screw mechanism operating smoothly, you should lubricate it occasionally. We recommend using 
+    <a href="https://3inone.com/product/3-in-one-dry-to-touch-dry-lube/" target="_blank" rel="noopener noreferrer">
+      3-IN-ONE Dry to Touch Dry Lube
+    </a>.
+  </li>
+  <li>
+    Be sure to keep your squeeze box clean! We recommend using light, soapy water on a rag. Be sure to dry your box thoroughly, especially the screw mechanism.
+  </li>
+</ul>
 
 ### When in Use
-* Do not fill your box to the top during use. As you operate the squeeze box,
-  the compression will overflow the contents if it is too full or exert
-  excessive force.
-* Get creative with the materials that you use. You can use colored sand, flour,
-  coffee, salt, and more. The possibilities are endless!
-* Try not to overstress it. We designed our squeeze box to be rugged but it is
-  possible to crack the plastic parts with unnecessary stress.
+<ul>
+  <li>
+    Do not fill your box to the top during use. As you operate the squeeze box, the compression will overflow the contents if it is too full or exert excessive force.
+  </li>
+  <li>
+    Get creative with the materials that you use. You can use colored sand, flour, coffee, salt, and more. The possibilities are endless!
+  </li>
+  <li>
+    Try not to overstress it. We designed our squeeze box to be rugged but it is possible to crack the plastic parts with unnecessary stress.
+  </li>
+</ul>
 
 ### Repair
 If needed, you can always order spare parts for your squeeze boxes! Just contact our support team for assistance.
 
 ## Accessories
-* Push Plate Assembly (<a href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/" target="_blank" rel="noopener noreferrer">10-0000187</a>)
-* Angle Deformation Blocks (<a href="https://leemangeophysical.com/product/angle-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000184</a>)
-* Complex Deformation Blocks (<a href="https://leemangeophysical.com/product/complex-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000185</a>)
-
+<ul>
+  <li>
+    Push Plate Assembly 
+    (<a href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/" target="_blank" rel="noopener noreferrer">10-0000187</a>)
+  </li>
+  <li>
+    Angle Deformation Blocks 
+    (<a href="https://leemangeophysical.com/product/angle-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000184</a>)
+  </li>
+  <li>
+    Complex Deformation Blocks 
+    (<a href="https://leemangeophysical.com/product/complex-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000185</a>)
+  </li>
+</ul>
 
 ## Revision History
 <table>
