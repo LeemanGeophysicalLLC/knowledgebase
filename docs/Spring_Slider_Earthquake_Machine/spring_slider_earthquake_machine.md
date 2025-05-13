@@ -12,14 +12,16 @@ surfaces. It is able to measure and record shear loads up to 1kg (2.2 lbs) and c
 analysis, as well as for simple qualitative demonstrations.
 
 ### Components
-* Slider Base
-* Adhesive Sandpaper Strips (100, 120, 220 Grit Sheets)
-* Slider Block
-* Electronics Module
-* Button Pendant
-* 12VDC Power Supply
-* 6 ft. USB Cable
-* Assorted Spring Packet
+<ul>
+  <li>Slider Base</li>
+  <li>Adhesive Sandpaper Strips (100, 120, 220 Grit Sheets)</li>
+  <li>Slider Block</li>
+  <li>Electronics Module</li>
+  <li>Button Pendant</li>
+  <li>12VDC Power Supply</li>
+  <li>6 ft. USB Cable</li>
+  <li>Assorted Spring Packet</li>
+</ul>
 
 ### Initial Assembly
 <ol>
@@ -115,9 +117,10 @@ In this lab, you’ll explore the role of a few variables on the earthquake cycl
 of a spring-slider model. Try to imagine how much more energy is at work in a
 real earthquake where the blocks of rock can be the size of a country!  
 
-* <a href="https://docs.google.com/document/d/18YKNOFFVs2ug316g7z305HmLGav2u7MKnxVk-mrj-E4/edit#heading=h.dj54izm0lwup" target="_blank" rel="noopener noreferrer">Basic Lab Activity</a>
-
-* <a href="https://docs.google.com/document/d/1OtO0DTzSdnAWpxp_zaFlyeOZgyJbFgMR8EWfzrVZESY/edit#heading=h.mkpx7yjpucdq" target="_blank" rel="noopener noreferrer">Intermediate Lab Activity</a>
+<ul>
+  <li><a href="https://docs.google.com/document/d/18YKNOFFVs2ug316g7z305HmLGav2u7MKnxVk-mrj-E4/edit#heading=h.dj54izm0lwup" target="_blank" rel="noopener noreferrer">Basic Lab Activity</a></li>
+  <li><a href="https://docs.google.com/document/d/1OtO0DTzSdnAWpxp_zaFlyeOZgyJbFgMR8EWfzrVZESY/edit#heading=h.mkpx7yjpucdq" target="_blank" rel="noopener noreferrer">Intermediate Lab Activity</a></li>
+</ul>
 
 ## Operation Guide
 ### Basic Operation
@@ -178,9 +181,11 @@ on our website <a href="https://github.com/LeemanGeophysicalLLC/Spring_Slider_De
 The Springs Slider Apparatus software collects data from the instrument and
 plots all of the following:
 
-* Stress over Time
-* Stress over Displacement
-* Displacement over Time  
+<ul>
+  <li>Stress over Time</li>
+  <li>Stress over Displacement</li>
+  <li>Displacement over Time</li>
+</ul>
 
 <ol>
   <li>
@@ -269,11 +274,11 @@ wear and require replacing for the best results. This product comes with three
 grits of 48" X 4.5" adhesive backed sand paper strips. Replacement strips are
 available for order from our website.
 
-* 100 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-100-grit/" target="_blank" rel="noopener noreferrer">2-0000236</a>
-
-* 120 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-120-grit/" target="_blank" rel="noopener noreferrer">2-0000238</a>
-
-* 220 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-220-grit/" target="_blank" rel="noopener noreferrer">2-0000240</a>
+<ul>
+  <li>100 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-100-grit/" target="_blank" rel="noopener noreferrer">2-0000236</a></li>
+  <li>120 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-120-grit/" target="_blank" rel="noopener noreferrer">2-0000238</a></li>
+  <li>220 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-220-grit/" target="_blank" rel="noopener noreferrer">2-0000240</a></li>
+</ul>
 
 <ol>
   <li>
@@ -381,42 +386,43 @@ needs to be multiplied by your distance output in steps to convert it to mm.
 
 ## Tips and Troubleshooting
 ### Tips
-* It is often helpful to put a little bit of normal load on the slider. A water
-bottle is a good place to start, but scale calibration weights or other masses
-can be used. Just don’t put too much weight on or some springs may permanently
-deform.
-* Friction can be greatly affected by environmental factors like humidity, so
-results from lab to lab may change slightly.
-* Sandpaper strips generally last about 10-40 runs depending on the weight and
-  speed.
+<ul>
+  <li>It is often helpful to put a little bit of normal load on the slider. A water bottle is a good place to start, but scale calibration weights or other masses can be used. Just don’t put too much weight on or some springs may permanently deform.</li>
+  <li>Friction can be greatly affected by environmental factors like humidity, so results from lab to lab may change slightly.</li>
+  <li>Sandpaper strips generally last about 10-40 runs depending on the weight and speed.</li>
+</ul>
 
-### Troubleshooting
-* **Motor:** If the motor is behaving oddly, barely moving, or not moving at all.
-    * Ensure that the motor connector is plugged firmly into the 4 Position J2
-      Connector.
-    * Ensure that there are no breaks in the wires.
-    * Check that the control unit is receiving power through included AC power
-      adapter.  
-      **Note:** *If the USB Cable is connected, and the AC Power Adapter is
-      not, the motor move, but will not behave properly*
-* **Load Cell:** If data is not being properly logged by the included
-  Spring-Slider software.
-    * Ensure that the load cell connector is plugged firmly into 5 Position J1
-      Connector.
-    * Ensure that there are no breaks in the wires.
-* **Push Button:** If the push button is not activating the device.
-    * Ensure the cable has no severe kinks or breaks.
-    * The push button can be tested with a multi-meter in continuity mode by
-      probing across the two contact surfaces on the jack, and pushing the
-      button.
-    * Review the motor trouble shooting steps if the issue is not resolved.
-* **Serial Connection:** If you cannot connect to the device.
-    * Ensure you are using the provided USB cable, some power-only cables will
-      not provide a data connection.
-    * Install the FTDI VCP drivers available at
-      <a href="https://ftdichip.com/drivers/vcp-drivers/" target="_blank" rel="noopener noreferrer">https://ftdichip.com/drivers/vcp-drivers/</a>
-    * Ensure you have selected the correct serial settings as outlined in the
-      serial connection section.
+<ul>
+  <li><strong>Motor:</strong> If the motor is behaving oddly, barely moving, or not moving at all.
+    <ul>
+      <li>Ensure that the motor connector is plugged firmly into the 4 Position J2 Connector.</li>
+      <li>Ensure that there are no breaks in the wires.</li>
+      <li>Check that the control unit is receiving power through the included AC power adapter.
+        <strong>Note:</strong> <em>If the USB Cable is connected, and the AC Power Adapter is not, the motor will move, but will not behave properly.</em>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Load Cell:</strong> If data is not being properly logged by the included Spring-Slider software.
+    <ul>
+      <li>Ensure that the load cell connector is plugged firmly into the 5 Position J1 Connector.</li>
+      <li>Ensure that there are no breaks in the wires.</li>
+    </ul>
+  </li>
+  <li><strong>Push Button:</strong> If the push button is not activating the device.
+    <ul>
+      <li>Ensure the cable has no severe kinks or breaks.</li>
+      <li>The push button can be tested with a multi-meter in continuity mode by probing across the two contact surfaces on the jack, and pushing the button.</li>
+      <li>Review the motor troubleshooting steps if the issue is not resolved.</li>
+    </ul>
+  </li>
+  <li><strong>Serial Connection:</strong> If you cannot connect to the device.
+    <ul>
+      <li>Ensure you are using the provided USB cable, some power-only cables will not provide a data connection.</li>
+      <li>Install the FTDI VCP drivers available at <a href="https://ftdichip.com/drivers/vcp-drivers/" target="_blank" rel="noopener noreferrer">https://ftdichip.com/drivers/vcp-drivers/</a></li>
+      <li>Ensure you have selected the correct serial settings as outlined in the serial connection section.</li>
+    </ul>
+  </li>
+</ul>
 
 ## Accessories
 There are a variety of accessories available for the earthquake machine! Contact
