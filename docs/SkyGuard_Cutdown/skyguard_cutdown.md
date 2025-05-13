@@ -1,7 +1,7 @@
 # SkyGuard Cutdown 
-<center>
-<img alt="Instrument cover photo." src="../SkyGuard_cover_photo.png" style="height:300px">
-</center>
+<div style="text-align: center;">
+   <img alt="Instrument cover photo." src="../SkyGuard_cover_photo.png" style="height:300px">
+</div>
 
 This documentation covers part number <a href="" target="_blank" rel="noopener noreferrer">10-0000201</a>
 
@@ -38,13 +38,12 @@ payload recovery.
 ### Front Panel
 The front panel of the instrument has two LED indicators on it and two banks of dip switches.  
 
-* **Heartbeat** - Green LED indicating the device is active.  
-
-* **Timer Armed** - Yellow LED indicating that the flight timer has been armed and is running.
-
-* **Time DIP Switches** - 4 switches to set the time before the balloon is released.
-
-* **Pressure DIP Switches** - 4 switches to set the absolute pressure at which the balloon is released.
+<ul>
+   <li><b>Heartbeat</b> - Green LED indicating the device is active.</li>
+   <li><b>Timer Armed</b> - Yellow LED indicating that the flight timer has been armed and is running.</li>
+   <li><b>Time DIP Switches</b> - 4 switches to set the time before the balloon is released.</li>
+   <li><b>Pressure DIP Switches</b> - 4 switches to set the absolute pressure at which the balloon is released.</li>
+</ul>
 
 ### What's in the Box
 Upon receipt of your unit, unpack the contents of the box and inspect all parts
@@ -53,8 +52,10 @@ damage to Leeman Geophysical for replacement. Note that there are many optional
 accessories available, see the accessories section of the manual for details and
 usage notes.  
 
-* SkyGuard Cutdown Assembly
-* Flight Consumables Kit
+<ul>
+   <li>SkyGuard Cutdown Assembly</li>
+   <li>Flight Consumables Kit</li>
+</ul>
 
 ## Specifications
 <table>
@@ -163,7 +164,7 @@ The times from arming to release are set as shown in the following table.
 | ON       | ON       | ON       | ON       | 120            |
 
 ### Pressure Cutdown
-Pressure cutdown is performed based on the **absolute pressure** at the
+Pressure cutdown is performed based on the <b>absolute pressure</b> at the
 instrument. Once the pressure is below the set point which has been selected
 with the 4 DIP switches labeled "Pressure" the release will be actuated. Since
 there is no way to know altitude information to determine sea level pressure the
@@ -189,47 +190,44 @@ absolute pressure is used always.
 | ON       | ON       | ON       | ON       | 1000              |
 
 ## Operation
-1. Remove the elastic bands and front/back panels from the housing.
-1. Using a small pointed object like a toothpick or pen set the desired time
-   and/or pressure on the DIP switches following the tables in the configuration
-   section. Note that both time and pressure conditions may be set and whichever
-   is reached first will trigger a release.
-1. Connect the device to the balloon train following the recommendations in the
-   rigging section of the manual or your SOPs.
-1. Install a 9V battery onto the battery clip. For best performance in the cold
-   flight environment we recommend a high performance lithium 9V. The green and
-   yellow LEDS on the front will alternate to indicate the system is
-   initializing. The servo will also move approximately 20 degrees then back to
-   the home position.
-1. Reinstall the front and back covers with the elastic bands
-1. The cutdown is ready for flight as long as the green led is flashing.
+<ol>
+   <li>Remove the elastic bands and front/back panels from the housing.</li>
+   <li>Using a small pointed object like a toothpick or pen, set the desired time and/or pressure on the DIP switches following the tables in the configuration section. Note that both time and pressure conditions may be set, and whichever is reached first will trigger a release.</li>
+   <li>Connect the device to the balloon train following the recommendations in the rigging section of the manual or your SOPs.</li>
+   <li>Install a 9V battery onto the battery clip. For best performance in the cold flight environment, we recommend a high-performance lithium 9V. The green and yellow LEDs on the front will alternate to indicate the system is initializing. The servo will also move approximately 20 degrees then back to the home position.</li>
+   <li>Reinstall the front and back covers with the elastic bands.</li>
+   <li>The cutdown is ready for flight as long as the green LED is flashing.</li>
+</ol>
 
 ## Rigging
 While rigging of your cutdown likely depends on your exact balloon train design,
 this is the recommended starting point for the development of your procedure.
 
-<center>
-<img alt="Rigging attachment points" src="../SkyGuard_Cutdown_Rigging_Hookup_Points.png" style="max-width:500px;">
-</center>
+  <div style="text-align: center;">
+    <img alt="Rigging attachment points" src="../SkyGuard_Cutdown_Rigging_Hookup_Points.png" style="max-width:500px;">
+  </div>
+
 
 The basic principle of operation is that the balloon when released also pulls of
 the line retaining the top of the parachute. This allows the balloon to go free
 and the cutdown to fall below the parachute to gently fall along with the
 payload.
 
-<center>
-<img alt="Rigging diagram" src="../SkyGuard_Before_and_After_Rigging.png" style="max-width:500px;">
-</center>
+  <div style="text-align: center;">
+    <img alt="Rigging diagram" src="../SkyGuard_Before_and_After_Rigging.png" style="max-width:500px;">
+  </div>
 
-1. Tie the balloon retaining line to the balloon retaining ring and place it
-   over the release pin. Making a large loop between sides provides the most even lift, but this is not overly important.
-
-2. Tie the parachute top line to the parachute retaining ring and install it onto the
-   release pin by pressing the blue button inside the cutdown.
-
-3. Tie off the bottom payload line to the payload swivel on the bottom of the
-   cutdown.
-
+<ol>
+   <li>
+      Tie the balloon retaining line to the balloon retaining ring and place it over the release pin. Making a large loop between sides provides the most even lift, but this is not overly important.
+   </li>
+   <li>
+      Tie the parachute top line to the parachute retaining ring and install it onto the release pin by pressing the blue button inside the cutdown.
+   </li>
+   <li>
+      Tie off the bottom payload line to the payload swivel on the bottom of the cutdown.
+   </li>
+</ol>
 
 
 ## Serial Connection
@@ -254,13 +252,12 @@ You will need a 3V3 USB cable to accomplish the programming or to read out
 serial outputs.
 
 ### Upload Procedure
-1. Connect the serial cable as described in the Serial Connection section.
-2. Using a jumper, connect the Reset pin to ground to hold the processor in
-   reset.
-3. Open PlatformIO in VSCode and click the "Upload" button (arrow) at the bottom
-   of the screen.
-4. Remove the jumper from the reset pin when you see "Uploading" appear in the
-   terminal.
+<ol>
+   <li>Connect the serial cable as described in the Serial Connection section.</li>
+   <li>Using a jumper, connect the Reset pin to ground to hold the processor in reset.</li>
+   <li>Open PlatformIO in VSCode and click the "Upload" button (arrow) at the bottom of the screen.</li>
+   <li>Remove the jumper from the reset pin when you see "Uploading" appear in the terminal.</li>
+</ol>
 
 ## Enclosure and Hardware
 The SkyGuard Cutdown enclosure is designed using Autodesk Fusion 360, and the
@@ -286,7 +283,7 @@ If you will be recovering your SkyGuard for multiple uses, we have accessories
 that you may be interested in keeping on-hand.
 
 ### Flight Consumables Kit 
-<a href="" target="_blank" rel="noopener noreferrer">10-XXXXXXX</a>  
+<a href="" target="_blank" rel="noopener noreferrer">10-0000202</a>  
 Extra hardware to replace that used during a flight. Includes a top and bottom
 release ring and water plug.
 
