@@ -22,18 +22,27 @@ analysis, as well as for simple qualitative demonstrations.
 * Assorted Spring Packet
 
 ### Initial Assembly
-1. Loosen the 2 red thumb screws located at the end of the slider base. Line up
-the electronics module, such that the two slots on the metal bracket slide
-underneath the thumb screws. Push the two pieces together then tighten down the
-thumbscrews until snug.
-1. Take the S-Hook from the motor pulley, and the S-Hook from the slide unit and
-connect each hook to different ends of one of the assorted springs.
-1. Plug in the hand control pendant to the circuit board located in the bottom
-   left of the control PCB.
-1. If the motor and load cell do not arrive connected, connect them to the J1
-and J2 connectors labeled **Motor** and **Load Cell** in the image below.
-1. When ready, connect the AC Power adapter jack into the port located at the
-   back left of the device.
+<ol>
+  <li>
+    Loosen the 2 red thumb screws located at the end of the slider base. Line up the electronics module, such that the two slots on the metal bracket slide underneath the thumb screws. Push the two pieces together then tighten down the thumbscrews until snug.
+  </li>
+
+  <li>
+    Take the S-Hook from the motor pulley, and the S-Hook from the slide unit and connect each hook to different ends of one of the assorted springs.
+  </li>
+
+  <li>
+    Plug in the hand control pendant to the circuit board located in the bottom left of the control PCB.
+  </li>
+
+  <li>
+    If the motor and load cell do not arrive connected, connect them to the J1 and J2 connectors labeled <b>Motor</b> and <b>Load Cell</b> in the image below.
+  </li>
+
+  <li>
+    When ready, connect the AC Power adapter jack into the port located at the back left of the device.
+  </li>
+</ol>
 <div style="text-align: center;">
   <img src="../PinOut.png" alt="Connector Pinout Diagram." style="height: 400px;">
 </div>
@@ -115,25 +124,36 @@ real earthquake where the blocks of rock can be the size of a country!
 The following steps will outline the basic mechanical operation of the
 Spring-Slider Apparatus.  
 
-1. Plug the AC power adapter into the wall and into the power port on the
-   spring-slider machine.  
+<ol>
+  <li>
+    Plug the AC power adapter into the wall and into the power port on the spring-slider machine.
+  </li>
 
-1. Plug the AC power adapter into the wall and into the power port on the
-   spring-slider machine.
-1. Pull the pull string to unwind it from the pulley. Lights on the board may
-   illuminate, this is normal.  
+  <li>
+    Plug the AC power adapter into the wall and into the power port on the spring-slider machine.
+  </li>
 
-1. Hook the S hook of the pull string to the slider using the desired spring.  
+  <li>
+    Pull the pull string to unwind it from the pulley. Lights on the board may illuminate, this is normal.
+  </li>
 
-1. Ensure that the pulley guard cover is in place before any use - failure to
-use the pulley guard may result in injury!  
+  <li>
+    Hook the S hook of the pull string to the slider using the desired spring.
+  </li>
 
-1. Set the speed slider to mid-range and press the hand pendant. The motor
-should begin to run and will run until you release the button on the hand
-pendant.  
+  <li>
+    Ensure that the pulley guard cover is in place before any use - failure to use the pulley guard may result in injury!
+  </li>
 
-1. The speed control knob, located on the control unit, can be adjusted at any
-   time to change the motor speed.
+  <li>
+    Set the speed slider to mid-range and press the hand pendant. The motor should begin to run and will run until you release the button on the hand pendant.
+  </li>
+
+  <li>
+    The speed control knob, located on the control unit, can be adjusted at any time to change the motor speed.
+  </li>
+</ol>
+
 
 ### Recording Data
 #### Data Format and Serial Connection
@@ -162,50 +182,82 @@ plots all of the following:
 * Stress over Displacement
 * Displacement over Time  
 
-1. Ensure the device is powered.
-1. Connect the included USB cable into the back of the control unit (Next to the
-power port), then plug the other end into an open USB port on your computer.
-1. With power connected to the device, open up the Spring-Slider Software.
-1. Once the Spring-Slider software is open, click the drop down arrow on the
-**Serial Port** tab. Select the COM Port you are currently using. If you are
-unsure of which port you are using, remove the USB cable from the computer, open
-the **Serial Port** tab again and observe which port is no long available. Plug
-the USB Back in and select the port that had previously disappeared.
-1. With the correct serial port connected, the device is ready to log data. The
-software will begin logging data upon pressing the button and will stop when the
-button is released.
-1. Use the **Clear** button in the top right of the software window to clear the
-data  
-*Note: The data must be cleared before running a new test*
-1. Collected Data can be saved to any desired directory via the save button.
+<ol>
+  <li>
+    Ensure the device is powered.
+  </li>
+
+  <li>
+    Connect the included USB cable into the back of the control unit (Next to the power port), then plug the other end into an open USB port on your computer.
+  </li>
+
+  <li>
+    With power connected to the device, open up the Spring-Slider Software.
+  </li>
+
+  <li>
+    Once the Spring-Slider software is open, click the drop-down arrow on the <b>Serial Port</b> tab. Select the COM Port you are currently using. If you are unsure of which port you are using, remove the USB cable from the computer, open the <b>Serial Port</b> tab again and observe which port is no longer available. Plug the USB back in and select the port that had previously disappeared.
+  </li>
+
+  <li>
+    With the correct serial port connected, the device is ready to log data. The software will begin logging data upon pressing the button and will stop when the button is released.
+  </li>
+
+  <li>
+    Use the <b>Clear</b> button in the top right of the software window to clear the data. <br><i>Note: The data must be cleared before running a new test.</i>
+  </li>
+
+  <li>
+    Collected Data can be saved to any desired directory via the save button.
+  </li>
+</ol>
 
 #### Using a Terminal Program
 Data may also be recorded using any serial terminal program you like such as RealTerm, CoolTerm, and more.
 Simply connect to the apparatus using the serial parameters outlined above and utilize the software’s recording
 features. Here we outline the process for using CoolTerm, freely available from <a href="https://freeware.the-meiers.org/" target="_blank" rel="noopener noreferrer">https://freeware.the-meiers.org/</a>
 
-* Start the CoolTerm program.
-* Click the **Options** button and in the Port selection and find the serial
-port of the spring-slider. If you are unsure which port is correct, unplug the
-USB cable from the computer and click the **Re-Scan Serial Ports** Button.
-Whichever port disappears is the spring slider. If you do not see a port
-associated with the apparatus, consult the troubleshooting guide.
-* Ensure that **Baudrate** is set to 115200, **Data Bits** to 8, **Parity** to
-none, and **Stop Bits** to 1.
-* Click **OK** to close the options window.
-* Click the **Connect** Button
-* After a few seconds, press the pendant button of the spring-slider and data
-should flow across the screen until the button is released. If so, you have
-successfully connected.
-* Click the **Clear Data** button to clear the screen of data.
-* To record data, in the **Connection** menu select the **Capture to Binary/Text
-File** option and click **Start**. Name your file and select its save location.
-Data will be saved until you go back to this menu and select **Stop**. We
-recommend only saving one run to one file and naming the file with the
-conditions of the run such as *run1_velocity5_waterbottle_spring3.txt*.
-* When you are done with experiments, just click the **Disconnect** button.
-* Read the text files into your favorite analysis program such as Excel, Python,
-Matlab, or many others.
+<ol>
+  <li>
+    Start the CoolTerm program.
+  </li>
+
+  <li>
+    Click the <b>Options</b> button and in the Port selection, find the serial port of the spring-slider. If you are unsure which port is correct, unplug the USB cable from the computer and click the <b>Re-Scan Serial Ports</b> button. Whichever port disappears is the spring slider. If you do not see a port associated with the apparatus, consult the troubleshooting guide.
+  </li>
+
+  <li>
+    Ensure that <b>Baudrate</b> is set to 115200, <b>Data Bits</b> to 8, <b>Parity</b> to none, and <b>Stop Bits</b> to 1.
+  </li>
+
+  <li>
+    Click <b>OK</b> to close the options window.
+  </li>
+
+  <li>
+    Click the <b>Connect</b> button.
+  </li>
+
+  <li>
+    After a few seconds, press the pendant button of the spring-slider and data should flow across the screen until the button is released. If so, you have successfully connected.
+  </li>
+
+  <li>
+    Click the <b>Clear Data</b> button to clear the screen of data.
+  </li>
+
+  <li>
+    To record data, in the <b>Connection</b> menu select the <b>Capture to Binary/Text File</b> option and click <b>Start</b>. Name your file and select its save location. Data will be saved until you go back to this menu and select <b>Stop</b>. We recommend only saving one run to one file and naming the file with the conditions of the run such as <i>run1_velocity5_waterbottle_spring3.txt</i>.
+  </li>
+
+  <li>
+    When you are done with experiments, just click the <b>Disconnect</b> button.
+  </li>
+
+  <li>
+    Read the text files into your favorite analysis program such as Excel, Python, Matlab, or many others.
+  </li>
+</ol>
 
 ### Sandpaper Replacement
 <center>
@@ -223,30 +275,35 @@ available for order from our website.
 
 * 220 Grit: <a href="https://leemangeophysical.com/product/adhesive-sandpaper-rolls-220-grit/" target="_blank" rel="noopener noreferrer">2-0000240</a>
 
-1. Remove any worn sand paper from the slide platform and the bottom of the
-slider.
-1. Thoroughly clean the surface of the slide platform and slide with a lint free
-rag and isopropyl alcohol.
-1. Beginning at the far end of the base slider plate (away from the motor),
-carefully place the new sand paper strip parallel and flush with one edge of the
-base plate. For smoothest application, apply the sandpaper from end to end in a
-continuous smooth motion with tension to prevent any lumps from forming. You may
-want to use a smooth metal object such as a screwdriver handle to burnish out
-any bubbles, just be careful to not remove the abrasive from the sandpaper.
-There will be excess sandpaper. This will be used for the slider block.
-1. Take a smooth edged metal object (screw driver shaft, metal tool handle,
-etc.), and firmly run it along the edges of slide platform, at a 45° angle,
-where the sandpaper overhangs the platform. This will create a lighter colored
-score line and help burnish the edges to the plastic to prevent peeling.
-1. Take a sharp disposable razor blade and carefully run it along the scored
-edges from underneath, on the adhesive side. Be cautious to avoid cutting into
-the plastic of the slide platform.
-1. Take the excess sand paper from your used strip, and apply it to the bottom
-of the slider following a similar procedure. The guide rails on the sides of the
-slider will prevent any overhang and thus the scoring method. Measuring and
-pre-cutting is the easiest way to apply the slider sandpaper.
-1. Firmly press the sandpaper on both surfaces down one final time to ensure the
-best adhesion.
+<ol>
+  <li>
+    Remove any worn sand paper from the slide platform and the bottom of the slider.
+  </li>
+
+  <li>
+    Thoroughly clean the surface of the slide platform and slide with a lint-free rag and isopropyl alcohol.
+  </li>
+
+  <li>
+    Beginning at the far end of the base slider plate (away from the motor), carefully place the new sandpaper strip parallel and flush with one edge of the base plate. For smoothest application, apply the sandpaper from end to end in a continuous smooth motion with tension to prevent any lumps from forming. You may want to use a smooth metal object such as a screwdriver handle to burnish out any bubbles, just be careful not to remove the abrasive from the sandpaper. There will be excess sandpaper. This will be used for the slider block.
+  </li>
+
+  <li>
+    Take a smooth-edged metal object (screwdriver shaft, metal tool handle, etc.), and firmly run it along the edges of the slide platform, at a 45° angle, where the sandpaper overhangs the platform. This will create a lighter colored score line and help burnish the edges to the plastic to prevent peeling.
+  </li>
+
+  <li>
+    Take a sharp disposable razor blade and carefully run it along the scored edges from underneath, on the adhesive side. Be cautious to avoid cutting into the plastic of the slide platform.
+  </li>
+
+  <li>
+    Take the excess sandpaper from your used strip and apply it to the bottom of the slider following a similar procedure. The guide rails on the sides of the slider will prevent any overhang and thus the scoring method. Measuring and pre-cutting is the easiest way to apply the slider sandpaper.
+  </li>
+
+  <li>
+    Firmly press the sandpaper on both surfaces down one final time to ensure the best adhesion.
+  </li>
+</ol>
 
 ### Calibrating Load Readings
 While all lab activities can be done in the arbitrary load units displayed, some
@@ -262,27 +319,40 @@ Simply add more water for each calibration point.
   <img src="../calsetup.png" alt="Calibration Setup." style="height: 300px;">
 </div>
 
-1. Remove the electronics module from the slider base by loosening the
-thumbscrews and sliding the unit off the base.
-1. Using a clamp, gently clamp the module down approximately 6 inches or more
-from the edge of a table. Similarly, clamp a pulley down at the table edge as
-shown below. The clamps, pulley, and mass bottle can all be ordered as a kit
-from our website.
-1. Run the string from the motor over the pulley and off the edge of the table.
-1. Unplug the 4 position motor connector labeled J2 from the circuit.
-1. Put the mass bottle on a scale and pour in water until the total mass reads
-   250 grams.
-1. Press the control pendant to start recording data in the program of your
-choice. Once the recording has started, hang the mass bottle from the S hook.
-The change in units from the zero mass to 250 grams are your first two data
-points.
-1. Repeat this process for 500, 750, and 1000 grams. **Do not exceed 1000 grams
-total load or the load cell may be damaged**.  
-**NOTE:** *Be sure to start recording with no mass each time as the load cell
-reading is tared to zero when the control pendant button is pressed.*
-1. Make a plot of your readings with the reading from the instrument on the x-axis and the actual mass applied
-on the y-axis. It should be a line similar to that shown below. The slope of that line is the calibration factor
-in grams/units that you need to multiply your readings by to get force in grams.
+<ol>
+  <li>
+    Remove the electronics module from the slider base by loosening the thumbscrews and sliding the unit off the base.
+  </li>
+
+  <li>
+    Using a clamp, gently clamp the module down approximately 6 inches or more from the edge of a table. Similarly, clamp a pulley down at the table edge as shown below. The clamps, pulley, and mass bottle can all be ordered as a kit from our website.
+  </li>
+
+  <li>
+    Run the string from the motor over the pulley and off the edge of the table.
+  </li>
+
+  <li>
+    Unplug the 4-position motor connector labeled J2 from the circuit.
+  </li>
+
+  <li>
+    Put the mass bottle on a scale and pour in water until the total mass reads 250 grams.
+  </li>
+
+  <li>
+    Press the control pendant to start recording data in the program of your choice. Once the recording has started, hang the mass bottle from the S hook. The change in units from the zero mass to 250 grams are your first two data points.
+  </li>
+
+  <li>
+    Repeat this process for 500, 750, and 1000 grams. <b>Do not exceed 1000 grams total load or the load cell may be damaged.</b><br>
+    <b>NOTE:</b> <i>Be sure to start recording with no mass each time as the load cell reading is tared to zero when the control pendant button is pressed.</i>
+  </li>
+
+  <li>
+    Make a plot of your readings with the reading from the instrument on the x-axis and the actual mass applied on the y-axis. It should be a line similar to that shown below. The slope of that line is the calibration factor in grams/units that you need to multiply your readings by to get force in grams.
+  </li>
+</ol>
 <div style="text-align: center;">
   <img src="../graph.png" alt="Calibration Graph." style="height: 200px;">
 </div>
@@ -292,15 +362,19 @@ Displacement standards are generally expensive and difficult to use, but our
 stepper motor moves a precise rota- tional angle per step, so we can calculate
 the displacement calibration in a few simple steps.
 
-1. Using a set of calipers, measure the small diameter of the pulley where your
-pull string wraps. It should be near 12.7 mm.
-1. The stepper motor is configured to make one complete revolution every 800
-steps. Knowing this we can now calculate the total linear distance per
-revolution and distance per step.
+<ol>
+  <li>
+    Using a set of calipers, measure the small diameter of the pulley where your pull string wraps. It should be near 12.7 mm.
+  </li>
 
-    $$distance~per~revelution = \pi pulley~inner~diameter$$  
+  <li>
+    The stepper motor is configured to make one complete revolution every 800 steps. Knowing this we can now calculate the total linear distance per revolution and distance per step.
+  </li>
+</ol>
 
-    $$distance~per~step = {distance~per~revolution \over steps~per~revolution}$$
+$$distance~per~revelution = \pi pulley~inner~diameter$$  
+
+$$distance~per~step = {distance~per~revolution \over steps~per~revolution}$$
 
 For example, on a pulley with a diameter of 12.5 mm, we calculate 0.049 mm/step. This is the calibration that
 needs to be multiplied by your distance output in steps to convert it to mm.
