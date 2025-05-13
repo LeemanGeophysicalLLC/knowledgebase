@@ -1,7 +1,7 @@
 # Spring Slider Earthquake Machine
-<center>
-![Instrument cover photo.](product.png){: style="height:250px"}
-</center>
+<div style="text-align: center;">
+  <img src="../product.png" alt="Instrument cover photo." style="height: 250px;">
+</div>
 
 This documentation covers part number 
 <a href="https://leemangeophysical.com/product/spring-slider/" target="_blank" rel="noopener noreferrer">10-0000149</a>
@@ -34,9 +34,9 @@ connect each hook to different ends of one of the assorted springs.
 and J2 connectors labeled **Motor** and **Load Cell** in the image below.
 1. When ready, connect the AC Power adapter jack into the port located at the
    back left of the device.
-<center>
-![Connector Pinout Diagram.](PinOut.png){: style="height:400px"}
-</center>
+<div style="text-align: center;">
+  <img src="../PinOut.png" alt="Connector Pinout Diagram." style="height: 400px;">
+</div>
 
 ## Teachers Guide
 ### Introduction
@@ -46,9 +46,9 @@ move smoothly or they can move in a stop-start “sticky” fashion. Smooth move
 means that that plate boundary does not store energy and is not prone to
 earthquakes. Stick- slip movement, on the other hand, stores energy in the rocks
 through their elastic properties and can result in earthquakes.
-<center>
-![Earthquake diagram.](TG1.png){: style="height:100px"}
-</center>
+<div style="text-align: center;">
+  <img src="../TG1.png" alt="Earthquake diagram." style="height: 100px;">
+</div>
 
 We call the boundary where the earthquake occurs a fault - or a boundary on
 which the slip of an earthquake occurs. The rock surrounding the fault is often
@@ -88,13 +88,13 @@ take any more load, failure occurs and the fault moves for some slip duration
 that is much shorter than the loading time. During the failure, energy is
 released resulting in a stress drop on the system. The process then repeats over
 and over again at some recurrence time interval.
-<center>
-![Spring Slider Diagram.](TG2.png){: style="height:100px"}
-</center>
+<div style="text-align: center;">
+  <img src="../TG2.png" alt="Spring Slider Diagram." style="height: 100px;">
+</div>
 
-<center>
-![Load Point Displacement (mm).](TG3.png){: style="height:100px"}
-</center>
+<div style="text-align: center;">
+  <img src="../TG3.png" alt="Load Point Displacement (mm)." style="height: 100px;">
+</div>
 
 Real earthquakes may take hundreds or thousands of years to accumulate the
 energy that they release in only a few minutes. Earthquakes can also be
@@ -258,9 +258,9 @@ calibrate the load cell a series of at least three, though five are recommended,
 known weights are applied and the load readings recorded. Scale weight sets can
 be used, but so can a water bottle as long as you have a scale to weigh it on.
 Simply add more water for each calibration point.
-<center>
-![Calibration Setup.](calsetup.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../calsetup.png" alt="Calibration Setup." style="height: 300px;">
+</div>
 
 1. Remove the electronics module from the slider base by loosening the
 thumbscrews and sliding the unit off the base.
@@ -283,9 +283,9 @@ reading is tared to zero when the control pendant button is pressed.*
 1. Make a plot of your readings with the reading from the instrument on the x-axis and the actual mass applied
 on the y-axis. It should be a line similar to that shown below. The slope of that line is the calibration factor
 in grams/units that you need to multiply your readings by to get force in grams.
-<center>
-![Calibration Graph.](graph.png){: style="height:200px"}
-</center>
+<div style="text-align: center;">
+  <img src="../graph.png" alt="Calibration Graph." style="height: 200px;">
+</div>
 
 ### Calibrating Displacement Readings
 Displacement standards are generally expensive and difficult to use, but our
