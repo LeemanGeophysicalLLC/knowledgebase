@@ -23,30 +23,35 @@ Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.  
 
-* Laser cut acrylic panels
-* Aluminum standoffs
-* Nylon screws
-* Sparkfun RedBoard (Arduino)
-* Circuit Board with LEDs and Magnetometer
+<ul>
+    <li>Laser cut acrylic panels</li>
+    <li>Aluminum standoffs</li>
+    <li>Nylon screws</li>
+    <li>Sparkfun RedBoard (Arduino)</li>
+    <li>Circuit Board with LEDs and Magnetometer</li>
+</ul>
 
 ## Operation
 ### Tools Required
-* Philips Screwdriver
-* Super Glue (optional)
+<ul>
+    <li>Philips Screwdriver</li>
+    <li>Super Glue (optional)</li>
+</ul>
 
 ### Parts List
-* Base Panel (1x)
-* Top Panel (1x)
-* Red Board (1x)
-* LED+Magnetometer Board (1x)
-* Aluminum Standoffs (7x)
-* M3 x 6mm Nylon Screws (9x)
-* M3 x 12mm Nylon Screws (4x)
-* Acrylic Bracket (x1)
-
+<ul>
+    <li>Base Panel (1x)</li>
+    <li>Top Panel (1x)</li>
+    <li>Red Board (1x)</li>
+    <li>LED+Magnetometer Board (1x)</li>
+    <li>Aluminum Standoffs (7x)</li>
+    <li>M3 x 6mm Nylon Screws (9x)</li>
+    <li>M3 x 12mm Nylon Screws (4x)</li>
+    <li>Acrylic Bracket (1x)</li>
+</ul>
 ### Assembly
-<b>NOTE: Be gentle tightening screws as the screws and plates are plastic and
-are easily stripped. Just snug the screws so that nothing is loose.</b>
+<b>NOTE:</b> Be gentle tightening screws as the screws and plates are plastic and
+are easily stripped. Just snug the screws so that nothing is loose.
 
 <ol>
   <li>
@@ -199,10 +204,12 @@ view the data from the magnetometer! The data returned are the x, y, z,
 components of the magnetic field followed by the estimated azimuth and dip of
 the magnetic field. The serial connection uses the following parameters:
 
-* Baud: 115200
-* Data Bits: 8
-* Parity: None
-* Stop Bits: 1
+<ul>
+    <li>Baud: 115200</li>
+    <li>Data Bits: 8</li>
+    <li>Parity: None</li>
+    <li>Stop Bits: 1</li>
+</ul>
 
 ### Serial Data Output
 <center>
@@ -211,7 +218,11 @@ the magnetic field. The serial connection uses the following parameters:
 
 ## Teachers Guide
 ### Lab Activity
-* <a href="https://docs.google.com/document/d/11WL_dLieHmjVp8e9vElReFWHcICVVR45H1unIoNnP1c/edit?usp=drive_link" target="_blank" rel="noopener noreferrer">Lab Activity</a>
+<ul>
+  <li>
+    <a href="https://docs.google.com/document/d/11WL_dLieHmjVp8e9vElReFWHcICVVR45H1unIoNnP1c/edit?usp=drive_link" target="_blank" rel="noopener noreferrer">Lab Activity</a>
+  </li>
+</ul>
 
 ## Revision History
 <table>
