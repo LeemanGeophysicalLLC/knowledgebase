@@ -23,36 +23,44 @@ Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.  
 
-* Creep Apparatus
-* 6 In. Utility Caliper
-* Calibration Tool
-* USB Mini-B 2.0 Cable 
-* Wax Cylinder Pack (x10 samples)
-* Bearing Retainer
-* 6-32, 1/8" Set Screw (x3)  
+<ul>
+  <li>Creep Apparatus</li>
+  <li>6 In. Utility Caliper</li>
+  <li>Calibration Tool</li>
+  <li>USB Mini-B 2.0 Cable</li>
+  <li>Wax Cylinder Pack (x10 samples)</li>
+  <li>Bearing Retainer</li>
+  <li>6-32, 1/8" Set Screw (x3)</li>
+</ul>
 
 ## Assembly Instruction
 ### Hazards Summary/Required PPE
-* Choking Hazard, Small Parts
-* Pinching Hazard
+<ul>
+  <li>Choking Hazard, Small Parts</li>
+  <li>Pinching Hazard</li>
+</ul>
 
 ### Included Materials
-* Base Plate
-* Top Plate
-* Mass Plate
-* Standoffs (4x)
-* Shaft
-* Shaft Bushing
-* Bushing Retainer
-* Board
-* Linear Potentiometer
-* 10-32 x ¾” Screws (8x)
-* 10-32 x ½” Screw (1x)
-* 4-40 x 3/16” Screws (6x)
+<ul>
+  <li>Base Plate</li>
+  <li>Top Plate</li>
+  <li>Mass Plate</li>
+  <li>Standoffs (4x)</li>
+  <li>Shaft</li>
+  <li>Shaft Bushing</li>
+  <li>Bushing Retainer</li>
+  <li>Board</li>
+  <li>Linear Potentiometer</li>
+  <li>10-32 x ¾” Screws (8x)</li>
+  <li>10-32 x ½” Screw (1x)</li>
+  <li>4-40 x 3/16” Screws (6x)</li>
+</ul>
 
 ### Tools Required: 
-* 9/32” Hex Wrench (not included)
-* 3/32” Hex Wrench (not included)
+<ul>
+  <li>9/32” Hex Wrench (not included)
+  <li>3/32” Hex Wrench (not included)
+</ul>
 
 ### Assembly
 <ol>
@@ -110,15 +118,19 @@ This guide will walk you through the calibration process for the Creep
 Deformation Apparatus.
 
 ### Required Equipment
-* Calibration Step tool
-* USB Mini B
-* Calipers
+<ul>
+  <li>Calibration Step tool</li>
+  <li>USB Mini B</li>
+  <li>Calipers</li>
+</ul>
 
 The calibration procedure requires the use of a serial terminal. For these instruction we recommend the CoolTerm software. The list below shows all required programs and the links to find them.
 
-* <a href="https://coolterm.en.lo4d.com/windows" target="_blank" rel="noopener noreferrer">CoolTerm</a>
-* <a href="" target="_blank" rel="noopener noreferrer">Creep Calibration Calculator</a>
-* Google Sheets
+<ul>
+  <li><a href="https://coolterm.en.lo4d.com/windows" target="_blank" rel="noopener noreferrer">CoolTerm</a></li>
+  <li><a href="" target="_blank" rel="noopener noreferrer">Creep Calibration Calculator</a></li>
+  <li>Google Sheets</li>
+</ul>
 
 ### Calibration Procedure  
 <ol>
@@ -258,12 +270,16 @@ begins. Finally, the curve reaches a constant slope. The sample strain rate is
 constant and this represents the steady-state creep of the material.
 
 ### Lab Activity
-* <a href="https://docs.google.com/document/d/1W3iEJtaS3IZBW6_7TTSE4s6wmuLl6XAKVrbR2w8l0BM/edit" target="_blank" rel="noopener noreferrer">Google Docs Lab Activity</a>
+<ul>
+  <li><a href="https://docs.google.com/document/d/1W3iEJtaS3IZBW6_7TTSE4s6wmuLl6XAKVrbR2w8l0BM/edit" target="_blank" rel="noopener noreferrer">Google Docs Lab Activity</a></li>
+</ul>
 
 ### Software
-* <a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Desktop_Software/releases/download/v1.1/Creep.Recorder.Installer.zip"target="_blank" rel="noopener noreferrer">Desktop Software Installer</a>
-* <a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Desktop_Software"target="_blank" rel="noopener noreferrer">Desktop Software Code (open source!)</a>
-* <a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Firmware"target="_blank" rel="noopener noreferrer">Arduino Code (open source!)</a>
+<ul>
+  <li><a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Desktop_Software/releases/download/v1.1/Creep.Recorder.Installer.zip" target="_blank" rel="noopener noreferrer">Desktop Software Installer</a></li>
+  <li><a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Desktop_Software" target="_blank" rel="noopener noreferrer">Desktop Software Code (open source!)</a></li>
+  <li><a href="https://github.com/LeemanGeophysicalLLC/Creep_Apparatus_Firmware" target="_blank" rel="noopener noreferrer">Arduino Code (open source!)</a></li>
+</ul>
 
 ## Accessories
 
