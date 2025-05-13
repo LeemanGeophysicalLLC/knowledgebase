@@ -21,29 +21,36 @@ Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.  
 
-* Mt.Ranier 3D Print
-* 2 quart container
-* Binder Clips (x3)
-* Clear acrylic lid
-* Velcro Dots (x4 pair)
+<ul>
+  <li>Mt. Ranier 3D Print</li>
+  <li>2 quart container</li>
+  <li>Binder Clips (x3)</li>
+  <li>Clear acrylic lid</li>
+  <li>Velcro Dots (x4 pair)</li>
+</ul>
 
 ### Lab Activity
-* <a href="https://docs.google.com/document/d/1H_kLFPXlcqSY86acY4Q0DRM1oBF38t9YrdoaN5EidVw/edit#heading=h.mq2gzs29aged" target="_blank" rel="noopener noreferrer">Lab Activity</a>
+<ul>
+  <li><a href="https://docs.google.com/document/d/1H_kLFPXlcqSY86acY4Q0DRM1oBF38t9YrdoaN5EidVw/edit#heading=h.mq2gzs29aged" target="_blank" rel="noopener noreferrer">Lab Activity</a></li>
+</ul>
 
 ## Repair and Maintenance
 
 ### Upkeep
-* After use rinse all parts in clean water and allow to air dry before packing away.
+<ul>
+  <li>After use rinse all parts in clean water and allow to air dry before packing away.</li>
+</ul>
 
 ### Repair
 If needed, you can always order spare parts for your squeeze boxes! Just contact our support team for assistance.
 
 ## Accessories
-* Grand Tetons Model Topography (<a href="https://leemangeophysical.com/product/grand-tetons-3d-model-contour-lab/" target="_blank" rel="noopener noreferrer">10-0000161</a>)
-* Basin and Range Model Topography (<a href="https://leemangeophysical.com/product/basinrange-contour-lab/" target="_blank" rel="noopener noreferrer">10-0000162</a>)
-* Glen Canyon Model Topography (<a href="https://leemangeophysical.com/product/glen-canyon-3d-model-contour-lab/" target="_blank" rel="noopener noreferrer">10-0000160</a>)
-* Mt.Ranier Model Topography (<a href="https://leemangeophysical.com/product/mount_rainer_3d_model/" target="_blank" rel="noopener noreferrer">10-0000159</a>)
-
+<ul>
+  <li>Grand Tetons Model Topography (<a href="https://leemangeophysical.com/product/grand-tetons-3d-model-contour-lab/" target="_blank" rel="noopener noreferrer">10-0000161</a>)</li>
+  <li>Basin and Range Model Topography (<a href="https://leemangeophysical.com/product/basinrange-contour-lab/" target="_blank" rel="noopener noreferrer">10-0000162</a>)</li>
+  <li>Glen Canyon Model Topography (<a href="https://leemangeophysical.com/product/glen-canyon-3d-model-contour-lab/" target="_blank" rel="noopener noreferrer">10-0000160</a>)</li>
+  <li>Mt.Ranier Model Topography (<a href="https://leemangeophysical.com/product/mount_rainer_3d_model/" target="_blank" rel="noopener noreferrer">10-0000159</a>)</li>
+</ul>
 
 ## Revision History
 <table>
