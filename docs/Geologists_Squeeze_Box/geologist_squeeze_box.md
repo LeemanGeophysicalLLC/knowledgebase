@@ -1,7 +1,7 @@
 # Geologist’s Squeeze Box
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../product.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
 
 This documentation covers part number <a
 href="https://leemangeophysical.com/product/geologists-squeeze-box/"
@@ -138,32 +138,32 @@ any of the orange plastic squeeze boxes with an aluminum base and is available
 on our website <a
 href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/"
 target="_blank" rel="noopener noreferrer">HERE</a>.
-    <center>
-    ![Squeeze box w two push plates](secondpushplate.png){: style="height:300px"}
-    </center>
+   <div style="text-align: center;">
+   <img src="../secondpushplate.png" alt="Squeeze box w two push plates" style="height: 300px;">
+   </div>
     
 1. Remove the four screws in the front plate using a #2 Phillips head
    screwdriver, and loosen the two thumb screws on this end.  
-    <center>
-    ![Step 1.](pushplatestep1.png){: style="height:300px"}
-    </center>
+   <div style="text-align: center;">
+   <img src="../pushplatestep1.png" alt="Step 1." style="height: 300px;">
+   </div>
 1. Remove the front plate.
-    <center>
-    ![Step 2.](pushplatestep2.png){: style="height:300px"}
-    </center>
+   <div style="text-align: center;">
+   <img src="../pushplatestep2.png" alt="Step 2." style="height: 300px;">
+   </div>
 1. Install the new push plate by tilting it and sliding it into the squeeze box.
    You may need to rotate the rear plate so the screw holes line up
-    <center>
-    ![Step 3.](pushplatestep3.png){: style="height:300px"}
-    </center>
+   <div style="text-align: center;">
+   <img src="../pushplatestep3.png" alt="Step 3." style="height: 300px;">
+   </div>
 1. Reinstall the screws and tighten until snug. Overtightening may damage the acrylic. 
-    <center>
-    ![Step 4.](pushplatestep4.png){: style="height:300px"}
-    </center>
+   <div style="text-align: center;">
+   <img src="../pushplatestep4.png" alt="Step 4." style="height: 300px;">
+   </div>
 1. This concludes the second push plate installation.
-    <center>
-    ![Step 5.](pushplatestep5.png){: style="height:300px"}
-    </center>
+   <div style="text-align: center;">
+   <img src="../pushplatestep5.png" alt="Step 5." style="height: 300px;">
+   </div>
 
 ## Repair and Maintenance
 <center>
