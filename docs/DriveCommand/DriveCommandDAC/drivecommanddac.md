@@ -24,11 +24,13 @@ Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.  
 
-* DriveCommand DAC System
-* Universal DC Power Supply
-* USB A-B cable
-* BNC to banana jack adapter
-* 1 ft BNC cable
+<ul>
+  <li>DriveCommand DAC System</li>
+  <li>Universal DC Power Supply</li>
+  <li>USB A-B cable</li>
+  <li>BNC to banana jack adapter</li>
+  <li>1 ft BNC cable</li>
+</ul>
 
 ## Controls and Indicators
 
@@ -37,38 +39,38 @@ damage to Leeman Geophysical for replacement.
   <img src="../FrontPanel.png" alt="Labeled Front Panel" style="height: 220px;">
 </div>
 
-**LCD Screen** - A 4x20 character LCD with backlight shows the current rate of
+<b>LCD Screen</b> - A 4x20 character LCD with backlight shows the current rate of
 change, calibration in use, limits, and signal type. The screen is also used for
 setting parameters of the device.
 
-**Encoder Knob** - A rotary encoder with push button switch is used to change
+<b>Encoder Knob</b> - A rotary encoder with push button switch is used to change
 settings via the on-screen menu or adjust rate on the fly (if enabled).
 
-**Zero** - Push button to reset the output of the DAC to the minimum value.
+<b>Zero</b> - Push button to reset the output of the DAC to the minimum value.
 
-**Run/Stop Switch and Indicators** - Sets if the output is stopped (no value
+<b>Run/Stop Switch and Indicators</b> - Sets if the output is stopped (no value
 change regardless of ramp rate setting) or running, changing at the prescribed
 rate. Switch returns to neutral position after activation and LEDs indicate the
 state of the system.
 
-**Up/Down Switch and Indicators** - Indicates if the ramp will be in the up or
+<b>Up/Down Switch and Indicators</b> - Indicates if the ramp will be in the up or
 down direction. The sign can be inverted in the device settings. Switch returns
 to neutral position after activation and LEDs indicate the state of the system.
 
-**X10/X0.1 Switch** - Order of magnitude switch to increase or decreases the
+<b>X10/X0.1 Switch</b> - Order of magnitude switch to increase or decreases the
 current rate of output change by a factor of 10. Switch returns to neutral
 position after activation.
 
-**Upper Limit Indicator** - Illuminates when the output of the device has
+<b>Upper Limit Indicator</b> - Illuminates when the output of the device has
 reached the upper voltage limit set.
 
-**Lower Limit Indicator** - Illuminates when the output of the device has
+<b>Lower Limit Indicator</b> - Illuminates when the output of the device has
 reached the lower voltage limit set. 
 
-**Output BNC connector** - Buffered output of the DAC may be used by any
+<b>Output BNC connector</b> - Buffered output of the DAC may be used by any
 connected equipment or as a monitoring output for the voltage output.
 
-**Voltmeter** - Shows a numerical and graphical representation of the output
+<b>Voltmeter</b> - Shows a numerical and graphical representation of the output
 voltage of the device. The range of the meter maybe set with dip switches on
 the back as described in setting range section.
 
@@ -77,20 +79,22 @@ the back as described in setting range section.
   <img src="../BackPanel.png" alt="Labeled Back Panel" style="height: 220px;">
 </div>
 
-**Fuse** - 1.5 amp fast acting fuse protects the device from overcurrent.
+<b>Fuse</b> - 1.5 amp fast acting fuse protects the device from overcurrent.
 
-**DC Input Jack** - Standard DC input with the center positive provides power to the unit from the included 12 volt DC power supply.
+<b>DC Input Jack</b> - Standard DC input with the center positive provides power to the unit from the included 12 volt DC power supply.
 
-**USB** - USB type B connector is provided to modify settings or control the device from a computer.
+<b>USB</b> - USB type B connector is provided to modify settings or control the device from a computer.
 
-**Output BNC connector** - Buffered output of the DAC may be used by any
+<b>Output BNC connector</b> - Buffered output of the DAC may be used by any
 connected equipment or as a monitoring output for the voltage output.
 
 ## Specifications
-* Output Range: ±10 volts DC or ±5 volts DC
-* Output Drive: Loads up to 50 mA
-* Ramp Rate: User selectable
-* Control: Panel or Serial
+<ul>
+  <li>Output Range: ±10 volts DC or ±5 volts DC</li>
+  <li>Output Drive: Loads up to 50 mA</li>
+  <li>Ramp Rate: User selectable</li>
+  <li>Control: Panel or Serial</li>
+</ul>
 
 ## Assembly
 The DriveCommand DAC system arrives pre-assembled and configured for operation
@@ -441,16 +445,18 @@ setting.
 
 The menu settings and cycle are as follows:
 
-* Main Screen
-* Rate - Set the unsigned numeric value of the rate of change in engineering units/second
-* Mode - Set the output mode to RAMP or SAW
-* Upper Limit - Set the signed numeric value of the upper output limit in volts
-* Lower Limit - Set the signed numeric value of the lower output limit in volts
-* Use Calibration - Set if calibration A or B is used to convert engineering units/second to volts/second
-* Calibration A - Set the unsigned numeric value of calibration A in volts/engineering unit
-* Calibration B - Set the unsigned numeric value of calibration B in volts/engineering unit
-* Invert Output - Inverts the sign of the output voltage to match the sign convention of any attached equipment
-* Rate Knob Enable - Enables or disables the encoder knob to change the output rate in steps of 1 engineering unit/second
+<ul>
+  <li>Main Screen</li>
+  <li>Rate - Set the unsigned numeric value of the rate of change in engineering units/second</li>
+  <li>Mode - Set the output mode to RAMP or SAW</li>
+  <li>Upper Limit - Set the signed numeric value of the upper output limit in volts</li>
+  <li>Lower Limit - Set the signed numeric value of the lower output limit in volts</li>
+  <li>Use Calibration - Set if calibration A or B is used to convert engineering units/second to volts/second</li>
+  <li>Calibration A - Set the unsigned numeric value of calibration A in volts/engineering unit</li>
+  <li>Calibration B - Set the unsigned numeric value of calibration B in volts/engineering unit</li>
+  <li>Invert Output - Inverts the sign of the output voltage to match the sign convention of any attached equipment</li>
+  <li>Rate Knob Enable - Enables or disables the encoder knob to change the output rate in steps of 1 engineering unit/second</li>
+</ul>
 
 ### Serial Commands
 The serial menu operates at the user-set baud rate. Each command should be
@@ -598,34 +604,40 @@ their solutions. If you need assistance with a problem, please contact our
 support team.
 
 ### Unit Does Not Power On
-* Check that the units power supply is plugged into a live wall socket.
-* Verify that the international plug adapter of choice is firmly seated onto the
-  AC-DC power adapter.
-* Check that the power supply connector is firmly inserted into the DC power
-  port on the back of the unit.
-* Check if the 1.5A fast acting fuse is blown and replace if necessary.
+<ul>
+  <li>Check that the unit's power supply is plugged into a live wall socket.</li>
+  <li>Verify that the international plug adapter of choice is firmly seated onto the AC-DC power adapter.</li>
+  <li>Check that the power supply connector is firmly inserted into the DC power port on the back of the unit.</li>
+  <li>Check if the 1.5A fast acting fuse is blown and replace if necessary.</li>
+</ul>
 
 ### Encoder Does Not Change Rate
-* Encoder rate functionality has been disabled, use the menu or serial commands
-  to re-enable it.
+<ul>
+  <li>Encoder rate functionality has been disabled, use the menu or serial commands to re-enable it.</li>
+</ul>
 
 ### Output Voltage is Incorrect
-* Verify that the correct range is set using the serial interface.
-* Calibrate the unit.
-* Disconnect any connected equipment and see if problem persists. If not, the
-  connected equipment has too high of a current demand and the output of the DAC
-  needs buffering before the equipment.
+<ul>
+  <li>Verify that the correct range is set using the serial interface.</li>
+  <li>Calibrate the unit.</li>
+  <li>
+    Disconnect any connected equipment and see if problem persists. If not, the
+    connected equipment has too high of a current demand and the output of the DAC
+    needs buffering before the equipment.
+  </li>
+</ul>
 
 ### Voltmeter Range is Incorrect
-* Set the voltmeter range using dip switches on the back following the
-  configuration table.
+<ul>
+  <li>Set the voltmeter range using dip switches on the back following the configuration table.</li>
+</ul>
 
 ### Voltmeter is Flashing
-* Flashing indicates that the voltage is out of the set range. It is possible
-when at the extreme values for flashing to occur.
-* Voltmeter range may be set incorrectly. Set the voltmeter range using dip
-  switches on the back following the configuration table.
-* Unit may be out of calibration - recalibrate the DAC.
+<ul>
+  <li>Flashing indicates that the voltage is out of the set range. It is possible when at the extreme values for flashing to occur.</li>
+  <li>Voltmeter range may be set incorrectly. Set the voltmeter range using dip switches on the back following the configuration table.</li>
+  <li>Unit may be out of calibration – recalibrate the DAC.</li>
+</ul>
 
 ## Revision History
 <table>
