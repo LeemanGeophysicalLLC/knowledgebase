@@ -21,21 +21,21 @@ comply with the weatherproofing requirements of field equipment.
 ### Nomenclature
 Connectors are simply named and should be referred to/labeled as described below.
 
-**IN** refers to connectors that are bringing power into a piece of equipment
+<b>IN</b> refers to connectors that are bringing power into a piece of equipment
 from an external power source. For example, the power port on a datalogger is
 labeled “IN”. The charging port on a portable battery box is labeled “IN”.
 
-**OUT** refers to connectors that provide power to attached equipment. For
+<b>OUT</b> refers to connectors that provide power to attached equipment. For
 example, the output of a battery box is labeled “OUT”, as is the output of a
 wall power supply or charger.
 
-**Power Consumer** refers to the device (load) needing to be powered. This is
+<b>Power Consumer</b> refers to the device (load) needing to be powered. This is
 the attached instrument, actuator, etc.
 
-**Power Provider** refers to the current source providing power to the power
+<b>Power Provider</b> refers to the current source providing power to the power
 consumer. This is a battery pack, wall plug, or other power source.
 
-**Charging Source** refers to the device renewing the energy of the power
+<b>Charging Source</b> refers to the device renewing the energy of the power
 provider. This can be a device like a solar panel or wall powered charger.
 Charging sources do not directly power the power consumer, but instead ensure
 the continued maintenance of the power provider.
@@ -54,9 +54,9 @@ available for public download below. Versions of the logo including filled, circ
 and plain are provided and the one providing the most contrast on the surface it
 is applied to should be used.
 
-<center>
-![Examples of the logo.](fieldvolt_logo_examples.png)
-</center>
+  <div style="text-align: center;">
+    <img src="../fieldvolt_logo_examples.png" alt="Examples of the logo.">
+  </div>
 
 <a href="../fieldvolt_logo.svg" download>FieldVolt Logo</a>
 
@@ -73,27 +73,24 @@ standard was designed with this in mind.
 
 The 12 VDC standard provides the following assurances:  
 
-* Be capable of providing 5A (peak) DC current at operating voltage  
-
-* Ensure 2% or less voltage drop over 5 meters of cable length at peak load  
-
-* Providing battery safe charging (i.e. over/under voltage protection)  
-
-* Providing fused or otherwise current protected outputs from power sources  
-
+<ul>
+  <li>Be capable of providing 5A (peak) DC current at operating voltage</li>
+  <li>Ensure 2% or less voltage drop over 5 meters of cable length at peak load</li>
+  <li>Provide battery-safe charging (i.e. over/under voltage protection)</li>
+  <li>Provide fused or otherwise current-protected outputs from power sources</li>
+</ul>
 
 Instruments connecting to 12 VDC field power should conform to the automotive industry
 operating standards at minimum:  
 
-* Operate down to 11 VDC or better  
+<ul>
+  <li>Operate down to 11 VDC or better</li>
+  <li>Operate on 12 VDC nominal voltage</li>
+  <li>Operate up to 14.3 VDC or better</li>
+  <li>Tolerate a maximum continuous overvoltage of 16 VDC or better</li>
+  <li>Tolerate a maximum dynamic overvoltage of 20 VDC or better</li>
+</ul>
 
-* Operate on 12 VDC nominal voltage  
-
-* Operate up to 14.3 VDC or better  
-
-* Tolerate a maximum continuous overvoltage of 16 VDC or better  
-
-* Tolerate a maximum dynamic overvoltage of 20 VDC or better  
 
 ## Power Connectors
 Instrument power connections use a 4-pin PT series Amphenol Industrial connector of
@@ -126,41 +123,41 @@ shell size 12. Common connectors and the pinout are listed below.
 <b>Leeman Geo P/N:</b> 1-0001497  
 <b>Amphenol P/N:</b> PT06E-12-4S(SR)  
 <b>Description:</b> Wire connector that connects to a FieldVolt ready instrument power input.  
-<center>
-![PT06E-12-4S(SR)](PT06E-12-4S(SR).png)
-</center>
+  <div style="text-align: center;">
+    <img src="../PT06E-12-4S(SR).png" alt="PT06E-12-4S(SR)">
+  </div>
 
 <hr>
 <b>Leeman Geo P/N:</b> 1-0001496  
 <b>Amphenol P/N:</b> PT06E-12-4P(SR)  
 <b>Description:</b> Wire connector that connects to a FieldVolt power source power output.  
-<center>
-![PT06E-12-4P(SR)](PT06E-12-4P(SR).png)
-</center>
+  <div style="text-align: center;">
+    <img src="../PT06E-12-4P(SR).png" alt="PT06E-12-4P(SR)">
+  </div>
 
 <hr>
 <b>Leeman Geo P/N:</b> 1-0001495  
 <b>Amphenol P/N:</b> PT02A-12-4S  
 <b>Description:</b> Panel mounted connector that would be used as a FieldVolt power source power output.  
-<center>
-![PT02A-12-4S](PT02A-12-4S.png)
-</center>
+  <div style="text-align: center;">
+    <img src="../PT02A-12-4S.png" alt="PT02A-12-4S">
+  </div>
 
 <hr>
 <b>Leeman Geo P/N:</b> 1-0001510  
 <b>Amphenol P/N:</b> PT02A-12-4P  
 <b>Description:</b> Panel mounted connector that would be used as a FieldVolt ready instrument power input.  
-<center>
-![PT02A-12-4P](PT02A-12-4P.png)
-</center>
+  <div style="text-align: center;">
+    <img src="../PT02A-12-4P.png" alt="PT02A-12-4P">
+  </div>
 
 <hr>
 <b>Leeman Geo P/N:</b> 1-0001504  
 <b>Amphenol P/N:</b> PT01E12-4S(SR)  
 <b>Description:</b> Panel mounted connector that would be used as a FieldVolt ready instrument power input.  
-<center>
-![PT01E12-4S-SR](PT01E12-4S-SR.png)
-</center>
+  <div style="text-align: center;">
+    <img src="../PT01E12-4S-SR.png" alt="PT01E12-4S-SR">
+  </div>
 
 ## Charging Connectors
 Charging connections use a 3-pin PT series Amphenol Industrial connector of
@@ -192,25 +189,25 @@ to protect both systems.
 <b>Leeman Geo P/N:</b> 1-0000963  
 <b>Amphenol P/N:</b> PT06E-12-3S(SR)  
 <b>Description:</b> Wire connector for charging source such as a solar panel, AC adapter, etc.  
-<center>
-![PT06E-12-3S(SR)](PT06E-12-3S(SR).png)
-</center>
+  <div style="text-align: center;">
+    <img src="../PT06E-12-3S(SR).png" alt="PT06E-12-3S(SR)">
+  </div>
 
 <hr>
 <b>Leeman Geo P/N:</b> 1-0001592  
 <b>Amphenol P/N:</b> PT01E12-3P-SR  
 <b>Description:</b> Wire connector for charging receiver such as solar charge controller.  
-<center>
-![PT01E12-3P-SR](PT01E12-3P-SR.png)
-</center>
+  <div style="text-align: center;">
+    <img src="../PT01E12-3P-SR.png" alt="PT01E12-3P-SR">
+  </div>
 
 <hr>
 <b>Leeman Geo P/N:</b> 1-0001494  
 <b>Amphenol P/N:</b> PT02A-12-3P  
 <b>Description:</b> Panel mounted connector to receive charging source.  
-<center>
-![PT02A-12-3P](PT02A-12-3P.png)
-</center>
+  <div style="text-align: center;">
+    <img src="../PT02A-12-3P.png" alt="PT02A-12-3P">
+  </div>
 
 ## Future
 As the need for alternative voltage systems arises (high voltage DC downhole

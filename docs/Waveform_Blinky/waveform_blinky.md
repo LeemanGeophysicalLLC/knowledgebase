@@ -1,41 +1,46 @@
 # Waveform Blinky PCB Assembly Guide
 
-<center>
-![Instrument cover photo.](product.png){: style="height:400px"}
-</center>
+<div style="text-align:center;">
+  <img src="../product.png" alt="Instrument cover photo." style="height:400px">
+</div>
 
 ### Required Equipment
-- Soldering Iron
-- Solder
-- Flush cutters
-- Popsicle sticks 
-- Card Scraper
-- Tweezers
-- Safety glasses
-- Wire strippers (optional)
-- Solder Paste/Heat gun (for reflow assembly if desired)
+<ul>
+  <li>Soldering Iron</li>
+  <li>Solder</li>
+  <li>Flush cutters</li>
+  <li>Popsicle sticks</li>
+  <li>Card Scraper</li>
+  <li>Tweezers</li>
+  <li>Safety glasses</li>
+  <li>Wire strippers (optional)</li>
+  <li>Solder Paste/Heat gun (for reflow assembly if desired)</li>
+</ul>
 
 ### Kit Components
-1. x1 - Circuit Board (PCB)
-1. x5 - 10k Ohm Resistor
-1. x1 - 110K Ohm Resistor
-1. x3 - 100K Ohm Resistor
-1. x2 - 150 Ohm Resistor
-1. x3 - LMC648 Op-Amp
-1. x3 - 1uF Capacitor
-1. x2 - Red LED
-1. x1 - 9V Battery Clips
+<ol>
+  <li>x1 - Circuit Board (PCB)</li>
+  <li>x5 - 10k Ohm Resistor</li>
+  <li>x1 - 110K Ohm Resistor</li>
+  <li>x3 - 100K Ohm Resistor</li>
+  <li>x2 - 150 Ohm Resistor</li>
+  <li>x3 - LMC648 Op-Amp</li>
+  <li>x3 - 1uF Capacitor</li>
+  <li>x2 - Red LED</li>
+  <li>x1 - 9V Battery Clips</li>
+</ol>
 
-![Table of Contents](ToC.png){: style="height:400px"}
+<div>
+  <img src="../ToC.png" alt="Table of Contents" style="height:400px" />
+</div>
 
 ### Safety Considerations
-- Assembling this kit requires the use of hot and sharp tools.
-- Wear safety glasses when assembling this kit. Clipped leads can shoot away
-  quickly and cause eye injury.
-- This kit and the solder you are using may contain lead. Wash hands thoroughly
-  after assembling and do not eat while working or ingest any kit materials.
-- Always ensure your work area is clean and safe. Never leave a hot or sharp
-  instrument unattended.
+<ul>
+  <li>Assembling this kit requires the use of hot and sharp tools.</li>
+  <li>Wear safety glasses when assembling this kit. Clipped leads can shoot away quickly and cause eye injury.</li>
+  <li>This kit and the solder you are using may contain lead. Wash hands thoroughly after assembling and do not eat while working or ingest any kit materials.</li>
+  <li>Always ensure your work area is clean and safe. Never leave a hot or sharp instrument unattended.</li>
+</ul>
 
 ## Assembly 
 ### Applying Solder Paste
@@ -46,53 +51,58 @@ to hand solder these components, that can be done with tweezers and an iron as
 well instead.)  
 
 
-1. Tape the PCB down to a flat surface. Be sure to avoid covering up the target
-   component footprints.  
-   ![Step 1](step1.png){: style="height:300px"}
+<ol>
+    <li>
+        Tape the PCB down to a flat surface. Be sure to avoid covering up the target component footprints.
+        <img src="../step1.png" alt="Step 1" style="height:300px; max-width: 100%; display: block;">
+    </li>
 
-1. Lay the stencil over the PCB until all the holes line up evenly with the
-   footprints. Carefully hold down the aligned stencil and tape the top and
-   bottom down.   
-   ![Step 2](step2.png){: style="height:300px"}
+    <li>
+        Lay the stencil over the PCB until all the holes line up evenly with the footprints. Carefully hold down the aligned stencil and tape the top and bottom down.
+        <img src="../step2.png" alt="Step 2" style="height:300px; max-width: 100%; display: block;">
+    </li>
 
-1. Next you will cover the footprints generously with room temperature solder
-   paste. Use an old card as a squeegee and squeegee across the stencil. This
-   process is similar to silk screening a t-shirt logo. Paste should be left
-   only on the desired component footprints.  
-   ![Step 3](step3.png){: style="height:220px"} ![Step 4](step4.png){: style="height:220px"}
+    <li>
+        Next you will cover the footprints generously with room temperature solder paste. Use an old card as a squeegee and squeegee across the stencil. This process is similar to silk screening a t-shirt logo. Paste should be left only on the desired component footprints.
+        <img src="../step3.png" alt="Step 3" style="height:220px; max-width: 100%; display: inline-block;">
+        <img src="../step4.png" alt="Step 4" style="height:220px; max-width: 100%; display: inline-block;">
+    </li>
 
-1. You will now carefully peel back the tape holding the stencil down, and
-   gently lift it off of the pcb. This process (steps 3-5) may take a few
-   attempts to get an even layer of paste on all the footprints. Your blinky
-   should now be properly pasted and ready for components.  
-   ![Step 5](step5.png){: style="height:300px"}
+    <li>
+        You will now carefully peel back the tape holding the stencil down, and gently lift it off of the PCB. This process (steps 3-5) may take a few attempts to get an even layer of paste on all the footprints. Your blinky should now be properly pasted and ready for components.
+        <img src="../step5.png" alt="Step 5" style="height:300px; max-width: 100%;">
+    </li>
+</ol>
 
 ### Placing Surface Mount Components
-1. It’s time to start placing the surface mount devices (SMD)! Start by locating
-   both of your 150 Ohm resistors. Resistors like these are not polar and can be
-   placed in any orientation as long as each side of the resistor is touching a
-   corresponding copper pad, and the black side is facing up. Using a pair of
-   tweezers, gently place 2 of them onto the footprints labeled R8 and R9. View
-   the image below for their locations.  
-   ![Placement 1](placement1.png){: style="height:200px"}
-   ![Placement A](placementA.png){: style="height:200px"}
-    
-1. Locate your (qty5) 10k resistors and place them onto the footprints labeled R4, R6,
-   R7, R10, and R11 in the same manner as the previous step. Again, these are
-   non-polar components.
-   ![Placement 2](placement2.png){: style="height:200px"}
+<ol>
+  <li>
+    It’s time to start placing the surface mount devices (SMD)! Start by locating both of your 150 Ohm resistors. Resistors like these are not polar and can be placed in any orientation as long as each side of the resistor is touching a corresponding copper pad, and the black side is facing up. Using a pair of tweezers, gently place 2 of them onto the footprints labeled R8 and R9. View the image below for their locations.<br>
+    <img src="../placement1.png" alt="Placement 1" style="height:200px; max-width: 100%; display: inline-block;">
+    <img src="../placementA.png" alt="Placement A" style="height:200px; max-width: 100%; display: inline-block;">
+  </li>
 
-1. Next you will place the 110k resistor on the footprint R5.
-   ![Placement 3](placement3.png){: style="height:200px"}
+  <li>
+    Locate your (qty5) 10k resistors and place them onto the footprints labeled R4, R6, R7, R10, and R11 in the same manner as the previous step. Again, these are non-polar components.<br>
+    <img src="../placement2.png" alt="Placement 2" style="height:200px; max-width: 100%; display: block;">
+  </li>
 
-1. For the last of the resistors you will take the (qty3) 100k resistors and place them on the footprints R1, R2, and R3.  
-   ![Placement 4](placement4.png){: style="height:200px"}
+  <li>
+    Next you will place the 110k resistor on the footprint R5.<br>
+    <img src="../placement3.png" alt="Placement 3" style="height:200px; max-width: 100%; display: block;">
+  </li>
 
-1. Finally you will take the (qty3) 1uF Capacitors and place them on the the
-   footprints C1, C2, and C3. Although some capacitors are polar, these like the
-   resistors are not. They can be placed in any orientation so long as each edge
-   makes contact with the pads of the footprints.  
-   ![Placement 5](placement5.png){: style="height:200px"}  
+  <li>
+    For the last of the resistors you will take the (qty3) 100k resistors and place them on the footprints R1, R2, and R3.<br>
+    <img src="../placement4.png" alt="Placement 4" style="height:200px; max-width: 100%; display: block;">
+  </li>
+
+  <li>
+    Finally you will take the (qty3) 1uF Capacitors and place them on the footprints C1, C2, and C3. Although some capacitors are polar, these like the resistors are not. They can be placed in any orientation so long as each edge makes contact with the pads of the footprints.<br>
+    <img src="../placement5.png" alt="Placement 5" style="height:200px; max-width: 100%; display: block;">
+  </li>
+</ol>
+
 
 All of the SMD components are now placed and the PCB is ready to be reflowed.
 This can be done in multiple ways. While it is common in large production to use
@@ -102,7 +112,8 @@ with a heat gun or a toaster oven.  Solder generally has a reflow temperature
 profile that specifies what temperature they should be at during the reflow
 timeline. In industrial operations, this is very important, but for learning how
 to reflow we can relax a bit more as long as we don’t burn the PCB!  
-![Reflow Profile Chart](reflowchart.png){: style="height:400px"} 
+<img src="../reflowchart.png" alt="Reflow Profile Chart" style="height:400px; max-width: 100%; display: block;">
+
 
 ### Heatgun Reflow Process
 Using a heat gun to reflow your PCB is a less precise method, but often works
@@ -122,8 +133,16 @@ component may be pulled harder by one pad, pulling it into an upright position.
 This is called tombstoning and is fixed by reflowing the solder again with the
 heat gun, and using a pair of tweezers to push down the part onto the
 disconnected pad.  
-Tombstoned: ![tombstone](tombstone.png){: style="height:150px"} Correct:
-![goodreflow](goodreflow.png){: style="height:150px"}  
+<div style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    <div><b>Tombstoned:</b></div>
+    <img src="../tombstone.png" alt="Tombstoned Example" style="height:150px; max-width:100%;">
+  </div>
+  <div style="text-align: center;">
+    <div><b>Correct:</b></div>
+    <img src="../goodreflow.png" alt="Correct Reflow Example" style="height:150px; max-width:100%;">
+  </div>
+</div>
 
 ### Toaster Oven Reflow Process
 <b>CAUTION:</b> DO NOT USE AN OVEN USED FOR FOOD, THIS PROCESS IS TOXIC.  
@@ -137,24 +156,35 @@ chart for our paste as accurately as possible.
 Here is a four stage reflow process to follow for leaded solder paste:  
 (Modeled after the SMD291AX250T4 solder paste)  
 
-1. Preheat: 0°C - 150°C over two minutes (302°F)  
-1. Soak:  150°C - 183°C over 1.5 - 2 minutes (361°F)  
-1. Reflow: 183°C - 220°C over 30 seconds (428°F)  
-1. The PCB should reflow at some time within step three. Watch closely for when
-   the board has fully reflowed and turn off the oven after 5 seconds. Leave it
-   to cool for 1 minute, and then open the door.  
+<ol>
+  <li>
+    <b>Preheat:</b> 0°C - 150°C over two minutes (302°F)
+  </li>
+  <li>
+    <b>Soak:</b> 150°C - 183°C over 1.5 - 2 minutes (361°F)
+  </li>
+  <li>
+    <b>Reflow:</b> 183°C - 220°C over 30 seconds (428°F)
+  </li>
+  <li>
+    The PCB should reflow at some time within step three. Watch closely for when
+    the board has fully reflowed and turn off the oven after 5 seconds. Leave it
+    to cool for 1 minute, and then open the door.
+  </li>
+</ol>
+
 
 Note:
 
-- If available, use a smoke absorbing filter when opening the door to eliminate
-  fumes from the solder flux.  
-- Do not remove the PCB until the board is cool enough to pick up by hand.
-  Picking up the board too soon may mean your solder is still molten and your
-  parts will slide off.  
+<ul>
+  <li>If available, use a smoke absorbing filter when opening the door to eliminate fumes from the solder flux.</li>
+  <li>Do not remove the PCB until the board is cool enough to pick up by hand. Picking up the board too soon may mean your solder is still molten and your parts will slide off.</li>
+</ul>
 
 ### Through Hole Components Soldering
-
-1. You will now begin hand-soldering all of the Through Hole Devices (THD).
+<ul>
+   <li>
+   You will now begin hand-soldering all of the Through Hole Devices (THD).
    Start by locating the two light emitting diodes (LEDs). LEDs are polar
    components. Though it will fit in its footprint in two different
    orientations, only one will function properly.Their orientation is marked
@@ -162,33 +192,53 @@ Note:
    this flat edge is the Cathode, and is connected to the negative side of the
    circuit. For our purpose, you can simply match the flat edge on the LED to
    the flat line of the footprint.  
-   ![LEDs Top](leds_top.png){: style="height:220px"}  ![LED Placement](leds_placement.png){: style="height:220px"}  
+    <div>
+    <img src="../leds_top.png" alt="LEDs Top" style="height:220px; display: inline-block;">
+    <img src="../leds_placement.png" alt="LED Placement" style="height:220px; display: inline-block;">
+    </div>
+   </li>
 
-1. Flip over the PCB. Pull the leads tight and bend them out as pictured. Solder
+   <li>
+   Flip over the PCB. Pull the leads tight and bend them out as pictured. Solder
    the connections and clip the leads. If a bridge of solder forms between the
    two leads, use the iron to remelt and try to separate them completely.  
-   ![LEDs Bottom](leds_bottom.png){: style="height:220px"}  
+    <div>
+    <img src="../leds_bottom.png" alt="LEDs Bottom" style="height:220px;">
+    </div>
+   </li>
 
-1. Take the last remaining components the (qty3) LMC648 Op-Amps and solder them
+
+   <li>
+   Take the last remaining components the (qty3) LMC648 Op-Amps and solder them
    into the remaining footprints U1, U2 and U3. These components are polar, and
    the notch in the silkscreen on the board should be aligned with the notch on
    the chip itself. You may find these chips easier to solder on one at a time.
-   ![Op-Amp Placement](opamp_placement.png){: style="height:220px"}  
+    <div>
+    <img src="../opamp_placement.png" alt="Op-Amp Placement" style="height:220px;">
+    </div>
+   </li>
 
-1. The final step in assembly you Waveform Blinky is to solder on the battery
+   <li>
+   The final step in assembly you Waveform Blinky is to solder on the battery
    clip. The footprint for this is designed to create a strain relief for the
    wires. To install the wires feed them up through the bottom of the board in
    the holes closest to the edge, then feed the stripped wire down into the inner
    holes. Solder the wires and them pull then Tight.  
-Red -> +In  
-Black -> -In  
-![Battery clip](battery_clip.png){: style="height:220px"}  
+   Red -> +In  
+   Black -> -In  
+    <div>
+    <img src="../battery_clip.png" alt="Battery clip" style="height:220px;">
+    </div>
+   </li>
+</ul>
 
 ### Trouble Shooting
-- Check your connections for unsoldered or bridged solder joints. The pads should be fully covered with no exposed copper.
-- Make sure all of the polar parts are soldered on in the correct orientation.
-- Make sure the power wires are soldered on correctly.
-- Ensure your battery is not faulty
+<ul>
+    <li>Check your connections for unsoldered or bridged solder joints. The pads should be fully covered with no exposed copper.</li>
+    <li>Make sure all of the polar parts are soldered on in the correct orientation.</li>
+    <li>Make sure the power wires are soldered on correctly.</li>
+    <li>Ensure your battery is not faulty.</li>
+</ul>
 
 ## How it Works
 As soon as a power supply is applied to this circuit, the Waveform blinky begins

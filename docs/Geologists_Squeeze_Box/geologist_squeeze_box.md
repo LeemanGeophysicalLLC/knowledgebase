@@ -1,7 +1,7 @@
 # Geologist’s Squeeze Box
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../product.png" alt="Instrument cover photo." style="height: 300px;">
+</div>
 
 This documentation covers part number <a
 href="https://leemangeophysical.com/product/geologists-squeeze-box/"
@@ -17,78 +17,105 @@ Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.  
 
-* Assembled squeeze box
+<ul>
+  <li>Assembled squeeze box</li>
+</ul>
 
 ## Operation Guide
 ### Basic Operation
-1. Make sure you are wearing your safety glasses and working in a safe
-   environment with appropriate adult supervision if required.
-1. Turn the handle counter clockwise to pull the ram to the back of the squeeze
-   box.
-1. Using a spoon, create layers of different materials with different colors in
-   the squeeze box. Your layers can be different thicknesses, but we recommend
-   5-10mm layers to start with. Layer the materials to about 70mm or so - too
-   thick and they will run over the top of the squeeze box!
-1. Capture the “before” state by drawing the layers on your graph paper and/or
-   take a photo. You can use a transparency for measuring movement and
-   deformation. Write down what materials each layer is made of and what you
-   think will happen to them.
-1. Firmly holding the squeeze box down to the table, slowly and steadily crank
-   the handle clockwise. Stop periodically (every 10 mm is a good interval) to
-   sketch or take photos of the layers.
-1. Take photos and sketch the final state of the system. How did your prediction
-   (hypothesis) turn out?
+<ol>
+  <li>
+    Make sure you are wearing your safety glasses and working in a safe environment with appropriate adult supervision if required.
+  </li>
+
+  <li>
+    Turn the handle counter clockwise to pull the ram to the back of the squeeze box.
+  </li>
+
+  <li>
+    Using a spoon, create layers of different materials with different colors in the squeeze box. Your layers can be different thicknesses, but we recommend 5-10mm layers to start with. Layer the materials to about 70mm or so - too thick and they will run over the top of the squeeze box!
+  </li>
+
+  <li>
+    Capture the “before” state by drawing the layers on your graph paper and/or take a photo. You can use a transparency for measuring movement and deformation. Write down what materials each layer is made of and what you think will happen to them.
+  </li>
+
+  <li>
+    Firmly holding the squeeze box down to the table, slowly and steadily crank the handle clockwise. Stop periodically (every 10 mm is a good interval) to sketch or take photos of the layers.
+  </li>
+
+  <li>
+    Take photos and sketch the final state of the system. How did your prediction (hypothesis) turn out?
+  </li>
+</ol>
 
 ### Core Tube Sampling  
-1. Cover the sides of the squeeze box so you can’t see the structures by taping
-   paper over the windows.
-1. Use a spoon to create layers of different materials inside the box. Different
-   thicknesses and materials are recommended.
-1. Firmly holding the squeeze box down to the table, slowly and steadily crank
-   the handle clockwise until the desired displacement is reached. 
-1. Firmly press the core tubes into the sample in 3 evenly spaced intervals
-   along the length of the box. Hold your thumb over the top and slowly extract
-   a core. (be sure to remember the orientation of the sample or even mark the
-   orientation.)
-1. Draw the structures in each core and discuss the possible overall structure
-   with your lab partners.
-1. Use the information from the cores to draw your cross section. It will help
-   to draw this on a sheet of graph paper. 
-1. Once your hypothesized cross section is complete, uncover the sides of the
-   squeeze box to see what is actually there. Draw these structures on another
-   sheet of graph paper.
+<ol>
+  <li>
+    Cover the sides of the squeeze box so you can’t see the structures by taping paper over the windows.
+  </li>
+
+  <li>
+    Use a spoon to create layers of different materials inside the box. Different thicknesses and materials are recommended.
+  </li>
+
+  <li>
+    Firmly holding the squeeze box down to the table, slowly and steadily crank the handle clockwise until the desired displacement is reached.
+  </li>
+
+  <li>
+    Firmly press the core tubes into the sample in 3 evenly spaced intervals along the length of the box. Hold your thumb over the top and slowly extract a core. (Be sure to remember the orientation of the sample or even mark the orientation.)
+  </li>
+
+  <li>
+    Draw the structures in each core and discuss the possible overall structure with your lab partners.
+  </li>
+
+  <li>
+    Use the information from the cores to draw your cross section. It will help to draw this on a sheet of graph paper.
+  </li>
+
+  <li>
+    Once your hypothesized cross section is complete, uncover the sides of the squeeze box to see what is actually there. Draw these structures on another sheet of graph paper.
+  </li>
+</ol>
 
 ### Taking a Sediment Peel
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FLkDOfX8aPc?si=HNzZXswJnygoFOr_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
-1. After running and experiment with the Squeeze Box, gently pour water over the
-   top to ensure that the formation holds together when performing the next
-   steps.
-1. Take the six thumb nuts off of the front and remove the acrylic panel
-   carefully to expose the sediment in the box.
-1. Take strips of clear packing tape and stretch them over the exposed sediment
-   covering the entire section.
-1. Carefully peel away the tape. Left on the tape you should see your sediment
-   peel. You can now stick it down onto some paper to preserve the results of
-   your experiment.
+<ol>
+  <li>
+    After running an experiment with the Squeeze Box, gently pour water over the top to ensure that the formation holds together when performing the next steps.
+  </li>
+
+  <li>
+    Take the six thumb nuts off of the front and remove the acrylic panel carefully to expose the sediment in the box.
+  </li>
+
+  <li>
+    Take strips of clear packing tape and stretch them over the exposed sediment covering the entire section.
+  </li>
+
+  <li>
+    Carefully peel away the tape. Left on the tape you should see your sediment peel. You can now stick it down onto some paper to preserve the results of your experiment.
+  </li>
+</ol>
+
 
 ### Things to try  
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tzIelKxWcVM?si=iRfdsdu-5IXjST0_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
-* Try making layers of different thicknesses and see what their effect is.
-* Try different materials - playdough, coffee, flour, sand, moon sand, and other
-  cooking materials are good candidates.
-* Try lightly dampening some layers.
-* Create the layers with the ram in about ¾ of the way and withdraw it to see
-  what happens in an extensional test instead of the compression test.
-* After deforming your box, use a shop vac to erode the upper portion of the
-  material and observe the patterns created on the surface.
-* After deforming the box part way, add more sediment on top, then deform more.
-  This simulates complex deposition/deformation patterns that we often see in
-  real life.
+<ul>
+  <li>Try making layers of different thicknesses and see what their effect is.</li>
+  <li>Try different materials - playdough, coffee, flour, sand, moon sand, and other cooking materials are good candidates.</li>
+  <li>Try lightly dampening some layers.</li>
+  <li>Create the layers with the ram in about ¾ of the way and withdraw it to see what happens in an extensional test instead of the compression test.</li>
+  <li>After deforming your box, use a shop vac to erode the upper portion of the material and observe the patterns created on the surface.</li>
+  <li>After deforming the box part way, add more sediment on top, then deform more. This simulates complex deposition/deformation patterns that we often see in real life.</li>
+</ul>
 
 
 ## Teachers Guide
@@ -126,8 +153,19 @@ difference between screwing around and science is writing it down.” Take lots 
 notes and have fun!  
 
 ### Lab Activity
-* <a href="https://docs.google.com/document/d/1_ukrtYt-NUvjx7G5uUpbuBWwasQ5orbDjec4CXtnwoE/edit" target="_blank" rel="noopener noreferrer">Basic Lab Activity</a>
-* <a href="https://docs.google.com/document/d/1ni7TQ4-xyOrLFwiIlzJ49hatRJ2FzKREU-i2q9pWqOA/edit#heading=h.mq2gzs29aged" target="_blank" rel="noopener noreferrer">Core Sampling Lab Activity</a>
+<ul>
+  <li>
+    <a href="https://docs.google.com/document/d/1_ukrtYt-NUvjx7G5uUpbuBWwasQ5orbDjec4CXtnwoE/edit" target="_blank" rel="noopener noreferrer">
+      Basic Lab Activity
+    </a>
+  </li>
+  <li>
+    <a href="https://docs.google.com/document/d/1ni7TQ4-xyOrLFwiIlzJ49hatRJ2FzKREU-i2q9pWqOA/edit#heading=h.mq2gzs29aged" target="_blank" rel="noopener noreferrer">
+      Core Sampling Lab Activity
+    </a>
+  </li>
+</ul>
+
 
 
 
@@ -138,32 +176,46 @@ any of the orange plastic squeeze boxes with an aluminum base and is available
 on our website <a
 href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/"
 target="_blank" rel="noopener noreferrer">HERE</a>.
-    <center>
-    ![Squeeze box w two push plates](secondpushplate.png){: style="height:300px"}
-    </center>
+   <div style="text-align: center;">
+   <img src="../secondpushplate.png" alt="Squeeze box w two push plates" style="height: 300px;">
+   </div>
     
-1. Remove the four screws in the front plate using a #2 Phillips head
-   screwdriver, and loosen the two thumb screws on this end.  
-    <center>
-    ![Step 1.](pushplatestep1.png){: style="height:300px"}
-    </center>
-1. Remove the front plate.
-    <center>
-    ![Step 2.](pushplatestep2.png){: style="height:300px"}
-    </center>
-1. Install the new push plate by tilting it and sliding it into the squeeze box.
-   You may need to rotate the rear plate so the screw holes line up
-    <center>
-    ![Step 3.](pushplatestep3.png){: style="height:300px"}
-    </center>
-1. Reinstall the screws and tighten until snug. Overtightening may damage the acrylic. 
-    <center>
-    ![Step 4.](pushplatestep4.png){: style="height:300px"}
-    </center>
-1. This concludes the second push plate installation.
-    <center>
-    ![Step 5.](pushplatestep5.png){: style="height:300px"}
-    </center>
+<ol>
+  <li>
+    Remove the four screws in the front plate using a #2 Phillips head screwdriver, and loosen the two thumb screws on this end.
+    <div style="text-align: center;">
+      <img src="../pushplatestep1.png" alt="Step 1." style="height: 300px;">
+    </div>
+  </li>
+
+  <li>
+    Remove the front plate.
+    <div style="text-align: center;">
+      <img src="../pushplatestep2.png" alt="Step 2." style="height: 300px;">
+    </div>
+  </li>
+
+  <li>
+    Install the new push plate by tilting it and sliding it into the squeeze box. You may need to rotate the rear plate so the screw holes line up.
+    <div style="text-align: center;">
+      <img src="../pushplatestep3.png" alt="Step 3." style="height: 300px;">
+    </div>
+  </li>
+
+  <li>
+    Reinstall the screws and tighten until snug. Overtightening may damage the acrylic.
+    <div style="text-align: center;">
+      <img src="../pushplatestep4.png" alt="Step 4." style="height: 300px;">
+    </div>
+  </li>
+
+  <li>
+    This concludes the second push plate installation.
+    <div style="text-align: center;">
+      <img src="../pushplatestep5.png" alt="Step 5." style="height: 300px;">
+    </div>
+  </li>
+</ol>
 
 ## Repair and Maintenance
 <center>
@@ -176,30 +228,49 @@ allowfullscreen></iframe>
 </center>
 
 ### Upkeep
-* To keep the screw mechanism operating smoothly, you should lubricate it
-  occasionally. We recommend using <a
-  href="https://3inone.com/product/3-in-one-dry-to-touch-dry-lube/"
-  target="_blank" rel="noopener noreferrer">3-IN-ONE Dry to Touch Dry Lube</a>.
-* Be sure to keep your squeeze box clean! We recommend using light, soapy water
-  on a rag. Be sure to dry your box thoroughly, especially the screw mechanism.
+<ul>
+  <li>
+    To keep the screw mechanism operating smoothly, you should lubricate it occasionally. We recommend using 
+    <a href="https://3inone.com/product/3-in-one-dry-to-touch-dry-lube/" target="_blank" rel="noopener noreferrer">
+      3-IN-ONE Dry to Touch Dry Lube
+    </a>.
+  </li>
+  <li>
+    Be sure to keep your squeeze box clean! We recommend using light, soapy water on a rag. Be sure to dry your box thoroughly, especially the screw mechanism.
+  </li>
+</ul>
 
 ### When in Use
-* Do not fill your box to the top during use. As you operate the squeeze box,
-  the compression will overflow the contents if it is too full or exert
-  excessive force.
-* Get creative with the materials that you use. You can use colored sand, flour,
-  coffee, salt, and more. The possibilities are endless!
-* Try not to overstress it. We designed our squeeze box to be rugged but it is
-  possible to crack the plastic parts with unnecessary stress.
+<ul>
+  <li>
+    Do not fill your box to the top during use. As you operate the squeeze box, the compression will overflow the contents if it is too full or exert excessive force.
+  </li>
+  <li>
+    Get creative with the materials that you use. You can use colored sand, flour, coffee, salt, and more. The possibilities are endless!
+  </li>
+  <li>
+    Try not to overstress it. We designed our squeeze box to be rugged but it is possible to crack the plastic parts with unnecessary stress.
+  </li>
+</ul>
 
 ### Repair
 If needed, you can always order spare parts for your squeeze boxes! Just contact our support team for assistance.
 
 ## Accessories
-* Push Plate Assembly (<a href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/" target="_blank" rel="noopener noreferrer">10-0000187</a>)
-* Angle Deformation Blocks (<a href="https://leemangeophysical.com/product/angle-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000184</a>)
-* Complex Deformation Blocks (<a href="https://leemangeophysical.com/product/complex-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000185</a>)
-
+<ul>
+  <li>
+    Push Plate Assembly 
+    (<a href="https://leemangeophysical.com/product/geologists-squeeze-box-push-plate/" target="_blank" rel="noopener noreferrer">10-0000187</a>)
+  </li>
+  <li>
+    Angle Deformation Blocks 
+    (<a href="https://leemangeophysical.com/product/angle-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000184</a>)
+  </li>
+  <li>
+    Complex Deformation Blocks 
+    (<a href="https://leemangeophysical.com/product/complex-deformation-plates/" target="_blank" rel="noopener noreferrer">10-0000185</a>)
+  </li>
+</ul>
 
 ## Revision History
 <table>
