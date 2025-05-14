@@ -8,7 +8,7 @@ repo_url: https://github.com/LeemanGeophysicalLLC/knowledgebase
 repo_name: LeemanGeophysicalLLC/knowledgebase
 
 copyright:
-  Copyright 2024 - <a href="https://www.leemangeophysical.com/" target="_blank" rel="noopener">Leeman Geophysical LLC&#174;<br>
+  Copyright 2025 - <a href="https://www.leemangeophysical.com/" target="_blank" rel="noopener">Leeman Geophysical LLC&#174;<br>
   23830 West Highway 12, Gentry, AR 72734
 
 # Default edit/view actions to "main" branch, instead of "master"
@@ -287,6 +287,7 @@ nav:
       - 3D Compass Kit: '3D_Compass_Kit/3d_compass_kit.md'
     - Other:
       - Instrument Orientation Tool: 'Instrument_Orientation_Tool/instrument_orientation_tool.md'
+      - Alarm SLA Battery Shelf with Strap: 'SLA_battery_shelf/slabatteryshelf.md'
   - Application Notes: appnotes.md
   - Downloads: downloads.md
   - Resources: resources.md
