@@ -1,7 +1,7 @@
 # SMPL Power Bus
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo" style="height:300px;">
+  </div>
 
 This documentation covers part number <a href="https://leemangeophysical.com/product/smpl_modular_power_bus/" target="_blank" rel="noopener noreferrer">7-0000164</a>
 
@@ -23,32 +23,32 @@ SMPL boards effortlessly and efficiently. Upgrade your setup today for a
 seamless and reliable power distribution experience!
 
 ### Features  
-
-* Reverse polarity protection (and bypass)
-
-* 12 Power Connectors (4 pin SMPL)
-
-* Can be used for any unipolar or bipolar power distribution  
-
-* Removable terminal block to make servicing and swap out easy
+<ul>
+  <li>Reverse polarity protection (and bypass)</li>
+  <li>12 Power Connectors (4 pin SMPL)</li>
+  <li>Can be used for any unipolar or bipolar power distribution</li>
+  <li>Removable terminal block to make servicing and swap out easy</li>
+</ul>
 
 ### What's in the Box
 Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.
 
-* SMPL Power Bus PCB Assembly
-
-* 5 Pin Removable Terminal Block Connector
+<ul>
+  <li>SMPL Power Bus PCB Assembly</li>
+  <li>5 Pin Removable Terminal Block Connector</li>
+</ul>
 
 ## Setup
 1. Connect a power supply to the 5 position removable terminal block. View the
    [SMPL Standards](../smpl_standard.md) page for the various power pinout
    configurations used in the SMPL system.
-1. Use the 4 position SMPl cables to connect up to 12 devices
-<center>
-![PCB render.](pcbrender.png){: style="height:500px"}
-</center>
+1. Use the 4 position SMPL cables to connect up to 12 devices
+
+  <div style="text-align: center;">
+    <img src="../pcbrender.png" alt="PCB render" style="height:500px;">
+  </div>
 
 ## Revision History
 <table>

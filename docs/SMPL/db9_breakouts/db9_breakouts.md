@@ -1,13 +1,14 @@
 # SMPL DB9 Breakouts
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../product.png" alt="Instrument cover photo" style="height:300px;">
+</div>
 
 This documentation covers The following part numbers:  
 
-* <a href="https://leemangeophysical.com/product/universal-db9-breakout-female/" target="_blank" rel="noopener noreferrer">7-0000145</a> (Female)
-
-* <a href="https://leemangeophysical.com/product/universal-db9-breakout-male/" target="_blank" rel="noopener noreferrer">7-0000134</a> (Male)
+<ul>
+  <li><a href="https://leemangeophysical.com/product/universal-db9-breakout-female/" target="_blank" rel="noopener noreferrer">7-0000145</a> (Female)</li>
+  <li><a href="https://leemangeophysical.com/product/universal-db9-breakout-male/" target="_blank" rel="noopener noreferrer">7-0000134</a> (Male)</li>
+</ul>
 
 ## Overview
 The SMPL DB9 Breakout allows the total configuration of connections between a
@@ -25,29 +26,32 @@ Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.  
 
-* SMPL DB9 breakout PCB Assembly
+<ul>
+  <li><b>SMPL DB9 breakout PCB Assembly</b></li>
+</ul>
 
 ### Tool Requirements
-* Soldering Iron  
-
-* Solder  
+<ul>
+  <li><b>Soldering Iron</b></li>
+  <li><b>Solder</b></li>
+</ul>
 
 ## Configuration 
 There are a total 45 solder jumpers on the PCB assembly. These jumpers are found
-in 5 rows and 9 columns where the rows **(A-D)** correspond to the pins of the
-SMPL push connector, and the columns **(1-9)** relate to the 9 pins of the D-Sub
+in 5 rows and 9 columns where the rows <b>(A-D)</b> correspond to the pins of the
+SMPL push connector, and the columns <b>(1-9)</b> relate to the 9 pins of the D-Sub
 connector. The row and the column then describe the which two pins the jumper
 will connect when soldered. Multiple pins on the D-Sub can be connected to the
-same output pin if desired. The additional row of jumpers **(S)** serve to
+same output pin if desired. The additional row of jumpers <b>(S)</b> serve to
 connect pins from the DB9 directly to the casing of the D-Sub connector.
 
-<center>
-![PCB Render Front.](pcbRender1.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../pcbRender1.png" alt="PCB Render Front" style="height:300px;">
+</div>
 
-<center>
-![PCB Render Back.](pcbRender2.png){: style="height:300px"}
-</center>
+<div style="text-align: center;">
+  <img src="../pcbRender2.png" alt="PCB Render Back" style="height:300px;">
+</div>
 
 ## Revisions
 <table>
