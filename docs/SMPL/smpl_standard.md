@@ -1,8 +1,9 @@
 # SMPL Standard
 
-<center>
-![SMPL equipment in a lab setting.](smpl_cover_photo.png)
-</center>
+  <div style="text-align: center;">
+    <img src="../smpl_cover_photo.png" alt="SMPL equipment in a lab setting." style="height:400px;">
+  </div>
+
 
 SMPL is an open standard. That means Leeman Geophysical LLC is sharing the
 mechanical dimensions and electrical pinouts to allow interfacing to and from
@@ -27,17 +28,16 @@ position of potentiometers on the circuit board is always on the top of the
 board facing the outward or front side. Positioning along the long axis is
 as-required.
 
-<center>
-![1S (full size) SMPL circuit board dimensions.](1s_board_dimensions.png){: style="height:250px"}
+<div style="text-align: center;">
+  <img src="../1s_board_dimensions.png" alt="1S (full size) SMPL circuit board dimensions." style="height:250px;">
+  <div><em>1S (full size) SMPL circuit board dimensions.</em></div>
+</div>
 
-*1S (full size) SMPL circuit board dimensions.*
-</center>
+<div style="text-align: center;">
+  <img src="../05s_board_dimensions.png" alt="0.5S (half size) SMPL circuit board dimensions." style="height:250px;">
+  <div><em>0.5S (half size) SMPL circuit board dimensions.</em></div>
+</div>
 
-<center>
-![0.5S (half size) SMPL circuit board dimensions.](05s_board_dimensions.png){: style="height:250px"}
-
-*0.5S (half size) SMPL circuit board dimensions.*
-</center>
 
 ## Connectors
 The SMPL system is built around push on connectors from the Molex Picoflex PF-50
@@ -55,11 +55,13 @@ alphabet towards the smaller key post on the connector.
 
 Connectors are arranged if at all possible with:
 
-* Power on the left as viewed from the top.
-* Sensor inputs/outputs on the right as viewed from the top.
-* With adjacent connectors turned opposite ways with pin A towards the center
-line of the PCB to increase ease of connecting and disconnecting multiple
-cables.
+<ul>
+  <li>Power on the left as viewed from the top.</li>
+  <li>Sensor inputs/outputs on the right as viewed from the top.</li>
+  <li>With adjacent connectors turned opposite ways with pin A towards the center
+      line of the PCB to increase ease of connecting and disconnecting multiple
+      cables.</li>
+</ul>
 
 
 ## Standard Pinouts
