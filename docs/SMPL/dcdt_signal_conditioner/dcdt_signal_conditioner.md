@@ -1,8 +1,8 @@
 # SMPL DCDT Signal Conditioner
 
-<center>
-![cover photo of product.](product.png){: style="height:400px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="cover photo of product." style="height:400px;">
+  </div>
 
 This documentation covers part number <a href="https://leemangeophysical.com/product/smpl-dcdt-signal-conditioner/" target="_blank" rel="noopener noreferrer">7-0000133</a>
 
@@ -21,22 +21,30 @@ movement to make a single transducer even more versatile in a variety of
 scenarios.
 
 ## Hookup
-1. Ensure all power is off. **DO NOT power on the system until all steps of
-setup, including adjustment are complete, otherwise damage to the transducer may
-result!**
-
-1. Connect power to the PCB either via one of the two identical 4-pin SMPL
-connectors labeled power or via the through hole terminals GND, VDC-, and VDC+.
-
-1. Connect the transducer via the either the 4-pin SMPL connector labeled DCDT
-or the through hole terminals GND, VEXC, -IN, and +IN. Reversing the input
-connections will reverse the sign of the output.
-
-1. Connect the output to the desired recording or measurement system via either
-   the 4-pin SMPL connector or the through hole terminals GND, OUT.
-
-1. Proceed to the adjustment section BEFORE powering on the system or damage to
-your transducer may result!
+<ol>
+  <li>
+    Ensure all power is off. <b>DO NOT power on the system until all steps of
+    setup, including adjustment are complete, otherwise damage to the transducer may
+    result!</b>
+  </li>
+  <li>
+    Connect power to the PCB either via one of the two identical 4-pin SMPL
+    connectors labeled power or via the through hole terminals GND, VDC-, and VDC+.
+  </li>
+  <li>
+    Connect the transducer via either the 4-pin SMPL connector labeled DCDT
+    or the through hole terminals GND, VEXC, -IN, and +IN. Reversing the input
+    connections will reverse the sign of the output.
+  </li>
+  <li>
+    Connect the output to the desired recording or measurement system via either
+    the 4-pin SMPL connector or the through hole terminals GND, OUT.
+  </li>
+  <li>
+    Proceed to the adjustment section BEFORE powering on the system or damage to
+    your transducer may result!
+  </li>
+</ol>
 
 ## Adjustment
 
@@ -47,23 +55,31 @@ desired output voltages from the transducer. Adjustment of the output voltage
 range via the excitation voltage is always preferred to using gain as the noise
 of the output will be the least when no gain is applied.
 
-1. Ensure that power is off to the system.
-
-1. Setting the excitation voltage is most easily done with the transducer
-connected, but be sure that either the transducer can handle the full range of
-excitation voltages or that the Vexc potentiometer is turned all the way down
-(screw counter-clockwise until a click is heard or approximately 15 turns)
-before applying power to the system or damage to the transducer could result.
-
-1. Apply power to the system and measure the output excitation voltage using a
-multi-meter. This can be measured most easily at the GND and VEXC through hole
-terminals on the circuit board.
-
-1. Turn the potentiometer clockwise to increase the excitation voltage and
-counter clockwise to decrease it.
-
-1. Allow the unit to warm up under load for 30 minutes and repeat the
-   adjustment.
+<ol>
+  <li>
+    Ensure that power is off to the system.
+  </li>
+  <li>
+    Setting the excitation voltage is most easily done with the transducer
+    connected, but be sure that either the transducer can handle the full range of
+    excitation voltages or that the Vexc potentiometer is turned all the way down
+    (screw counter-clockwise until a click is heard or approximately 15 turns)
+    before applying power to the system or damage to the transducer could result.
+  </li>
+  <li>
+    Apply power to the system and measure the output excitation voltage using a
+    multi-meter. This can be measured most easily at the GND and VEXC through hole
+    terminals on the circuit board.
+  </li>
+  <li>
+    Turn the potentiometer clockwise to increase the excitation voltage and
+    counter clockwise to decrease it.
+  </li>
+  <li>
+    Allow the unit to warm up under load for 30 minutes and repeat the
+    adjustment.
+  </li>
+</ol>
 
 As an example of determining a good starting point for the excitation voltage of
 a DCDT, we will consider a transducer from TransTek Inc. The transducer
@@ -71,11 +87,10 @@ a DCDT, we will consider a transducer from TransTek Inc. The transducer
 that at 6 VDC excitation it will output +/- 4.6 VDC at full scale and with 15
 VDC excitation it will output +/- 12.1 VDC at full scale. 
 
-<center>
-![TransTek Inc. data table for the series 240 DCDT transducer line.](transtek_outputs.png)
-
-*TransTek Inc. data table for the series 240 DCDT transducer line*
-</center>
+  <div style="text-align: center;">
+    <img src="../transtek_outputs.png" alt="TransTek Inc. data table for the series 240 DCDT transducer line.">
+    <div><em>TransTek Inc. data table for the series 240 DCDT transducer line</em></div>
+  </div>
 
 Suppose the system we want to connect to expects the full scale range to be
 represented by a range of 10 VDC (with no offset that is a +/- 5 VDC output). We
@@ -121,11 +136,10 @@ increase the output offset and counter clockwise will decrease the offset. The
 offset voltage may be measured directly using the test point labeled Offset and
 any GND connection.
 
-<center>
-![Offset jumper on the PCB. Bridge connections 1 and 2 for no offset. Bridge connections 2 and 3 for variable offset.](offset_jumper.png){: style="height:250px"}
-
-*Offset jumper on the PCB. Bridge connections 1 and 2 for no offset. Bridge connections 2 and 3 for variable offset.* 
-</center>
+  <div style="text-align: center;">
+    <img src="../offset_jumper.png" alt="Offset jumper on the PCB. Bridge connections 1 and 2 for no offset. Bridge connections 2 and 3 for variable offset." style="height:250px;">
+    <div><em>Offset jumper on the PCB. Bridge connections 1 and 2 for no offset. Bridge connections 2 and 3 for variable offset.</em></div>
+  </div>
 
 For example, consider the 0244-0000 transducer example from the excitation
 voltage adjustment section. The transducer was setup such that it produced a +/-
@@ -150,11 +164,10 @@ can be measured by the two test points labeled Rg on the circuit board.
 
 $$ \text{Gain} = 1 + \frac{49400 \Omega}{R_g} $$
 
-<center>
-![Bridge the connections on the two gain jumpers to apply a variable gain. The gain resistance can be measured across the to test points labeled Rg.](gain_jumpers.png){: style="height:250px"}
-
-*Bridge the connections on the two gain jumpers to apply a variable gain. The gain resistance can be measured across the to test points labeled Rg.*
-</center>
+  <div style="text-align: center;">
+    <img src="../gain_jumpers.png" alt="Bridge the connections on the two gain jumpers to apply a variable gain. The gain resistance can be measured across the two test points labeled Rg." style="height:250px;">
+    <div><em>Bridge the connections on the two gain jumpers to apply a variable gain. The gain resistance can be measured across the two test points labeled Rg.</em></div>
+  </div>
 
 Gain can also be adjusted by setting the transducer at a known value (half full
 scale for example) and changing the potentiometer until the desired output is
@@ -205,11 +218,10 @@ position R4 on the circuit board. There is a silkscreen printed area to write
 the applied gain value on for future reference on the front of the circuit
 board.
 
-<center>
-![Fixed gain can be set by populating the axial resistor footprint R5 or the 0603 surface mount footprint R4.](gain_fixed_positions.png){: style="height:250px"}
-
-*Fixed gain can be set by populating the axial resistor footprint R5 or the 0603 surface mount footprint R4.*
-</center>
+  <div style="text-align: center;">
+    <img src="../gain_fixed_positions.png" alt="Fixed gain can be set by populating the axial resistor footprint R5 or the 0603 surface mount footprint R4." style="height:250px;">
+    <div><em>Fixed gain can be set by populating the axial resistor footprint R5 or the 0603 surface mount footprint R4.</em></div>
+  </div>
 
 ### Reversing Polarity
 While many transducer manufacturers will specify an output polarity for their
@@ -226,11 +238,10 @@ labeled DCDT to -IN and the jumper nearest the connector labeled Output to +IN.
 This will connect the nominally -IN pin to the +IN terminal of the
 instrumentation amplifier and the +IN pin to the -IN terminal.
 
-<center>
-![Input polarity of the transducer can be reversed by moving the solder bridges on the jumpers to the positions most inner to the centerline of the PCB.](polarity_jumpers.png){: style="height:250px"}
-
-*Input polarity of the transducer can be reversed by moving the solder bridges on the jumpers to the positions most inner to the centerline of the PCB.*
-</center>
+  <div style="text-align: center;">
+    <img src="../polarity_jumpers.png" alt="Input polarity of the transducer can be reversed by moving the solder bridges on the jumpers to the positions most inner to the centerline of the PCB." style="height:250px;">
+    <div><em>Input polarity of the transducer can be reversed by moving the solder bridges on the jumpers to the positions most inner to the centerline of the PCB.</em></div>
+  </div>
 
 \paragraph{Input Filter Adjustment and Bypass}\mbox{}\\  
 The mathematics of differential filters are discussed in the section on
@@ -243,11 +254,10 @@ high frequency sources. In some systems they may need to be modified to meet the
 application's data acquisition requirements. To completely bypass the filters
 the filter bypass jumpers by be bridged (FBp1 and FBp2). 
 
-<center>
-![The input filter can be bypassed by bridging the connections on the jumpers labeled FBp1 and FBp2.](input_filter_bypass.png){: style="height:250px"}
-
-*The input filter can be bypassed by bridging the connections on the jumpers labeled FBp1 and FBp2.*
-</center>
+  <div style="text-align: center;">
+    <img src="../input_filter_bypass.png" alt="The input filter can be bypassed by bridging the connections on the jumpers labeled FBp1 and FBp2." style="height:250px;">
+    <div><em>The input filter can be bypassed by bridging the connections on the jumpers labeled FBp1 and FBp2.</em></div>
+  </div>
 
 ### Output Filter Adjustment and Bypass
 The analog output of the circuit is not filtered in any way. The output filter
@@ -255,32 +265,33 @@ bypass jumper FBpOut is closed from the factory. If a low pass filter is desired
 it may be implemented after the output or resistor R6 and capacitor C11 may be
 populated to form a simple RC filter.
 
-<center>
-![The output can be filtered with a simple RC filter by populating the components R6 and C11 and removing the solder bridge from FBpOut.](output_filter_bypass.png){: style="height:250px"}
-
-*The output can be filtered with a simple RC filter by populating the components R6 and C11 and removing the solder bridge from FBpOut.*
-</center>
+  <div style="text-align: center;">
+    <img src="../output_filter_bypass.png" alt="The output can be filtered with a simple RC filter by populating the components R6 and C11 and removing the solder bridge from FBpOut." style="height:250px;">
+    <div><em>The output can be filtered with a simple RC filter by populating the components R6 and C11 and removing the solder bridge from FBpOut.</em></div>
+  </div>
 
 ## Troubleshooting
 
-**Issue: No change in output when transducer is moved.**
+<b>Issue: No change in output when transducer is moved.</b>
 
-* Verify that all connections are correct.
+<ul>
+  <li>Verify that all connections are correct.</li>
+  <li>Probe the Output test point with respect to ground. If signal is present, the issue is after the circuit or with the output connection itself.</li>
+  <li>Verify that the input polarity solder jumpers are set (see Advanced Features).</li>
+  <li>Verify that the offset solder jumper is set (see Advanced Features).</li>
+</ul>
 
-* Probe the Output test point with respect to ground. If signal is present, the issue is after the circuit or
-with the output connection itself.
+<b>Issue: Offset potentiometer has no effect.</b>
 
-* Verify that the input polarity solder jumpers are set (see Advanced Features).
+<ul>
+  <li>Verify that the offset solder jumper is set to Variable (see Advanced Features).</li>
+</ul>
 
-* Verify that the offset solder jumper is set (see Advanced Features).
+<b>Issue: Gain potentiometer has no effect.</b>
 
-**Issue: Offset potentiometer has no effect.**
-
-* Verify that the offset solder jumper is set to Variable (see Advanced Features).
-
-**Issue: Gain potentiometer has no effect.**
-
-* Verify that both Rg solder jumpers are closed (see Advanced Features).
+<ul>
+  <li>Verify that both Rg solder jumpers are closed (see Advanced Features).</li>
+</ul>
 
 ## Specifications
 <table>
