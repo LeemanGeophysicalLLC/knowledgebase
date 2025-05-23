@@ -1,7 +1,7 @@
 # Displacement Calibration Apparatus
-<div style="text-align: center;">
-  <img src="../product.png" alt="Instrument cover photo." style="height: 300px;">
-</div>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo." style="height: 300px;">
+  </div>
 
 This documentation covers part number <a href="https://leemangeophysical.com/product/displacement-transducer-calibration-system/" target="_blank" rel="noopener noreferrer">10-0000027</a>
 
@@ -17,9 +17,9 @@ calibration point.
 The displacement calibration rig is a sensitive instrument that requires
 alignment after shipping and periodically before use. The tools required to
 calibrate the device are included with the kit.
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NtjN4-EOunA?si=mLN9Re8VEQxInxQp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NtjN4-EOunA?si=mLN9Re8VEQxInxQp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
 
 ## Alignment Process
 The alignment process of the displacement apparatus involves aligning the
@@ -28,9 +28,11 @@ correct alignment, calibration of the DCDTs will not be accurate due to cosine
 error. Typically misalignment showing greater than 0.002” will need to be
 corrected.   
 
-**Tools Needed:**  
-* 0.5” and 1.0” Gauge Blocks  
-* 1.27mm Hex Key  
+<b>Tools Needed:</b>
+<ul>
+  <li>0.5” and 1.0” Gauge Blocks</li>
+  <li>1.27mm Hex Key</li>
+</ul>
 
 <ol>
   <li>
@@ -71,14 +73,10 @@ corrected.
   </li>
 </ol>
 
-* Checking alignment involves repeating steps 1-4 of the process each time the
-alignment is changed. The goal of the alignment is to have each gauge block
-measure as their calibrated length on the indicator. (0.5” block measures as
-0.5000”, and 1.0” block as 1.0000”) but an error of ±0.002” is typically
-acceptable.
-
-* Once the correct alignment is achieved the screws can be tightened. After
-tightening the screws, check the alignment again to make sure it hasn’t moved.
+<ul>
+  <li>Checking alignment involves repeating steps 1-4 of the process each time the alignment is changed. The goal of the alignment is to have each gauge block measure as their calibrated length on the indicator. (0.5” block measures as 0.5000”, and 1.0” block as 1.0000”) but an error of ±0.002” is typically acceptable.</li>
+  <li>Once the correct alignment is achieved the screws can be tightened. After tightening the screws, check the alignment again to make sure it hasn’t moved.</li>
+</ul>
 
 ## DCDT Calibration
 A video of this process is available on our website or here.
