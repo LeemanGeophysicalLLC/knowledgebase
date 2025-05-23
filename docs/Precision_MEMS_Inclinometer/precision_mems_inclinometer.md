@@ -1,7 +1,7 @@
 # Precision MEMS Inclinometer
-<center>
-![Instrument cover photo.](product.png){: style="height:250px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo." style="height:250px;">
+  </div>
 
 This documentation covers part number [10-0000042](https://leemangeophysical.com/product/mems-inclinometer/).
 
@@ -41,9 +41,9 @@ feedback. The red light is used to indicate errors and the green light indicates
 when a reading is being written to the SD card and/or sent via the serial
 interface.
 
-<center>
-![Inner panel layout with the enclosure lid removed.](top_view.png){: style="height:250px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../top_view.png" alt="Inner panel layout with the enclosure lid removed." style="height:250px;">
+  </div>
 
 ## Specifications
 <table>
@@ -170,22 +170,14 @@ communications with the instrument. Mating cables, adapters, and more are availa
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LkY6H6JQgZo?si=o1WrlsognxNwz0pp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
-1. Remove power from the unit.
-
-1. Remove the three thumb screws securing the lid to the enclosure and remove
-   the lid.
-
-1. Gently remove the old CR2032 battery by holding down on the white plastic of
-the battery clip and lifting the underside edge of the battery. Do not exert
-excessive force or the battery clip and/or circuit board may be damaged!
-
-1. Install the new CR2032 battery by sliding the battery into the clip and
-   gently pressing lock it in.
-
-1. Reinstall the lid, ensuring that the O-ring gasket is properly seated.
-   Tighten the three thumbscrews in an equal manner until finger tight.
-
-1. Reapply power and set the correct clock time.
+<ol>
+  <li>Remove power from the unit.</li>
+  <li>Remove the three thumb screws securing the lid to the enclosure and remove the lid.</li>
+  <li>Gently remove the old CR2032 battery by holding down on the white plastic of the battery clip and lifting the underside edge of the battery. Do not exert excessive force or the battery clip and/or circuit board may be damaged!</li>
+  <li>Install the new CR2032 battery by sliding the battery into the clip and gently pressing to lock it in.</li>
+  <li>Reinstall the lid, ensuring that the O-ring gasket is properly seated. Tighten the three thumbscrews in an equal manner until finger tight.</li>
+  <li>Reapply power and set the correct clock time.</li>
+</ol>
 
 ### SD Card Installation/Removal
 
@@ -193,33 +185,24 @@ excessive force or the battery clip and/or circuit board may be damaged!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XyXx7834kCQ?si=K5_wcnpvPr9IBzod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
-1. Remove power from the unit.
-
-1. Remove the three thumb screws securing the lid to the enclosure and remove
-   the lid.
-
-1. Pull the top of the card card towards the rear of the unit, it will move
-   several millimeters, then stop.
-
-1. Hinge the card up from the back of the unit towards the center.
-
-1. Remove/install a microSD card into the clip of the hinged part of the cage.
-
-1. Fold the cage back down and gently press towards the center of the unit,
-   clipping the cage into place.
-
-1. If desired, power the inclinometer and verify operation of the unit.
-
-1. Reinstall the lid, ensuring that the O-ring gasket is properly seated.
-   Tighten the three thumbscrews in an equal manner until finger tight.
+<ol>
+  <li>Remove power from the unit.</li>
+  <li>Remove the three thumb screws securing the lid to the enclosure and remove the lid.</li>
+  <li>Pull the top of the card card towards the rear of the unit, it will move several millimeters, then stop.</li>
+  <li>Hinge the card up from the back of the unit towards the center.</li>
+  <li>Remove/install a microSD card into the clip of the hinged part of the cage.</li>
+  <li>Fold the cage back down and gently press towards the center of the unit, clipping the cage into place.</li>
+  <li>If desired, power the inclinometer and verify operation of the unit.</li>
+  <li>Reinstall the lid, ensuring that the O-ring gasket is properly seated. Tighten the three thumbscrews in an equal manner until finger tight.</li>
+</ol>
 
 
 ## Operation
 ### Coordinate System
 
-<center>
-![Coordinate system and sign for the magnetometer and inclination measurements.](axes.png){: style="height:350px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../axes.png" alt="Coordinate system and sign for the magnetometer and inclination measurements." style="height:350px;">
+  </div>
 
 The tilt coordinate system is right-handed with the x-axis parallel to the flat
 along the back of the instrument and the y-axis perpendicular to the flat
@@ -286,67 +269,30 @@ character.
   </tr>
 </table>
 
-* **SB** sets the baud rate of the device to any valid baud rate in the list
-1200, 2400, 4800, 9600, or 19200 baud. This setting is persistent through power
-cycles.
-
-* **ST** sets the current time when the newline character is received. For
-example to set March 26, 2020 at 13:05:30 the command *ST 2020 03 26 13 05 30*
-would be sent. This setting is time zone independent, but we always
-recommend collecting data in UTC. After setting the time, a power off reset is
-recommended as a way to verify the integrity of the clock backup battery.
-
-* **SR** sets the data rate divisor in the range 0-3600 seconds. When the
-  current Unix second is divisible by this divisor a reading will be taken.
-  Setting the divisor to 0 means no readings will be taken and a *R*
-  command must be issued to read. Recommended settings are those divisible into
-  3600 seconds (1 hour) evenly. Common settings are 1, 5, 30, 60, 300, 900,
-  1800, and 3600.
-
-* **R** forces a manual read of the sensors as soon as the command is issued.
-This is commonly used in externally triggered systems with the data rate divisor
-set to 0, but can also be used with non-zero data rate divisors for triggering
-readings between timed readings, such as event based triggering.
-
-* **S** shows the current system settings in the terminal.
-
-* **SN** sets the number of readings to average together in the range 1-255.
-Averaging more readings takes longer, so generally is not suitable for faster
-data rates - a lag will be observed.
+<ul>
+  <li><b>SB</b> sets the baud rate of the device to any valid baud rate in the list 1200, 2400, 4800, 9600, or 19200 baud. This setting is persistent through power cycles.</li>
+  <li><b>ST</b> sets the current time when the newline character is received. For example to set March 26, 2020 at 13:05:30 the command <i>ST 2020 03 26 13 05 30</i> would be sent. This setting is time zone independent, but we always recommend collecting data in UTC. After setting the time, a power off reset is recommended as a way to verify the integrity of the clock backup battery.</li>
+  <li><b>SR</b> sets the data rate divisor in the range 0–3600 seconds. When the current Unix second is divisible by this divisor a reading will be taken. Setting the divisor to 0 means no readings will be taken and a <i>R</i> command must be issued to read. Recommended settings are those divisible into 3600 seconds (1 hour) evenly. Common settings are 1, 5, 30, 60, 300, 900, 1800, and 3600.</li>
+  <li><b>R</b> forces a manual read of the sensors as soon as the command is issued. This is commonly used in externally triggered systems with the data rate divisor set to 0, but can also be used with non-zero data rate divisors for triggering readings between timed readings, such as event based triggering.</li>
+  <li><b>S</b> shows the current system settings in the terminal.</li>
+  <li><b>SN</b> sets the number of readings to average together in the range 1–255. Averaging more readings takes longer, so generally is not suitable for faster data rates – a lag will be observed.</li>
+</ul>
 
 ### Deployment
 Every deployment is different, but this procedure seeks to provide a guideline
 of best practices for deploying the precision MEMS inclinometer. Contact your
 applications representative for guidance on your specific application.
 
-1. Connect the unit to a computer with a programming cable (preferably prior to
-going to the field) and configure the desired settings.
+<ol>
+  <li>Connect the unit to a computer with a programming cable (preferably prior to going to the field) and configure the desired settings.</li>
+  <li>Ensure the time setting is correct and the coin cell backup battery is installed. (We recommend a yearly change if the unit is in storage.)</li>
+  <li>If data are to be logged internally, ensure there is a microSD card (FAT16 formatted) with adequate space installed in the card cage.</li>
+  <li>In the field choose the deployment site and mounting strategy. Set the unit on a firm, flat surface, bolt it to a mounting plate, or otherwise secure it. Always consider siting on the unit to be out of the low flooding area, inconspicuous, and away from large tilt inducers such as trees.</li>
+  <li>Level the unit as nearly as feasible. The more level the unit is, the more operation will be in the linear band and the less likely a tilt-corrected analysis strategy will need to be used for the magnetometer data. The inclinometer itself can be used for leveling when the data are viewed on a computer or a precision circular bubble level, available from Leeman Geophysical, can be used for quick and easy leveling.</li>
+  <li>Connect the power/data cable. Apply power and verify that the unit is logging. The unit will always log a data point on startup, so powering up with the lid removed should result in a green flash as the first data point is recorded. Any red lights indicate an error and should be addressed.</li>
+  <li>Seal the unit with the provided O-ring and lid, being careful to only finger tighten the screws.</li>
+</ol>
 
-1. Ensure the time setting is correct and the coin cell backup battery is
-installed. (We recommend a yearly change if the unit is in storage.)
-
-1. If data are to be logged internally, ensure there is a microSD card (FAT16
-   formatted) with adequate space installed in the card cage.
-
-1. In the field choose the deployment site and mounting strategy. Set the unit
-on a firm, flat surface, bolt it to a mounting plate, or otherwise secure it.
-Always consider siting on the unit to be out of the low flooding area,
-inconspicuous, and away from large tilt inducers such as trees.
-
-1. Level the unit as nearly as feasible. The more level the unit is, the more
-operation will be in the linear band and the less likely a tilt corrected
-analysis strategy will need to be used for the magnetometer data. The
-inclinometer itself can be used for leveling when the data are viewed on a
-computer or a precision circular bubble level, available from Leeman
-Geophysical, can be used for quick and easy leveling.
-
-1. Connect the power/data cable. Apply power and verify that the unit is
-logging. The unit will always log a data point on startup, so powering up with
-the lid removed should result in a green flash as the first data point is
-recorded. Any red lights indicate an error and should be addressed.
-
-1. Seal the unit with the provided O-ring and lid, being careful to only finger
-   tighten the screws.
 
 
 ### Error Codes
@@ -450,43 +396,20 @@ request. Data are tab delimited and decoded as follows.
 | Y Tilt Counts | X Tilt  | Y Tilt | X Magnetometer Counts | Y Magnetometer Counts | Z Magnetometer Counts |
 
 
-* **Millisecond Counter** - Milliseconds since power was applied to the
-  processor in the instrument. This number will overflow (reset to zero) after
-  approximately 50 days.
+<ul>
+  <li><b>Millisecond Counter</b> – Milliseconds since power was applied to the processor in the instrument. This number will overflow (reset to zero) after approximately 50 days.</li>
+  <li><b>NAVG</b> – How many tilt readings were averaged in this sample.</li>
+  <li><b>Time stamp</b> – Time the reading of the sensors began for this entry.</li>
+  <li><b>Temperature</b> – Temperature of the unit in degrees Celsius multiplied by 100.</li>
+  <li><b>X Tilt Counts</b> – Raw 16-bit value of the x tilt sensor. Often used when applying a custom calibration in post processing.</li>
+  <li><b>Y Tilt Counts</b> – Raw 16-bit value of the y tilt sensor. Often used when applying a custom calibration in post processing.</li>
+  <li><b>X Tilt</b> – Small angle x tilt calibrated to degrees multiplied by 100000. Calibration provided by factory is applied and valid for small tilts.</li>
+  <li><b>Y Tilt</b> – Small angle y tilt calibrated to degrees multiplied by 100000. Calibration provided by factory is applied and valid for small tilts.</li>
+  <li><b>X Magnetometer Counts</b> – Raw 16-bit value of the magnetometer x axis sensor. Generally these values are just used as counts as calibration to Gauss is not needed for orientation information. Hard iron offset (set at the factory) is applied to this reading.</li>
+  <li><b>Y Magnetometer Counts</b> – Raw 16-bit value of the magnetometer y axis sensor. Generally these values are just used as counts as calibration to Gauss is not needed for orientation information. Hard iron offset (set at the factory) is applied to this reading.</li>
+  <li><b>Z Magnetometer Counts</b> – Raw 16-bit value of the magnetometer z axis sensor. Generally these values are just used as counts as calibration to Gauss is not needed for orientation information. Hard iron offset (set at the factory) is applied to this reading.</li>
+</ul>
 
-* **NAVG** - How many tilt readings were averaged in this sample.
-
-* **Time stamp** - Time the reading of the sensors began for this entry.
-
-* **Temperature** - Temperature of the unit in degrees Celsius multiplied by
-  100.
-
-* **X Tilt Counts** - Raw 16-bit value of the x tilt sensor. Often used when
-  applying a custom calibration in post processing.
-
-* **Y Tilt Counts** - Raw 16-bit value of the y tilt sensor. Often used when
-  applying a custom calibration in post processing.
-
-* **X Tilt** - Small angle x tilt calibrated to degrees multiplied by 100000.
-Calibration provided by factory is applied and valid for small tilts.
-
-* **Y Tilt** - Small angle y tilt calibrated to degrees multiplied by 100000.
-  Calibration provided by factory is applied and valid for small tilts.
-
-* **X Magnetometer Counts** - Raw 16-bit value of the magnetometer x axis
-sensor. Generally these values are just used as counts as calibration to Gauss
-is not needed for orientation information. Hard iron offset (set at the factory)
-is applied to this reading.
-
-* **Y Magnetometer Counts** - Raw 16-bit value of the magnetometer y axis
-sensor. Generally these values are just used as counts as calibration to Gauss
-is not needed for orientation information. Hard iron offset (set at the factory)
-is applied to this reading.
-
-* **Z Magnetometer Counts** - Raw 16-bit value of the magnetometer z axis
-sensor. Generally these values are just used as counts as calibration to Gauss
-is not needed for orientation information. Hard iron offset (set at the factory)
-is applied to this reading.
 
 
 ### Tilt Interpretation
@@ -497,33 +420,14 @@ your data. The list below is intended to help plan your field deployment
 strategy and guide your analysis. For most analyses under $\pm30^\circ$ the
 factory calibration, applied in the instrument, is all that is required.
 
-* **Temperature Scale Factor** - Temperature can modify the calibration of the
-tilt sensors making them slightly more or less sensitive. This factor is
-generally very small in our differential MEMS instrument and often neglected.
-
-* **Temperature Offset Factor**  - Temperature can change the zero point of the
-tilt sensor, often observed as several to tens of thousandths of a degree for
-small environmental temperature changes. Often this factor is corrected combined
-with temperature induced deformation.
-
-* **Temperature Induced Deformation** - Changes in temperature can result in the expansion and
-contraction of the instrument enclosure, feet, mounting surface, or object under
-study. This effect is difficult to distinguish from temperature offset factor
-corrections and both are generally done at once by observing the correlation
-between temperature and tilt.
-
-* **Cross-Axis Tilt** - Imperfections in how the tilt sensing elements are
-mounted relative to each other and to the enclosure can result in cross-talk
-between the axes. This small correction can be applied via coordinate system
-rotations if necessary.
-
-* **Off-Axis Tilt** - Tilts on one axis, especially large tilts, can incline the
-other axis sensor from the horizontal plane resulting in offsets. These are
-generally treated as cross-axis tilt errors as they are indistinguishable in the
-data, but arise from a different mechanism.
-
-* **Mounting Error** - Mounting the instrument to a surface which is not stable
-  will result in tilt readings not resulting from the process under study.
+<ul>
+  <li><b>Temperature Scale Factor</b> – Temperature can modify the calibration of the tilt sensors making them slightly more or less sensitive. This factor is generally very small in our differential MEMS instrument and often neglected.</li>
+  <li><b>Temperature Offset Factor</b> – Temperature can change the zero point of the tilt sensor, often observed as several to tens of thousandths of a degree for small environmental temperature changes. Often this factor is corrected combined with temperature induced deformation.</li>
+  <li><b>Temperature Induced Deformation</b> – Changes in temperature can result in the expansion and contraction of the instrument enclosure, feet, mounting surface, or object under study. This effect is difficult to distinguish from temperature offset factor corrections and both are generally done at once by observing the correlation between temperature and tilt.</li>
+  <li><b>Cross-Axis Tilt</b> – Imperfections in how the tilt sensing elements are mounted relative to each other and to the enclosure can result in cross-talk between the axes. This small correction can be applied via coordinate system rotations if necessary.</li>
+  <li><b>Off-Axis Tilt</b> – Tilts on one axis, especially large tilts, can incline the other axis sensor from the horizontal plane resulting in offsets. These are generally treated as cross-axis tilt errors as they are indistinguishable in the data, but arise from a different mechanism.</li>
+  <li><b>Mounting Error</b> – Mounting the instrument to a surface which is not stable will result in tilt readings not resulting from the process under study.</li>
+</ul>
 
 ### Orientation Interpretation
 The magnetometer in the instrument has a hard-iron correction applied to offset
@@ -546,7 +450,9 @@ all three of the magnetometer's axes utilized. For more information on this
 correction, see our application notes or contact support.
 
 ## Dimensions
-![Dimension drawing of the instrument](dimensions.png)
+  <div style="text-align: center;">
+    <img src="../dimensions.png" alt="Dimension drawing of the instrument" style="height:500px;">
+  </div>
 
 
 ## Revision History

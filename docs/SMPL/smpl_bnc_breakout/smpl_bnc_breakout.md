@@ -1,7 +1,7 @@
 # SMPL BNC Breakout
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo." style="height:300px;">
+  </div>
 
 This documentation covers The following part number:  
 
@@ -21,11 +21,11 @@ problem, just close multiple jumpers!
 
 ## Configuration 
 There are a total 8 solder jumpers on the PCB assembly. These jumpers are found
-in 2 rows and 4 columns where the columns **(A-D)** correspond to the pins of
-the SMPL push connector, and the rows **I** and **O** relate to the 2
+in 2 rows and 4 columns where the columns <b>(A-D)</b> correspond to the pins of
+the SMPL push connector, and the rows <b>I</b> and <b>O</b> relate to the 2
 connections of the BNC connector. 
 
-The **I** jumpers connect to the center pin of the BNC, and the **O** jumpers
+The <b>I</b> jumpers connect to the center pin of the BNC, and the <b>O</b> jumpers
 connector to the outer contact. The grid of jumpers formed by the rows and
 columns describe which two pins will be connected when a jumper is soldered
 closed. This connector assembly remains isolated from the panel in which it is
@@ -34,9 +34,9 @@ the outer sleeve of the BNC to the panel, you can solder a wire to the small
 through hole connection located by the jumper array on the circuit board. This
 wire can then be connected to your panel or enclosure.
 
-<center>
-![PCB Render Front.](pcbrender.png){: style="height:350px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../pcbrender.png" alt="PCB Render Front." style="height:350px;">
+  </div>
 
 ## Installation
 To install the BNC breakout simply plug on your SMPL cable to the SMPL connector
@@ -44,9 +44,9 @@ and mount the breakout (if desired) to your project enclosure. The panel cutout
 is provided below.
 
 ### Panel Cutout
-<center>
-![Panel Cutout](bncpanelcutout.png){: style="height:350px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../bncpanelcutout.png" alt="Panel Cutout" style="height:350px;">
+  </div>
 
 ## Revisions
 <table>

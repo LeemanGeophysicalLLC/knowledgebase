@@ -1,14 +1,14 @@
 # 4 Channel RTD Interface
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo." style="height:300px;">
+  </div>
 
 This documentation covers part number <a href="https://leemangeophysical.com/product/4-channel-rtd-interface/" target="_blank" rel="noopener noreferrer">10-0000094</a>
 
 ## Overview
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PLTAvKwgbyM?si=rSzFk3JiC2Z1cbj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PLTAvKwgbyM?si=rSzFk3JiC2Z1cbj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
 Resistance temperature detectors (RTDs) are precision temperature measurement
 devices whose resistance varies with the temperature of the probe. RTDs are
 generally used for higher resolution measurement of smaller temper- ature ranges
@@ -27,16 +27,12 @@ discuss options to connect your system to the 4 Channel RTD Interface device.
 ### Front Panel
 The front panel of the instrument has four LED indicators on it.  
 
-* **Power** - Green LED indicating the device is receiving power and on.  
-
-* **Read** - Yellow LED indicating that the device is reading temperatures from
-  the RTDs.  
-
-* **TX** - Blue LED indicating the device is sending data over the serial
-  connection to a host device.  
-
-* **RX** - Blue LED indicating the device is receiving data over the serial
-  connection from a host device.
+<ul>
+  <li><b>Power</b> - Green LED indicating the device is receiving power and on.</li>
+  <li><b>Read</b> - Yellow LED indicating that the device is reading temperatures from the RTDs.</li>
+  <li><b>TX</b> - Blue LED indicating the device is sending data over the serial connection to a host device.</li>
+  <li><b>RX</b> - Blue LED indicating the device is receiving data over the serial connection from a host device.</li>
+</ul>
 
 ### What's in the Box
 Upon receipt of your unit, unpack the contents of the box and inspect all parts
@@ -45,15 +41,13 @@ damage to Leeman Geophysical for replacement. Note that there are many optional
 accessories available, see the accessories section of the manual for details and
 usage notes.  
 
-* RTD Interface in anodized enclosure
-
-* 5 Position plug-in terminal block  
-
-* 4 Position plug-in terminal block (X4)  
-
-* USB Cable  
-
-* Factory amplifier calibration documentation  
+<ul>
+  <li>RTD Interface in anodized enclosure</li>
+  <li>5 Position plug-in terminal block</li>
+  <li>4 Position plug-in terminal block (X4)</li>
+  <li>USB Cable</li>
+  <li>Factory amplifier calibration documentation</li>
+</ul>
 
 ## Specifications
 <table>
@@ -142,18 +136,18 @@ to check for a secure connection. Ensure there are no stray strands of wire
 adjoining adjacent connections and no exposed conductor which could be
 hazardous. Also be careful to grip the actual conductor in the terminal, not the
 outer insulator as this can cause high resistance and intermittent connections.
-<center>
-![Good and bad connections to plug-in terminal blocks.](wire_connections.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../wire_connections.png" alt="Good and bad connections to plug-in terminal blocks." style="height:300px;">
+  </div>
 
-<center>
-![Connection positions on the back panel of the instrument as seen from the back.](back_pinout.png){: style="height:150px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../back_pinout.png" alt="Connection positions on the back panel of the instrument as seen from the back." style="height:150px;">
+  </div>
 
 ### 2-Wire RTD
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aefI0LOUEeE?si=_480MsUSaoirukod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aefI0LOUEeE?si=_480MsUSaoirukod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
 Two wire RTDs are the simplest, though least accurate RTD model available. The
 two wires carry the excitation current and are used to measure the RTD voltage.
 Therefore some of the lead resistance is included in the mea- surement, so
@@ -163,9 +157,9 @@ Force - terminal. Jumper wires (we recommend new, clean 22 gauge stranded wire)
 are then inserted between Force - and RTD - as well as between Force + and RTD
 +.
 
-<center>
-![Connection of a 2-wire RTD to the interface with a 4 position plug in terminal block.](2wire_connections.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../2wire_connections.png" alt="Connection of a 2-wire RTD to the interface with a 4 position plug in terminal block." style="height:300px;">
+  </div>
 
 ### 3-Wire RTD
 <center>
@@ -180,14 +174,14 @@ lowest resistance (a few Ohms at most) is connected. Insert one of the pair of
 connected wires into the Force + terminal. Insert the other wire of the pair
 into the RTD + terminal. Insert the third wire into Force - and install a jumper
 (we recommend new, clean 22 gauge stranded wire) between Force - and RTD -.
-<center>
-![Connection of a 3-wire RTD to the interface with a 4 position plug in terminal block.](3wire_connections.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../3wire_connections.png" alt="Connection of a 3-wire RTD to the interface with a 4 position plug in terminal block." style="height:300px;">
+  </div>
 
 ### 4-Wire RTD
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xx2qlZ043Jc?si=aS6BRBPN7YG7nzoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Xx2qlZ043Jc?si=aS6BRBPN7YG7nzoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
 Four wire RTDs are the most accurate RTD configuration and removes most lead
 resistance errors. Two wires are connected to each end of the resistance element
 in the sensor probe. Determine which wires are paired by measuring resistance
@@ -195,9 +189,9 @@ between wires with a multimeter. The pairs will have a few Ohms at most of
 resistance while opposite ends will read near 100 Ohms. Many manufacturers color
 code these pairs as well. Connect one of the low resistance pairs (either one)
 to Force + and RTD +. Connect the other pair to Force - and RTD -.
-<center>
-![Connection of a 4-wire RTD to the interface with a 4 position plug in terminal block.](4wire_connections.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../4wire_connections.png" alt="Connection of a 4-wire RTD to the interface with a 4 position plug in terminal block." style="height:300px;">
+  </div>
 
 ### Analog Output
 The RTD interface can produce an analog output voltage in the range 0-10 VDC
@@ -305,73 +299,75 @@ non-volatile memory and kept through power cycles of the instrument.
 </table>
 
 ### Command Descriptions
-**SETVMIN** sets the minimum output voltage allowed on a given channel. This
+<b>SETVMIN</b> sets the minimum output voltage allowed on a given channel. This
 value must be equal to or greater than zero and less than or equal to ten. No
 matter the temperature on the sensor, this output voltage will be the minimum
 allowable analog output on that channel.   
 
-**SETVMAX** sets the maximum output voltage allowed on a given channel. This
+<b>SETVMAX</b> sets the maximum output voltage allowed on a given channel. This
 value must be equal to or greater  
 than zero and less than or equal to ten. No matter the temperature on the
 sensor, this output voltage will be the maximum allowable analog output on that
 channel.  
 
-**SETTMIN** sets the minimum temperature to be registered on a given channel.
+<b>SETTMIN</b> sets the minimum temperature to be registered on a given channel.
 When the temperature is at this minimum the output voltage will be at the value
 set by VMIN. This value must be greater than or equal to -200◦C and less than or
 equal to 850◦C.  
 
-**SETTMAX** sets the maximum temperature to be registered on a given channel.
+<b>SETTMAX</b> sets the maximum temperature to be registered on a given channel.
 When the temperature is at this maximum the output voltage will be at the value
 set by VMAX. This value must be greater than or equal to -200◦C and less than or
 equal to 850◦C.  
 
-**SETBAUD** sets the baud rate of the device to a new rate. This change takes
+<b>SETBAUD</b> sets the baud rate of the device to a new rate. This change takes
 effect immediately and the serial terminal utility will need to be disconnected
 and reconnected at the new baud rate. Valid rates are 1200, 2400, 4800, 9600,
 19200, 38400, 57600, 74880, and 115200 baud.  
 
-**SETWIRES** sets the RTD wiring configuration to be 2, 3, or 4 wires on the
+<b>SETWIRES</b> sets the RTD wiring configuration to be 2, 3, or 4 wires on the
 given channel. Though readings may be taken with an inaccurate setting of this
 parameter, they may be incorrect.  
 
-**SETFILT** sets the power line interference filter to be 50 or 60 Hz on the
+<b>SETFILT</b> sets the power line interference filter to be 50 or 60 Hz on the
 given channel. In North America 60 Hz prevails and most European and Asian
 counties are on 50 Hz power. This filter simply reduces this high frequency
 noise on generally slowly changing temperature data.  
 
-**SETRREF** sets the reference resistance for the given channel. This parameter
+<b>SETRREF</b> sets the reference resistance for the given channel. This parameter
 is set at the factory and should only be altered in advanced tuning of system
 accuracy after consultation with the factory.  
 
-**SETRNOM** sets the nominal resistance of the RTD for a given channel. This
+<b>SETRNOM</b> sets the nominal resistance of the RTD for a given channel. This
 parameter is generally set to 100 Ohms for PT100 devices, but can be altered
 based on calibration data from your sensor’s manufacturer.  
 
-**SETGAIN** sets the output amplifier gain on a given channel. This parameter is
+<b>SETGAIN</b> sets the output amplifier gain on a given channel. This parameter is
 set at the factory and should only be altered during factory calibration.  
 
-**SETOFF** sets the output amplifier offset on a given channel. This parameter
+<b>SETOFF</b> sets the output amplifier offset on a given channel. This parameter
 is set at the factory and should only be altered during factory calibration.  
 
-**READ** takes a reading from all RTDs.  
+<b>READ</b> takes a reading from all RTDs.  
 
-**RESET** takes a reading from all RTDs.  
+<b>RESET</b> takes a reading from all RTDs.  
 
-**SHOW** Display the current instrument configuration.  
+<b>SHOW</b> Display the current instrument configuration.  
 
-**HELP** displays a condensed version of the command help menu. This is very
+<b>HELP</b> displays a condensed version of the command help menu. This is very
 helpful in the field as a quick reference without the instrument’s manual.  
 
-**DEFAULTS** resets all user select-able settings to their factory defaults. The
+<b>DEFAULTS</b> resets all user select-able settings to their factory defaults. The
 instrument will be set at 9600 baud and all RTDs will be in 3-wire mode with
 60Hz filters applied. Factory set amplifier gains and offsets will not be
 altered.  
 
 ### Examples
-* Set the minimum voltage on channel 1 to 1.5 *VDC SETVMIN 1 1.5*
-* Set channel 3 to use a 4 wire *RTD SETWIRES 3 4*
-* Change the baud rate to 115200 baud *SETBAUD 115200*
+<ul>
+  <li>Set the minimum voltage on channel 1 to 1.5 <i>VDC SETVMIN 1 1.5</i></li>
+  <li>Set channel 3 to use a 4 wire <i>RTD SETWIRES 3 4</i></li>
+  <li>Change the baud rate to 115200 baud <i>SETBAUD 115200</i></li>
+</ul>
 
 ## Configuration
 ### RTD Settings
@@ -434,10 +430,9 @@ the ambient conditions and is generally very small error and the device
 stabilizes quickly.
 
 ## Data Interpretation
-<center>
-![Output of the serial READ command indicating the temperatures from each RTD in degrees
-Celsius.](output_format.png){: style="height:150px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../output_format.png" alt="Output of the serial READ command indicating the temperatures from each RTD in degrees Celsius." style="height:150px;">
+  </div>
 
 The data from the READ command is plain text ASCII. There are four tab-delimited
 fields, each representing an RTD temperature. Temperatures are output in

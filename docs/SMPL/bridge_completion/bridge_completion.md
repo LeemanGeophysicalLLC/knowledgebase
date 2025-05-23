@@ -6,8 +6,10 @@
 
 This documentation covers the following part numbers:
 
-- 7-0000232 – 120 Ω version
-- 7-0000233 – 350 Ω version
+<ul>
+  <li>7-0000232: 120 Ω version</li>
+  <li>7-0000233: 350 Ω version</li>
+</ul>
 
 ## Overview
 
@@ -22,9 +24,11 @@ or other compatible amplifiers.
 The module allows users to build a full bridge from half- or quarter-bridge
 strain gauges using precision onboard completion resistors. It supports:
 
-- **Quarter-bridge** and **half-bridge** configurations via jumpers
-- **2-wire** or **3-wire** measurement modes
-- **Shunt calibration** for system verification and gain calibration (manual or logic-triggered)
+<ul>
+  <li><b>Quarter-bridge</b> and <b>half-bridge</b> configurations via jumpers</li>
+  <li><b>2-wire</b> or <b>3-wire</b> measurement modes</li>
+  <li><b>Shunt calibration</b> for system verification and gain calibration (manual or logic-triggered)</li>
+</ul>
 
 Excitation power (typically 5 VDC) is passed through the board from the
 [SMPL Load Cell Signal Conditioner](../load_cell_signal_conditioner/load_cell_signal_conditioner.md)
@@ -39,7 +43,9 @@ errors from voltage drop in extension cables.
 
 ### What’s in the Box
 
-- SMPL Bridge Completion Module (assembled PCBA)
+<ul>
+  <li>SMPL Bridge Completion Module (assembled PCBA)</li>
+</ul>
 
 [Optional accessories](../accessories.md) such as SMPL cables and mounting hardware are available separately.
 

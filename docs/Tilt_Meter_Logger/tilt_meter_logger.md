@@ -1,7 +1,7 @@
 # Tilt Meter Logger
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo" style="height:300px;">
+  </div>
 
 This documentation covers part number <a href="https://leemangeophysical.com/product/ptm-tilt-meter-logger/" target="_blank" rel="noopener noreferrer">10-0000041</a>
 
@@ -18,8 +18,10 @@ tilt meter for applications with low rate logging of one sample every 15 minutes
 or less for further power savings.
 
 ### What’s in the Box
-* Tilt meter logger
-* Power cable
+<ul>
+  <li>Tilt meter logger</li>
+  <li>Power cable</li>
+</ul>
 
 ###  Enclosure and Components
 The TML is enclosed in a rugged and waterproof case with military grade external
@@ -54,14 +56,12 @@ can send packets at the user desired rate. The 1, 5, 15, 30, and 60 modes record
 data at those intervals in minutes.
 
 #### LED Indicators
-* **Ready** - The green ready indicator illuminates when the system is ready to
-    record data and all parameters are normal.
-* **Error** - The red error indicator illuminates when an error condition is
-    detected in the system.
-* **Logging** - The green logging indicator illuminates when the system has
-    logging enabled.
-* **Writing** - The blue or yellow writing indicator illuminates when data are
-     being written to the SD card.
+<ul>
+  <li><b>Ready</b> - The green ready indicator illuminates when the system is ready to record data and all parameters are normal.</li>
+  <li><b>Error</b> - The red error indicator illuminates when an error condition is detected in the system.</li>
+  <li><b>Logging</b> - The green logging indicator illuminates when the system has logging enabled.</li>
+  <li><b>Writing</b> - The blue or yellow writing indicator illuminates when data are being written to the SD card.</li>
+</ul>
 
 #### microSD Card Slot
 The microSD card slot is a push to install, push to release style card holder.
@@ -77,14 +77,16 @@ serial terminal program. The TML is designed to operate at the same baud rate as
 the connected instrument, which is user configurable in the menu of the logger
 and tilt meter. We recommend powering the unit externally before connecting via
 USB.
-<center>
-![Control Panel Layout.](top_panel.png){: style="height:400px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../top_panel.png" alt="Control Panel Layout." style="height:400px;">
+  </div>
+
 
 ### Power
 Power for this device is provided by the
 [FieldVolt](../FieldVolt/fieldvolt_standard.md) system.  
-**Note** *Before Febuary of 2024, the power connector was Amphenol (1-0000777, PT02A-10-2S) with the mating connector (), but has since switch to the FieldVolt standard.*
+<b>Note</b> <i>Before February of 2024, the power connector was Amphenol (1-0000777, PT02A-10-2S), but has since switched to the FieldVolt standard.</i>
+
 
 ## Specifications
 <table>
@@ -209,18 +211,14 @@ Each command should be entered followed by a newline character.
 </table>
 
 ### Command Descriptions
-* **SETBAUD**  sets the baud rate of the device to any valid baud rate in the
-list 1200, 2400, 4800, 9600, 19200, 38400, 57600, 74880, or 115200 baud. This
-setting is persistent through power cycles.
-* **SETTIME** sets the current time when the newline character is received. This
-setting is time zone independent, but we always recommend collecting data in
-UTC. After setting the time, a power off reset is recommended as a way to verify
-the integrity of the clock backup battery.
-* **RESET** forces a reboot of the unit.
-* **DEFAULTS** restores the default settings from the factory.
-* **HELP** displays the in terminal command descriptions for quick reference in
-  the field.
-* **SHOW** shows the current system settings in the terminal.
+<ul>
+  <li><b>SETBAUD</b> sets the baud rate of the device to any valid baud rate in the list 1200, 2400, 4800, 9600, 19200, 38400, 57600, 74880, or 115200 baud. This setting is persistent through power cycles.</li>
+  <li><b>SETTIME</b> sets the current time when the newline character is received. This setting is time zone independent, but we always recommend collecting data in UTC. After setting the time, a power off reset is recommended as a way to verify the integrity of the clock backup battery.</li>
+  <li><b>RESET</b> forces a reboot of the unit.</li>
+  <li><b>DEFAULTS</b> restores the default settings from the factory.</li>
+  <li><b>HELP</b> displays the in terminal command descriptions for quick reference in the field.</li>
+  <li><b>SHOW</b> shows the current system settings in the terminal.</li>
+</ul>
 
 ## Operation
 ### Operating Modes
@@ -263,20 +261,14 @@ leaking and corrosion risk. Changing the battery is a simple process, but the
 time will need to be reset afterwards. All other settings are stored in
 non-volatile memory and will be unaffected.
 
-1. Remove power from the unit.
-
-1. Remove the screws securing the control panel to the enclosure and gently lift
-   the panel.
-
-1. Gently remove the old CR2032 battery by sliding it out from the battery
-holder and clip on the PCB. Do not exert excessive force or the battery clip
-and/or circuit board may be damaged!
-
-1. Install the new CR2032 battery by sliding the battery into the clip.
-
-1. Reinstall the control panel.
-
-1. Reapply power and set the correct clock time.
+<ol>
+  <li>Remove power from the unit.</li>
+  <li>Remove the screws securing the control panel to the enclosure and gently lift the panel.</li>
+  <li>Gently remove the old CR2032 battery by sliding it out from the battery holder and clip on the PCB. Do not exert excessive force or the battery clip and/or circuit board may be damaged!</li>
+  <li>Install the new CR2032 battery by sliding the battery into the clip.</li>
+  <li>Reinstall the control panel.</li>
+  <li>Reapply power and set the correct clock time.</li>
+</ol>
 
 ### Setting the Time
 The time should be set after the RTC battery has been changed or if it is deemed
@@ -292,53 +284,30 @@ Every deployment is different, but this procedure seeks to provide a guideline
 of best practices for deploying the logger. Contact your applications
 representative for guidance on your specific application.
 
-1. Connect the unit to a computer with a USB mini-B cable (preferably prior to
-going to the field) and configure the desired settings.
-
-1. Ensure the time setting is correct and the coin cell backup battery is
-installed. (We recommend a yearly change if the unit is in storage.)
-
-1. Ensure there is a microSD card (FAT16 formatted) with adequate space
-   installed in the logger.
-
-1. For ease of setup we recommend setting the panel controls to lights on,
-   logging off, and instrument interval.
-
-1. The tilt meter should already be installed and leveled. See the tilt meter
-   manual for leveling instructions.
-
-1. Connect the power and instrument cables. Apply power.
-
-1. Connect to the unit in a serial terminal program. If you are unfamiliar with
-serial terminal use, please see our company blog and application notes available
-on our website.
-
-1. If in instrument mode, you will see data from the instrument displayed in the
-serial terminal. The logger will also display a regular time stamp and if it has
-applied power to the instrument or not.
-
-1. Set the appropriate logging interval.
-
-1. Turn logging on and ensure that the SD card writing LED blinks and no errors
-   are shown.
-
-1. Disconnect the serial terminal, and turn the lights off if desired using the
-panel light switch. This can save significant power over a long deployment with
-limited solar resources.
-
-1. Seal the weatherproof case and wait for the desired data collection interval.
+<ol>
+  <li>Connect the unit to a computer with a USB mini-B cable (preferably prior to going to the field) and configure the desired settings.</li>
+  <li>Ensure the time setting is correct and the coin cell backup battery is installed. (We recommend a yearly change if the unit is in storage.)</li>
+  <li>Ensure there is a microSD card (FAT16 formatted) with adequate space installed in the logger.</li>
+  <li>For ease of setup we recommend setting the panel controls to lights on, logging off, and instrument interval.</li>
+  <li>The tilt meter should already be installed and leveled. See the tilt meter manual for leveling instructions.</li>
+  <li>Connect the power and instrument cables. Apply power.</li>
+  <li>Connect to the unit in a serial terminal program. If you are unfamiliar with serial terminal use, please see our company blog and application notes available on our website.</li>
+  <li>If in instrument mode, you will see data from the instrument displayed in the serial terminal. The logger will also display a regular time stamp and if it has applied power to the instrument or not.</li>
+  <li>Set the appropriate logging interval.</li>
+  <li>Turn logging on and ensure that the SD card writing LED blinks and no errors are shown.</li>
+  <li>Disconnect the serial terminal, and turn the lights off if desired using the panel light switch. This can save significant power over a long deployment with limited solar resources.</li>
+  <li>Seal the weatherproof case and wait for the desired data collection interval.</li>
+</ol>
 
 ### Retrieval
 Retrieving the instrument is similar to deployment, but there are a few best
 practices to note.
 
-* Always ensure logging is turned off before removing the SD card - failure to
-do so may result in corruption of data.
-
-* Always remove power before disconnecting the attached instrument.
-
-* Make a backup of the data, in the field if possible, as microSD cards can be
-easily dropped and difficult to find.
+<ul>
+  <li>Always ensure logging is turned off before removing the SD card - failure to do so may result in corruption of data.</li>
+  <li>Always remove power before disconnecting the attached instrument.</li>
+  <li>Make a backup of the data, in the field if possible, as microSD cards can be easily dropped and difficult to find.</li>
+</ul>
 
 ### Error Codes
 Error codes will be shown in the serial terminal and indicated by a solid red
@@ -413,9 +382,9 @@ when the packet was received. This time stamp is reported to the fractional
 second to allow for any drift of the instrument clock in instrument control mode
 to be observed.
 
-<center>
-![Output Format.](output_format.png){: style="height:50px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../output_format.png" alt="Output Format." style="height:50px;">
+  </div>
 
 ## Accessories
 ### FieldVolt 

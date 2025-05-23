@@ -1,8 +1,8 @@
 # DB9 Protoboard Breakout
 
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo." style="height:300px;">
+  </div>
 
 This documentation covers The following part number: <a href="https://leemangeophysical.com/product/db9-protoboard-breakout/" target="_blank" rel="noopener noreferrer">7-0000204</a>
 
@@ -29,25 +29,30 @@ Upon receipt of your unit, unpack the contents of the box and inspect all parts
 for any damage incurred during shipping. Immediately report any missing parts or
 damage to Leeman Geophysical for replacement.  
 
-* DB9 Protoboard Breakout PCB Assembly
+<ul>
+  <li>DB9 Protoboard Breakout PCB Assembly</li>
+</ul>
 
 ### Features
-* <b>Dual DB9 Connectors:</b> Includes both male and female DB9 connectors for convenient pass through connection into existing equipment.  
-* <b>Pin and Shell Breakout:</b> Each pin and the shell are broken out onto solder pads, ensuring proper shielding and ease of use.  
-* <b>Prototyping Area:</b> Equipped with a proto area for building custom adapters, filters, injectors, and more.  
-* <b>Customizable Solutions:</b> Enables the creation of tailored solutions for any application.  
-* <b>Versatile Application:</b> Ideal for engineers, technicians, hobbyists, and anyone needing custom DB9 signal solutions.  
+<ul>
+  <li><b>Dual DB9 Connectors:</b> Includes both male and female DB9 connectors for convenient pass through connection into existing equipment.</li>
+  <li><b>Pin and Shell Breakout:</b> Each pin and the shell are broken out onto solder pads, ensuring proper shielding and ease of use.</li>
+  <li><b>Prototyping Area:</b> Equipped with a proto area for building custom adapters, filters, injectors, and more.</li>
+  <li><b>Customizable Solutions:</b> Enables the creation of tailored solutions for any application.</li>
+  <li><b>Versatile Application:</b> Ideal for engineers, technicians, hobbyists, and anyone needing custom DB9 signal solutions.</li>
+</ul>
 
 ## Configuration
 ### DB9 Pin Connection Points
-<center>
-![DB9 Connection points.](DB9_connection_points.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../DB9_connection_points.png" alt="DB9 Connection points." style="height:300px;">
+  </div>
 
 ### DB9 Pin Configuration 
-<center>
-![DB9 Pinout.](DB9_pinout.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../DB9_pinout.png" alt="DB9 Pinout." style="height:300px;">
+  </div>
+
 
 ## Revisions
 <table>

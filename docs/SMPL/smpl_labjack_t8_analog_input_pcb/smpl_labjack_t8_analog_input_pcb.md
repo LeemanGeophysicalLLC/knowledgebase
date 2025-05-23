@@ -1,7 +1,7 @@
 # SMPL Labjack T8 Analog Input PCB
-<center>
-![Instrument cover photo.](product.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../product.png" alt="Instrument cover photo." style="height:300px;">
+  </div>
 
 This documentation covers The following part numbers:  
 
@@ -12,9 +12,10 @@ The LabJack T8 Analog Input PCB is designed to breakout the analog output from
 any SMPL PCB to a 2 position 0.2" pitch pin header compatible with the terminals
 of a LabJack. This breakout features 8 solder jumpers that allow the complete
 configuration of these 2 pins to any of the 4 pins on the SMPL connector. 
-<center>
-![Installed in LabJack.](installed.png){: style="height:300px"}
-</center>
+  <div style="text-align: center;">
+    <img src="../installed.png" alt="Installed in LabJack." style="height:300px;">
+  </div>
+
 
 ## Recommended Configuration
 For use with the SMPL standard pinout for an analog follow the pin configuration
