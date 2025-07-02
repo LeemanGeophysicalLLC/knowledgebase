@@ -216,6 +216,9 @@ target="_blank" rel="noopener noreferrer">HERE</a>.
     </div>
   </li>
 </ol>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xeYQldL59yQ?si=uGThxLff68M6XF9a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 ## Repair and Maintenance
 <center>
@@ -272,11 +275,25 @@ If needed, you can always order spare parts for your squeeze boxes! Just contact
   </li>
 </ul>
 
+## Related Videos
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/71ZUcvH0pWU?si=29nz_H2EBo5r4j3f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+</center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NXYBUW8EYnw?si=7XRbHBkdU7_kISdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 ## Revision History
 <table>
   <tr bgcolor="gray">
     <td><b>Date</b></td>
     <td><b>Changes</b></td>
+  </tr>
+
+  <tr>
+    <td>July 2025</td>
+    <td>Added video demos for extra push plate installation and Squeeze Box related videos</td>
   </tr>
 
   <tr>
