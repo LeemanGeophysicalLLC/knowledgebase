@@ -224,11 +224,23 @@ the magnetic field. The serial connection uses the following parameters:
   </li>
 </ul>
 
+## Related Videos
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VM7u4S6rqpA?si=xNh2MKOuz41-xZUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2iQkKjc82bc?si=dBkwFg33Ht-RdKm9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ObkAfx6DX3M?si=bVyiYCKwWlmbll-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vhInKcKDeyQ?si=WL8sCJdftYECaSrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 ## Revision History
 <table>
   <tr bgcolor="gray">
     <td><b>Date</b></td>
     <td><b>Changes</b></td>
+  </tr>
+  <tr>
+    <td>July 2025</td>
+    <td>Added related videos</td>
   </tr>
   <tr>
     <td>May 2025</td>
