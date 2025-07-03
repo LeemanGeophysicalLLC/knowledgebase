@@ -194,6 +194,30 @@ Note - optional jumper to connect C to ground making this equivalent to the sing
   </tr>
 </table>
 
+### Serial Connection
+<table>
+  <tr bgcolor = "gray">
+    <td><b>Pin</b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>GND</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>RX</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>TX</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>VDC</td>
+  </tr>
+</table>
+
 ## Recommended DB9 Pinouts
 We love using DB9 connectors to interface a variety of sensors to our systems.
 They are inexpensive, robust, and work great for low frequency signals like many
