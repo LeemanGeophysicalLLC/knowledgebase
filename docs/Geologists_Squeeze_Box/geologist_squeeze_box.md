@@ -278,9 +278,6 @@ If needed, you can always order spare parts for your squeeze boxes! Just contact
 ## Related Videos
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/71ZUcvH0pWU?si=29nz_H2EBo5r4j3f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-
-</center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NXYBUW8EYnw?si=7XRbHBkdU7_kISdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
