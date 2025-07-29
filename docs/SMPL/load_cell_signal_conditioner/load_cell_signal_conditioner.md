@@ -418,7 +418,7 @@ These components form both a <b>differential-mode</b> and <b>common-mode</b> RC 
 
 The board is shipped with the following default components installed:
 <ul>
-  <li><b>Resistors</b>: 240 Ω</li>
+  <li><b>Resistors</b>: 249 Ω</li>
   <li><b>Capacitors</b>: 0.1 µF</li>
 </ul>
 
