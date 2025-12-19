@@ -43,3 +43,4 @@
 ## Other
 * [Instrument Orientation Tool](Instrument_Orientation_Tool/instrument_orientation_tool.md)
 * [Alarm SLA Battery Shelf with Strap](SLA_battery_shelf/slabatteryshelf.md)
+* [Tissue Disruptor](Tissue_Disruptor/tissue_disruptor.md)
