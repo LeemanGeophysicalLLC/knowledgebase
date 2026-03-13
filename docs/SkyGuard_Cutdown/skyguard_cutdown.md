@@ -8,10 +8,11 @@ This documentation covers part number <a href="" target="_blank" rel="noopener n
 ## Overview
 The SkyGuard Cut Down was developed over years of experience supporting
 ballooning operations for the research community. Designed with simplicity and
-reliability in mind, this device offers 16 preset time and pressure triggers to
+reliability in mind, this device offers 16 preset time and 16 preset pressure triggers to
 suit a variety of mission profiles. Once the system detects a balloon launch,
 the timer activates, and the pressure trigger monitors an absolute pressure
-threshold for optimal cut-down timing.
+threshold for optimal cut-down timing. The system can also be armed at power up
+or arm once a launch is detected by a pressure drop.
 
 Unlike traditional hotwire systems, SkyGuard’s innovative mechanical release
 eliminates the risk of fire and simplifies rigging. Arming and resetting the
@@ -23,7 +24,8 @@ SkyGuard is simple to use yet highly customizable. The firmware is fully open
 source, letting you modify settings if the built-in presets don't meet your
 specific needs. Plus, the front panel features engraved instructions, so there’s
 no need to fumble with your phone in the field—everything you need is right at
-your fingertips.
+your fingertips. The enclosures files are also freely available so you can print
+your own or modify it as you wish!
 
 Swiveling rigging points at the top and bottom reduce the risk of line fouling.
 DIP switch settings are quick to adjust with a pen or toothpick, even in the
@@ -44,6 +46,14 @@ The front panel of the instrument has two LED indicators on it and two banks of 
    <li><b>Time DIP Switches</b> - 4 switches to set the time before the balloon is released.</li>
    <li><b>Pressure DIP Switches</b> - 4 switches to set the absolute pressure at which the balloon is released.</li>
 </ul>
+
+### Back Panel
+The back panel of the instrument has two solder jumpers which are used to set the arming method or other custom behaviors.
+
+<ul>
+  <li><b>A</b> - Jumper to enable arming at power up or only after launch detection.</li>
+  <li><b>B</b> - Jumper for custom functions, not used in factory programming.</li>
+</ul> 
 
 ### What's in the Box
 Upon receipt of your unit, unpack the contents of the box and inspect all parts
@@ -72,7 +82,7 @@ usage notes.
   </tr>
 
   <tr>
-    <td>Weight</td>
+    <td>Weight (no battery)</td>
     <td>-</td>
     <td>XX</td>
     <td>-</td>
@@ -109,39 +119,44 @@ usage notes.
 The cut down unit features a 3D-printed enclosure housing an installed servo,
 release pin, bottom swivel, and a fully populated circuit board. The front and
 back acrylic panels protect the electronics from the elements, secured with
-elastic bands for quick and easy assembly or disassembly.
+thumb screws for quick and easy assembly or disassembly.
 
-### Parachute Retaining Ring
+### Top Retaining Ring
 This is the topmost release ring in the system. When the release pin activates,
-the parachute retaining ring is freed, allowing the balloon retaining ring to
-release as well. This process ensures the rigging line drops cleanly, allowing
-the cut down to fall below the parachute and avoid interfering with its
-deployment.
+this ring is freed. In a typical installation the balloon would be attached to this ring, but alternative rigging scenarios are possible. The bottom retaining ring cannot release until this ring has been released.
 
-### Balloon Retaining Ring
-The balloon retaining ring supports the load of the balloon, transferring it
-through the cut down unit to the payload. This ring serves as the primary
-attachment point for the balloon and facilitates the lifting of the parachute
-retaining ring when the release mechanism is triggered.
+### Bottom Retaining Ring
+The bottom retaining ring is an optional ring that is installed underneath the top
+retaining ring. In some rigging scenarios it may be useful to release secondary lines
+or perform other auxiliary functions. In typical installations, this ring is not used.
 
 ### Moisture Plug
-The moisture plug fits securely into the top of the parachute retaining ring,
+The moisture plug fits securely into the top of the top retaining ring,
 sealing the release mechanism against moisture. This protective measure helps
 prevent icing or fouling, ensuring reliable operation in various weather
 conditions.
 
 ## Configuration
+
+### Arming Conditions
+When the cutdown is armed the yellow LED on the front panel illuminates and the system
+timer begins counting. The arming can occur as soon as the system receives power or
+after a pressure drop of approximately 20 hPa is detected indicating a launch has
+been detected. It is important to note that when launch detection is used the system
+timer is started at 60 seconds as opposed to 0 seconds to roughly account for rise time
+before arming. This allows the system to fire immediately on arming if the time condition
+is set to 1 minute which may be useful for systems like payload let down reels.
+
+The arming mode selection is accomplished with the jumper labeled “A” on the back of the
+circuit board. If the jumper is soldered closed the system will use the launch detection
+method. If the jumper is desoldered or left open then the system will arm immediately on
+power up. Systems are shipped to arm at power on by default.
+
 ### Timed Cutdown
 If a time threshold is set, the system starts a countdown timer once it’s armed.
-The release is triggered when the preset elapsed time is reached. By default,
-the timer activates only after the system detects a pressure drop of 20 hPa
-below the starting pressure recorded at power-on—equivalent to approximately 550
-feet above the initial altitude. This ensures the cutdown can be powered on
-during pre-launch preparations without starting the timer prematurely. Once the
-system is armed and in flight, the yellow "Timer Armed" LED on the circuit board
-will illuminate to confirm activation.
+The release is triggered when the preset elapsed time is reached. 
 
-The cutdown time is set by the DIP switches labeled "Time" right below to servo.
+The cutdown time is set by the DIP switches labeled "Time".
 The times from arming to release are set as shown in the following table.
 
 | Switch 1 | Switch 2 | Switch 3 | Switch 4 | Time (minutes) |
@@ -190,44 +205,54 @@ absolute pressure is used always.
 | ON       | ON       | ON       | ON       | 1000              |
 
 ## Operation
+
+### Before Going to the Field
+Before going to the field for your launch we recommend accomplishing as much as possible back in the lab. Rigging may also be able to be accomplished before going to the field depending upon your exact requirements. Note that you can manually turn the servo with your fingers to release/attach the top/bottom retainers which may make rigging easier.
+
 <ol>
-   <li>Remove the elastic bands and front/back panels from the housing.</li>
-   <li>Using a small pointed object like a toothpick or pen, set the desired time and/or pressure on the DIP switches following the tables in the configuration section. Note that both time and pressure conditions may be set, and whichever is reached first will trigger a release.</li>
-   <li>Connect the device to the balloon train following the recommendations in the rigging section of the manual or your SOPs.</li>
-   <li>Install a 9V battery onto the battery clip. For best performance in the cold flight environment, we recommend a high-performance lithium 9V. The green and yellow LEDs on the front will alternate to indicate the system is initializing. The servo will also move approximately 20 degrees then back to the home position.</li>
-   <li>Reinstall the front and back covers with the elastic bands.</li>
-   <li>The cutdown is ready for flight as long as the green LED is flashing.</li>
+   <li>Remove the thumb screws and front/back panels from the housing.</li>
+   <li>Using a small pointed object like a toothpick or pen, set the desired time and/or pressure on the DIP switches following the tables in the configuration section and engraved on the panels. Note that both time and pressure conditions may be set, and whichever is reached first will trigger a release.</li>
+   <li>Verify that the arming mode is set as you wish with the “A” jumper on the back of the circuit board.</li>
+   <li>Reattach the front cover over the dip switches with the thumb nuts. There are small O-rings installed on the threads of the nylon screws to help prevent them from vibrating loose during turbulent flights. <b>DO NOT over-tighten the thumb screws!</b> They are nylon and just need to be finger tight or they could be twisted off in the brass threaded inserts of the case.</li>
 </ol>
 
-## Rigging
+### Rigging
 While rigging of your cutdown likely depends on your exact balloon train design,
 this is the recommended starting point for the development of your procedure.
 
-  <div style="text-align: center;">
-    <img alt="Rigging attachment points" src="../SkyGuard_Cutdown_Rigging_Hookup_Points.png" style="max-width:500px;">
-  </div>
+<ol>
+  <li>Attach the balloon lift line to the top retaining ring using a robust line such as high test fishing line (monofilament or other).</li>
+  <li>Pass the free end of the ballon lift line through the hole in the top of the parachute. Be sure the hole is large enough for the top retaining ring (and bottom if used in your configuration) to pass through it.</li>
+  <li>Attach the load lift lines to to the bottom swivel using a similar robust line to the line used for the ballon lift lines.</li>
+</ol>
 
-
-The basic principle of operation is that the balloon when released also pulls of
-the line retaining the top of the parachute. This allows the balloon to go free
-and the cutdown to fall below the parachute to gently fall along with the
-payload.
-
-  <div style="text-align: center;">
-    <img alt="Rigging diagram" src="../SkyGuard_Before_and_After_Rigging.png" style="max-width:500px;">
-  </div>
+### Launch
+Launching procedures should be adjusted to your system’s needs, but as a general guide this procedure may be used as a starting point for yours.
 
 <ol>
-   <li>
-      Tie the balloon retaining line to the balloon retaining ring and place it over the release pin. Making a large loop between sides provides the most even lift, but this is not overly important.
-   </li>
-   <li>
-      Tie the parachute top line to the parachute retaining ring and install it onto the release pin by pressing the blue button inside the cutdown.
-   </li>
-   <li>
-      Tie off the bottom payload line to the payload swivel on the bottom of the cutdown.
-   </li>
-</ol>
+  <li>Install a 9V battery (lithium 9V batteries are recommended for best performance at high altitudes) into the back of the unit and reattach the cover with the thumb screws being very careful not to over-tighten them. The O-rings should be present on each thumb screws to reduce the chance of them coming loose during flight.</li>
+  <li>Ensure that the green light is blinking and the servo moves approximately 45 degrees during its power on check and then back to its home position. If your cutdown is set to immediately arm the yellow LED should illuminate.</li>
+  <li>Launch your balloon and payload as you normally would</li>
+ </ol>
+
+### Recovery
+If your payload is to be recovered you may wish to recover the cutdown for reuse. Once the
+payload is located the cutdown can simply be cut out of the rigging and saved for later use.
+We do recommend removing the battery to avoid any potential leakage damaging the cutdown during long term storage. This does not need to be done immediately in the field as it may
+be easy to lose screws or parts of the unit, but should be done before putting the
+equipment away.
+
+### Reuse
+Refurbishing of the unit to fly again is a simple process, largely just comprised of
+verifying that nothing was damaged in the last flight. You will need a new flight
+consumables kit to replace the parts of the release that flew away with the balloon
+and rigging, but other than those and the battery no other parts need to be changed.
+If any parts of the system are damaged (release pin bent, windows cracked, etc.) new
+parts can be purchased from us by contacting support TODO LINK THIS or you can produce
+parts using the freely available files in the SkyGuard Mechanical Repository. TODO LINK THIS
+
+We recommend attaching a battery and verifying proper operation of the servo and
+electronics before re-flying the unit.
 
 
 ## Serial Connection
@@ -235,7 +260,9 @@ There is a header on the PCB for serial connection at 9600 Baud. With the stock
 firmware, system status information is printed to the serial terminal as a table
 as shown below:
 
-To connect to the serial output, connect a 3V3 logic cable to the PCBs ground,
+TODO ADD
+
+To connect to the serial output, connect a 3V3 logic cable TODO ADD STORE LINK to the PCBs ground,
 transmit, and receive pins as shown below:
 
 If you are unfamiliar with serial terminal operations, be sure to check out our
@@ -250,6 +277,8 @@ recommend using [VSCode](https://code.visualstudio.com/) with the
 [PlatformIO](https://platformio.org/) extension to edit and upload the firmware.
 You will need a 3V3 USB cable to accomplish the programming or to read out
 serial outputs.
+
+TODO - verify - do we actually ship a boot loader?
 
 ### Upload Procedure
 <ol>
@@ -282,6 +311,8 @@ process.
 If you will be recovering your SkyGuard for multiple uses, we have accessories
 that you may be interested in keeping on-hand.
 
+TODO put the real links here
+
 ### Flight Consumables Kit 
 <a href="" target="_blank" rel="noopener noreferrer">10-0000202</a>  
 Extra hardware to replace that used during a flight. Includes a top and bottom
@@ -303,6 +334,11 @@ Program new firmware to the cutdown or just monitor the serial output for testin
     <td><b>Date</b></td>
     <td><b>Changes</b></td>
   </tr>
+  
+  <tr>
+    <td>March 2026</td>
+    <td>Update for PCB revision and new operational recommendations</td>
+  </tr> 
 
   <tr>
     <td>November 2024</td>
