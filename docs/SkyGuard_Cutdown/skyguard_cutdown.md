@@ -3,7 +3,7 @@
    <img alt="Instrument cover photo." src="../SkyGuard_cover_photo.png" style="height:300px">
 </div>
 
-This documentation covers part number <a href="" target="_blank" rel="noopener noreferrer">10-0000201</a>
+This documentation covers part number <a href="https://leemangeophysical.com/product/skyguard-balloon-payload-cutdown-system/" target="_blank" rel="noopener noreferrer">10-0000201</a>
 
 ## Overview
 The SkyGuard Cut Down was developed over years of experience supporting
@@ -40,6 +40,10 @@ payload recovery.
 ### Front Panel
 The front panel of the instrument has two LED indicators on it and two banks of dip switches.  
 
+<div style="text-align: center;">
+   <img alt="Front panel" src="../skyguard_pcb_front.png" style="height:300px">
+</div>
+
 <ul>
    <li><b>Heartbeat</b> - Green LED indicating the device is active.</li>
    <li><b>Timer Armed</b> - Yellow LED indicating that the flight timer has been armed and is running.</li>
@@ -49,6 +53,10 @@ The front panel of the instrument has two LED indicators on it and two banks of 
 
 ### Back Panel
 The back panel of the instrument has two solder jumpers which are used to set the arming method or other custom behaviors.
+
+<div style="text-align: center;">
+   <img alt="Back panel" src="../skyguard_pcb_back.png" style="height:300px">
+</div>
 
 <ul>
   <li><b>A</b> - Jumper to enable arming at power up or only after launch detection.</li>
@@ -84,7 +92,7 @@ usage notes.
   <tr>
     <td>Weight (no battery)</td>
     <td>-</td>
-    <td>XX</td>
+    <td>275</td>
     <td>-</td>
     <td>g</td>
   </tr>
@@ -115,6 +123,11 @@ usage notes.
 </table>
 
 ## System Components
+
+<div style="text-align: center;">
+   <img alt="Skyguard components" src="../skyguard_hookup_parts.png" style="height:300px">
+</div>
+
 ### SkyGuard Cutdown
 The cut down unit features a 3D-printed enclosure housing an installed servo,
 release pin, bottom swivel, and a fully populated circuit board. The front and
@@ -135,6 +148,9 @@ The moisture plug fits securely into the top of the top retaining ring,
 sealing the release mechanism against moisture. This protective measure helps
 prevent icing or fouling, ensuring reliable operation in various weather
 conditions.
+
+### Bottom Anchor
+Provides a swiveling attachment point for the payload to be secured to the cutdown.
 
 ## Configuration
 
@@ -224,7 +240,12 @@ this is the recommended starting point for the development of your procedure.
   <li>Attach the balloon lift line to the top retaining ring using a robust line such as high test fishing line (monofilament or other).</li>
   <li>Pass the free end of the ballon lift line through the hole in the top of the parachute. Be sure the hole is large enough for the top retaining ring (and bottom if used in your configuration) to pass through it.</li>
   <li>Attach the load lift lines to to the bottom swivel using a similar robust line to the line used for the ballon lift lines.</li>
+  <li>Rig parachute to load - lines slack.</li>
 </ol>
+
+<div style="text-align: center;">
+   <img alt="Skyguard rigging" src="../skyguard_rigging_schematic.png" style="height:300px">
+</div>
 
 ### Launch
 Launching procedures should be adjusted to your system’s needs, but as a general guide this procedure may be used as a starting point for yours.
@@ -248,8 +269,9 @@ verifying that nothing was damaged in the last flight. You will need a new fligh
 consumables kit to replace the parts of the release that flew away with the balloon
 and rigging, but other than those and the battery no other parts need to be changed.
 If any parts of the system are damaged (release pin bent, windows cracked, etc.) new
-parts can be purchased from us by contacting support TODO LINK THIS or you can produce
-parts using the freely available files in the SkyGuard Mechanical Repository. TODO LINK THIS
+parts can be purchased from us by [contacting support](https://docs.leemangeophysical.com/support/) or you can produce
+parts using the freely available files in the
+[SkyGuard Mechanical Repository](https://github.com/LeemanGeophysicalLLC/SkyGuard_Cutdown_Mechanical).
 
 We recommend attaching a battery and verifying proper operation of the servo and
 electronics before re-flying the unit.
@@ -258,11 +280,18 @@ electronics before re-flying the unit.
 ## Serial Connection
 There is a header on the PCB for serial connection at 9600 Baud. With the stock
 firmware, system status information is printed to the serial terminal as a table
-as shown below:
+with the following fields:
 
-TODO ADD
+* Starting Pressure (hPa)
+* Current Pressure (hPa)
+* Set Cutdown Pressure (hPa)
+* Set Cutdown Time (minutes)
+* If the timer has armed
+* Timer elapsed time (seconds)
 
-To connect to the serial output, connect a 3V3 logic cable TODO ADD STORE LINK to the PCBs ground,
+There are periodic printings of the header to help make it easy to read the table as it scrolls by.
+
+To connect to the serial output, connect a [3V3 logic cable](https://leemangeophysical.com/product/3-3-v-usb-to-ttl-serial-cable-ftdi-interface-6-ft-2/)to the PCBs ground,
 transmit, and receive pins as shown below:
 
 If you are unfamiliar with serial terminal operations, be sure to check out our
@@ -277,8 +306,6 @@ recommend using [VSCode](https://code.visualstudio.com/) with the
 [PlatformIO](https://platformio.org/) extension to edit and upload the firmware.
 You will need a 3V3 USB cable to accomplish the programming or to read out
 serial outputs.
-
-TODO - verify - do we actually ship a boot loader?
 
 ### Upload Procedure
 <ol>
@@ -307,25 +334,28 @@ It is strongly recommended to first remove the circuit board to prevent
 clearance issues that could potentially damage its components during the
 process. 
 
+## Tips
+
+* Some customers have found coating the top release hardware with a hydrophobic coating
+  such as "RainX" greatly reduces the risk of ice accumulation in severe icing flights.
+
 ## Accessories
 If you will be recovering your SkyGuard for multiple uses, we have accessories
 that you may be interested in keeping on-hand.
 
-TODO put the real links here
-
 ### Flight Consumables Kit 
-<a href="" target="_blank" rel="noopener noreferrer">10-0000202</a>  
+<a href="https://leemangeophysical.com/product/skyguard-flight-consumables-kit/" target="_blank" rel="noopener noreferrer">10-0000202</a>  
 Extra hardware to replace that used during a flight. Includes a top and bottom
 release ring and water plug.
 
 ### SkyGuard Cutdown Housing 
-<a href="" target="_blank" rel="noopener noreferrer">10-XXXXXXX</a>   
+<a href="https://leemangeophysical.com/product/skyguard-enclosure-replacement-kit/" target="_blank" rel="noopener noreferrer">10-XXXXXXX</a>   
 After a number of flights your housing may get damaged from landing on hard
-surfaces. This kit includes an empty housing and front/back panels with elastic
-bands to let you renew your cutdown for many more flights.
+surfaces. This kit includes an empty housing and new hardware
+to let you renew your cutdown for many more flights.
 
 ### 3V3 Serial Cable
-<a href="" target="_blank" rel="noopener noreferrer">10-XXXXXXX</a>   
+<a href="https://leemangeophysical.com/product/3-3-v-usb-to-ttl-serial-cable-ftdi-interface-6-ft-2/" target="_blank" rel="noopener noreferrer">10-XXXXXXX</a>   
 Program new firmware to the cutdown or just monitor the serial output for testing.
 
 ## Revision History
