@@ -244,7 +244,7 @@ this is the recommended starting point for the development of your procedure.
 </ol>
 
 <div style="text-align: center;">
-   <img alt="Skyguard rigging" src="../skyguard_rigging_schematic.png" style="height:300px">
+   <img alt="Skyguard rigging" src="../skyguard_rigging_schematic.png" style="height:500px">
 </div>
 
 ### Launch
@@ -291,7 +291,7 @@ with the following fields:
 
 There are periodic printings of the header to help make it easy to read the table as it scrolls by.
 
-To connect to the serial output, connect a [3V3 logic cable](https://leemangeophysical.com/product/3-3-v-usb-to-ttl-serial-cable-ftdi-interface-6-ft-2/)to the PCBs ground,
+To connect to the serial output, connect a [3V3 logic cable](https://leemangeophysical.com/product/3-3-v-usb-to-ttl-serial-cable-ftdi-interface-6-ft-2/) to the PCBs ground,
 transmit, and receive pins as shown below:
 
 If you are unfamiliar with serial terminal operations, be sure to check out our
@@ -348,14 +348,14 @@ that you may be interested in keeping on-hand.
 Extra hardware to replace that used during a flight. Includes a top and bottom
 release ring and water plug.
 
-### SkyGuard Cutdown Housing 
-<a href="https://leemangeophysical.com/product/skyguard-enclosure-replacement-kit/" target="_blank" rel="noopener noreferrer">10-XXXXXXX</a>   
+### SkyGuard Enclosure Replacement Kit
+<a href="https://leemangeophysical.com/product/skyguard-enclosure-replacement-kit/" target="_blank" rel="noopener noreferrer">10-0000223</a>   
 After a number of flights your housing may get damaged from landing on hard
 surfaces. This kit includes an empty housing and new hardware
 to let you renew your cutdown for many more flights.
 
 ### 3V3 Serial Cable
-<a href="https://leemangeophysical.com/product/3-3-v-usb-to-ttl-serial-cable-ftdi-interface-6-ft-2/" target="_blank" rel="noopener noreferrer">10-XXXXXXX</a>   
+<a href="https://leemangeophysical.com/product/3-3-v-usb-to-ttl-serial-cable-ftdi-interface-6-ft-2/" target="_blank" rel="noopener noreferrer">10-0000200</a>   
 Program new firmware to the cutdown or just monitor the serial output for testing.
 
 ## Revision History
