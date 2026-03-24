@@ -312,21 +312,21 @@ DB9 to any 4-pin SMPL device, expanding compatibility across your equipment.
     <td><b>DB9 Pin</b></td>
     <td><b>1/2 Bridge</b></td>
     <td><b>1/4 Bridge (2 wire)</b></td>
-    <td><b>1/2 Bridge (3 Wire)</b></td>    
+    <td><b>1/4 Bridge (3 Wire)</b></td>    
   </tr>
   <tr>
     <td>A</td>
     <td>5</td>
     <td>+Excitation</td>
-    <td>-Gauge</td>
-    <td>-Gauge</td>        
+    <td>Gauge</td>
+    <td>Gauge</td>        
   </tr>
   <tr>
     <td>B</td>
     <td>9</td>
-    <td>-Signal</td>
+    <td>Signal</td>
     <td>NC</td>
-    <td>-Gauge</td>        
+    <td>Gauge</td>        
   </tr>
   <tr>
     <td>C</td>
