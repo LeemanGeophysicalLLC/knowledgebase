@@ -27,7 +27,7 @@ damage to Leeman Geophysical for replacement.
   <li>Creep Apparatus</li>
   <li>6 In. Utility Caliper</li>
   <li>Calibration Tool</li>
-  <li>USB Mini-B 2.0 Cable</li>
+  <li>USB-C to USB-A Cable</li>
   <li>Wax Cylinder Pack (x10 samples)</li>
   <li>Bearing Retainer</li>
   <li>6-32, 1/8" Set Screw (x3)</li>
@@ -120,7 +120,7 @@ Deformation Apparatus.
 ### Required Equipment
 <ul>
   <li>Calibration Step tool</li>
-  <li>USB Mini B</li>
+  <li>USB-C</li>
   <li>Calipers</li>
 </ul>
 
@@ -135,7 +135,7 @@ The calibration procedure requires the use of a serial terminal. For these instr
 ### Calibration Procedure  
 <ol>
   <li>
-    Plug the device into your computer using the USB Mini B cable.
+    Plug the device into your computer using the USB-C cable.
   </li>
 
   <li>
@@ -295,7 +295,12 @@ ensure a consistent and quality lab experience for your students.
     <td><b>Date</b></td>
     <td><b>Changes</b></td>
   </tr>
-  
+
+  <tr>
+    <td>June 2026</td>
+    <td>Changed to USB-C cables from USB Mini B</td>
+  </tr>
+
   <tr>
     <td>May 2025</td>
     <td>Fixed new image display issue with MkDocs</td>
@@ -311,3 +316,5 @@ ensure a consistent and quality lab experience for your students.
     <td>Moved Various Documentation to MkDocs Format</td>
   </tr>
 </table>
+
+Note: Units purchased before 2027 may utilize a USB Mini B connector and cable.
