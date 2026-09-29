@@ -725,9 +725,10 @@ the accuracy of the voltage, temperature, and tilt readings.
 Set the clock with the `SETTIME` command, or from the settings page in
 [Wi-Fi configuration mode](#wi-fi-configuration-mode) (**Time (UTC)**, then
 **Set Time**). `SHOW` reports `RTC Set: YES` once the clock holds a valid time.
-In firmware 1.3 and later, `SHOW` and the live view also list the error
-`RTC Time Invalid` while the clock has lost its time and has not been set, and
-the settings page rejects an invalid date or time.
+In firmware 1.3 and later, while the clock has lost its time and has not been
+set, `SHOW` and the live view list the error `RTC Time Invalid` and the status
+light shows a red single blink. The settings page also rejects an invalid date
+or time.
 
 ### Wi-Fi Configuration Mode
 Wi-Fi configuration mode provides a settings page, a live readout, and firmware
@@ -766,7 +767,12 @@ The settings page provides the same settings as the serial commands:
   <li><b>Security</b> – the configuration network password. Leave blank to keep the current password.</li>
 </ul>
 
-Pressing **Save** stores all fields on the page and ends configuration mode.
+Pressing **Save** stores all fields on the page and ends configuration mode. In
+firmware 1.3 and later, invalid entries (for example a zero calibration slope,
+or a cut-on voltage below the cutoff) are outlined in red, and the reason
+appears in a red bubble when you select or point at the field. **Save** is
+blocked until they are corrected. If an invalid value reaches
+the instrument anyway, it shows **Settings Not Saved** and changes nothing.
 Baud rate changes take effect at the next power-up.
 
 #### Live View
@@ -796,9 +802,9 @@ If more than one condition applies, the pattern highest in the table is shown.
     <td>An error is active. <code>SHOW</code> lists it; see <a href="#troubleshooting">Troubleshooting</a>.</td>
   </tr>
   <tr>
-    <td>Yellow double blink</td>
-    <td>Yellow Double</td>
-    <td>Logging to the microSD card, with low-power mode on and an interval longer than 10 s.</td>
+    <td>Red single blink</td>
+    <td>Red Single</td>
+    <td>A warning; readings are still being logged. Either the clock has lost its time and has not been set, so timestamps are wrong (<code>SHOW</code> lists <code>RTC Time Invalid</code>; <a href="#setting-the-clock">set the clock</a>), or the card has 50 MB or less free (<code>SHOW</code> lists <code>Storage Nearly Full</code>; copy data off and clear or replace the card). <i>Firmware 1.3 and later.</i></td>
   </tr>
   <tr>
     <td>Yellow single blink</td>
@@ -806,19 +812,24 @@ If more than one condition applies, the pattern highest in the table is shown.
     <td>No microSD card installed, with low-power mode on and an interval longer than 10 s.</td>
   </tr>
   <tr>
-    <td>Green double blink</td>
-    <td>Green Double</td>
-    <td>Logging to the microSD card.</td>
-  </tr>
-  <tr>
     <td>Green single blink</td>
     <td>Green Single</td>
     <td>No microSD card installed; readings are not logged.</td>
   </tr>
   <tr>
+    <td>Yellow double blink</td>
+    <td>Yellow Double</td>
+    <td>Logging to the microSD card, with low-power mode on and an interval longer than 10 s.</td>
+  </tr>
+  <tr>
+    <td>Green double blink</td>
+    <td>Green Double</td>
+    <td>Logging to the microSD card.</td>
+  </tr>
+  <tr>
     <td>Short red flash, then yellow</td>
     <td>Red/Yellow Fast</td>
-    <td>A card is installed but a write has not yet been confirmed. This is normal briefly after a card is inserted while the instrument is powered, until the next write to the card (within 10 readings or 5 minutes, or at the next <code>READ</code> with manual logging). If it persists, check the card.</td>
+    <td>A card is installed but has not yet been confirmed. This is normal briefly after a card is inserted while the instrument is powered: the instrument checks a new card within about a second, or when it next wakes in low-power mode. If it persists, check the card.</td>
   </tr>
 </table>
 
@@ -847,8 +858,11 @@ Other indications:
   </tr>
 </table>
 
-In firmware 1.1 and 1.2, a card that cannot be written to or is full shows the
-red and yellow pattern instead of a red double blink. Those versions also report
+In firmware 1.1 and 1.2, an unset clock or a nearly full card does not change
+the status light, and a card that cannot be written to or is full shows the red
+and yellow pattern instead of a red double blink. Those versions also update
+the logging and no-card patterns only when they next write to the card, which
+can be several minutes later in low-power mode. Those versions also report
 the yellow double blink in `SHOW` as `Red/Yellow Fast`, and the red and yellow
 pattern as `Unknown Pattern`.
 
@@ -899,14 +913,14 @@ between the firmware versions covered by this manual.
 <ol>
   <li>Record your settings with <code>SHOW</code> and keep the output.</li>
   <li>Start <a href="#wi-fi-configuration-mode">Wi-Fi configuration mode</a> and connect to the instrument's network.</li>
-  <li>Browse to <code>http://192.168.4.1/firmware</code> (use the address printed on the serial port if it differs).</li>
-  <li>Choose the <code>.bin</code> file and upload it. Keep the instrument powered and nearby until the page reports <b>Update successful - rebooting now.</b></li>
+  <li>Click <b>Firmware update</b> at the bottom of the settings page, or browse to <code>http://192.168.4.1/firmware</code> (use the address printed on the serial port if it differs).</li>
+  <li>Choose the <code>.bin</code> file and upload it. Keep the instrument powered and nearby until the page reports <b>Firmware Installed</b> (when updating from firmware 1.3 or later) or <b>Update successful - rebooting now.</b> (from firmware 1.1 or 1.2). The instrument then restarts and its Wi-Fi network disappears.</li>
   <li>After the restart, run <code>SHOW</code> to confirm the new firmware version and your settings.</li>
 </ol>
 
 If an upload fails or is interrupted, the instrument keeps running its
 previous firmware. When the installed firmware is 1.3 or later, the page
-reports **Update failed** in that case; always confirm the version with
+reports **Update Failed** in that case; always confirm the version with
 `SHOW` after an update. Try again, and contact us if the problem persists.
 
 ## Calibration
@@ -974,8 +988,8 @@ The instrument replies `OK` and saves the values immediately. Confirm the
 change by comparing a streamed or logged reading with the formula above.
 
 Slopes must be non-zero; offsets may be zero. Firmware 1.3 and later reject a
-zero slope: the command replies `!`, and the settings page refuses to save and
-reports that nothing was saved.
+zero slope: the command replies `!`, and the settings page marks the field as
+invalid and will not save.
 
 **Caution for firmware 1.1 and 1.2:** never enter a slope of zero. In firmware
 1.2, a zero slope makes the saved settings invalid at the next power-up, and
@@ -1071,7 +1085,7 @@ Run `SHOW` for the error list and SD card status.
   </tr>
   <tr>
     <td>SHOW reports <code>RTC Set: NO</code> or the error <code>RTC Time Invalid</code> (firmware 1.3 and later), or timestamps are in the year 2000</td>
-    <td>The clock lost its time while unpowered. Replace the backup battery and set the clock. This does not change the status light.</td>
+    <td>The clock lost its time while unpowered. Replace the backup battery and set the clock. In firmware 1.3 and later the status light shows a red single blink until the clock is set.</td>
   </tr>
   <tr>
     <td>Green or yellow single blink; no data files</td>
@@ -1090,8 +1104,8 @@ Run `SHOW` for the error list and SD card status.
     <td>5 MB or less remains on the card. Copy data off and clear or replace the card; a full card cannot store new readings.</td>
   </tr>
   <tr>
-    <td>SD status <code>NEAR FULL</code></td>
-    <td>50 MB or less remains. Copy data off and clear or replace the card before it fills.</td>
+    <td>Red single blink with <code>Storage Nearly Full</code> (firmware 1.3 and later), or SD status <code>NEAR FULL</code></td>
+    <td>50 MB or less remains; readings are still being logged. Copy data off and clear or replace the card before it fills.</td>
   </tr>
   <tr>
     <td>Short red and yellow flashes that persist</td>
@@ -1137,7 +1151,8 @@ Changes that affect customers. Firmware 1.1 was the first customer release.
         <li>A card that cannot be written to, or has 5 MB or less free, is now reported as an error (<code>SD Write Failed</code>, <code>Storage Full</code>) with a red double blink, instead of the red and yellow pattern.</li>
         <li>Calibration commands and the settings page reject a zero slope.</li>
         <li>If saved settings are found invalid at power-up, valid calibration coefficients are kept when defaults are restored.</li>
-        <li>An unset clock is reported as the error <code>RTC Time Invalid</code>, and the settings page rejects an invalid date or time.</li>
+        <li>An unset clock is reported as the error <code>RTC Time Invalid</code> and shown by a red single blink, and the settings page rejects an invalid date or time.</li>
+        <li>A card with 50 MB or less free is reported as <code>Storage Nearly Full</code> in <code>SHOW</code> and the live view, and shown by a red single blink.</li>
         <li>A failed or interrupted firmware upload is reported on the update page.</li>
         <li><code>SHOW</code> reports the yellow double blink and red and yellow patterns by their correct names.</li>
       </ul>
