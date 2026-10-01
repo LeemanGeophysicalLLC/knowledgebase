@@ -250,6 +250,7 @@ nav:
     - Tilt/Inclination:
       - Precision MEMS Inclinometer: 'Precision_MEMS_Inclinometer/precision_mems_inclinometer.md'
       - KLINI Surface Inclinometer: 'KLINI_Surface_Inclinometer/klini_surface_inclinometer.md'
+      - KLINI 400 Posthole Tiltmeter: 'KLINI_400_Posthole_Tiltmeter/klini_400_posthole_tiltmeter.md'
       - Tilt Meter Logger: 'Tilt_Meter_Logger/tilt_meter_logger.md'
       - PTM102: 'PTM102/PTM102.md'
     - Calibration:
