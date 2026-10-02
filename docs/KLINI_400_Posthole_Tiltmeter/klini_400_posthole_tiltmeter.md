@@ -86,12 +86,12 @@ Weight is TBD.
   </tr>
   <tr>
     <td>Magnetometer</td>
-    <td>3-axis, &micro;T output, used for a gross orientation/heading check (`ORIENT`)</td>
+    <td>3-axis, &micro;T output, used for a gross orientation/heading check (<code>ORIENT</code>)</td>
     <td>Not a precision heading reference - see "Checking Orientation" below</td>
   </tr>
   <tr>
     <td>Environmental</td>
-    <td>Temperature, humidity, pressure</td>
+    <td>Temperature, humidity, pressure (pressure reported in whole pascals)</td>
     <td>-</td>
   </tr>
   <tr>
@@ -110,7 +110,7 @@ Weight is TBD.
   <tr>
     <td>Motor current limit (default)</td>
     <td>200 mA</td>
-    <td>Adjustable, `SCURLIM`</td>
+    <td>Adjustable, <code>SCURLIM</code></td>
   </tr>
   <tr>
     <td>Measured operating current (bench)</td>
@@ -173,7 +173,10 @@ the posthole case only.
 view — wire the logger's TX to pin C and its RX to pin D.
 
 ### Powering Up
-At power-up, the instrument prints a startup banner, for example:
+For about the first 2 seconds after power is applied, the instrument is in
+its firmware-update bootloader: it sends nothing and ignores anything it
+receives. About 2 seconds after that it prints a startup banner, for
+example:
 
 ```
 # Tiltmeter starting up...
@@ -184,14 +187,47 @@ At power-up, the instrument prints a startup banner, for example:
 # Serial number: SN001
 # Packet format: WIDE_CSV
 # Columns: t_ms,type,mems_x,mems_y,elec_status,elec_ch0,elec_ch1,pcb_temp,env_temp,env_humidity,env_pressure,mag_x,mag_y,mag_z,mems_x_nrad,mems_y_nrad,elec_x_nrad,elec_y_nrad
+# Starting I2C... DONE
+# Starting SPI... DONE
+# Setting up GPIO pins... DONE
+# Starting X MEMS Tilt Sensor... # DONE
+# Starting Y MEMS Tilt Sensor... # DONE
+# Starting Magnetometer... # DONE (address 0x20)
+# Starting PCB Temperature Sensor... # DONE
+# Starting Environmental Sensor... # DONE
+# Starting GPIO Expander... # DONE
+# Starting ADC... # DONE
+# Setting up Motors... DONE
+# 10 second command window open
 ```
 
+A sensor that isn't found reports `# NOT DETECTED` in place of `# DONE`
+(`# FAIL` for the GPIO expander, which drives the leveling motors). The
+magnetometer's address can be anywhere from `0x20` to `0x23`.
+
 Lines starting with `#` are informational text, never data to parse. For
-about the first 10 seconds after this banner, the instrument holds off
-automatic telemetry so you have a clear window to send setup commands (like
-checking `SHOW`) before data starts flowing. After that window, telemetry
-begins per whatever intervals are configured, and commands can still be sent
-at any time — replies interleave with the telemetry stream.
+about 10 seconds after this banner, the instrument holds off automatic
+telemetry so you have a clear window to send setup commands (like checking
+`SHOW`) before data starts flowing. Commands are answered normally during
+the window, which ends with:
+
+```
+# Initial command window closed - beginning operation
+```
+
+The first `ELEC`/`TEMP` records follow immediately, and leveling (including
+full-auto leveling) only runs from this point on. After that, telemetry
+follows the configured intervals, and commands can still be sent at any
+time — replies interleave with the telemetry stream. `RESET` and `BOOTLOAD`
+go through the same sequence, so the banner appears about 4 seconds after
+the `OK`.
+
+If the settings stored in the instrument are missing or invalid, for example
+after a firmware update that changes the settings layout, the banner shows
+`# Settings blob invalid or missing; loading defaults` after
+`# Reading EEPROM settings...`. **All settings and calibration return to
+factory defaults when this happens**, so check calibration with `SHOW`
+before trusting the data (see the next section).
 
 ### Checking a Unit Before Deployment
 Before lowering the instrument into the hole, confirm it's the unit you
@@ -213,15 +249,18 @@ Once the instrument is set in the hole, `ORIENT` gives a one-shot "gross
 orientation" report — not part of the regular telemetry, run it whenever you
 want a check:
 
+`ORIENT` takes a fraction of a second to reply, because it wakes the MEMS
+sensors and averages several magnetometer readings. A typical report:
+
 ```
 ORIENT
 # ==================== ORIENTATION ====================
 # MEMS tilt X: 1234 bits ( 2.21 deg )
 # MEMS tilt Y: -567 bits ( -1.01 deg )
 # Magnetometer raw (uT): X=48.32  Y=3.11  Z=-12.04
-# Magnetometer, tool axes (uT):  X=-3.11  Y=-12.04  Z(up)=-48.32
-# Tilt from vertical: 2.44 deg
-# Estimated tilt-corrected magnetic azimuth of tool +Y: 121.37 deg
+# Magnetometer, tool axes (uT):  X=3.11  Y=12.04  Z(up)=-48.32
+# Tilt from vertical: 2.43 deg
+# Estimated tilt-corrected magnetic azimuth of tool +Y: 353.64 deg
 # NOTE: sign convention field-verified to ~3-25 deg - see sensors.cpp
 # ======================================================
 OK
@@ -273,7 +312,20 @@ the X/Y data to a real-world direction later.
   replies `!`.
 - A command the instrument doesn't recognize gets **no reply at all** — if
   you send something and nothing comes back, suspect a typo or wrong
-  firmware version before suspecting a wiring problem.
+  firmware version before suspecting a wiring problem. A command typed in
+  lowercase counts as unrecognized.
+- Keep each command line under 70 characters. Past 69 characters the
+  instrument cuts the line: the first 69 characters run as one command and
+  the rest is treated as a new line.
+- **Check settings after changing them.** Numbers are read up to the first
+  character that isn't a digit, and anything that isn't a number reads as
+  `0`, with no error. For example, `SELECINT 1O00` (letter O instead of
+  zero) sets a 1 ms interval and replies `OK`. Axis and sensor names are
+  matched on their first letter only (`X`/`Y`, `E`/`M`). `SHOW` reports
+  every stored value.
+- Commands that take time (sensor reads, `ORIENT`, `MOTOR`) hold up
+  everything else until they finish, including telemetry. Anything sent
+  meanwhile is buffered and handled afterward.
 - Telemetry rows are **not** prefixed with `#`; every other line the
   instrument sends is. That's the cheapest way to separate the two
   programmatically.
@@ -287,13 +339,13 @@ t_ms,type,mems_x,mems_y,elec_status,elec_ch0,elec_ch1,pcb_temp,env_temp,env_humi
 
 | Column | Meaning | Units |
 |---|---|---|
-| `t_ms` | Milliseconds since the instrument booted (**not** wall-clock time — there is no real-time clock) | ms |
+| `t_ms` | Milliseconds since the instrument's firmware started (**not** wall-clock time — there is no real-time clock). Restarts from 0 after every power cycle, `RESET` or `BOOTLOAD`. | ms |
 | `type` | Record type — see table below | - |
 | `mems_x`, `mems_y` | Raw MEMS tilt sensor counts | counts |
 | `elec_status` | Electrolytic ADC status word | - |
 | `elec_ch0`, `elec_ch1` | Raw electrolytic tilt counts (X, Y) | counts |
 | `pcb_temp` | Board temperature | &deg;C |
-| `env_temp`, `env_humidity`, `env_pressure` | Environmental sensor readings | &deg;C, %RH, hPa |
+| `env_temp`, `env_humidity`, `env_pressure` | Environmental sensor readings | &deg;C, %RH, Pa (whole pascals, e.g. `97853.00` = 978.53 hPa) |
 | `mag_x`, `mag_y`, `mag_z` | Magnetometer readings | &micro;T |
 | `mems_x_nrad`, `mems_y_nrad` | Calibrated MEMS tilt | nanoradians |
 | `elec_x_nrad`, `elec_y_nrad` | Calibrated electrolytic tilt | nanoradians |
@@ -308,7 +360,7 @@ fault; see "Checking a Unit Before Deployment" above.
 | `MEMS` | `mems_x`, `mems_y`, `mems_x_nrad`, `mems_y_nrad` | On `RMEMS`, or automatically on the configured MEMS interval (off by default) |
 | `ELEC` | `elec_status`, `elec_ch0`, `elec_ch1`, `elec_x_nrad`, `elec_y_nrad` | On `RELEC`, or automatically every 1 second by default |
 | `TEMP` | `pcb_temp` | Alongside every automatic `ELEC` record |
-| `ENV` | `env_temp`, `env_humidity`, `env_pressure` | On `RENV`, or automatically every 60 seconds by default |
+| `ENV` | `env_temp`, `env_humidity`, `env_pressure` | On `RENV`, or automatically every 60 seconds by default. The first automatic `ENV` comes one full interval after power-up. |
 | `MAG` | `mag_x`, `mag_y`, `mag_z` | On `RMAG`, or automatically on the configured magnetometer interval (off by default) |
 
 MEMS and magnetometer automatic streaming ship **disabled**. Turn them on
@@ -337,13 +389,39 @@ populates them.
 The instrument can drive its own leveling motors to correct tilt, either on
 command or fully automatically.
 
-- **`LEVEL`** (optionally `LEVEL X` or `LEVEL Y`) runs the self-leveling
-  motors on one or both axes right now, and reports `DONE` or `TIMEOUT` per
-  axis when finished. `LEVELSTOP` stops it immediately (takes effect within
-  about 100ms, even mid-pulse).
+**`LEVEL`** (optionally `LEVEL X` or `LEVEL Y`) runs the self-leveling
+motors on one or both axes right now. It prints
+`# Enabling 12V for motor operation` and replies `OK` about half a second
+later. Each motor pulse is reported as it fires, and each axis ends with a
+result line:
+
+```
+# LEVEL X pulse: tilt=1715910 step=100ms speed=255 settle=5000ms
+# LEVEL X pulse: tilt=420113 step=100ms speed=255 settle=5000ms
+# LEVEL X converged: tilt=29575 via target_band
+# LEVEL X: DONE
+```
+
+The result is `DONE`, `TIMEOUT`, or
+`UNAVAILABLE - electrolytic sensor not detected`. A run takes from several
+seconds to a couple of minutes per axis, mostly spent waiting for the sensor
+to settle after each pulse. Telemetry keeps streaming during the run.
+`LEVEL` sent during the 10-second startup window is accepted but doesn't
+start until the window closes.
+
+- **`LEVELSTOP`** stops a run and brakes the motors (`# LEVEL: STOPPED`),
+  usually within about 100ms even mid-pulse. A telemetry reading or another
+  command in progress can delay it slightly.
+- **Don't send `MOTOR` or `SCURZERO` during a run** (see the command
+  reference). In firmware 1.0.0 neither is refused, and `MOTOR` switches the
+  motor supply off when it finishes, so the rest of the run can't move and
+  ends in `TIMEOUT`. Check `SHOW`'s `Level state` line; it reads `IDLE` when
+  no run is in progress.
 - **Full-auto leveling** (`SLEVELAUTO 1`) makes the instrument level itself
   whenever tilt drifts outside a configured bound, with no command needed —
-  it's **off by default**. The trigger bound is set deliberately wide (83%
+  it's **off by default**. An automatic run starts with
+  `# LEVEL: auto-trigger bounds exceeded, starting` and then reports the
+  same way as `LEVEL`. The trigger bound is set deliberately wide (83%
   of the sensor's full counting range on shipped units) — it's meant as a
   rare "something has moved a lot, go fix it" safety net, not a routine
   fine-leveling trigger. After a successful auto-correction it waits at
@@ -365,7 +443,7 @@ command or fully automatically.
 
 | Command | Args | Description |
 |---|---|---|
-| `LEVEL` | `[X\|Y]` | Runs the self-leveling motors. No argument levels X then Y; `X` or `Y` runs just that axis. Fails (`!`) if already leveling (send `LEVELSTOP` first), or if a required sensor/motor driver isn't available. |
+| `LEVEL` | `[X\|Y]` | Runs the self-leveling motors. No argument levels X then Y; `X` or `Y` runs just that axis. Fails (`!`) if already leveling (send `LEVELSTOP` first), or if the electrolytic sensor or motor driver isn't available. See "Self-Leveling" above for the output. |
 | `LEVELSTOP` | - | Immediately stops any in-progress leveling and brakes the motors. |
 | `SLEVELAUTO` | `<0\|1>` | Enables/disables fully-automatic leveling. |
 | `SLEVELUB` / `SLEVELLB` | `<X\|Y> <value>` | Upper/lower auto-trigger bound (raw counts) for an axis. |
@@ -376,9 +454,9 @@ command or fully automatically.
 | `SLEVELSPD` | `<X\|Y> <0-255>` | Leveling motor pulse strength (PWM), fixed for every pulse. |
 | `SLEVELMINPULSE` / `SLEVELMAXPULSE` | `<X\|Y> <1-5000>` | Floor/ceiling (ms) for the adaptive pulse duration — it shrinks or grows automatically pulse to pulse rather than using one fixed strength. |
 | `SLEVELSETTLE` | `<X\|Y> <0-65535>` | How long (ms) to wait after a full-strength pulse before trusting the next reading. |
-| `SLEVELMAXMS` | `<X\|Y> <0-4294967295>` | Safety timeout (ms) for one axis's leveling attempt. |
+| `SLEVELMAXMS` | `<X\|Y> <0-2147483647>` | Safety timeout (ms) for one axis's leveling attempt (default 120000). Larger values are accepted but stored as 2147483647; `HELP` shows the range as `0-4294967295`. |
 | `SLEVELCOOLDOWN` | `<0-65535>` | Minimum time (ms) between full-auto attempts, after a successful one. |
-| `SLEVELFAILCOOLDOWN` | `<0-4294967295>` | Minimum time (ms) before full-auto retries after a `TIMEOUT`. |
+| `SLEVELFAILCOOLDOWN` | `<0-2147483647>` | Minimum time (ms) before full-auto retries after a `TIMEOUT` (default 1800000, 30 minutes). Larger values are stored as 2147483647, as for `SLEVELMAXMS`. |
 | `SLEVELCHKMS` | `<0-65535>` | How often (ms) full-auto checks whether leveling is needed. |
 
 ### Reading Sensors On Demand
@@ -407,21 +485,57 @@ command or fully automatically.
 
 | Command | Args | Description |
 |---|---|---|
-| `SMEMSEN` / `SELECEN` | `<0\|1>` | Enables/disables the MEMS or electrolytic tilt sensor. Disabling is immediate; re-enabling needs a `RESET` to actually resume reading (see note below). |
+| `SMEMSEN` / `SELECEN` | `<0\|1>` | Enables/disables the MEMS or electrolytic tilt sensor. Disabling is immediate; re-enabling needs a `RESET` to actually resume reading (see note below). `SELECEN 0` is refused while leveling, since leveling depends on the electrolytic sensor. |
 | `SELECAVG` / `SMEMSAVG` / `SMAGAVG` | `<1-255>` | Samples averaged per reading, per sensor. |
 | `SELECINT` / `SMEMSINT` / `SMAGINT` / `SSOHINT` | `<0-65535>` | Automatic telemetry interval (ms) for electrolytic/MEMS/magnetometer/environmental data. `0` disables automatic sending for that sensor. |
 | `SPKTFMT` | `<format id>` | Telemetry packet format. Only `0` (`WIDE_CSV`, the format this manual documents) exists today. |
 
 > **Note:** disabling a sensor takes effect immediately, but re-enabling it
 > only updates the stored setting — the sensor doesn't actually resume
-> reading until the next `RESET` or power cycle.
+> reading until the next `RESET` or power cycle. Until then, `RMEMS`/`RELEC`
+> (and automatic records, if enabled) report all-zero readings.
+
+### Motor and Current Sense
+
+These are normally used only at the factory or during bench troubleshooting.
+
+| Command | Args | Description |
+|---|---|---|
+| `SCURLIM` | `<1-3000>` | Motor current limit, mA (default 200). Don't set `0`: firmware 1.0.0 accepts it, but every pulse then stops immediately with `# Current limit exceeded`, so leveling can't move. |
+| `SCURSCALE` | `<1-65535>` | Current-sense scale, mA per raw count &times; 1000. |
+| `SCUROFFSET` | `<raw count>` | Current-sense zero offset, raw counts. |
+| `SCURZERO` | - | Stores the current-sense reading right now as the zero offset. Use only when `SHOW` reports `Level state: IDLE`. |
+| `MOTOR` | `<X\|Y> <U\|D> <speed 0-255> <ms 0-1000>` | Jogs one leveling motor up (`U`) or down (`D`; any letter other than `U` means down) for up to 1 second. It prints a live current reading about every 200ms, and stops early with `# Current limit exceeded` if the limit trips. **Not for use during a leveling run:** firmware 1.0.0 doesn't refuse it, and it switches the motor supply off when it finishes, which makes the rest of the run time out. Send `LEVELSTOP` first. |
+
+### Calibration Tables
+
+See "Calibration" below for how these are used. Loading calibration is
+normally done at the factory.
+
+| Command | Args | Description |
+|---|---|---|
+| `SANGPT` | `<ELEC\|MEMS> <X\|Y> <index 0-11> <raw> <angle_nrad>` | Loads one raw-to-angle calibration point. |
+| `SANGCNT` | `<ELEC\|MEMS> <X\|Y> <count 0-12>` | Sets how many loaded points are valid. |
+| `RANGTBL` | `<ELEC\|MEMS> <X\|Y>` | Lists the loaded points. |
+| `SNULLPT` | `<X\|Y> <index 0-5> <temp_centiC> <null_raw>` | Loads one electrolytic zero-point temperature-compensation point (temperature in hundredths of a degree C). |
+| `SNULLCNT` | `<X\|Y> <count 0-6>` | Sets how many zero-point points are valid. |
+| `RNULLTBL` | `<X\|Y>` | Lists the zero-point table. |
+| `SSCALETC` | `<X\|Y> <coefficient x1e6>` | Electrolytic sensitivity temperature coefficient, fraction per &deg;C &times; 10<sup>6</sup> (0.075%/&deg;C = 750). |
+| `SCALREFT` | `<X\|Y> <temp_centiC>` | Temperature the angle table was captured at (default 2000 = 20.00&deg;C). |
+
+### Electrolytic ADC
+
+| Command | Args | Description |
+|---|---|---|
+| `SADCGAIN` | `<channel 0-3> <1\|2\|4\|8\|16\|32\|64\|128>` | ADC gain for a channel (channel 0 = X, 1 = Y; default 1). Changing it changes the raw counts, so the leveling bounds and calibration no longer match. |
+| `SADCOFF` | `<channel 0-3> <0-16777215>` | ADC offset correction register for a channel. |
 
 ### Firmware Update and Reset
 
 | Command | Description |
 |---|---|
 | `BOOTLOAD` | Restarts into the serial bootloader for a firmware update. Refused while leveling — send `LEVELSTOP` first. Resumes normal operation on its own if no update follows within about 2 seconds. |
-| `RESET` | Restarts the instrument (like a power cycle). Replies `OK` first, then resets. Refused while leveling. |
+| `RESET` | Restarts the instrument (like a power cycle). Replies `OK` first, then resets; the startup banner follows about 4 seconds later. Settings and calibration are kept. Refused while leveling. |
 | `FACTORYRESET CONFIRM` | Erases all settings and calibration data and restores factory defaults — **except the serial number**, which is preserved. **Irreversible** short of reloading your calibration data; the literal second argument `CONFIRM` is required as a typo safeguard. Refused while leveling. |
 
 ## Calibration
@@ -519,8 +633,11 @@ interval.
 | Command replies `!` | Rejected: wrong argument count, an out-of-range value, or a sensor/motor it needs isn't available right now (e.g. sent while already leveling). |
 | A sensor reports "NOT DETECTED" at boot | Run `I2CSCAN` to see what actually responds on the internal bus, to help narrow down a wiring or sensor fault. |
 | `_nrad` column reads a flat `0` | That axis/sensor has no calibration table loaded — see "Checking a Unit Before Deployment." Not a sensor fault. |
-| `LEVEL` reports `TIMEOUT` | The axis didn't converge within its safety timeout. Worth a bench check of mechanical freedom of motion for that axis before assuming it's a settings problem. |
-| Leveling stops immediately / current-limit related messages | The motor pulse drew more current than `SCURLIM` allows and was cut off — check for a mechanical obstruction before raising the limit. |
+| `LEVEL` reports `TIMEOUT` | The axis didn't converge within its safety timeout. If the `# LEVEL ... pulse` lines show the tilt barely changing, check whether `MOTOR` was sent during the run (it turns the motor supply off; see "Self-Leveling") and whether `SCURLIM` is `0`. If the tilt grows instead of shrinking, the motor direction (`SLEVELDIR`) is wrong for that axis. Otherwise, bench-check that axis for mechanical freedom of motion before assuming it's a settings problem. |
+| Leveling stops immediately / `# Current limit exceeded` | The motor pulse drew more current than `SCURLIM` allows and was cut off. Check `SHOW` for `Current limit (mA): 0` (every pulse trips at 0), then check for a mechanical obstruction or an axis at the end of its travel before raising the limit. |
+| A setting replied `OK` but the instrument behaves oddly (e.g. telemetry floods, motor doesn't move) | Firmware 1.0.0 accepts mistyped numbers without an error; see "Serial Command Basics." Check the value in `SHOW` and set it again. |
+| Settings or calibration suddenly back to defaults | The banner showed `# Settings blob invalid or missing; loading defaults` (for example after a firmware update). Reload calibration; see "Calibration." |
+| Nothing at all for the first few seconds after power-up | Expected: the bootloader is silent for about 2 seconds, and the banner follows about 2 seconds later. |
 | Communication is unreliable or garbled | Confirm the comm mode (RS232 vs RS485) and matching baud rate (`SHOW` reports which mode the instrument detected) and check cabling against the connector pinout above. |
 | Need to start over completely | `FACTORYRESET CONFIRM` restores factory defaults (serial number preserved) — reload your calibration afterward; see "Calibration." |
 
@@ -545,6 +662,17 @@ Only firmware actually installed on a customer unit is listed here.
   </tr>
 </table>
 
+### Known Issues in Firmware 1.0.0
+These are scheduled for correction in a later firmware release. Until then:
+
+<ul>
+  <li><code>MOTOR</code> and <code>SCURZERO</code> are not refused during a leveling run. <code>MOTOR</code> turns the motor supply off when it finishes, so the rest of the run can't move and ends in <code>TIMEOUT</code>. Send <code>LEVELSTOP</code> first.</li>
+  <li><code>SCURLIM 0</code> is accepted, and then every leveling pulse stops immediately. Use 1&ndash;3000.</li>
+  <li><code>SLEVELMAXMS</code> and <code>SLEVELFAILCOOLDOWN</code> store at most 2147483647 ms, although <code>HELP</code> shows 4294967295.</li>
+  <li>Mistyped numbers are accepted without an error (for example, <code>SELECINT 1O00</code> sets 1 ms). Confirm changes with <code>SHOW</code>.</li>
+  <li>Rarely, a leveling pulse can run longer than intended. Leveling corrects for the overshoot on later pulses.</li>
+</ul>
+
 ## Revision History
 <table>
   <tr bgcolor="gray">
@@ -554,5 +682,9 @@ Only firmware actually installed on a customer unit is listed here.
   <tr>
     <td>September 2026</td>
     <td>Initial release, covering firmware 1.0.0.</td>
+  </tr>
+  <tr>
+    <td>October 2026</td>
+    <td>Corrected to match firmware 1.0.0 as shipped: full startup sequence, <code>ORIENT</code> example values, pressure units (Pa), <code>SLEVELMAXMS</code>/<code>SLEVELFAILCOOLDOWN</code> ranges and <code>LEVEL</code> output. Added the motor, current-sense, calibration-table and ADC commands to the command reference, new troubleshooting entries, and known issues.</td>
   </tr>
 </table>
